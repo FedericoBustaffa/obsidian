@@ -1,6 +1,6 @@
 ---
 id: machine_learning
-aliases:
+aliases: []
 tags:
   - master
   - machine_learning
