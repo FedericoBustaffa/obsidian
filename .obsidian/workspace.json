@@ -120,13 +120,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/validation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of validation"
+              "title": "Outline"
             }
           }
         ]
@@ -150,12 +149,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/validation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from validation"
+              "title": "Outgoing links"
             }
           },
           {
@@ -200,7 +198,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/validation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +207,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for validation"
+              "title": "Backlinks"
             }
           }
         ]
@@ -238,6 +235,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -249,8 +247,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "bedb97a39b2bf7d9",
+  "active": "fd1a5ddca45b0c4b",
   "lastOpenFiles": [
+    "notes/machine_learning/validation.md",
     "notes/machine_learning/gradient_descent.md",
     "notes/machine_learning/gradient_descent.md~",
     "notes/linear_algebra/vector_space_basis.md",
@@ -258,7 +257,6 @@
     "notes/machine_learning/statistical_learning_theory.md",
     "notes/machine_learning/statistical_learning_theory.md~",
     "indices/machine_learning.md",
-    "notes/machine_learning/validation.md",
     "notes/machine_learning/validation.md~",
     "maps/validation_pipeline.canvas",
     "maps",
