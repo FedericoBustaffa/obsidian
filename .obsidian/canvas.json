@@ -1,0 +1,8 @@
+{
+  "snapToObjects": true,
+  "snapToGrid": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "maps",
+  "zoomBreakpoint": 2.39,
+  "defaultWheelBehavior": "pan"
+}

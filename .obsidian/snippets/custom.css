@@ -1,0 +1,13 @@
+.cm-contentContainer {
+    line-height: 1.75;
+}
+
+mjx-math {
+  font-size: 125% !important;
+}
+
+.markdown-preview-view table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
