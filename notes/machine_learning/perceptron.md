@@ -1,7 +1,9 @@
 ---
 id: perceptron
 aliases: []
-tags: []
+tags:
+  - master
+  - machine_learning
 ---
 
 # Perceptron

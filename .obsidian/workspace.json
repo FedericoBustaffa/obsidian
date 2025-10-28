@@ -229,8 +229,9 @@
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
     "notes/ai_fundamentals/genetic_algorithms.md",
-    "notes/ai_fundamentals/games.md",
     "notes/ai_fundamentals/novelty.md",
+    "notes/machine_learning/perceptron.md",
+    "notes/ai_fundamentals/games.md",
     "TODO.md",
     "notes/machine_learning/validation.md",
     "notes/ai_fundamentals/evolutionary_strategies.md",
@@ -260,7 +261,6 @@
     "notes/machine_learning/backpropagation.md",
     "notes/ai_fundamentals/evolutionary_optimization.md",
     "notes/ai_fundamentals/evolution.md",
-    "notes/machine_learning/perceptron.md",
     "notes/perfe.md",
     "notes/machine_learning/neural_networks.md",
     "files/linear_nn.svg",
