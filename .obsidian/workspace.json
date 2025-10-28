@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/statistical_learning_theory.md",
-                "mode": "preview",
+                "file": "notes/ai_fundamentals/genetic_algorithms.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "statistical_learning_theory"
+              "title": "genetic_algorithms"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/statistical_learning_theory.md",
+                "file": "notes/ai_fundamentals/genetic_algorithms.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of statistical_learning_theory"
+              "title": "Outline of genetic_algorithms"
             }
           }
         ]
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/statistical_learning_theory.md",
+                "file": "notes/ai_fundamentals/genetic_algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from statistical_learning_theory"
+              "title": "Outgoing links from genetic_algorithms"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/statistical_learning_theory.md",
+                "file": "notes/ai_fundamentals/genetic_algorithms.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for statistical_learning_theory"
+              "title": "Backlinks for genetic_algorithms"
             }
           }
         ]
@@ -252,30 +252,30 @@
   },
   "active": "bedb97a39b2bf7d9",
   "lastOpenFiles": [
-    "notes/complex_systems/continuous_systems.md",
     "notes/machine_learning/validation.md",
+    "notes/ai_fundamentals/genetic_algorithms.md",
+    "notes/ai_fundamentals/novelty.md",
+    "notes/ai_fundamentals/evolutionary_strategies.md",
+    "notes/machine_learning/statistical_learning_theory.md",
+    "notes/complex_systems/continuous_systems.md",
     "notes/machine_learning/validation.md~",
     "notes/machine_learning/gradient_descent.md",
     "notes/machine_learning/gradient_descent.md~",
     "notes/linear_algebra/vector_space_basis.md",
     "TODO.md",
-    "notes/machine_learning/statistical_learning_theory.md",
     "notes/machine_learning/statistical_learning_theory.md~",
     "indices/machine_learning.md",
     "maps/validation_pipeline.canvas",
     "maps",
-    "notes/ai_fundamentals/novelty.md",
     "files/k-fold.png",
     "files/hold_out.png",
     "notes/ai_fundamentals/novelty.md~",
     "files/map_elites.png",
-    "notes/ai_fundamentals/genetic_algorithms.md",
     "notes/ai_fundamentals/genetic_algorithms.md~",
     "notes/ai_fundamentals/evolutionary_optimization.md~",
     "notes/ai_fundamentals/innovation.md~",
     "notes/ai_fundamentals/innovation.md",
     "files/cppn.png",
-    "notes/ai_fundamentals/evolutionary_strategies.md",
     "TODO.md~",
     "notes/ai_fundamentals/evolutionary_strategies.md~",
     "indices/artificial_intelligence_fundamentals.md",
