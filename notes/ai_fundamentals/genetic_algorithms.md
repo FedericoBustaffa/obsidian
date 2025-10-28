@@ -112,7 +112,7 @@ images.
 
 <!-- ![CPPN](/files/cppn.png) -->
 
-![[]]
+![[cppn.png]]
 
 For example the genotype encodes the network topology, and the function of each
 node. If for example we are trying to produce images we can now just feed the
