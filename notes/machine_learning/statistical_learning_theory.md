@@ -81,8 +81,8 @@ somehow defines a bound on $R$.
 
 ## VC-Dimension
 
-So Vapnik and Chervonenkis defined the **VC-dimension**, a value that measures
-the model complexity, based on what the
+The VC-dimension is a value that _evaluates_ $H$, providing a measure of its
+complexity.
 
 ## References
 
