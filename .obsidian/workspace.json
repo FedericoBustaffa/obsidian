@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/perceptron.md",
+                "file": "notes/machine_learning/statistical_learning_theory.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "perceptron"
+              "title": "statistical_learning_theory"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/perceptron.md",
+                "file": "notes/machine_learning/statistical_learning_theory.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of perceptron"
+              "title": "Outline of statistical_learning_theory"
             }
           }
         ]
@@ -126,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/perceptron.md",
+                "file": "notes/machine_learning/statistical_learning_theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from perceptron"
+              "title": "Outgoing links from statistical_learning_theory"
             }
           },
           {
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/perceptron.md",
+                "file": "notes/machine_learning/statistical_learning_theory.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for perceptron"
+              "title": "Backlinks for statistical_learning_theory"
             }
           }
         ]
@@ -228,9 +228,10 @@
   },
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
+    "notes/machine_learning/statistical_learning_theory.md~",
+    "notes/machine_learning/perceptron.md",
     "notes/ai_fundamentals/genetic_algorithms.md",
     "notes/ai_fundamentals/novelty.md",
-    "notes/machine_learning/perceptron.md",
     "notes/ai_fundamentals/games.md",
     "TODO.md",
     "notes/machine_learning/validation.md",
@@ -241,7 +242,6 @@
     "notes/machine_learning/gradient_descent.md",
     "notes/machine_learning/gradient_descent.md~",
     "notes/linear_algebra/vector_space_basis.md",
-    "notes/machine_learning/statistical_learning_theory.md~",
     "indices/machine_learning.md",
     "maps/validation_pipeline.canvas",
     "maps",
@@ -273,7 +273,6 @@
     "files/mlp.png",
     "notes/machine_learning/linear_models.md",
     "notes/parallel_computing/computational_models.md",
-    "notes/linear_algebra/singular_value_decomposition.md",
-    "notes/linear_algebra/pseudoinverse.md"
+    "notes/linear_algebra/singular_value_decomposition.md"
   ]
 }
