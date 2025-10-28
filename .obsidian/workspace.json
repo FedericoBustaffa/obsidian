@@ -30,6 +30,30 @@
               "icon": "lucide-file",
               "title": "statistical_learning_theory"
             }
+          },
+          {
+            "id": "489c34045c1a4f77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TODO"
+            }
           }
         ]
       }
@@ -229,14 +253,14 @@
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
     "notes/machine_learning/statistical_learning_theory.md~",
+    "notes/machine_learning/statistical_learning_theory.md",
+    "TODO.md",
     "notes/machine_learning/perceptron.md",
     "notes/ai_fundamentals/genetic_algorithms.md",
     "notes/ai_fundamentals/novelty.md",
     "notes/ai_fundamentals/games.md",
-    "TODO.md",
     "notes/machine_learning/validation.md",
     "notes/ai_fundamentals/evolutionary_strategies.md",
-    "notes/machine_learning/statistical_learning_theory.md",
     "notes/complex_systems/continuous_systems.md",
     "notes/machine_learning/validation.md~",
     "notes/machine_learning/gradient_descent.md",

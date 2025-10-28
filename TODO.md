@@ -8,12 +8,13 @@ tags: []
 
 ## Artificial Intelligence Fundamentals
 
+- Artificial Life
+
 ## Machine Learning
 
 - Statistical Learning Theory
 - Empirical Risk
 - VC-dimension
-- Make a clear difference between _error_ and _loss_ functions
 
 ## Computational Mathematics
 
