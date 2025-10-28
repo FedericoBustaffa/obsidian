@@ -115,6 +115,22 @@ points there exists an hypothesis $h \in H$ that can label them correctly.
 > The **VC-dimension** of a class of functions $H$ is the maximum cardinality of
 > a set of points in $X$ that can be shattered by $H$.
 
+In practice to see if $H$ has VC-dimension at least $k$ we need to find at least
+one disposition of $k$ points, for which each dichotomy is represented in $H$.
+Doesn't matter if there exists one disposition in which a dichotomy is not
+represented. In this case we can say that
+
+$$VC(H) \geq k$$
+
+On the other hand, when for every possible arrangement of $k$ points, there
+exists always at least one dichotomy that is not represented in $H$. And so
+
+$$VC(H) < k$$
+
+In general the VC-dimension of a class of linear separators (LTU) in a
+$n$-dimensional space is $n+1$, in fact, for points in $\mathbb{R}^2$ the
+VC-dimension is $3$.
+
 ## References
 
 - [[machine_learning]]
