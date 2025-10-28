@@ -163,10 +163,10 @@
         "resizeUnits": "pixels"
       },
       {
-        "name": "50% Width",
+        "name": "80% Width",
         "resizeDimension": "width",
-        "width": 50,
-        "resizeScaleMode": "auto",
+        "width": 80,
+        "resizeScaleMode": "reduce",
         "respectEditorMaxWidth": true,
         "maintainAspectRatio": true,
         "resizeUnits": "percentage"
@@ -206,7 +206,7 @@
         "resizeUnits": "pixels"
       }
     ],
-    "selectedResizePreset": "Default (No Resize)"
+    "selectedResizePreset": "50% Width"
   },
   "resizeCursorLocation": "none",
   "dropPasteCursorLocation": "back",

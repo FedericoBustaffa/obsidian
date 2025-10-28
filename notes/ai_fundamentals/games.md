@@ -157,9 +157,9 @@ follows these steps:
 4. **Back-propagation**: update the value of the nodes in the search tree from
    the newly added node up to the root, following the selection path.
 
-![MCTS](/files/mcts.png)
+![MCTS|600](/files/mcts.png)
 
-Return in the end the move with the _highest number of playouts_.
+Return in the end the move with the _highest number of play-outs_.
 
 ### Selection Policy
 

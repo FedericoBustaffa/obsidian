@@ -58,7 +58,7 @@ individuals of a specific _niche_.
 The niche is like a partition of the space that contains a portion of possible
 individuals with some behavioral characterization.
 
-![Map Elites](/files/map_elites.png)
+![Map Elites|400](/files/map_elites.png)
 
 The method divides the behavioral space in a discrete grid where in each bin the
 best individual of the niche is stored. Each dimension of the space is a BC, for

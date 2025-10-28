@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bedb97a39b2bf7d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/ai_fundamentals/genetic_algorithms.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "genetic_algorithms"
-            }
-          },
-          {
             "id": "e992a85b485556d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO.md",
+                "file": "notes/ai_fundamentals/games.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "TODO"
+              "title": "games"
             }
           }
         ]
@@ -120,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/genetic_algorithms.md",
+                "file": "notes/ai_fundamentals/games.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of genetic_algorithms"
+              "title": "Outline of games"
             }
           }
         ]
@@ -150,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/genetic_algorithms.md",
+                "file": "notes/ai_fundamentals/games.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from genetic_algorithms"
+              "title": "Outgoing links from games"
             }
           },
           {
@@ -200,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/genetic_algorithms.md",
+                "file": "notes/ai_fundamentals/games.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for genetic_algorithms"
+              "title": "Backlinks for games"
             }
           }
         ]
@@ -250,11 +226,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "bedb97a39b2bf7d9",
+  "active": "e992a85b485556d9",
   "lastOpenFiles": [
-    "notes/machine_learning/validation.md",
-    "notes/ai_fundamentals/genetic_algorithms.md",
     "notes/ai_fundamentals/novelty.md",
+    "notes/ai_fundamentals/games.md",
+    "TODO.md",
+    "notes/ai_fundamentals/genetic_algorithms.md",
+    "notes/machine_learning/validation.md",
     "notes/ai_fundamentals/evolutionary_strategies.md",
     "notes/machine_learning/statistical_learning_theory.md",
     "notes/complex_systems/continuous_systems.md",
@@ -262,7 +240,6 @@
     "notes/machine_learning/gradient_descent.md",
     "notes/machine_learning/gradient_descent.md~",
     "notes/linear_algebra/vector_space_basis.md",
-    "TODO.md",
     "notes/machine_learning/statistical_learning_theory.md~",
     "indices/machine_learning.md",
     "maps/validation_pipeline.canvas",
@@ -297,7 +274,6 @@
     "notes/machine_learning/linear_models.md",
     "notes/parallel_computing/computational_models.md",
     "notes/linear_algebra/singular_value_decomposition.md",
-    "notes/linear_algebra/pseudoinverse.md",
-    "notes/computational_mathematics/least_squares.md"
+    "notes/linear_algebra/pseudoinverse.md"
   ]
 }
