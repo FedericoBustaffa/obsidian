@@ -77,12 +77,43 @@ enough. Or they can be different:
   perform worse on noisy data.
 
 There is the need to introduce a new term in order to set an inequality that
-somehow defines a bound on $R$.
+somehow defines a bound on $R$ because the ideal case is the one in which
+
+$$R \leq R_\text{emp}$$
+
+for noisy dataset.
 
 ## VC-Dimension
 
 The VC-dimension is a value that _evaluates_ $H$, providing a measure of its
-complexity.
+**complexity**. The VC-dimension can be thinked, by restricting on the
+classification case, as the number of points that $H$ can correctly discriminate
+for every possible labeling.
+
+In order to better formalize this concept lets introduce the concept of
+**shattering**. Let be
+
+- $X$: input space.
+- $N$: the size of the input space.
+- $H$: the hypothesis space.
+- A binary classification problem.
+
+We can define a **dichotomy** as a particular partition or labeling of the $N$
+points. So the same set of points can has $2^N$ possible dichotomies.
+
+A particular dichotomy is **represented** in $H$ if there exists an hypothesis
+$h \in H$ that realizes the dichotomy.
+
+> [!NOTE] Shattering
+> The hypothesis space $H$ **shatters** $X$ if and only if $H$ can represent all
+> the possible dichotomies on $X$.
+
+In other words $H$ _shatters_ $X$ if and only if, for every labeling of the
+points there exists an hypothesis $h \in H$ that can label them correctly.
+
+> [!IMPORTANT] VC-Dimension
+> The **VC-dimension** of a class of functions $H$ is the maximum cardinality of
+> a set of points in $X$ that can be shattered by $H$.
 
 ## References
 
