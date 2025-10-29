@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
+                "file": "notes/machine_learning/perceptron.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "support_vector_machine"
+              "title": "perceptron"
             }
           },
           {
@@ -120,12 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "notes/machine_learning/perceptron.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of perceptron"
             }
           }
         ]
@@ -149,11 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "notes/machine_learning/perceptron.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from perceptron"
             }
           },
           {
@@ -198,6 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notes/machine_learning/perceptron.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for perceptron"
             }
           }
         ]
@@ -247,9 +250,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "fd1a5ddca45b0c4b",
+  "active": "e992a85b485556d9",
   "lastOpenFiles": [
     "notes/machine_learning/support_vector_machine.md",
+    "notes/machine_learning/perceptron.md",
     "notes/ai_fundamentals/novelty.md",
     "notes/ai_fundamentals/genetic_algorithms.md",
     "notes/machine_learning/support_vector_machine.md~",
@@ -257,7 +261,6 @@
     "files/vc-bound.png",
     "notes/machine_learning/statistical_learning_theory.md~",
     "TODO.md",
-    "notes/machine_learning/perceptron.md",
     "notes/ai_fundamentals/games.md",
     "notes/machine_learning/validation.md",
     "notes/ai_fundamentals/evolutionary_strategies.md",
