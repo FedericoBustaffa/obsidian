@@ -136,6 +136,35 @@ VC-dimension. It's related because, generally speaking, if paired with the input
 dimension gives an hint on how flexible the model is. But we can't directly
 calculate the actual VC-dimension based on that.
 
+### VC-Bound
+
+Now that we have a definition (at least for a class of problems) of
+VC-dimension, we can relate it with the number of examples our model is trained
+on. What we want to do now is to define a term $\varepsilon$ for which the
+inequality
+
+$$R \leq R_\text{emp} + \varepsilon$$
+
+is true, at least with high probability. This term is called **VC-confidence**
+and is defined as
+
+$$
+\varepsilon (VC, N, \delta) =
+\sqrt{\frac{VC \cdot (\ln \frac{2N}{VC} + 1) - \ln \frac{\delta}{4}}{N}}
+$$
+
+We will not go in detail on why is formulated like this. What is interesting is
+observing how this term behaves with respect to its three parameters.
+
+- $VC$: is the VC-dimension and if it grows, the whole term grows.
+- $N$: is the number of patterns for the training and the higher it is, the
+  lower the VC-confidence will be.
+- $\delta$: is a confidence term that indicates the probability for the
+  inequality to be respected. To be precise the probability is $1 - \delta$ for
+  every $VC < N$. This is a parameter defined by the user in order to have a
+  stronger or weaker relation: a small $\delta$ means an high level of
+  confidence that the inequality will be respected.
+
 ## References
 
 - [[machine_learning]]
