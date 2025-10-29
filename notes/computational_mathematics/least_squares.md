@@ -123,3 +123,5 @@ where $A^+ = (A^\top A)^{-1} A^\top$ is the pseudoinverse of $A$.
 - [[computational_mathematics]]
 - [[eigenvalues_eigenvectors]]
 - [[pseudoinverse]]
+- [[gradient_descent]]
+- [[conjugate_gradient]]

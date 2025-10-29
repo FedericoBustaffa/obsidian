@@ -200,6 +200,24 @@ $$
 The structural risk minimization find a trade-off between empirical error and
 VC-confidence in order to reduce the VC-bound on the true risk.
 
+![VC-Bound|500](/files/vc-bound.png)
+
+In other words, when we perform a model selection we choose the model with the
+best bound on the true risk. However this is in practice very difficult to use
+because
+
+- It can be too conservative.
+- The VC-dimension of some hypothesis space is difficult to compute.
+- As an upper bound is over pessimistic and may not suitable for reliable
+  evaluation of the model's generalization capabilities.
+- Regularization heuristics (Tikhnov) already provide an implicit SRM
+  implementation.
+
+On the other hand this approach provides theory driven development of new models
+as SVMs, that in the learning process try to minimize the empirical error and
+the VC-confidence automatically.
+
 ## References
 
 - [[machine_learning]]
+- [[support_vector_machine]]

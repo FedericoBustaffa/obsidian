@@ -1,7 +1,8 @@
 ---
 id: TODO
 aliases: []
-tags: []
+tags:
+  - master
 ---
 
 # TO-DO
@@ -12,9 +13,7 @@ tags: []
 
 ## Machine Learning
 
-- Statistical Learning Theory
-- Empirical Risk
-- VC-dimension
+- Support Vector Machine
 
 ## Computational Mathematics
 

@@ -78,6 +78,7 @@ best result for each problem without losing accuracy.
 - [[knn]]
 - [[perceptron]]
 - [[neural_networks]]
+- [[support_vector_machine]]
 
 ## References
 
