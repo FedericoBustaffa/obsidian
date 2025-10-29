@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/statistical_learning_theory.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "statistical_learning_theory"
+              "title": "support_vector_machine"
             }
           },
           {
@@ -120,13 +120,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/statistical_learning_theory.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of statistical_learning_theory"
+              "title": "Outline"
             }
           }
         ]
@@ -150,12 +149,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/statistical_learning_theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from statistical_learning_theory"
+              "title": "Outgoing links"
             }
           },
           {
@@ -200,7 +198,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/statistical_learning_theory.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +207,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for statistical_learning_theory"
+              "title": "Backlinks"
             }
           }
         ]
@@ -234,7 +231,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 263.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -250,16 +247,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "516ff4dd0ec74e9f",
+  "active": "fd1a5ddca45b0c4b",
   "lastOpenFiles": [
     "notes/machine_learning/support_vector_machine.md",
+    "notes/ai_fundamentals/novelty.md",
+    "notes/ai_fundamentals/genetic_algorithms.md",
+    "notes/machine_learning/support_vector_machine.md~",
+    "notes/machine_learning/statistical_learning_theory.md",
     "files/vc-bound.png",
     "notes/machine_learning/statistical_learning_theory.md~",
-    "notes/machine_learning/statistical_learning_theory.md",
     "TODO.md",
     "notes/machine_learning/perceptron.md",
-    "notes/ai_fundamentals/genetic_algorithms.md",
-    "notes/ai_fundamentals/novelty.md",
     "notes/ai_fundamentals/games.md",
     "notes/machine_learning/validation.md",
     "notes/ai_fundamentals/evolutionary_strategies.md",
@@ -281,7 +279,6 @@
     "notes/ai_fundamentals/innovation.md",
     "files/cppn.png",
     "TODO.md~",
-    "notes/ai_fundamentals/evolutionary_strategies.md~",
     "indices/artificial_intelligence_fundamentals.md",
     "notes/machine_learning/supervised_learning.md",
     "notes/machine_learning/backpropagation.md",
@@ -297,7 +294,6 @@
     "files/perceptron.png",
     "files/nn_notation.png",
     "notes/machine_learning/linear_models.md",
-    "notes/parallel_computing/computational_models.md",
-    "notes/linear_algebra/singular_value_decomposition.md"
+    "notes/parallel_computing/computational_models.md"
   ]
 }
