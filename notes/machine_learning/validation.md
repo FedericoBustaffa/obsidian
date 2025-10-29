@@ -90,7 +90,7 @@ The simplest technique for validation is the **hold out**, that split the
 dataset in three parts: training, validation and test (often referred with TR,
 VL and TS respectively).
 
-![Hold out](/files/hold_out.png)
+![Hold Out|700](/files/hold_out.png)
 
 The validation set purpose is model selection and, jointly with TR, are often
 called development set; the test set is only used for model assessment.
@@ -133,7 +133,7 @@ The **K-fold**, that is an implementation of cross validation try to address
 these problems by partitioning the dataset in $k$ mutually exclusive subsets:
 $D_1, \dots, D_k$.
 
-![4-Fold Cross Validation](/files/k-fold.png)
+![4-Fold Cross Validation|250](/files/k-fold.png)
 
 Iteratively the model is trained on the training partitions and validated or
 tested on the remaining one. In this way we produce $k$ estimations of which can

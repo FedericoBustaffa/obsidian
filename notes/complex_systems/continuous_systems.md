@@ -101,7 +101,7 @@ $N (t_0 + \tau)$ using the tangent instead of the actual function $N$ (that we
 don't know). The idea is that, for a small step $\tau$, the tangent is a good
 approximation of the function.
 
-![[euler.png]]
+![Euler Method|600](/files/euler.png)
 
 So if we know the angular coefficient, the starting point, and the step we can
 use the following formula
@@ -162,7 +162,7 @@ values of $\tau$ can be used. However we have to pay a more heavy computation
 step but it is often more convenient than use the explicit version of the
 method.
 
-![[euler2.png]]
+![Implicit Euler Method|600](/files/euler2.png)
 
 The fact that $N_{k+1}$ appears on both sides means that we need to solve an
 equation like

@@ -81,7 +81,9 @@ somehow defines a bound on $R$ because the ideal case is the one in which
 
 $$R \leq R_\text{emp}$$
 
-for noisy dataset.
+for noisy dataset. This is because often the approach to machine learning is
+**empirical risk minimization** (**ERM**), which focuses on reducing the error
+on the training data, in order to have better performances on unseen data.
 
 ## VC-Dimension
 
@@ -177,6 +179,8 @@ with respect to the number of data and the complexity of the model:
 $$R \leq R_\text{emp} + \varepsilon (VC, N, \delta)$$
 
 in particular the right side of the inequality is called **guaranteed risk**.
+
+## Structural Risk Minimization
 
 ## References
 
