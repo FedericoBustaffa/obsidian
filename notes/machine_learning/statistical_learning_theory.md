@@ -182,6 +182,24 @@ in particular the right side of the inequality is called **guaranteed risk**.
 
 ## Structural Risk Minimization
 
+So now we have two terms that define the upper bound on the true risk $R$, and
+so it's possible to model another approach, different from ERM (that only aims
+to minimize $E_\text{emp}$), that instead tries to minimize both $E_\text{emp}$
+and $\varepsilon (VC, N, \delta)$.
+
+This approach is called **structural risk minimization** (**SRM**) and uses the
+VC-dimension as a controlling parameter for minimizing the generalization bound
+on $R$. Also assuming finite VC dimension we can define a nested structure of
+hypothesis spaces according to the VC dimension:
+
+$$
+H_1 \subseteq \cdots \subseteq H_n \implies
+VC(H_1) \leq \cdots \leq VC(H_n)
+$$
+
+The structural risk minimization find a trade-off between empirical error and
+VC-confidence in order to reduce the VC-bound on the true risk.
+
 ## References
 
 - [[machine_learning]]

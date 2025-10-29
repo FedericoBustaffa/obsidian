@@ -252,6 +252,7 @@
   },
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
+    "notes/machine_learning/statistical_learning_theory.md~",
     "notes/complex_systems/stochastic_simulations.md",
     "notes/complex stoca.md",
     "notes/complex_systems/chemistry_metaphor.md",
@@ -263,7 +264,6 @@
     "notes/ai_fundamentals/genetic_algorithms.md",
     "files/cppn.png",
     "notes/machine_learning/statistical_learning_theory.md",
-    "notes/machine_learning/statistical_learning_theory.md~",
     "notes/machine_learning/4913",
     "notes/ai_fundamentals/evolutionary_strategies.md",
     "notes/machine_learning/perceptron.md",
@@ -294,7 +294,6 @@
     "files/linear_nn.svg",
     "files/linear_nn.png",
     "notes/machine_learning/neural_network_training.md",
-    "notes/machine_learning/activation_functions.md",
     "files/recurrent_nn.png",
     "files/perceptron.png",
     "files/nn_notation.png",
