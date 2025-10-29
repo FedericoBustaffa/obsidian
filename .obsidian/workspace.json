@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/backpropagation.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "backpropagation"
+              "title": "support_vector_machine"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/backpropagation.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of backpropagation"
+              "title": "Outline of support_vector_machine"
             }
           }
         ]
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/backpropagation.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from backpropagation"
+              "title": "Outgoing links from support_vector_machine"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/backpropagation.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for backpropagation"
+              "title": "Backlinks for support_vector_machine"
             }
           }
         ]
@@ -252,6 +252,7 @@
   },
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
+    "notes/machine_learning/backpropagation.md",
     "notes/machine_learning/statistical_learning_theory.md",
     "notes/computational_mathematics/least_squares.md",
     "indices/machine_learning.md",
@@ -289,7 +290,6 @@
     "notes/ai_fundamentals/innovation.md",
     "indices/artificial_intelligence_fundamentals.md",
     "notes/machine_learning/supervised_learning.md",
-    "notes/machine_learning/backpropagation.md",
     "notes/ai_fundamentals/evolutionary_optimization.md",
     "notes/ai_fundamentals/evolution.md",
     "notes/perfe.md",
