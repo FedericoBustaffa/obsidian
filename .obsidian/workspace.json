@@ -250,17 +250,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "516ff4dd0ec74e9f",
+  "active": "e992a85b485556d9",
   "lastOpenFiles": [
     "notes/machine_learning/statistical_learning_theory.md~",
-    "notes/machine_learning/statistical_learning_theory.md",
-    "TODO.md",
+    "notes/ai_fundamentals/novelty.md",
+    "notes/ai_fundamentals/evolutionary_strategies.md",
     "notes/machine_learning/perceptron.md",
     "notes/ai_fundamentals/genetic_algorithms.md",
-    "notes/ai_fundamentals/novelty.md",
+    "notes/machine_learning/statistical_learning_theory.md",
+    "TODO.md",
     "notes/ai_fundamentals/games.md",
     "notes/machine_learning/validation.md",
-    "notes/ai_fundamentals/evolutionary_strategies.md",
     "notes/complex_systems/continuous_systems.md",
     "notes/machine_learning/validation.md~",
     "notes/machine_learning/gradient_descent.md",

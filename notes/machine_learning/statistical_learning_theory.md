@@ -131,6 +131,11 @@ In general the VC-dimension of a class of linear separators (LTU) in a
 $n$-dimensional space is $n+1$, in fact, for points in $\mathbb{R}^2$ the
 VC-dimension is $3$.
 
+Let's also notice that the number of free parameters is not a measure for the
+VC-dimension. It's related because, generally speaking, if paired with the input
+dimension gives an hint on how flexible the model is. But we can't directly
+calculate the actual VC-dimension based on that.
+
 ## References
 
 - [[machine_learning]]
