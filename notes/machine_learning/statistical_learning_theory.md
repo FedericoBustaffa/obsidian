@@ -165,6 +165,19 @@ observing how this term behaves with respect to its three parameters.
   stronger or weaker relation: a small $\delta$ means an high level of
   confidence that the inequality will be respected.
 
+In other words, an higher VC-dimension means a more complex model, and so a
+model that could over-fit. This is mitigated by the number of samples $N$,
+because the higher the number of samples is, the lower is the uncertainty. In
+the end we have $\delta$ that is our level of confidence that the bound will be
+respected.
+
+We can now finally define the **VC-bound** on the true risk $R$ of our model,
+with respect to the number of data and the complexity of the model:
+
+$$R \leq R_\text{emp} + \varepsilon (VC, N, \delta)$$
+
+in particular the right side of the inequality is called **guaranteed risk**.
+
 ## References
 
 - [[machine_learning]]
