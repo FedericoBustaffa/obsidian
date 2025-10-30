@@ -66,8 +66,63 @@ $$y_p \cdot (w^\top x_p + b) \geq 1$$
 > A **support vector** $x^{(s)}$ satisfies the previous equation exactly:
 > $$y^{(s)} \cdot (w^\top x^{(s)} + b) = 1$$
 
+<<<<<<< HEAD
 The support vectors are the closest points to the hyper-plane. But as we can
 imagine is necessary to compute this distance from the hyper-plane
+=======
+The support vectors are the closest points to the hyper-plane. So it seems
+obvious that we need to compute the distance between a point and the
+hyper-plane. To do that, the idea is to compute the distance between our point
+$x$ and a point $\hat{x}$ on the hyper-plane that minimizes the distance.
+
+So we can rethink $x$ as a sort of translation of $\hat{x}$ in the direction
+defined by $w$ (that is orthogonal to the hyper-plane) by the distance $r$ we
+are looking for:
+
+$$x = \hat{x} + r \frac{w}{\| w \|}$$
+
+Let's also remember that $g(x) = w^\top x + b$ and so we can write
+
+$$
+\begin{align*}
+g(x) &= w^\top \left( \hat{x} + r \frac{w}{\|w\|} \right) + b \\
+&= w^\top \hat{x} + w^\top r \frac{w}{\|w\|} + b \\
+&= r \frac{\| w \|^2}{\| w \|} = r \| w \|
+\end{align*}
+$$
+
+thus, the distance can be computed as
+
+$$r = \frac{g(x)}{\| w \|} = \frac{w^\top x + b}{\| w \|}$$
+
+So, assuming an already optimal hyper-plane, the distance from the hyper-plane
+and a support vector is $x^{(s)}$
+
+$$\frac{w^\top x^{(s)} + b}{\| w \|} = \frac{1}{\| w \|} = \frac{\rho}{2}$$
+
+Computing also the distance from the hyper-plane to a negative support vector,
+that will be $-\frac{1}{\|w\|}$, the total margin will be
+
+$$\rho = \left| -\frac{1}{\|w\|} - \frac{1}{\|w\|} \right| = \frac{2}{\|w\|}$$
+
+The **optimal** hyper-plane maximizes $\rho$ by minimizing $\|w\|$.
+
+### Hard Margin
+
+The first and simplest form of SVM is the **hard margin** that wants to minimize
+the weights while having zero classification errors. Of course this is possible
+if and only if the problem is linearly separable.
+
+In its **primal form** the problem is formulated as the minimization of
+
+$$\Psi (w) = \frac{1}{2} w^\top w = \frac{1}{2} \| w \|^2$$
+
+satisfying the constraint that
+
+$$y_p \cdot (w^\top x_p + b) \geq 1$$
+
+for each pattern in the training set.
+>>>>>>> origin/master
 
 ## References
 
