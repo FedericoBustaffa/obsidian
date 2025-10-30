@@ -142,7 +142,7 @@
       {
         "id": "1728b1c62e4f1f4f",
         "type": "tabs",
-        "dimension": 51.6380655226209,
+        "dimension": 40.16319129646419,
         "children": [
           {
             "id": "6a6787f071b2b91c",
@@ -192,7 +192,7 @@
       {
         "id": "e6f8bb84f6edd43b",
         "type": "tabs",
-        "dimension": 24.18096723868955,
+        "dimension": 35.63009972801451,
         "children": [
           {
             "id": "4513753b4f6f78cb",
@@ -218,7 +218,7 @@
       {
         "id": "6fd30e3eead3fb2f",
         "type": "tabs",
-        "dimension": 24.18096723868955,
+        "dimension": 24.206708975521305,
         "children": [
           {
             "id": "fd1a5ddca45b0c4b",
@@ -250,7 +250,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "e992a85b485556d9",
+  "active": "6a6787f071b2b91c",
   "lastOpenFiles": [
     "notes/machine_learning/backpropagation.md",
     "notes/machine_learning/statistical_learning_theory.md",
