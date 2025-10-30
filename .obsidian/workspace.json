@@ -120,13 +120,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Struttura di support_vector_machine"
+              "title": "Struttura"
             }
           }
         ]
@@ -142,7 +141,7 @@
       {
         "id": "1728b1c62e4f1f4f",
         "type": "tabs",
-        "dimension": 51.6380655226209,
+        "dimension": 44.36619718309859,
         "children": [
           {
             "id": "6a6787f071b2b91c",
@@ -150,12 +149,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Collegamenti in uscita da support_vector_machine"
+              "title": "Collegamenti in uscita"
             }
           },
           {
@@ -192,7 +190,7 @@
       {
         "id": "e6f8bb84f6edd43b",
         "type": "tabs",
-        "dimension": 24.18096723868955,
+        "dimension": 31.455399061032864,
         "children": [
           {
             "id": "4513753b4f6f78cb",
@@ -200,7 +198,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +207,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Riferimenti a support_vector_machine"
+              "title": "Riferimenti"
             }
           }
         ]
@@ -218,7 +215,7 @@
       {
         "id": "6fd30e3eead3fb2f",
         "type": "tabs",
-        "dimension": 24.18096723868955,
+        "dimension": 24.178403755868544,
         "children": [
           {
             "id": "fd1a5ddca45b0c4b",
@@ -246,13 +243,14 @@
       "command-palette:Apri riquadro comandi": false,
       "audio-recorder:Avvia/ferma registrazione": false,
       "workspaces:Gestisci layout delle aree di lavoro": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e992a85b485556d9",
+  "active": "6a6787f071b2b91c",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "notes/machine_learning/support_vector_machine.md",
+    "conflict-files-obsidian-git.md",
     "notes/machine_learning/perceptron.md",
     "files/svm_margin.png",
     "notes/ai_fundamentals/novelty.md",
