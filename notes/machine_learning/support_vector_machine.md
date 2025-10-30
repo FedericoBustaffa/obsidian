@@ -77,6 +77,32 @@ looking for:
 
 $$x = x_p + r \frac{w}{\| w \|}$$
 
+Let's also remember that $g(x) = w^\top x + b$ and so we can write
+
+$$
+\begin{align*}
+g(x) &= w^\top \left( x_p + r \frac{w}{\|w\|} \right) + b \\
+&= w^\top x_p + w^\top r \frac{w}{\|w\|} + b \\
+&= r \frac{\| w \|^2}{\| w \|} = r \| w \|
+\end{align*}
+$$
+
+thus, the distance can be computed as
+
+$$r = \frac{g(x)}{\| w \|} = \frac{w^\top x + b}{\| w \|}$$
+
+So, assuming an already optimal hyper-plane, the distance from the hyper-plane
+and a support vector is $x^{(s)}$
+
+$$\frac{w^\top x^{(s)} + b}{\| w \|} = \frac{1}{\| w \|} = \frac{\rho}{2}$$
+
+Computing also the distance from the hyper-plane to a negative support vector,
+that will be $-\frac{1}{\|w\|}$, the total margin will be
+
+$$\rho = \left| -\frac{1}{\|w\|} - \frac{1}{\|w\|} \right| = \frac{2}{\|w\|}$$
+
+The optimal hyper-plane maximizes $\rho$ by minimizing $\|w\|$.
+
 ## References
 
 - [[supervised_learning]]
