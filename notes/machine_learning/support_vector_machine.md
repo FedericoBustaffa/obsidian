@@ -21,7 +21,7 @@ hyper-planes also for classification problems that are not linearly separable.
 In the classifical **binary classification problem** we want to find an
 hyper-plane of equation
 
-$$w^\top x + b = 0$$
+$$g(x) = w^\top x + b = 0$$
 
 that separates the examples in this way
 
@@ -32,7 +32,7 @@ w^\top x + b &< 0 & \text{for } y = -1
 \end{align*}
 $$
 
-Of course the equation of the hyper-plane is just a _discrimant_ function, while
+The equation of the hyper-plane $g(x)$ is just a _discrimant_ function, while
 the actual hypothesis function is the sign of the discriminant.
 
 What an SVM does is try to find a **margin** $\rho$ that tries to maximize the
@@ -43,6 +43,30 @@ distance between the linear hyper-plane and the closest data points.
 Of course we can move the hyper-plane and the margin will change as well; anyway
 the SVM aims to find the hyper-plane that maximizes the margin $\rho$ in order
 to have a larger confidence on unseen points.
+
+In order to maximize the margin we want to rescale $w$ and $b$ so that the
+closest points to the hyper-plane satisfy
+
+$$|g(x_p)| = |w^\top x_p + b| = 1$$
+
+and so we can write
+
+$$
+\begin{align*}
+w^\top x_p + b &\geq 0 & \text{for } y_p = +1\\
+w^\top x_p + b &\leq 0 & \text{for } y_p = -1
+\end{align*}
+$$
+
+that in a compact form becomes
+
+$$y_p \cdot (w^\top x_p + b) \geq 1$$
+
+> [!NOTE] Support Vector
+> A **support vector** $x^{(s)}$ satisfies the previous equation exactly:
+> $$y^{(s)} \cdot (w^\top x^{(s)} + b) = 1$$
+
+The support vectors are the closest points to the hyper-plane.
 
 ## References
 
