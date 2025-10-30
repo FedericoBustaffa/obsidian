@@ -250,15 +250,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "6a6787f071b2b91c",
+  "active": "e992a85b485556d9",
   "lastOpenFiles": [
+    "notes/machine_learning/support_vector_machine.md~",
+    "files/svm_margin.png",
     "notes/machine_learning/backpropagation.md",
     "notes/machine_learning/statistical_learning_theory.md",
     "notes/computational_mathematics/least_squares.md",
     "indices/machine_learning.md",
     "notes/machine_learning/support_vector_machine.md",
     "TODO.md",
-    "notes/machine_learning/support_vector_machine.md~",
     "notes/machine_learning/supervised_learning.md~",
     "notes/machine_learning/statistical_learning_theory.md~",
     "files/vc-bound.png",
@@ -293,11 +294,9 @@
     "notes/ai_fundamentals/evolutionary_optimization.md",
     "notes/ai_fundamentals/evolution.md",
     "notes/perfe.md",
-    "notes/machine_learning/neural_networks.md",
     "files/linear_nn.svg",
     "files/linear_nn.png",
     "files/recurrent_nn.png",
-    "files/perceptron.png",
-    "files/nn_notation.png"
+    "files/perceptron.png"
   ]
 }
