@@ -66,7 +66,16 @@ $$y_p \cdot (w^\top x_p + b) \geq 1$$
 > A **support vector** $x^{(s)}$ satisfies the previous equation exactly:
 > $$y^{(s)} \cdot (w^\top x^{(s)} + b) = 1$$
 
-The support vectors are the closest points to the hyper-plane.
+The support vectors are the closest points to the hyper-plane. So it seems
+obvious that we need to compute the distance between a point and the
+hyper-plane. To do that, the idea is to compute the distance between our point
+$x$ and a point $x_p$ on the hyper-plane that minimizes the distance.
+
+So we can rethink $x$ as a sort of translation of $x_p$ in the direction defined
+by $w$ (that is orthogonal to the hyper-plane) by the distance $r$ we are
+looking for:
+
+$$x = x_p + r \frac{w}{\| w \|}$$
 
 ## References
 
