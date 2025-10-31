@@ -163,8 +163,17 @@ b &= \sum_{p=1}^N \alpha_p \cdot y_p
 \end{align*}
 $$
 
-and maximize it with respect
-to $\alpha$. We will find that the optimal hyper-plane is expressed as
+So now we can substitute this two terms in $J$ and obtain
+
+$$
+J(\alpha) = \sum_p \alpha_p - \frac{1}{2} \sum_{p} \sum_{t} \alpha_p \alpha_t
+\cdot y_p y_t \cdot x_p^\top x_t
+$$
+
+that we can maximize with a quadratic programming solver in order to find the
+optimal $\alpha$ vector. Once we have it we can substitute the actual $\alpha$
+values in the formulation for optimal $w$ and $b$ previously defined, to find
+the **optimal hyper-plane**:
 
 $$\sum_{p=1}^N \alpha_p y_p x_p^\top x + b = 0$$
 
@@ -173,14 +182,6 @@ and from Kuhn-Tucker conditions it follows that
 - If $\alpha_p > 0$, then the $y_p (w^\top x_p + b) = 1$ and $x_p$ is a support
   vector.
 - If $x_p$ is not a support vector then $\alpha_p = 0$.
-
-Hence we can restrict the computation to the support vectors, finding the
-optimal weights as follows
-
-$$w = \sum_{p=1}^{N_s} \alpha_p y_p x_p$$
-
-with $N_s$ the number of support vectors. Because the hyper-plane depends only
-on support vectors.
 
 ## References
 
