@@ -122,7 +122,7 @@ and convex in $w$ and the constraints are linear in $w$; solving this problem
 scales with the size of the input space.
 
 So typically, when working with SVMs, we are intrested in solving the **dual
-form**, that in this case is defined with the **Lagriangian multipliers**:
+form**, that in this case is defined with the **Lagrangian multipliers**:
 
 $$
 J(w, b, \alpha) =
