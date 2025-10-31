@@ -135,13 +135,20 @@ with $\alpha_p \geq 0$ for every $p = 1, \dots, N$ that are the lagrangian
 multipliers.
 
 This gives us an optimization problem were we have to optimize only one function
-in which the constraints are included and handled by the multipliers:
+in which the constraints are included and handled by the multipliers, in fact
+the constraints were defined for each point as
 
-Each term of the sum corresponds to a constraint of the primal problem. The aim
-is minimize $J$ with respect to $w$ and $b$ and maximize it with respect to
-$\alpha$.
+$$y_p \cdot (w^\top x + b) \geq 1$$
 
-We will find that the optimal hyper-plane is expressed as
+So to achieve the dual form we need to impose
+
+$$y_p \cdot (w^\top x + b) - 1 \geq 0$$
+
+And so now each term of the sum corresponds to a constraint of the primal
+problem.
+
+The aim is minimize $J$ with respect to $w$ and $b$ and maximize it with respect
+to $\alpha$. We will find that the optimal hyper-plane is expressed as
 
 $$\sum_{p=1}^N \alpha_p y_p x_p^\top x + b = 0$$
 
