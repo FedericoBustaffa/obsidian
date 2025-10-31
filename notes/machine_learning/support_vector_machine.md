@@ -147,7 +147,23 @@ $$y_p \cdot (w^\top x + b) - 1 \geq 0$$
 And so now each term of the sum corresponds to a constraint of the primal
 problem.
 
-The aim is minimize $J$ with respect to $w$ and $b$ and maximize it with respect
+The aim is minimize $J$ with respect to $w$ and $b$:
+
+$$
+\frac{\partial J}{\partial w} = 0 \quad
+\frac{\partial J}{\partial b} = 0
+$$
+
+from which we obtain that
+
+$$
+\begin{align*}
+w &= \sum_{p=1}^N \alpha_p \cdot y_p \cdot x_p \\
+b &= \sum_{p=1}^N \alpha_p \cdot y_p
+\end{align*}
+$$
+
+and maximize it with respect
 to $\alpha$. We will find that the optimal hyper-plane is expressed as
 
 $$\sum_{p=1}^N \alpha_p y_p x_p^\top x + b = 0$$
