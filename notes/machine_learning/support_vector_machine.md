@@ -117,7 +117,12 @@ satisfying the constraint that
 
 $$y_p \cdot (w^\top x_p + b) \geq 1$$
 
-for each pattern in the training set.
+for each pattern in the training set. But the objective function is quadratic
+and convex in $w$ and the constraints are linear in $w$; solving this problem
+scales with the size of the input space.
+
+So typically, when working with SVMs, we are intrested in solving the **dual
+form**, that in this case is defined with the Lagriangian multipliers.
 
 ## References
 

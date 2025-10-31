@@ -78,7 +78,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Esplora risorse"
+              "title": "Files"
             }
           },
           {
@@ -120,12 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Struttura"
+              "title": "Outline of support_vector_machine"
             }
           }
         ]
@@ -141,7 +142,7 @@
       {
         "id": "1728b1c62e4f1f4f",
         "type": "tabs",
-        "dimension": 44.36619718309859,
+        "dimension": 40.16319129646419,
         "children": [
           {
             "id": "6a6787f071b2b91c",
@@ -149,11 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Collegamenti in uscita"
+              "title": "Outgoing links from support_vector_machine"
             }
           },
           {
@@ -190,7 +192,7 @@
       {
         "id": "e6f8bb84f6edd43b",
         "type": "tabs",
-        "dimension": 31.455399061032864,
+        "dimension": 35.63009972801451,
         "children": [
           {
             "id": "4513753b4f6f78cb",
@@ -198,6 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Riferimenti"
+              "title": "Backlinks for support_vector_machine"
             }
           }
         ]
@@ -215,7 +218,7 @@
       {
         "id": "6fd30e3eead3fb2f",
         "type": "tabs",
-        "dimension": 24.178403755868544,
+        "dimension": 24.206708975521305,
         "children": [
           {
             "id": "fd1a5ddca45b0c4b",
@@ -224,51 +227,59 @@
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
-              "title": "Vista grafo"
+              "title": "Graph view"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 263.5
+    "width": 235.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Apri selezione rapida": false,
-      "graph:Apri vista grafo": false,
-      "canvas:Crea nuova lavagna": false,
-      "daily-notes:Apri nota del giorno": false,
-      "templates:Inserisci modello": false,
-      "command-palette:Apri riquadro comandi": false,
-      "audio-recorder:Avvia/ferma registrazione": false,
-      "workspaces:Gestisci layout delle aree di lavoro": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "bases:Create new base": false
     }
   },
-  "active": "6a6787f071b2b91c",
+  "active": "e992a85b485556d9",
   "lastOpenFiles": [
-    "notes/machine_learning/support_vector_machine.md",
-    "conflict-files-obsidian-git.md",
-    "notes/machine_learning/perceptron.md",
+    "notes/machine_learning/support_vector_machine.md~",
+    "notes/machine_learning/4913",
     "files/svm_margin.png",
+    "notes/machine_learning/backpropagation.md",
+    "notes/machine_learning/statistical_learning_theory.md",
+    "notes/computational_mathematics/least_squares.md",
+    "indices/machine_learning.md",
+    "notes/machine_learning/support_vector_machine.md",
+    "TODO.md",
+    "notes/machine_learning/supervised_learning.md~",
+    "notes/machine_learning/statistical_learning_theory.md~",
+    "files/vc-bound.png",
+    "notes/complex_systems/stochastic_simulations.md",
+    "notes/complex stoca.md",
+    "notes/complex_systems/chemistry_metaphor.md",
+    "notes/complex_systems/discrete_systems.md",
+    "notes/complex_systems/continuous_systems.md",
+    "notes/machine_learning/validation.md",
+    "notes/ai_fundamentals/games.md",
     "notes/ai_fundamentals/novelty.md",
     "notes/ai_fundamentals/genetic_algorithms.md",
-    "notes/machine_learning/support_vector_machine.md~",
-    "notes/machine_learning/statistical_learning_theory.md",
-    "files/vc-bound.png",
-    "notes/machine_learning/statistical_learning_theory.md~",
-    "TODO.md",
-    "notes/ai_fundamentals/games.md",
-    "notes/machine_learning/validation.md",
+    "files/cppn.png",
     "notes/ai_fundamentals/evolutionary_strategies.md",
-    "notes/complex_systems/continuous_systems.md",
+    "notes/machine_learning/perceptron.md",
     "notes/machine_learning/validation.md~",
     "notes/machine_learning/gradient_descent.md",
     "notes/machine_learning/gradient_descent.md~",
     "notes/linear_algebra/vector_space_basis.md",
-    "indices/machine_learning.md",
     "maps/validation_pipeline.canvas",
     "maps",
     "files/k-fold.png",
@@ -277,24 +288,15 @@
     "files/map_elites.png",
     "notes/ai_fundamentals/genetic_algorithms.md~",
     "notes/ai_fundamentals/evolutionary_optimization.md~",
-    "notes/ai_fundamentals/innovation.md~",
     "notes/ai_fundamentals/innovation.md",
-    "files/cppn.png",
-    "TODO.md~",
     "indices/artificial_intelligence_fundamentals.md",
     "notes/machine_learning/supervised_learning.md",
-    "notes/machine_learning/backpropagation.md",
     "notes/ai_fundamentals/evolutionary_optimization.md",
     "notes/ai_fundamentals/evolution.md",
     "notes/perfe.md",
-    "notes/machine_learning/neural_networks.md",
     "files/linear_nn.svg",
     "files/linear_nn.png",
-    "notes/machine_learning/neural_network_training.md",
-    "notes/machine_learning/activation_functions.md",
     "files/recurrent_nn.png",
-    "files/perceptron.png",
-    "notes/machine_learning/linear_models.md",
-    "notes/parallel_computing/computational_models.md"
+    "files/perceptron.png"
   ]
 }
