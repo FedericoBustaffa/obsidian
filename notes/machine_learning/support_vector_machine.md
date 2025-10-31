@@ -136,8 +136,23 @@ Each term of the sum corresponds to a constraint of the primal problem. The aim
 is minimize $J$ with respect to $w$ and $b$ and maximize it with respect to
 $\alpha$.
 
-We can notice that if the point is correctly classified $y_p$ and
-$w^\top x_p + b$ match sign and so their product will be positive.
+We will find that the optimal hyper-plane is expressed as
+
+$$\sum_{p=1}^N \alpha_p y_p x_p^\top x + b = 0$$
+
+and from Kuhn-Tucker conditions it follows that
+
+- If $\alpha_p > 0$, then the $y_p (w^\top x_p + b) = 1$ and $x_p$ is a support
+  vector.
+- If $x_p$ is not a support vector then $\alpha_p = 0$.
+
+Hence we can restrict the computation to the support vectors, finding the
+optimal weights as follows
+
+$$w = \sum_{p=1}^{N_s} \alpha_p y_p x_p$$
+
+with $N_s$ the number of support vectors. Because the hyper-plane depends only
+on support vectors.
 
 ## References
 
