@@ -121,8 +121,10 @@ for each pattern in the training set. But the objective function is quadratic
 and convex in $w$ and the constraints are linear in $w$; solving this problem
 scales with the size of the input space.
 
-So typically, when working with SVMs, we are intrested in solving the **dual
-form**, that in this case is defined with the **Lagrangian multipliers**:
+---
+
+Typically, when working with SVMs, we are interested in solving the **dual
+form**, that in this case is defined with the **Lagrangian multipliers**.
 
 $$
 J(w, b, \alpha) =
@@ -131,6 +133,9 @@ $$
 
 with $\alpha_p \geq 0$ for every $p = 1, \dots, N$ that are the lagrangian
 multipliers.
+
+This gives us an optimization problem were we have to optimize only one function
+in which the constraints are included and handled by the multipliers:
 
 Each term of the sum corresponds to a constraint of the primal problem. The aim
 is minimize $J$ with respect to $w$ and $b$ and maximize it with respect to
