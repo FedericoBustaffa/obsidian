@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/backpropagation.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "backpropagation"
+              "title": "support_vector_machine"
             }
           }
         ]
@@ -180,6 +180,7 @@
   },
   "active": "5e8d481f89992dad",
   "lastOpenFiles": [
+    "notes/machine_learning/backpropagation.md",
     "notes/machine_learning/neural_network_training.md",
     "notes/machine_learning/neural_networks.md",
     "notes/machine_learning/perceptron.md",
