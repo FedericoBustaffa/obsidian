@@ -122,7 +122,22 @@ and convex in $w$ and the constraints are linear in $w$; solving this problem
 scales with the size of the input space.
 
 So typically, when working with SVMs, we are intrested in solving the **dual
-form**, that in this case is defined with the **Lagriangian multipliers**.
+form**, that in this case is defined with the **Lagriangian multipliers**:
+
+$$
+J(w, b, \alpha) =
+\frac{1}{2} w^\top w - \sum_{p=1}^N \alpha_p (y_p (w^\top x_p + b) - 1)
+$$
+
+with $\alpha_p \geq 0$ for every $p = 1, \dots, N$ that are the lagrangian
+multipliers.
+
+Each term of the sum corresponds to a constraint of the primal problem. The aim
+is minimize $J$ with respect to $w$ and $b$ and maximize it with respect to
+$\alpha$.
+
+We can notice that if the point is correctly classified $y_p$ and
+$w^\top x_p + b$ match sign and so their product will be positive.
 
 ## References
 
