@@ -199,6 +199,14 @@ support vectors $N_s$
 
 $$g(x) = \sum_{p=1}^{N_s} \alpha_p y_p x_p^\top x + b$$
 
+> [!IMPORTANT] Vapnik Theorem
+> Let $D$ be diameter of the smallest ball around the data points $x_1, \dots,
+> x_n$. For the class of separating hyper-planes described by the equation
+> $$w^\top x + b = 0$$
+> the upper bound to the VC-dimension is
+> $$VC \leq \min \left( \lceil \frac{D^2}{\rho^2} \rceil, m \right) + 1$$
+> where $m$ is the dimension of the input vector.
+
 ## References
 
 - [[supervised_learning]]
