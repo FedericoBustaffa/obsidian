@@ -127,8 +127,8 @@ Typically, when working with SVMs, we are interested in solving the **dual
 form**, that in this case is defined with the **Lagrangian multipliers**.
 
 $$
-J(w, b, \alpha) =
-\frac{1}{2} w^\top w - \sum_{p=1}^N \alpha_p (y_p (w^\top x_p + b) - 1)
+J(w, b, \alpha) = \frac{1}{2} \| w \|^2 -
+\sum_{p=1}^N \alpha_p (y_p (w^\top x_p + b) - 1)
 $$
 
 with $\alpha_p \geq 0$ for every $p = 1, \dots, N$ that are the lagrangian
@@ -182,7 +182,7 @@ $x^{(s)}$:
 
 $$b = 1 - \sum_{p=1}^N \alpha_p y_p x_p^\top x^{(s)}$$
 
-and from Kuhn-Tucker conditions it follows that
+and from **Kuhn-Tucker conditions** it follows that
 
 - If $\alpha_p > 0$, then the $y_p (w^\top x_p + b) = 1$ and $x_p$ is a support
   vector.
@@ -249,6 +249,25 @@ Let's also note that
 - High value of $C$ lead to a hard margin behavior.
 
 Note also that $C = 0$ brings us back to hard margin formulation.
+
+So now we can formulate the problem in its **dual form** as before but now we
+have two kinds of constraints: the one on the classification and the one on the
+non negativity of slack variables
+
+$$
+J(w, b, \xi, \alpha, \mu) = \frac{1}{2} \| w \|^2 + C \sum_{p=1}^N \xi_p -
+\sum_{p=1}^N \alpha_p (y_p (w^\top x_p + b) - 1) - \sum_{p=1}^N \mu_p \xi_p
+$$
+
+with $\mu_p$ that are the lagrangian multipliers introduced to enforce the non
+negativity of slack variables.
+
+Now the **Kuhn-Tucker conditions** say to us that
+
+- if $0 < \alpha_p < C$ and so $\xi_p = 0$ the points is a support vector.
+- if $\alpha_p = C$ and so $\xi_p \geq 0$ the point is inside the margin.
+
+The dual problem is solved as before but now we also want to optimize $\xi$.
 
 ## References
 

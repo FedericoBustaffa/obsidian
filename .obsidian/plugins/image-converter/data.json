@@ -316,7 +316,7 @@
     ]
   },
   "isImageAlignmentEnabled": true,
-  "imageAlignment_cacheCleanupInterval": 0,
+  "imageAlignment_cacheCleanupInterval": 7200000,
   "imageAlignment_cacheLocation": ".obsidian",
   "isDragResizeEnabled": true,
   "isScrollResizeEnabled": true,
