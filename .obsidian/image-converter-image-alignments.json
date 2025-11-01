@@ -59,36 +59,8 @@
       "wrap": false
     }
   },
-  "notes/machine_learning/statistical_learning_theory.md": {
-    "61b54bbe01de71ee591aaea8bb9dc58e": {
-      "position": "center",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "notes/machine_learning/neural_networks.md": {
-    "1600768d300d46b22e9abc25199125bc": {
-      "position": "center",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "0e707ba775dd41e22ad4b2e491dbda86": {
-      "position": "center",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "9275538b54ee3a1655977cf6c98932ee": {
-      "position": "center",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "notes/machine_learning/support_vector_machine.md": {
-    "685babb99ff430560579ad4216c6d29c": {
+  "notes/machine_learning/backpropagation.md": {
+    "b6ce20daf613136ca29db5eda9941a8b": {
       "position": "center",
       "width": "",
       "height": "",

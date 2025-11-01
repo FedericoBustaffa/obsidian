@@ -269,6 +269,8 @@ Now the **Kuhn-Tucker conditions** say to us that
 
 The dual problem is solved as before but now we also want to optimize $\xi$.
 
+## Kernel Trick
+
 ## References
 
 - [[supervised_learning]]
