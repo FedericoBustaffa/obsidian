@@ -253,6 +253,8 @@
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
     "notes/machine_learning/support_vector_machine.md~",
+    "files/svm_kernel.png",
+    "files/non_linearly_separable_problem.png",
     "notes/machine_learning/support_vector_machine.md",
     "files/soft_margin.png",
     "notes/machine_learning/4913",
@@ -295,8 +297,6 @@
     "notes/ai_fundamentals/evolutionary_optimization.md",
     "notes/ai_fundamentals/evolution.md",
     "notes/perfe.md",
-    "files/linear_nn.svg",
-    "files/linear_nn.png",
-    "files/recurrent_nn.png"
+    "files/linear_nn.svg"
   ]
 }

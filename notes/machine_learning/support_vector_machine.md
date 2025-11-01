@@ -271,6 +271,24 @@ The dual problem is solved as before but now we also want to optimize $\xi$.
 
 ## Kernel Trick
 
+In general we can address non linearly separable problems with a _soft margin_
+approach, but there are problems where even with that the SVM will not perform
+good enough.
+
+Usually, mapping the data points to an higher dimensional feature space, can
+make them linearly separable in the new space.
+
+<!-- ![Non Linearly Separable Problem|300](/files/non_linearly_separable_problem.png) -->
+
+![Higher Dimension Mapping|500](/files/svm_kernel.png)
+
+So now we can find a function $\phi$ the maps features in an higher dimension
+space. But know we have the problem is choosing the best $\phi$, unless a prior
+knowledge on the feature space properties, in particular:
+
+- How to choose the **class of $\phi$**: polynomial, gaussian, logarithmic etc.
+- How to choose the **number of dimension to add**.
+
 ## References
 
 - [[supervised_learning]]
