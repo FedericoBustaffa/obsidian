@@ -120,12 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of support_vector_machine"
             }
           }
         ]
@@ -149,11 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from support_vector_machine"
             }
           },
           {
@@ -198,6 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for support_vector_machine"
             }
           }
         ]
@@ -247,10 +250,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "fd1a5ddca45b0c4b",
+  "active": "e992a85b485556d9",
   "lastOpenFiles": [
-    "notes/machine_learning/support_vector_machine.md",
     "notes/machine_learning/support_vector_machine.md~",
+    "notes/machine_learning/support_vector_machine.md",
     "notes/machine_learning/4913",
     "notes/ai_fundamentals/informed_search.md",
     "notes/ai_fundamentals/evolutionary_strategies.md",

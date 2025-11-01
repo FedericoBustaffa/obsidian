@@ -188,6 +188,17 @@ and from Kuhn-Tucker conditions it follows that
   vector.
 - If $x_p$ is not a support vector then $\alpha_p = 0$.
 
+Note now that there is no need to know the optimal $w$ explicitly, because it's
+defined in terms of lagrangian multipliers and so, given an input pattern $x$ we
+can compute
+
+$$g(x) = \sum_{p=1}^N \alpha_p y_p x_p^\top x + b$$
+
+and classify $x$ as the sign of $g(x)$, but we can restrict the sum to the
+support vectors $N_s$
+
+$$g(x) = \sum_{p=1}^{N_s} \alpha_p y_p x_p^\top x + b$$
+
 ## References
 
 - [[supervised_learning]]
