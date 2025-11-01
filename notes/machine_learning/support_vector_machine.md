@@ -209,6 +209,18 @@ $$g(x) = \sum_{p=1}^{N_s} \alpha_p y_p x_p^\top x + b$$
 
 ### Soft Margin
 
+The _hard margin_ conditions can be to restrictive and for some cases the margin
+can be very small or, in case the problem is not linearly separable, the solver
+will not provide a solution.
+
+The **soft margin** SVM relaxes the constraints and let at least one point to be
+inside the margin (with or without classification error).
+
+![SVM Soft Margin|350](/files/soft_margin.png)
+
+So now we want to allow some points into the margin in order to have a larger
+margin.
+
 ## References
 
 - [[supervised_learning]]
