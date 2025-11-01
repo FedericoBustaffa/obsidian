@@ -219,7 +219,36 @@ inside the margin (with or without classification error).
 ![SVM Soft Margin|350](/files/soft_margin.png)
 
 So now we want to allow some points into the margin in order to have a larger
-margin.
+margin. This is done by the introduction of **slack variables**
+
+$$\xi_p \geq 0 \quad \forall p = 1, \dots, N$$
+
+So now also the definition of support vectors changes.
+
+> [!NOTE] Support Vector (Soft Margin)
+> A support vector in the soft margin SVM is a point $x_p$ that satisfies
+> exactly the constraint
+> $$y_p (w^\top x_p + b) = 1 - \xi_p$$
+
+So now the Vapnik theorem does not hold anymore because is defined only for hard
+margin SVMs.
+
+Now the **primal form** of the problem is to find $w$ and $b$ that minimize
+
+$$\Psi (w, \xi) = \frac12 w^\top w + C \sum_{p=1}^N \xi_p$$
+
+under the constraints:
+
+$$y_p (w^\top x_p) \geq 1 - \xi_p \quad \quad \xi_p \geq 0$$
+
+where $C$ is a **regularization hyper-parameter** to be set in order to find a
+trade off between empirical risk minimization and capacity term minimization.
+Let's also note that
+
+- Low $C$ allow many training errors, possibly leading to underfitting.
+- High value of $C$ lead to a hard margin behavior.
+
+Note also that $C = 0$ brings us back to hard margin formulation.
 
 ## References
 
