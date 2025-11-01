@@ -207,6 +207,8 @@ $$g(x) = \sum_{p=1}^{N_s} \alpha_p y_p x_p^\top x + b$$
 > $$VC \leq \min \left( \lceil \frac{D^2}{\rho^2} \rceil, m \right) + 1$$
 > where $m$ is the dimension of the input vector.
 
+### Soft Margin
+
 ## References
 
 - [[supervised_learning]]
