@@ -120,13 +120,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of support_vector_machine"
+              "title": "Outline"
             }
           }
         ]
@@ -150,12 +149,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from support_vector_machine"
+              "title": "Outgoing links"
             }
           },
           {
@@ -200,7 +198,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +207,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for support_vector_machine"
+              "title": "Backlinks"
             }
           }
         ]
@@ -250,8 +247,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "e992a85b485556d9",
+  "active": "fd1a5ddca45b0c4b",
   "lastOpenFiles": [
+    "notes/machine_learning/support_vector_machine.md",
     "notes/machine_learning/support_vector_machine.md~",
     "notes/machine_learning/4913",
     "notes/ai_fundamentals/informed_search.md",
@@ -261,7 +259,6 @@
     "notes/ai_fundamentals/games.md",
     "notes/ai_fundamentals/genetic_algorithms.md",
     "notes/ai_fundamentals/novelty.md",
-    "notes/machine_learning/support_vector_machine.md",
     "notes/machine_learning/statistical_learning_theory.md",
     "conflict-files-obsidian-git.md",
     "files/svm_margin.png",
@@ -286,7 +283,6 @@
     "notes/ai_fundamentals/innovation.md~",
     "notes/ai_fundamentals/innovation.md",
     "files/cppn.png",
-    "TODO.md~",
     "indices/artificial_intelligence_fundamentals.md",
     "notes/machine_learning/supervised_learning.md",
     "notes/machine_learning/backpropagation.md",

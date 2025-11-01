@@ -172,10 +172,15 @@ $$
 
 that we can maximize with a quadratic programming solver in order to find the
 optimal $\alpha$ vector. Once we have it we can substitute the actual $\alpha$
-values in the formulation for optimal $w$ and $b$ previously defined, to find
-the **optimal hyper-plane**:
+values in the formulation for optimal $w$ previously defined, to find the
+**optimal hyper-plane**:
 
-$$\sum_{p=1}^N \alpha_p y_p x_p^\top x + b = 0$$
+$$\sum_{p=1}^N \alpha_p y_p (x_p^\top x) + b = 0$$
+
+and also find the optimal $b$ corresponding to a positive support vector
+$x^{(s)}$:
+
+$$b = 1 - \sum_{p=1}^N \alpha_p y_p x_p^\top x^{(s)}$$
 
 and from Kuhn-Tucker conditions it follows that
 
