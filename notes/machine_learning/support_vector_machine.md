@@ -387,6 +387,8 @@ For the first two and for every choice of their hyper-parameters, a valid kernel
 is produced, while for the third only some values of $\beta_0$ and $\beta_1$
 produce a valid kernel.
 
+## Regression
+
 ## References
 
 - Machine Learning
