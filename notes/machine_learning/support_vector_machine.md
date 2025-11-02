@@ -371,6 +371,22 @@ $$\sum_{p=1}^N \alpha_p y_p = 0$$
 
 with $0 \leq \alpha_p \leq C$ for all $p$.
 
+There are some popular valid kernels that are often used without the need to
+build a kernel from scratch:
+
+- **Polynomial**: given a degree of freedom $d$ is defined as
+  $$k(x, x_p) = (x^\top x_p + 1)^d$$
+- **Radial Basis Function**: also called **gaussian kernel** that, given
+  $\sigma$ is defined as
+  $$k(x, x_p) = e^{-\frac{1}{2 \sigma^2} \| x - x_i \|^2}$$
+  and leads to a infinite dimensional space.
+- **Sigmoidal**: that given $\beta_0 > 0$ and $\beta_1 < 0$ is defined as
+  $$k(x, x_p) = \tanh (\beta_0 w^\top x_i + \beta_1)$$
+
+For the first two and for every choice of their hyper-parameters, a valid kernel
+is produced, while for the third only some values of $\beta_0$ and $\beta_1$
+produce a valid kernel.
+
 ## References
 
 - Machine Learning
