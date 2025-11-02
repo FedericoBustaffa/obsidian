@@ -124,15 +124,15 @@ scales with the size of the input space.
 ---
 
 Typically, when working with SVMs, we are interested in solving the **dual
-form**, that in this case is defined with the **Lagrangian multipliers**.
+form**, that in this case is defined with the **lagrangian equation**.
 
 $$
 J(w, b, \alpha) = \frac{1}{2} \| w \|^2 -
 \sum_{p=1}^N \alpha_p (y_p (w^\top x_p + b) - 1)
 $$
 
-with $\alpha_p \geq 0$ for every $p = 1, \dots, N$ that are the lagrangian
-multipliers.
+with $\alpha_p \geq 0$ for every $p = 1, \dots, N$ that are the **lagrangian
+multipliers**.
 
 This gives us an optimization problem were we have to optimize only one function
 in which the constraints are included and handled by the multipliers, in fact
