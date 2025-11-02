@@ -285,6 +285,34 @@ knowledge on the feature space properties, in particular:
 - How to choose the **class of $\phi$**: polynomial, gaussian, logarithmic etc.
 - How to choose the **number of dimension to add**.
 
+For example if we have
+
+$$x = \begin{bmatrix} x_1 \\ x_2 \end{bmatrix}$$
+
+we can add a third feature by applying a $\phi$ function and obtain
+
+$$\phi(x) = \begin{bmatrix} x_1 \\ x_2 \\ x_1 \cdot x_2 \end{bmatrix}$$
+
+So now the formula in due dual problem for the optimal hyper-plane becomes
+
+$$\sum_{p=1}^N \alpha_p y_p \phi^\top (x_i) \phi(x) = 0$$
+
+The problem here is that for arbitrarly complex $\phi$ and for high dimension
+input space, the computation of $\phi$ and the inner products can become
+unfeasible.
+
+Fortunately, under certain conditions we do not need to evaluate directly
+$\phi(x)$ and we don't even need to know the feature space itself. This is
+possible by computing a function directly in the feature space
+
+$$k : \mathbb{R}^m \times \mathbb{R}^m \to \mathbb{R}$$
+
+called **inner product kernel** function
+
+$$k(x_i, x) = \phi^\top (x_i) \cdot \phi(x)$$
+
+that is symmetric: $k(x_i, x) = k(x, x_i)$
+
 ## References
 
 - [[supervised_learning]]
