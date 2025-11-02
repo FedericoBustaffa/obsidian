@@ -311,9 +311,49 @@ called **inner product kernel** function
 
 $$k(x_i, x) = \phi^\top (x_i) \cdot \phi(x)$$
 
-that is symmetric: $k(x_i, x) = k(x, x_i)$
+that is symmetric: $k(x_i, x) = k(x, x_i)$. The dot product in feature space is
+evaluated without considering the feature mapping and the feature space itself.
+
+> [!EXAMPLE]
+> Given a certain $\phi$ such that
+> $$\phi(x) = \phi((x_1, x_2)^\top) = (x_1^2, \sqrt{2} x_1 x_2, x_2^2)^\top$$
+> Given $x = (x_1, x_2)^\top$ and $y = (y_1, y_2)^\top$ in $\mathbb{R}^2$, we
+> compute
+> $$\phi^\top (x) \phi(y)$$
+> in this way:
+>
+> $$
+> \begin{align*}
+> (x_1^2, \sqrt{2} x_1 x_2, x_2^2) (y_1^2, \sqrt{2} y_1 y_2, y_2^2)^\top &=
+> x_1^2 y_1^2 + 2 x_1 x_2 y_1 y_2 + x_2^2 y_2^2 \\
+> &= (x_1 y_1 + x_2 y_2)^2 \\
+> &= ((x_1, x_2)(y_1, y_2)^\top)^2 \\
+> &= (x^\top y)^2 = k(x, y)
+> \end{align*}
+> $$
+>
+> That is out kernel function.
+
+It is possible to arrange the dot products in the feature space between the
+images of the input training patterns in a $N \times N$ matrix, called **kernel
+matrix**:
+
+$$
+K = \begin{bmatrix}
+k(x_1, x_1) & \cdots & k(x_1, x_N) \\
+\vdots & \ddots & \vdots \\
+k(x_N, x_1) & \cdots & k(x_N, x_N) \\
+\end{bmatrix}
+$$
+
+Which is symmetrical as the inner product kernel is symmetrical. However not
+every function compute the kernel in the input space: this property only holds
+for kernels gaining _positive semidefinite_ kernel matrices.
 
 ## References
 
-- [[supervised_learning]]
-- [[statistical_learning_theory]]
+- Machine Learning
+  - [[supervised_learning]]
+  - [[statistical_learning_theory]]
+- Linear Algebra
+  - [[eigenvalues_eigenvectors]]
