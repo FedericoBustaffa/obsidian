@@ -278,8 +278,6 @@ good enough.
 Usually, mapping the data points to an higher dimensional feature space, can
 make them linearly separable in the new space.
 
-<!-- ![Non Linearly Separable Problem|300](/files/non_linearly_separable_problem.png) -->
-
 ![Higher Dimension Mapping|500](/files/svm_kernel.png)
 
 So now we can find a function $\phi$ the maps features in an higher dimension
