@@ -157,10 +157,8 @@ $$
 from which we obtain that
 
 $$
-\begin{align*}
-w &= \sum_{p=1}^N \alpha_p \cdot y_p \cdot x_p \\
-b &= \sum_{p=1}^N \alpha_p \cdot y_p
-\end{align*}
+w = \sum_{p=1}^N \alpha_p \cdot y_p \cdot x_p \quad
+\sum_{p=1}^N \alpha_p \cdot y_p = 0
 $$
 
 So now we can substitute this two terms in $J$ and obtain
