@@ -350,6 +350,27 @@ Which is symmetrical as the inner product kernel is symmetrical. However not
 every function compute the kernel in the input space: this property only holds
 for kernels gaining _positive semidefinite_ kernel matrices.
 
+So now the **primal form** of the problem is defined as before
+
+$$\Psi (w, \xi) = \frac12 w^\top w + C \sum_{p=1}^N \xi_p$$
+
+but with the constraints defined as
+
+$$y_p (w^\top \phi(x_p)) \geq 1 - \xi_p \quad \quad \xi_p \geq 0$$
+
+and so the **dual form** can be expressed as
+
+$$
+J(\alpha) = \sum_p \alpha_p - \frac{1}{2} \sum_{p} \sum_{t} \alpha_p \alpha_t
+\cdot y_p y_t \cdot k(x_p, x_t)
+$$
+
+satisfying the constraints
+
+$$\sum_{p=1}^N \alpha_p y_p = 0$$
+
+with $0 \leq \alpha_p \leq C$ for all $p$.
+
 ## References
 
 - Machine Learning
