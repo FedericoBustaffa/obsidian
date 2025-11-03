@@ -223,6 +223,10 @@ Initially there is a **perception phase** in which a neighborhood convolution
 is performed. Then a small neural network try to predict the next state and
 learn the update rule on its own.
 
+Another use is **self classification** where each cell predicts the class of
+what the CA is representing (like a hand-written digit); the final class is
+chosen by agreement on the class.
+
 ## References
 
 - Artificial Intelligence Fundamentals
