@@ -176,6 +176,10 @@ $$G(u; \mu, \sigma) = 2 \exp \left( -\frac{(u - \mu)^2}{2 \sigma^2} \right) - 1$
 
 Typically is applied with a convolution on the grid space.
 
+Some extension to Lenia shows interesting behaviors like **solitons**, self
+organizing structures, that also exhibit self replication by splitting in two
+and then repel each other.
+
 ## References
 
 - Artificial Intelligence Fundamentals
