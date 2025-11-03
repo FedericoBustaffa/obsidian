@@ -133,6 +133,15 @@ can be implemented:
   updated based on previously updated cell.
 - **Continuous time/space**.
 
+All this seems useless but in reality have some interesting applications like
+
+- **Pseudo random number generator**
+- **Cryptography**
+- **Image processing**: edge detection, image classification and _segmentation_.
+- **Text or image compression**
+
+Some of this fields can be challenging even for modern neural networks.
+
 ## Game of Life
 
 One of the most popular examples of cellular automata is **game of life**, which
