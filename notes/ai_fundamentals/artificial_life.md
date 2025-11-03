@@ -147,7 +147,30 @@ $2,3/3$ which encode the life/death policy
 With this simple system and rule life-like structures already emerge, for
 example local attractors.
 
+The game of life can be extended by adding some evolutionary approach, for
+example genetic algorithms to perform novelty or evolvability search.
+
+It's also possible to extend the CA by defining global and local rules,
+extending the neighborhood, and move to a continuous space time automata.
+
+### Lenia
+
+One of the most famouse extensions of the game of life CA is **Lenia**, that now
+add multiple states for every cell, and extends the neighborhood with a sort of
+radial function.
+
+The core ingredients for Lenia to work are:
+
+- **Potential distribution**
+- **Growth distribution**
+- **Kernel**
+
 ## References
 
-- [[artificial_intelligence_fundamentals]]
-- [[complex_systems]]
+- Artificial Intelligence Fundamentals
+  - [[artificial_intelligence_fundamentals]]
+  - [[genetic_algorithms]]
+  - [[novelty]]
+
+- Complex Systems
+  - [[complex_systems]]
