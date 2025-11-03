@@ -252,6 +252,7 @@
   },
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
+    "notes/machine_learning/support_vector_machine.md~",
     "indices/artificial_intelligence_fundamentals.md~",
     "TODO.md",
     "notes/ai_fundamentals/artificial_life.md",
@@ -263,7 +264,6 @@
     "files/toroidal_grid.png",
     "files/logistic_map.png",
     "notes/machine_learning/support_vector_machine.md",
-    "notes/machine_learning/support_vector_machine.md~",
     "files/svm_kernel.png",
     "files/non_linearly_separable_problem.png",
     "files/soft_margin.png",
