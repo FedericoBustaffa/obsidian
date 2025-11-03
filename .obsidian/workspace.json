@@ -253,6 +253,8 @@
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
     "notes/ai_fundamentals/artificial_life.md~",
+    "files/logistic_map.png",
+    "notes/ai_fundamentals/4913",
     "notes/machine_learning/support_vector_machine.md",
     "notes/ai_fundamentals/artificial_life.md",
     "notes/machine_learning/support_vector_machine.md~",
@@ -291,12 +293,10 @@
     "files/hold_out.png",
     "notes/ai_fundamentals/novelty.md~",
     "files/map_elites.png",
-    "notes/ai_fundamentals/genetic_algorithms.md~",
     "notes/ai_fundamentals/innovation.md",
     "indices/artificial_intelligence_fundamentals.md",
     "notes/machine_learning/supervised_learning.md",
     "notes/ai_fundamentals/evolutionary_optimization.md",
-    "notes/ai_fundamentals/evolution.md",
-    "files/linear_nn.svg"
+    "notes/ai_fundamentals/evolution.md"
   ]
 }
