@@ -113,8 +113,11 @@ can classify rules in four main categories:
 
 Typically _type 4_ rules are the most interesting.
 
-Cellular automatas can have **universal computation** properties (Turing
-machines) because changes in input alone are sufficient to compute any
+Cellular automatas can have **universal computation** properties (universal
+Turing machines). The computational power is defined by the rule; not every rule
+leads to a universal computation CA.
+
+changes in input alone are sufficient to compute any
 computable function.
 
 Of course the simplest formulation of cellular automata can be to expensive to
