@@ -9,11 +9,11 @@ tags:
 
 ## Artificial Intelligence Fundamentals
 
-- Artificial Life
+- Logical Agents
 
 ## Machine Learning
 
-- Support Vector Machine
+- Support Vector Machine Regression
 
 ## Computational Mathematics
 
