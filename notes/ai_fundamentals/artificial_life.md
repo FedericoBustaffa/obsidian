@@ -115,16 +115,16 @@ Typically _type 4_ rules are the most interesting.
 
 Cellular automatas can have **universal computation** properties (universal
 Turing machines). The computational power is defined by the rule; not every rule
-leads to a universal computation CA.
-
-changes in input alone are sufficient to compute any
-computable function.
+leads to a universal computation CA. One example of rule that leads to
+universal turing machine is the rule $110$ that has been proven to have this
+property, and in fact is a _type 4_ rule. In general, too simple rules cannot
+exhibit enough complexity to compute all functions, while too complex rules only
+lead to chaos.
 
 Of course the simplest formulation of cellular automata can be to expensive to
 implement because, in order to compute an arbitrarily complex function, we need
-a composition of very basic operations.
-
-So many more complex variations of CA can be implemented:
+a composition of very basic operations. So many more complex variations of CA
+can be implemented:
 
 - **Non uniform**: different rules for different cells.
 - **Non local**: different neighbors structure in order to build something that
@@ -132,6 +132,20 @@ So many more complex variations of CA can be implemented:
 - **Asynchronous update**: every cell is updated on the fly, so the next cell is
   updated based on previously updated cell.
 - **Continuous time/space**.
+
+### Game of Life
+
+One of the most popular examples of cellular automata is **game of life**, which
+is defined by a $2$-D grid with two values per cell: $0$ for dead, $1$ for
+alive. Each cell has 8 neighbors (excluding itself) and the update rule is
+$2,3/3$ which encode the life/death policy
+
+- If an alive cell touches 2 or 3 alive cells then it stays alive, otherwise it
+  dies (solitude or overpopulation).
+- If a dead cell touches 3 alive cells it comes back to life.
+
+With this simple system and rule life-like structures already emerge, for
+example local attractors.
 
 ## References
 
