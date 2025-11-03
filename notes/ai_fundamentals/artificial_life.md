@@ -56,6 +56,13 @@ multidimensional **grid** and the time is also discrete. A cell contains only
 one discrete variable, that is updated by some **rule** that dictates the
 dynamics based on neighbors' state.
 
+A technical aspect to take into account is boundary management: cells on the
+grid boundary don't have the same number of neighbors as central cells. So often
+a _toroidal_ structure is used for the grid that wraps cells at boundary
+together, creating a circular structure.
+
+![Toroidal Grid|300](/files/toroidal_grid.png)
+
 ## References
 
 - [[artificial_intelligence_fundamentals]]
