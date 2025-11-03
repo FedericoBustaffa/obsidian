@@ -90,6 +90,18 @@ Rules should have a initial state that is mapped to $0$ and have a reflection
 symmetry property that ensures that we have the same behavior regardless
 direction.
 
+If the rule is too basic we will obtain only replication and reproduction of the
+initial pattern
+
+![Simple Cellular Automata Rule|400](/files/simple_ca.png)
+
+But for some more complex rule we can gain complexity and observe structures
+like **fractals** and self similarity at different scales
+
+![Complex Cellular Automata Rule|400](/files/complex_ca.png)
+
+We can even start from an initial noisy state and observe how
+
 ## References
 
 - [[artificial_intelligence_fundamentals]]
