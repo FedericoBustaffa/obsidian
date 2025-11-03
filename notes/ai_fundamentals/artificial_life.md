@@ -63,6 +63,33 @@ together, creating a circular structure.
 
 ![Toroidal Grid|300](/files/toroidal_grid.png)
 
+The simplest grid we can think about is a $1$-dimensional grid that, is
+basically a circular array. Each cell can have $0$ or $1$ value and we define an
+update rule of a certain cell, based on its value and the values of the previous
+and next cells.
+
+$$s_{t+1}^j = f \left( s_t^{j-1}, s_t^t, s_t^{j+1} \right)$$
+
+An example of rule can be
+
+$$
+\frac{1 1 1}{0} \quad
+\frac{1 1 0}{1} \quad
+\frac{1 0 1}{0} \quad
+\frac{1 0 0}{1} \quad
+\frac{0 1 1}{1} \quad
+\frac{0 1 0}{0} \quad
+\frac{0 0 1}{1} \quad
+\frac{0 0 0}{0}
+$$
+
+that can be expressed as rule $01011010$ (denominators) or as by its decimal
+form: rule $90$.
+
+Rules should have a initial state that is mapped to $0$ and have a reflection
+symmetry property that ensures that we have the same behavior regardless
+direction.
+
 ## References
 
 - [[artificial_intelligence_fundamentals]]
