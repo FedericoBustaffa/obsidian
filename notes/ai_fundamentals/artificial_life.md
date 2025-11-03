@@ -187,7 +187,16 @@ plants-like behaviors. In this case cells have many states and define some
 environment component like earth, air, sun and so on.
 
 Typically there is at least a **seed agent** that needs to acquire energy
-through roots and leaves.
+through roots and leaves. The agent can reproduce through seed spawning and can
+modify the environment itself.
+
+### Particle Swarm
+
+In this CA a **particle** is like a pixel with position, velocity and color.
+Each particle can interact with others by a set of rules and attraction and
+repulsion forces that can differ from different color particles.
+
+### Neural Cellular Automata
 
 ## References
 
