@@ -20,6 +20,7 @@ algorithms.
 - [[constraint_satisfaction]]
 - [[games]]
 - [[evolutionary_optimization]]
+- [[artificial_life]]
 
 ## References
 
