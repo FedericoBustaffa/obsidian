@@ -157,13 +157,18 @@ extending the neighborhood, and move to a continuous space time automata.
 
 One of the most famouse extensions of the game of life CA is **Lenia**, that now
 add multiple states for every cell, and extends the neighborhood with a sort of
-radial function.
+radial function, all with continuous time, space and state.
 
-The core ingredients for Lenia to work are:
+The first core ingredient for continuous Lenia to work is the **potential
+distribution**, a radial function $K$ (called kernel) that defines how much a
+cell is influenced by its neighbors. This does not update the cell yet but gives
+a set of weights.
 
-- **Potential distribution**
-- **Growth distribution**
-- **Kernel**
+The other important thing is the **growth distribution**, that instead describes
+how the cell change based on its _potential_ previously computed. Typically this
+is a sort of Gaussian distribution that maps the potential to a continuos space
+between $0$ and $1$. The Gaussian leads to a behavior that penalizes too tiny or
+too large potentials, while instead let _ideal_ potential cells grow.
 
 ## References
 
