@@ -164,11 +164,17 @@ distribution**, a radial function $K$ (called kernel) that defines how much a
 cell is influenced by its neighbors. This does not update the cell yet but gives
 a set of weights.
 
+$$K(r) = \exp{\left(\alpha - \frac{\alpha}{4 r (1 - r)} \right)}$$
+
 The other important thing is the **growth distribution**, that instead describes
 how the cell change based on its _potential_ previously computed. Typically this
 is a sort of Gaussian distribution that maps the potential to a continuos space
-between $0$ and $1$. The Gaussian leads to a behavior that penalizes too tiny or
+between $-1$ and $1$. The Gaussian leads to a behavior that penalizes too tiny or
 too large potentials, while instead let _ideal_ potential cells grow.
+
+$$G(u; \mu, \sigma) = 2 \exp \left( -\frac{(u - \mu)^2}{2 \sigma^2} \right) - 1$$
+
+Typically is applied with a convolution on the grid space.
 
 ## References
 
