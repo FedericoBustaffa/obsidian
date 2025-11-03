@@ -211,8 +211,13 @@ An interesting evolution of cellular automata came with neural networks, used to
 learn the update rule. These **neural cellular automata** are used to study how an
 organism gets its shape.
 
-This is basically the inverse of what the game of life or other CA do. Typically
-they start from
+This is basically the inverse of what the game of life or other CA do: typically
+a standard CA start from a random initial state and updates the grid according
+to a fixed rule.
+
+For an NCA instead we want to reach a goal state of the grid, for example an
+image; in order to do that a neural network learn the update rule to evolve the
+CA in that state.
 
 Initially there is a **perception phase** in which a neighborhood convolution
 is performed. Then a small neural network try to predict the next state and
