@@ -133,7 +133,7 @@ can be implemented:
   updated based on previously updated cell.
 - **Continuous time/space**.
 
-### Game of Life
+## Game of Life
 
 One of the most popular examples of cellular automata is **game of life**, which
 is defined by a $2$-D grid with two values per cell: $0$ for dead, $1$ for
@@ -179,6 +179,11 @@ Typically is applied with a convolution on the grid space.
 Some extension to Lenia shows interesting behaviors like **solitons**, self
 organizing structures, that also exhibit self replication by splitting in two
 and then repel each other.
+
+### Biomaker
+
+Another popular type of cellular automata is **biomaker** that simulates
+vegetable-like patterns
 
 ## References
 
