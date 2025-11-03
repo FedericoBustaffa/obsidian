@@ -183,7 +183,11 @@ and then repel each other.
 ### Biomaker
 
 Another popular type of cellular automata is **biomaker** that simulates
-vegetable-like patterns
+plants-like behaviors. In this case cells have many states and define some
+environment component like earth, air, sun and so on.
+
+Typically there is at least a **seed agent** that needs to acquire energy
+through roots and leaves.
 
 ## References
 
