@@ -207,6 +207,17 @@ repulsion forces that can differ from different color particles.
 
 ### Neural Cellular Automata
 
+An interesting evolution of cellular automata came with neural networks, used to
+learn the update rule. These **neural cellular automata** are used to study how an
+organism gets its shape.
+
+This is basically the inverse of what the game of life or other CA do. Typically
+they start from
+
+Initially there is a **perception phase** in which a neighborhood convolution
+is performed. Then a small neural network try to predict the next state and
+learn the update rule on its own.
+
 ## References
 
 - Artificial Intelligence Fundamentals
