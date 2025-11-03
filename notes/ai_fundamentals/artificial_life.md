@@ -34,6 +34,28 @@ For $r = 4.0$ we have that the system oscillates in basically every possible
 state between $0.0$ and $1.0$, leading to a chaotic behavior that is not more
 predictable.
 
+This does not mean that the system became random: the system is still completely
+deterministic. However, its dependecy from the initial state is so strong that a
+tiny error in the evaluation of $x_t$ can completely change what we get as
+$x_{t+1}$.
+
+In theory, if we have infinite precision and we now the initial conditions, it
+would be possible to perfectly predict what $x_{t+1}$ will be. However with
+finite precision, after few iterations, the result is completely different from
+the real one. This is why we are talking about chaos and apparent randomness,
+even in a deterministic system.
+
+## Cellular Automata
+
+A simple mathematical model of _self-replication_ is called **cellular
+automata**, that is a system able to produce itself as output. The idea is to
+use the system description to replicate it, resembling DNA.
+
+Typically cellular automata are defined in discrete space like a
+multidimensional **grid** and the time is also discrete. A cell contains only
+one discrete variable, that is updated by some **rule** that dictates the
+dynamics based on neighbors' state.
+
 ## References
 
 - [[artificial_intelligence_fundamentals]]
