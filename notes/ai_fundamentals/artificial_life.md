@@ -100,7 +100,35 @@ like **fractals** and self similarity at different scales
 
 ![Complex Cellular Automata Rule|400](/files/complex_ca.png)
 
-We can even start from an initial noisy state and observe how
+We can even start from an initial noisy state and observe how the system evolve
+into an ordered system with self organization properties.
+
+Trying different rules can lead to very different behaviors and systems, so we
+can classify rules in four main categories:
+
+- **Type 1**: evolution to static state.
+- **Type 2**: evolution to periodic structure.
+- **Type 3**: evolution to chaotic patterns that lead to pseudo-randomness.
+- **Type 4**: evolution to complex patterns that are on the edge of chaos.
+
+Typically _type 4_ rules are the most interesting.
+
+Cellular automatas can have **universal computation** properties (Turing
+machines) because changes in input alone are sufficient to compute any
+computable function.
+
+Of course the simplest formulation of cellular automata can be to expensive to
+implement because, in order to compute an arbitrarily complex function, we need
+a composition of very basic operations.
+
+So many more complex variations of CA can be implemented:
+
+- **Non uniform**: different rules for different cells.
+- **Non local**: different neighbors structure in order to build something that
+  is like an automata network.
+- **Asynchronous update**: every cell is updated on the fly, so the next cell is
+  updated based on previously updated cell.
+- **Continuous time/space**.
 
 ## References
 
