@@ -233,9 +233,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "489c34045c1a4f77",
+  "active": "4513753b4f6f78cb",
   "lastOpenFiles": [
     "notes/machine_learning/bias_variance.md~",
+    "notes/machine_learning/4913",
     "TODO.md",
     "notes/machine_learning/bias_variance.md",
     "notes/ai_fundamentals/artificial_life.md",
@@ -254,7 +255,6 @@
     "files/svm_kernel.png",
     "files/non_linearly_separable_problem.png",
     "files/soft_margin.png",
-    "notes/machine_learning/4913",
     "files/svm_margin.png",
     "notes/machine_learning/backpropagation.md",
     "notes/machine_learning/statistical_learning_theory.md",

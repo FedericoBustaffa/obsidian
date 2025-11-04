@@ -23,7 +23,21 @@ different datasets.
 
 Depending on the training error, the test error and the difference between
 models trained on different datasets it is possible (at least in theory) to
-measure how much our model is sensible to data.
+measure how much our model is sensible to data. This also let us understand if
+the model error is due to overfitting, underfitting or noise in the data.
+
+In order to understand what is the cause it's necessary to compute the so called
+**bias-variance decomposition** of expected error at a point $x$:
+
+- **Bias**: quantify the discrepancy between the true function and $h$
+- **Variance**: quantify the variability of the response of model $h$ for
+  different realizations of the training data.
+- **Noise**: irriducible error due to random factors.
+
+In general we have an high bias when our model is too simple and cannot
+approximate accurately enough the real function. We have instead an high
+variance if the model trained on different datasets always find much different
+$h$; and so $h_1(x)$ will be much different from $h_2(x)$.
 
 ## References
 
