@@ -14,6 +14,7 @@ tags:
 ## Machine Learning
 
 - Support Vector Machine Regression
+- Bias Variance
 
 ## Computational Mathematics
 

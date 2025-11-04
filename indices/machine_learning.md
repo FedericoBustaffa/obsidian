@@ -17,8 +17,8 @@ considering best practices to train, validate and test models.
 
 - [[statistical_learning_theory]]
 - [[supervised_learning]]
-- [[unsupervised_learning]]
 - [[validation]]
+- [[bias_variance]]
 
 ## References
 
