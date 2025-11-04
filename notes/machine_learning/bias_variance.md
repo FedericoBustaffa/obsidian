@@ -39,9 +39,27 @@ approximate accurately enough the real function. We have instead an high
 variance if the model trained on different datasets always find much different
 $h$; and so $h_1(x)$ will be much different from $h_2(x)$.
 
----
+## Regression
 
-Let's for example take a linear model involved in a regression task.
+Let's for example take a linear model involved in a regression task and suppose
+to have a training set composed by examples $\langle x, y \rangle$ where the
+true function is
+
+$$y = f(x) + \epsilon$$
+
+where $\epsilon$ is a Gaussian noise with zero mean and standard deviation
+$\sigma$ and the error is the classic MSE.
+
+Let's now suppose that every training set is built from the same probability
+distribution $P$ and so we want to train the same model on _all_ the possible
+realizations of the training set. Theorically, this can give us the **expected
+prediction error** on a given point $x$.
+
+$$E_P [(y - h(x))^2]$$
+
+that is basically the mean of all the errors produced by all the different
+trained models. Now we can decompose this expectation in _bias_, _variance_ and
+_noise_ in order to measure them.
 
 ## References
 
