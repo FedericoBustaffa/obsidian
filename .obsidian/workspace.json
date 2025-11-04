@@ -120,13 +120,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/ensemble.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ensemble"
+              "title": "Outline"
             }
           }
         ]
@@ -150,12 +149,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/ensemble.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ensemble"
+              "title": "Outgoing links"
             }
           },
           {
@@ -200,7 +198,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/ensemble.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +207,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ensemble"
+              "title": "Backlinks"
             }
           }
         ]
@@ -250,11 +247,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "489c34045c1a4f77",
+  "active": "a6c463629d54957c",
   "lastOpenFiles": [
+    "notes/machine_learning/ensemble.md",
     "notes/machine_learning/ensemble.md~",
     "notes/machine_learning/bias_variance.md",
-    "notes/machine_learning/ensemble.md",
     "notes/machine_learning/bias_variance.md~",
     "TODO.md",
     "notes/machine_learning/4913",
