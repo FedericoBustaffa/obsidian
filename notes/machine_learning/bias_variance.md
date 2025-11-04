@@ -39,6 +39,10 @@ approximate accurately enough the real function. We have instead an high
 variance if the model trained on different datasets always find much different
 $h$; and so $h_1(x)$ will be much different from $h_2(x)$.
 
+---
+
+Let's for example take a linear model involved in a regression task.
+
 ## References
 
 - [[machine_learning]]
