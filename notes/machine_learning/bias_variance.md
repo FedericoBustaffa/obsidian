@@ -61,6 +61,70 @@ that is basically the mean of all the errors produced by all the different
 trained models. Now we can decompose this expectation in _bias_, _variance_ and
 _noise_ in order to measure them.
 
+In order to do that let's recall that, given a random variable $Z$, with
+possible values $z_i$ for $i = 1, \dots, l$ and a probability distribution
+$P(Z)$
+
+- The **expected value** or **mean** of $Z$ is
+  $$\overline{Z} = E_P [Z] = \sum{i=1}^l z_i \cdot P(z_i)$$
+- The **variance** of $Z$ is
+  $$\text{Var[Z]} = E[(Z - \overline{Z})^2] = E[Z^2] - \overline{Z}^2$$
+
+So now is possible to decompose the expected value formula like follows
+
+$$
+\begin{align*}
+E_P [(y - h(x))^2] &= E_P [h(x)^2 - 2 y h(x) + y^2] \\
+    &= E_P [h(x)^2] + E_P [y^2] - 2 E_P [y] E_P [h(x)]
+\end{align*}
+$$
+
+Let now $\overline{h} (x)$ be the mean prediction of all the hypothesis on the
+$x$ value. We also have that, for definition of variance that
+
+$$E_P [h(x)^2] = E_P [(h(x) - \overline{h} (x))^2] + \overline{h}(x)^2$$
+
+For $E_P[y]$ we can notice that
+
+$$E_P[y] = E_P[f(x) + \epsilon] = f(x)$$
+
+for the second term we can apply again the definition of variance:
+
+$$E_P [y^2] = E_P[(y - f(x))^2] + f(x)^2$$
+
+We can now put everything together
+
+$$
+\begin{align*}
+E_P [(y - h(x))^2] &=& E_P [(h(x) - \overline{h} (x))^2] + \overline{h}(x)^2 & \\
+    & & - 2 f(x) \overline{h} (x) & \\
+    & & + f(x)^2 + E_P [(y - f(x))^2] & \\
+    & = & E_P [h(x) - \overline{h}(x)^2] + & \text{ (variance)} \\
+    & & (\overline{h}(x) - f(x))^2 + & \text{ (bias)}^2 \\
+    & & E_P [(y - f(x))^2] & \text{ (noise)}^2 \\
+\end{align*}
+$$
+
+and so is possible to rewrite the formulation of the expetcted error on a given
+data point as
+
+$$
+\begin{align*}
+E_P [(y - h(x))^2] &= \text{Var} [h(x)] + \text{Bias} [h(x)]^2 + E_P [\epsilon^2] \\
+    &= \text{Var} [h(x)] + \text{Bias} [h(x)]^2 + \sigma^2
+\end{align*}
+$$
+
+So now it's possible to see which of the three is a major component of error on
+a given $x$ point.
+
+---
+
+In practice is not possible to have all the possible realizations of a given
+distribution, but is possible to train the model on a finite (yet statistically
+relevant) number different datasets, in order to have an empirical expected
+error.
+
 ## References
 
 - [[machine_learning]]
