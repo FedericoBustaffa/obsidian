@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/ai_fundamentals/logical_agents.md",
+                "file": "notes/machine_learning/convolutional_neural_network.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "logical_agents"
+              "title": "convolutional_neural_network"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/logical_agents.md",
+                "file": "notes/machine_learning/convolutional_neural_network.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of logical_agents"
+              "title": "Outline of convolutional_neural_network"
             }
           }
         ]
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/logical_agents.md",
+                "file": "notes/machine_learning/convolutional_neural_network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from logical_agents"
+              "title": "Outgoing links from convolutional_neural_network"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/logical_agents.md",
+                "file": "notes/machine_learning/convolutional_neural_network.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for logical_agents"
+              "title": "Backlinks for convolutional_neural_network"
             }
           }
         ]
@@ -252,6 +252,9 @@
   },
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/logical_agents.md",
+    "notes/machine_learning/convolutional_neural_network.md~",
+    "notes/machine_learning/convolutional_neural_network.md",
     "files/truth_table_model_checking.png",
     "files/resolution_inference.png",
     "notes/ai_fundamentals/logic_agents.md",
@@ -260,7 +263,6 @@
     "files/wumpus_entailment2.png",
     "files/wumpus_entailment1.png",
     "indices/artificial_intelligence_fundamentals.md",
-    "notes/ai_fundamentals/logical_agents.md",
     "notes/ai_fundamentals/artificial_life.md",
     "files/entailment.png",
     "notes/ai_fundamentals/logic_agents.md~",
@@ -276,7 +278,6 @@
     "files/logistic_map.png",
     "notes/machine_learning/support_vector_machine.md",
     "files/svm_kernel.png",
-    "files/non_linearly_separable_problem.png",
     "notes/machine_learning/4913",
     "notes/machine_learning/backpropagation.md",
     "notes/machine_learning/statistical_learning_theory.md",
@@ -295,9 +296,7 @@
     "notes/ai_fundamentals/genetic_algorithms.md",
     "notes/ai_fundamentals/evolutionary_strategies.md",
     "notes/machine_learning/perceptron.md",
-    "notes/machine_learning/validation.md~",
     "notes/machine_learning/gradient_descent.md",
-    "notes/linear_algebra/vector_space_basis.md",
     "maps/validation_pipeline.canvas"
   ]
 }
