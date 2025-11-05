@@ -228,6 +228,7 @@
   },
   "active": "d9882834bbd5cba1",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/logical_agents.md~",
     "notes/ai_fundamentals/logical_agents.md",
     "TODO.md",
     "notes/ai_fundamentals/logic_agents.md",
@@ -273,7 +274,6 @@
     "notes/ai_fundamentals/evolutionary_strategies.md",
     "notes/machine_learning/perceptron.md",
     "notes/machine_learning/gradient_descent.md",
-    "notes/linear_algebra/vector_space_basis.md",
     "maps/validation_pipeline.canvas"
   ]
 }
