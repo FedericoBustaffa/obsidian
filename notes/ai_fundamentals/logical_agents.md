@@ -10,7 +10,7 @@ tags:
 
 A popular type of agents are **logical agents**, also called **knowledge-based**
 agents, which, as the name suggest, maintain a _knowledge base_ ($KB$) on the
-environment under the form of **logic sentences**.
+environment in the form of **logic sentences**.
 
 Typically they start with a general knowledge of the rules of the environment,
 but through perceptions they can add new knowledge and, most important, they can
@@ -23,7 +23,7 @@ representation of the world which says what it knows, not what it does.
 
 To understand how logical agents are able to infer new knowledge is necessary
 to define what a **possible model** (**world**) is. A possible model is a
-mathematical abstraction with a fixed trruth value for each relevant sentence.
+mathematical abstraction with a fixed truth value for each relevant sentence.
 
 If a sentence $\alpha$ is true in a model $m$ we say that $m$ **satisfies**
 $\alpha$ and $M(\alpha)$ is the set of all models of $\alpha$.
@@ -42,10 +42,10 @@ it rules out more possible models.
 
 ![Entailment](/files/entailment.png)
 
-This let us avoid considering all the possible models by simply enumerating
-them. In other words, the entailment let the agent use its knowledge in order to
-exclude some models and so, restricting the possible choices to the ones that
-can be true.
+Entailment itself is defined semantically over all possible models, but in
+practice agents use inference rules to derive conclusions without enumerating
+models explicitly. In this way, inference allows the agent to restrict the
+possible worlds to those consistent with its knowledge.
 
 ## Inference
 
@@ -60,7 +60,7 @@ definitions
   is unsatisfiable if it is never true.
 
 If a sentence $\alpha$ is _derived_ from $KB$ by the the inference algorithm
-$i$, than we can say that $KB$ _infers_ $\alpha$:
+$i$, then we can say that $KB$ _infers_ $\alpha$:
 
 $$KB \vdash_i \alpha$$
 
@@ -69,6 +69,10 @@ An inference algorithm can be
 - **Sound**: $KB \vdash_i \alpha \implies KB \models \alpha$
 - **Complete**: $KB \models \alpha \implies KB \vdash_i \alpha$
 
+In simple words, the soundness says that everything that can be derived
+syntactically is also semantically true. While the completeness says that
+everything that is semantically true can also be derived syntactically.
+
 ### Model Checking
 
 The simplest way to verify entailment is via **model checking**, which consists
@@ -76,7 +80,7 @@ in enumerating all the possible models and check whether $\alpha$ is true in all
 models in which $KB$ is true.
 
 We enumerate all the possible models where $KB$ is true, and all the possible
-model where $\alpha$ is true, considering also what we already know about the
+models where $\alpha$ is true, considering also what we already know about the
 environment.
 
 ![Entailment on Wumpus World|400](/files/wumpus_entailment1.png)
@@ -87,7 +91,7 @@ true. In other words the intersection between the two represents all the
 possible realizations of sentences in the actual environment (based on the
 $KB$); what is outside the intersection cannot be true with respect to the $KB$.
 
-Let's notice that the $KB$ models where $\alpha$ is true must be a susbet of
+Let's notice that the $KB$ models where $\alpha$ is true must be a subset of
 $\alpha$ in order to conclude that the sentence is true also for $KB$.
 
 ![Entailment on Wumpus World|400](/files/wumpus_entailment2.png)
@@ -152,7 +156,7 @@ Resolution is sound and complete for propositional logic.
 
 ![Resolution Inference|700](/files/resolution_inference.png)
 
-### Horn Form Resolution Inference
+### Horn Clause Inference
 
 A particular CNF is called **Horn form** and is defined, as a classical CNF, as
 a conjuctions of clauses, with at most one positive symbol in each clause:
@@ -162,6 +166,26 @@ $$(A \lor \lnot B) \land (\lnot A \lor \lnot C \lor D)$$
 Unfortunately is not always possible to convert in Horn form. The algorithm
 proceeds by creating a chain of implications by using _Modus Ponens_. This
 algorithms has linear complexity in time with respect to the size of the $KB$.
+
+There are two possible ways to run this algorithm: **forward chaining** and
+**backward chaining**:
+
+- In the _forward chaining_ we start from the fact, like from literals and their
+  truth values. Going on this process let us inference other facts; the
+  algorithm continues until it generates the goal sentence $\alpha$. If it did
+  not generate $\alpha$ yet and there are no more steps we can do, then we can
+  conclude that $KB \not\models \alpha$.
+- In the _backward chaining_ we start from the goal sentence and try to prove
+  only what it needs to our sentence to be true.
+
+The first is like a breath-first search: we start from facts but we don't know
+what is necessary to be proven in order to inference $\alpha$. At some point, if
+that's the case, we will conclude that $KB \models \alpha$.
+
+The second is like a depth-first search: we start from the sentence and so we
+now what it needs to be proven. So we can ignore other branches and continue
+until we encounter facts that make our sentence true (or until we reach a
+contraddiction).
 
 ## References
 
