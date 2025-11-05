@@ -71,8 +71,13 @@ $\alpha$ in order to conclude that the sentence is true also for KB.
 
 If the models of KB are not contained in the models of $\alpha$, the entailment
 does not hold. This is like saying that there are possible models where the
-sentence is true but, based on the KB and the perceptions there are no
+sentence is true but, based on the KB and the perceptions, there are no
 guarantees that they will realize concretely.
+
+## Inference
+
+Now we want an **inference algorithm** capable of use entailment and classical
+logic laws, in order to generate new knowledge.
 
 ## References
 
