@@ -160,7 +160,8 @@ a conjuctions of clauses, with at most one positive symbol in each clause:
 $$(A \lor \lnot B) \land (\lnot A \lor \lnot C \lor D)$$
 
 Unfortunately is not always possible to convert in Horn form. The algorithm
-proceeds by creating a chain of implications by using _Modus Ponens_.
+proceeds by creating a chain of implications by using _Modus Ponens_. This
+algorithms has linear complexity in time with respect to the size of the $KB$.
 
 ## References
 
