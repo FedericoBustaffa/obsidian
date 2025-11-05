@@ -252,6 +252,7 @@
   },
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/logic_agents.md~",
     "notes/ai_fundamentals/artificial_life.md",
     "notes/machine_learning/ensemble.md",
     "notes/machine_learning/bias_variance.md",
@@ -297,7 +298,6 @@
     "notes/linear_algebra/vector_space_basis.md",
     "maps/validation_pipeline.canvas",
     "maps",
-    "notes/ai_fundamentals/innovation.md",
-    "notes/machine_learning/supervised_learning.md"
+    "notes/ai_fundamentals/innovation.md"
   ]
 }
