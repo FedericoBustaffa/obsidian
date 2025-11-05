@@ -140,7 +140,7 @@ facts, the most important rules are
   \lor l_{i-1} \lor l_{i+1} \lor \cdots \lor l_k \lor m_1 \lor \cdots \lor
   m_{j-1} \lor m_{j+1} \cdots m_n}
   $$
-  where $l_i$ and $m$ are complementary literals ($A \land \lnot A$).
+  where $l_i$ and $m$ are complementary literals (e.g. $A$ and $\lnot A$).
 
 So we can now apply inference rules in order to be able to say if $KB \models
 \alpha$ by showing that $KB \land \lnot \alpha$ is unsatisfiable.
@@ -149,8 +149,8 @@ So we can now apply inference rules in order to be able to say if $KB \models
 2. For all pairs of clauses
    - Apply resolution clauses to generate new clauses
    - If the _empty clause_ is generated then $KB \models \alpha$ since we have
-     generated a contraddiction.
-3. If no new clauses are generated we can conclude that $KB \not\models \alpha$.
+     generated a contradiction.
+1. If no new clauses are generated we can conclude that $KB \not\models \alpha$.
 
 Resolution is sound and complete for propositional logic.
 
