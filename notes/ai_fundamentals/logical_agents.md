@@ -121,6 +121,23 @@ logic statement in **conjunctive normal form** (**CNF**). In the CNF a
 conjuctions of clauses. Let's point out that is always possible to convert to
 CNF.
 
+Once converted in CNF is possible to use inference rules to inference some
+facts, the most important rules are
+
+- **Unit resolution**: that is used to delete a couple of complementary literals
+  $$
+  \frac{l_1 \lor \cdots \lor l_k, \; m}{l_1 \lor \cdots \lor l_{i-1} \lor
+  l_{i+1} \lor l_k}
+  $$
+  where $l_i$ and $m$ are complementary literals ($A \land \lnot A$).
+- **Full resolution**: that is used to delete multiple complementary literals
+  $$
+  \frac{l_1 \lor \cdots \lor l_k, \; m_1 \lor \cdots \lor m_n} {l_1 \lor \cdots
+  \lor l_{i-1} \lor l_{i+1} \lor \cdots \lor l_k \lor m_1 \lor \cdots \lor
+  m_{j-1} \lor m_{j+1} \cdots m_n}
+  $$
+  where $l_i$ and $m$ are complementary literals ($A \land \lnot A$).
+
 ## References
 
 - [[artificial_intelligence_fundamentals]]
