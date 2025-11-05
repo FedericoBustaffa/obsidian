@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e992a85b485556d9",
+            "id": "d9882834bbd5cba1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -29,30 +29,6 @@
               },
               "icon": "lucide-file",
               "title": "logical_agents"
-            }
-          },
-          {
-            "id": "489c34045c1a4f77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TODO.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "TODO"
             }
           }
         ]
@@ -142,7 +118,7 @@
       {
         "id": "1728b1c62e4f1f4f",
         "type": "tabs",
-        "dimension": 40.16319129646419,
+        "dimension": 43.29411764705882,
         "children": [
           {
             "id": "6a6787f071b2b91c",
@@ -192,7 +168,7 @@
       {
         "id": "e6f8bb84f6edd43b",
         "type": "tabs",
-        "dimension": 35.63009972801451,
+        "dimension": 33.1764705882353,
         "children": [
           {
             "id": "4513753b4f6f78cb",
@@ -216,12 +192,12 @@
         ]
       },
       {
-        "id": "6fd30e3eead3fb2f",
+        "id": "faccaf291a6396fa",
         "type": "tabs",
-        "dimension": 24.206708975521305,
+        "dimension": 23.529411764705877,
         "children": [
           {
-            "id": "fd1a5ddca45b0c4b",
+            "id": "a6c463629d54957c",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -250,24 +226,28 @@
       "bases:Create new base": false
     }
   },
-  "active": "e992a85b485556d9",
+  "active": "d9882834bbd5cba1",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/logical_agents.md",
+    "TODO.md",
     "notes/ai_fundamentals/logic_agents.md",
-    "notes/ai_fundamentals/logical_agents.md~",
-    "notes/ai_fundamentals/4913",
     "files/wumpus_entailment2.png",
     "files/wumpus_entailment1.png",
-    "indices/artificial_intelligence_fundamentals.md",
-    "notes/ai_fundamentals/logical_agents.md",
-    "notes/ai_fundamentals/artificial_life.md",
     "files/entailment.png",
     "notes/ai_fundamentals/logic_agents.md~",
     "notes/machine_learning/ensemble.md",
+    "notes/machine_learning/ensemble.md~",
     "notes/machine_learning/bias_variance.md",
+    "notes/machine_learning/bias_variance.md~",
+    "notes/machine_learning/4913",
+    "notes/ai_fundamentals/artificial_life.md",
+    "indices/machine_learning.md~",
+    "notes/bias_variance.md",
     "notes/machine_learning/support_vector_machine.md~",
     "indices/artificial_intelligence_fundamentals.md~",
-    "TODO.md",
+    "indices/artificial_intelligence_fundamentals.md",
     "notes/ai_fundamentals/artificial_life.md~",
+    "notes/ai_fundamentals/4913",
     "files/simple_ca.png",
     "files/complex_ca.png",
     "files/toroidal_grid.png",
@@ -276,13 +256,11 @@
     "files/svm_kernel.png",
     "files/non_linearly_separable_problem.png",
     "files/soft_margin.png",
-    "notes/machine_learning/4913",
     "notes/machine_learning/backpropagation.md",
     "notes/machine_learning/statistical_learning_theory.md",
     "notes/computational_mathematics/least_squares.md",
     "indices/machine_learning.md",
     "notes/machine_learning/supervised_learning.md~",
-    "notes/machine_learning/statistical_learning_theory.md~",
     "notes/complex_systems/stochastic_simulations.md",
     "notes/complex stoca.md",
     "notes/complex_systems/chemistry_metaphor.md",
@@ -294,7 +272,6 @@
     "notes/ai_fundamentals/genetic_algorithms.md",
     "notes/ai_fundamentals/evolutionary_strategies.md",
     "notes/machine_learning/perceptron.md",
-    "notes/machine_learning/validation.md~",
     "notes/machine_learning/gradient_descent.md",
     "notes/linear_algebra/vector_space_basis.md",
     "maps/validation_pipeline.canvas"
