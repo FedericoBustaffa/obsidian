@@ -77,7 +77,26 @@ guarantees that they will realize concretely.
 ## Inference
 
 Now we want an **inference algorithm** capable of use entailment and classical
-logic laws, in order to generate new knowledge.
+logic laws, in order to generate new knowledge automatically. But first some
+definitions
+
+- **Equivalence**: $\alpha \equiv \beta$ if and only if $\alpha \models \beta$
+  and $\beta \models \alpha$.
+- **Validity**: a sentence is valid if it is true in all models.
+- **Satisfiability**: a sentence is **satisfiable** if is true in some model. It
+  is unsatisfiable if it is never true.
+
+If a sentence $\alpha$ is _derived_ from KB by the the inference algorithm $i$,
+than we can say that KB _infers_ $\alpha$:
+
+$$\text{KB} \vdash_i \alpha$$
+
+An inference algorithm can be
+
+- **Sound**: $\text{KB} \vdash_i \alpha \implies \text{KB} \models \alpha$
+- **Complete**: $\text{KB} \models \alpha \implies \text{KB} \vdash_i \alpha$
+
+### Truth Table
 
 ## References
 
