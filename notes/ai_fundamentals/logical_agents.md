@@ -112,6 +112,15 @@ time and space.
 
 ### Inference Rules
 
+Another way to proving a fact is via **inference rules**, that can be applied
+starting from the $KB$ to derive the goal.
+
+Before seeing the algorithm a useful thing to do is convert any propositional
+logic statement in **conjunctive normal form** (**CNF**). In the CNF a
+**clause** is a disjunction of literals and the CNF itself is formed by
+conjuctions of clauses. Let's point out that is always possible to convert to
+CNF.
+
 ## References
 
 - [[artificial_intelligence_fundamentals]]
