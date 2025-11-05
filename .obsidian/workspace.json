@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/ai_fundamentals/logic_agents.md",
+                "file": "notes/ai_fundamentals/logical_agents.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "logic_agents"
+              "title": "logical_agents"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/logic_agents.md",
+                "file": "notes/ai_fundamentals/logical_agents.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of logic_agents"
+              "title": "Outline of logical_agents"
             }
           }
         ]
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/logic_agents.md",
+                "file": "notes/ai_fundamentals/logical_agents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from logic_agents"
+              "title": "Outgoing links from logical_agents"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/logic_agents.md",
+                "file": "notes/ai_fundamentals/logical_agents.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for logic_agents"
+              "title": "Backlinks for logical_agents"
             }
           }
         ]
@@ -252,15 +252,19 @@
   },
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
-    "notes/ai_fundamentals/logic_agents.md~",
+    "notes/ai_fundamentals/logical_agents.md~",
+    "files/wumpus_entailment1.png",
+    "indices/artificial_intelligence_fundamentals.md",
+    "notes/ai_fundamentals/logical_agents.md",
     "notes/ai_fundamentals/artificial_life.md",
+    "files/entailment.png",
+    "notes/ai_fundamentals/logic_agents.md",
+    "notes/ai_fundamentals/logic_agents.md~",
     "notes/machine_learning/ensemble.md",
     "notes/machine_learning/bias_variance.md",
-    "notes/ai_fundamentals/logic_agents.md",
     "notes/machine_learning/support_vector_machine.md~",
     "indices/artificial_intelligence_fundamentals.md~",
     "TODO.md",
-    "indices/artificial_intelligence_fundamentals.md",
     "notes/ai_fundamentals/artificial_life.md~",
     "notes/ai_fundamentals/4913",
     "files/simple_ca.png",
@@ -279,7 +283,6 @@
     "indices/machine_learning.md",
     "notes/machine_learning/supervised_learning.md~",
     "notes/machine_learning/statistical_learning_theory.md~",
-    "files/vc-bound.png",
     "notes/complex_systems/stochastic_simulations.md",
     "notes/complex stoca.md",
     "notes/complex_systems/chemistry_metaphor.md",
@@ -289,15 +292,11 @@
     "notes/ai_fundamentals/games.md",
     "notes/ai_fundamentals/novelty.md",
     "notes/ai_fundamentals/genetic_algorithms.md",
-    "files/cppn.png",
     "notes/ai_fundamentals/evolutionary_strategies.md",
     "notes/machine_learning/perceptron.md",
     "notes/machine_learning/validation.md~",
     "notes/machine_learning/gradient_descent.md",
-    "notes/machine_learning/gradient_descent.md~",
     "notes/linear_algebra/vector_space_basis.md",
-    "maps/validation_pipeline.canvas",
-    "maps",
-    "notes/ai_fundamentals/innovation.md"
+    "maps/validation_pipeline.canvas"
   ]
 }

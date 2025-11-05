@@ -1,0 +1,68 @@
+---
+id: logical_agents
+aliases: []
+tags:
+  - master
+  - ai_fundamentals
+---
+
+# Logical Agents
+
+A popular type of agents are **logical agents**, also called **knowledge-based**
+agents, which, as the name suggest, maintain a _knowledge base_ (KB) on the
+environment under the form of **logic sentences**.
+
+Typically they start with a general knowledge of the rules of the environment,
+but through perceptions they can add new knowledge and, most important, they can
+generate new knowledge by **inference**.
+
+This time we have a **declarative approach**, were the agent has a
+representation of the world which says what it knows, not what it does.
+
+## Entailment
+
+To understand how logical agents are able to infer new knowledge is necessary
+to define what a **possible model** (**world**) is. A possible model is a
+mathematical abstraction with a fixed trruth value for each relevant sentence.
+
+If a sentence $\alpha$ is true in a model $m$ we say that $m$ **satisfies**
+$\alpha$ and $M(\alpha)$ is the set of all models of $\alpha$.
+
+The first piece for inference is the concept of **entailment**, that is defined
+as a relationship between sentences that is based semantically when a sentence
+logically follows another.
+
+More formally we say that $\alpha$ **entails** $\beta$:
+
+$$\alpha \models \beta$$
+
+that is equivalent to say that for every model where $\alpha$ is true then also
+$\beta$ is true. In this sense $\alpha$ is a stronger assertion than $\beta$ as
+it rules out more possible models.
+
+![Entailment](/files/entailment.png)
+
+This let us avoid considering all the possible models by simply enumerating
+them. In other words, the entailment let the agent use its knowledge in order to
+exclude some models and so, restricting the possible choices to the ones that
+can be true.
+
+### Model Checking
+
+The simplest way to verify entailment is via **model checking**, that consists
+in enumerating all the possible models and check whether $\alpha$ is true in all
+models in which KB is true.
+
+So we enumerate all the possible models where KB is true, and all the possible
+model where $\alpha$ is true.
+
+![Entailment on Wumpus World|400](/files/wumpus_entailment1.png)
+
+So if the knowledge base rules out the sentence $\alpha$, then we obtain the
+possible models where the sentence is true and where all the knowledge is still
+true. In other words the intersection between the two represents all the
+possible realizations of sentences in the actual environment (based on the KB).
+
+## References
+
+- [[artificial_intelligence_fundamentals]]

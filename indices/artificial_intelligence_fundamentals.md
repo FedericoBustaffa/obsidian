@@ -21,7 +21,7 @@ algorithms.
 - [[games]]
 - [[evolutionary_optimization]]
 - [[artificial_life]]
-- [[logic_agents]]
+- [[logical_agents]]
 
 ## References
 
