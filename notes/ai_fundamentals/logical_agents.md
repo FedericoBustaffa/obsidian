@@ -53,15 +53,26 @@ The simplest way to verify entailment is via **model checking**, that consists
 in enumerating all the possible models and check whether $\alpha$ is true in all
 models in which KB is true.
 
-So we enumerate all the possible models where KB is true, and all the possible
+We enumerate all the possible models where KB is true, and all the possible
 model where $\alpha$ is true.
 
 ![Entailment on Wumpus World|400](/files/wumpus_entailment1.png)
 
-So if the knowledge base rules out the sentence $\alpha$, then we obtain the
+If the knowledge base rules out the sentence $\alpha$, then we obtain the
 possible models where the sentence is true and where all the knowledge is still
 true. In other words the intersection between the two represents all the
-possible realizations of sentences in the actual environment (based on the KB).
+possible realizations of sentences in the actual environment (based on the KB);
+what is outside the intersection cannot be true with respect to the KB.
+
+Let's notice that the KB models where $\alpha$ is true must be a susbet of
+$\alpha$ in order to conclude that the sentence is true also for KB.
+
+![Entailment on Wumpus World|400](/files/wumpus_entailment2.png)
+
+If the models of KB are not contained in the models of $\alpha$, the entailment
+does not hold. This is like saying that there are possible models where the
+sentence is true but, based on the KB and the perceptions there are no
+guarantees that they will realize concretely.
 
 ## References
 
