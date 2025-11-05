@@ -96,8 +96,6 @@ An inference algorithm can be
 - **Sound**: $\text{KB} \vdash_i \alpha \implies \text{KB} \models \alpha$
 - **Complete**: $\text{KB} \models \alpha \implies \text{KB} \vdash_i \alpha$
 
-### Truth Table
-
 ## References
 
 - [[artificial_intelligence_fundamentals]]
