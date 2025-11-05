@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "489c34045c1a4f77",
+            "id": "e992a85b485556d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,7 +32,7 @@
             }
           },
           {
-            "id": "d9882834bbd5cba1",
+            "id": "489c34045c1a4f77",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -142,7 +142,7 @@
       {
         "id": "1728b1c62e4f1f4f",
         "type": "tabs",
-        "dimension": 43.29411764705882,
+        "dimension": 40.16319129646419,
         "children": [
           {
             "id": "6a6787f071b2b91c",
@@ -192,7 +192,7 @@
       {
         "id": "e6f8bb84f6edd43b",
         "type": "tabs",
-        "dimension": 33.1764705882353,
+        "dimension": 35.63009972801451,
         "children": [
           {
             "id": "4513753b4f6f78cb",
@@ -216,12 +216,12 @@
         ]
       },
       {
-        "id": "faccaf291a6396fa",
+        "id": "6fd30e3eead3fb2f",
         "type": "tabs",
-        "dimension": 23.529411764705877,
+        "dimension": 24.206708975521305,
         "children": [
           {
-            "id": "a6c463629d54957c",
+            "id": "fd1a5ddca45b0c4b",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -250,21 +250,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "489c34045c1a4f77",
+  "active": "e992a85b485556d9",
   "lastOpenFiles": [
-    "notes/ai_fundamentals/logic_agents.md~",
-    "notes/machine_learning/ensemble.md",
-    "notes/ai_fundamentals/logic_agents.md",
-    "notes/machine_learning/ensemble.md~",
-    "notes/machine_learning/bias_variance.md",
-    "notes/machine_learning/bias_variance.md~",
-    "TODO.md",
-    "notes/machine_learning/4913",
     "notes/ai_fundamentals/artificial_life.md",
-    "indices/machine_learning.md~",
-    "notes/bias_variance.md",
+    "notes/machine_learning/ensemble.md",
+    "notes/machine_learning/bias_variance.md",
+    "notes/ai_fundamentals/logic_agents.md",
     "notes/machine_learning/support_vector_machine.md~",
     "indices/artificial_intelligence_fundamentals.md~",
+    "TODO.md",
     "indices/artificial_intelligence_fundamentals.md",
     "notes/ai_fundamentals/artificial_life.md~",
     "notes/ai_fundamentals/4913",
@@ -276,6 +270,7 @@
     "files/svm_kernel.png",
     "files/non_linearly_separable_problem.png",
     "files/soft_margin.png",
+    "notes/machine_learning/4913",
     "files/svm_margin.png",
     "notes/machine_learning/backpropagation.md",
     "notes/machine_learning/statistical_learning_theory.md",
@@ -296,8 +291,13 @@
     "files/cppn.png",
     "notes/ai_fundamentals/evolutionary_strategies.md",
     "notes/machine_learning/perceptron.md",
+    "notes/machine_learning/validation.md~",
     "notes/machine_learning/gradient_descent.md",
+    "notes/machine_learning/gradient_descent.md~",
     "notes/linear_algebra/vector_space_basis.md",
-    "maps/validation_pipeline.canvas"
+    "maps/validation_pipeline.canvas",
+    "maps",
+    "notes/ai_fundamentals/innovation.md",
+    "notes/machine_learning/supervised_learning.md"
   ]
 }
