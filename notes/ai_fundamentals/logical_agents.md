@@ -110,7 +110,7 @@ check if $KB \models \alpha$ by
 Doing inference by enumeration is sound and complete but it costs $O(2^n)$ in
 time and space.
 
-### Inference Rules
+### Resolution Inference
 
 Another way to proving a fact is via **inference rules**, that can be applied
 starting from the $KB$ to derive the goal.
@@ -137,6 +137,30 @@ facts, the most important rules are
   m_{j-1} \lor m_{j+1} \cdots m_n}
   $$
   where $l_i$ and $m$ are complementary literals ($A \land \lnot A$).
+
+So we can now apply inference rules in order to be able to say if $KB \models
+\alpha$ by showing that $KB \land \lnot \alpha$ is unsatisfiable.
+
+1. Convert $KB \land \lnot \alpha$ to CNF.
+2. For all pairs of clauses
+   - Apply resolution clauses to generate new clauses
+   - If the _empty clause_ is generated then $KB \models \alpha$ since we have
+     generated a contraddiction.
+3. If no new clauses are generated we can conclude that $KB \not\models \alpha$.
+
+Resolution is sound and complete for propositional logic.
+
+![Resolution Inference|700](/files/resolution_inference.png)
+
+### Horn Form Resolution Inference
+
+A particular CNF is called **Horn form** and is defined, as a classical CNF, as
+a conjuctions of clauses, with at most one positive symbol in each clause:
+
+$$(A \lor \lnot B) \land (\lnot A \lor \lnot C \lor D)$$
+
+Unfortunately is not always possible to convert in Horn form. The algorithm
+proceeds by creating a chain of implications by using _Modus Ponens_.
 
 ## References
 

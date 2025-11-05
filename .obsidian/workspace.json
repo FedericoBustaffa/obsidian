@@ -229,6 +229,7 @@
   "active": "d9882834bbd5cba1",
   "lastOpenFiles": [
     "notes/ai_fundamentals/logical_agents.md~",
+    "files/resolution_inference.png",
     "files/truth_table_model_checking.png",
     "notes/ai_fundamentals/logical_agents.md",
     "TODO.md",
@@ -256,7 +257,6 @@
     "files/logistic_map.png",
     "notes/machine_learning/support_vector_machine.md",
     "files/svm_kernel.png",
-    "files/non_linearly_separable_problem.png",
     "notes/machine_learning/backpropagation.md",
     "notes/machine_learning/statistical_learning_theory.md",
     "notes/computational_mathematics/least_squares.md",
