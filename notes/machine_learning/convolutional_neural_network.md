@@ -21,6 +21,8 @@ We can imagine $g$ limited in an interval (window) and we let it _slide_ over
 $f$; the convolution on a point $x$ is computed as a sum of products of $f(x)$
 for every $g(x)$ in the window.
 
+![Convolution|800](/files/function_convolution.png)
+
 ## References
 
 - [[neural_networks]]
