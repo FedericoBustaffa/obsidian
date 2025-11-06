@@ -17,6 +17,7 @@ performance and minimization of approximation error.
 ## Index
 
 - [[least_squares]]
+- [[low_rank_approximation]]
 
 ## References
 

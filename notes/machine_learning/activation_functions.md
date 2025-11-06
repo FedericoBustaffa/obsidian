@@ -95,3 +95,4 @@ gradient based algorithm.
 
 - [[perceptron]]
 - [[neural_networks]]
+- [[neural_network_training]]

@@ -79,6 +79,9 @@ best result for each problem without losing accuracy.
 - [[perceptron]]
 - [[neural_networks]]
 - [[support_vector_machine]]
+- [[decision_tree]]
+- [[ensemble]]
+- [[random_forest]]
 
 ## References
 

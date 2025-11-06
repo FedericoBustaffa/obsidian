@@ -208,3 +208,5 @@ order to make the network _learn_.
 - [[activation_functions]]
 - [[gradient_descent]]
 - [[backpropagation]]
+- [[neural_network_training]]
+- [[convolutional_neural_network]]

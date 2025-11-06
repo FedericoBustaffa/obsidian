@@ -350,3 +350,4 @@ the probability that input $x$ is class $i$ (repeated for each class).
 
 - [[neural_networks]]
 - [[backpropagation]]
+- [[activation_functions]]

@@ -38,5 +38,6 @@ eventually could classify correctly every pattern.
 
 ## References
 
-- [[machine_learning]]
+- [[supervised_learning]]
 - [[bias_variance]]
+- [[random_forest]]

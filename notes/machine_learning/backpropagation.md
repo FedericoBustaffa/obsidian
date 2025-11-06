@@ -150,3 +150,4 @@ that is the local error of unit $t$.
 ## References
 
 - [[neural_networks]]
+- [[neural_network_training]]

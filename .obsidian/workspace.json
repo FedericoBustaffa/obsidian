@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e992a85b485556d9",
+            "id": "489c34045c1a4f77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/convolutional_neural_network.md",
+                "file": "notes/machine_learning/backpropagation.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,11 +28,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "convolutional_neural_network"
+              "title": "backpropagation"
             }
           },
           {
-            "id": "489c34045c1a4f77",
+            "id": "4214b951dba1c980",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/convolutional_neural_network.md",
+                "file": "notes/machine_learning/backpropagation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of convolutional_neural_network"
+              "title": "Outline of backpropagation"
             }
           }
         ]
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/convolutional_neural_network.md",
+                "file": "notes/machine_learning/backpropagation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from convolutional_neural_network"
+              "title": "Outgoing links from backpropagation"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/convolutional_neural_network.md",
+                "file": "notes/machine_learning/backpropagation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for convolutional_neural_network"
+              "title": "Backlinks for backpropagation"
             }
           }
         ]
@@ -250,11 +250,32 @@
       "bases:Create new base": false
     }
   },
-  "active": "e992a85b485556d9",
+  "active": "489c34045c1a4f77",
   "lastOpenFiles": [
+    "indices/parallel_computing.md",
+    "TODO.md",
+    "notes/parallel_computing/metrics.md",
+    "notes/parallel_computing/computational_models.md",
+    "notes/coding/cpp.md",
+    "notes/parallel_computing/mpi.md",
+    "notes/parallel_computing/workload_balancing.md",
+    "notes/parallel_computing/simd.md",
+    "notes/parallel_computing/parallel_architectures.md",
+    "indices/computational_mathematics.md",
+    "notes/machine_learning/supervised_learning.md",
+    "notes/machine_learning/neural_network_training.md",
+    "notes/machine_learning/perceptron.md",
+    "notes/machine_learning/activation_functions.md",
+    "notes/machine_learning/random_forest.md",
+    "notes/machine_learning/ensemble.md",
+    "notes/machine_learning/decision_tree.md~",
+    "notes/machine_learning/random_forest.md~",
+    "notes/machine_learning/decision_tree.md",
+    "notes/machine_learning/backpropagation.md",
+    "notes/machine_learning/neural_networks.md",
+    "notes/machine_learning/convolutional_neural_network.md",
     "notes/machine_learning/convolutional_neural_network.md~",
     "notes/ai_fundamentals/logical_agents.md",
-    "notes/machine_learning/convolutional_neural_network.md",
     "files/truth_table_model_checking.png",
     "files/resolution_inference.png",
     "notes/ai_fundamentals/logic_agents.md",
@@ -266,11 +287,9 @@
     "notes/ai_fundamentals/artificial_life.md",
     "files/entailment.png",
     "notes/ai_fundamentals/logic_agents.md~",
-    "notes/machine_learning/ensemble.md",
     "notes/machine_learning/bias_variance.md",
     "notes/machine_learning/support_vector_machine.md~",
     "indices/artificial_intelligence_fundamentals.md~",
-    "TODO.md",
     "notes/ai_fundamentals/artificial_life.md~",
     "files/simple_ca.png",
     "files/complex_ca.png",
@@ -279,24 +298,6 @@
     "notes/machine_learning/support_vector_machine.md",
     "files/svm_kernel.png",
     "notes/machine_learning/4913",
-    "notes/machine_learning/backpropagation.md",
-    "notes/machine_learning/statistical_learning_theory.md",
-    "notes/computational_mathematics/least_squares.md",
-    "indices/machine_learning.md",
-    "notes/machine_learning/supervised_learning.md~",
-    "notes/machine_learning/statistical_learning_theory.md~",
-    "notes/complex_systems/stochastic_simulations.md",
-    "notes/complex stoca.md",
-    "notes/complex_systems/chemistry_metaphor.md",
-    "notes/complex_systems/discrete_systems.md",
-    "notes/complex_systems/continuous_systems.md",
-    "notes/machine_learning/validation.md",
-    "notes/ai_fundamentals/games.md",
-    "notes/ai_fundamentals/novelty.md",
-    "notes/ai_fundamentals/genetic_algorithms.md",
-    "notes/ai_fundamentals/evolutionary_strategies.md",
-    "notes/machine_learning/perceptron.md",
-    "notes/machine_learning/gradient_descent.md",
     "maps/validation_pipeline.canvas"
   ]
 }
