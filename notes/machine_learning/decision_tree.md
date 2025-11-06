@@ -68,8 +68,8 @@ measure is called **information gain** and measures the expected reduction in
 entropy caused by partitioning the examples on a feature:
 
 $$
-\text{Gain}(S, A) = \text{Entropy}(S) -
-\sum_{v \in \text{Values}(A)} \frac{\#(Sv)}{\#(S)} \cdot E(Sv)
+\text{Gain}(S, A) = \text{Entropy}(S) - \sum_{v \in \text{Values}(A)}
+\frac{\#(Sv)}{\#(S)} \cdot \text{Entropy}(Sv)
 $$
 
 where
@@ -131,10 +131,27 @@ To mitigate this is possible to apply some heuristics, for example a very simple
 one consists in compute the gain for each feature and then apply the gain ratio
 only for features with gain above average.
 
-## Problems
+## Overfitting
 
 If we keep the tree train, soon or later it will classify correctly all the
-examples, but it will fall inevitably in overfitting.
+examples, but it will fall inevitably in overfitting. In order to mitigate that,
+what we can do is
+
+- Set a **max depth** beyond the tree stops grows. The remaining nodes that are
+  still not _pure_ will be assigned with the most common classification.
+- **Prune** after the tree completed the training and overfit the data.
+
+For the first can be difficult to know which depth is good but can be done via
+model selection.
+
+The second consists in prune sub-trees and let the node be a leaf assigned with
+the most common classification. Nodes (and their sub-trees) are removed
+iteratively only if the resulting pruned tree performs no worse on the
+validation set. To be precise, the nodes that are pruned first are the one whose
+removal most increase accuracy on the validation set.
+
+The pruning process stops when there are no more gains in accuracy for every
+possible pruning.
 
 ## References
 
