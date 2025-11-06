@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
+                "file": "notes/machine_learning/decision_tree.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "support_vector_machine"
+              "title": "decision_tree"
             }
           }
         ]
@@ -180,6 +180,8 @@
   },
   "active": "5e8d481f89992dad",
   "lastOpenFiles": [
+    "notes/machine_learning/support_vector_machine.md",
+    "files/dt_gain.png",
     "notes/machine_learning/backpropagation.md",
     "notes/machine_learning/neural_network_training.md",
     "notes/machine_learning/neural_networks.md",
