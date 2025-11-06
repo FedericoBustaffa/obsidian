@@ -62,6 +62,23 @@ the impurity of the subset.
 
 ## Information Gain
 
+In order to select the best feature for the split we need a measure of how much
+splitting the dataset with respect to every feature lowers the entropy. This
+measure is called **information gain** and measures the expected reduction in
+entropy caused by partitioning the examples on a feature:
+
+$$G(S, A) = E(S) - \sum_{v \in \text{Values}(A)} \frac{\#(Sv)}{\#(S)} \cdot E(Sv)$$
+
+where
+
+- $\text{Values}(A)$ are all the possible values for the feature $A$ present in
+  the subset $S$.
+- $\#(S)$ is the cardinality of the set $S$.
+- $Sv$ is a subset of $S$ for which the feature $A$ has value $v$.
+
+The higher the information gain the more effective the attribute in classifying
+training data will be.
+
 ## References
 
 - [[supervised_learning]]
