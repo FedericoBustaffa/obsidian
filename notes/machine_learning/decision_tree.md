@@ -60,6 +60,8 @@ The entropy alone cannot be used to select the best feature for the split
 because it doesn't consider any feature in the formula, it's just a measure of
 the impurity of the subset.
 
+## Information Gain
+
 ## References
 
 - [[supervised_learning]]
