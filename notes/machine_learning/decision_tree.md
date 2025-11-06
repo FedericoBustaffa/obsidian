@@ -133,7 +133,19 @@ only for features with gain above average.
 ### Continuous Features
 
 Let's say we have a feature that is continuous and so, it most likely be
-different for
+different for every example. We want to define a threshold on which perform the
+split, also trying to maximize the gain.
+
+A possible solution is to:
+
+1. Sort the examples by that feature
+2. Determine candidate thresholds by averaging consecutives values where there
+   is a change in classification.
+3. Evaluate candidate thresholds according to information gain.
+
+Another simpler, but for less effective solution, is to take for example the
+median and split in that point. Of course it is not a fine option but for sure
+is faster in terms of computational time.
 
 ## Overfitting
 
