@@ -23,6 +23,10 @@ for every $g(x)$ in the window.
 
 ![Convolution|800](/files/function_convolution.png)
 
+In convolutional neural networks the output of a unit $t$ can be something like
+
+![Sliding Window|450](/files/sliding_window_nn.png)
+
 ## References
 
 - [[neural_networks]]

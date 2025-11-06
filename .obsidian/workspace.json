@@ -253,6 +253,7 @@
   "active": "489c34045c1a4f77",
   "lastOpenFiles": [
     "notes/machine_learning/convolutional_neural_network.md~",
+    "files/sliding_window_nn.png",
     "files/function_convolution.png",
     "TODO.md",
     "notes/machine_learning/convolutional_neural_network.md",
@@ -295,7 +296,6 @@
     "files/simple_ca.png",
     "files/complex_ca.png",
     "files/toroidal_grid.png",
-    "files/logistic_map.png",
     "notes/machine_learning/4913",
     "maps/validation_pipeline.canvas"
   ]
