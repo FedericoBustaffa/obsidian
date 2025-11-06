@@ -46,7 +46,7 @@ all the examples classified as $+1$ has $0$ entropy (low impurity).
 In order to compute the entropy of a set of examples $S$ we can use this
 formula:
 
-$$E(S) = -p_+ \log_2(p_+) - p_- \log_2(p_-)$$
+$$\text{Entropy}(S) = -p_+ \log_2(p_+) - p_- \log_2(p_-)$$
 
 where $p_+$ and $p_-$ are respectively the proportions of positive and negative
 patterns ($0 \leq p_-, \, p_+ \leq 1$).
@@ -67,7 +67,10 @@ splitting the dataset with respect to every feature lowers the entropy. This
 measure is called **information gain** and measures the expected reduction in
 entropy caused by partitioning the examples on a feature:
 
-$$G(S, A) = E(S) - \sum_{v \in \text{Values}(A)} \frac{\#(Sv)}{\#(S)} \cdot E(Sv)$$
+$$
+\text{Gain}(S, A) = \text{Entropy}(S) -
+\sum_{v \in \text{Values}(A)} \frac{\#(Sv)}{\#(S)} \cdot E(Sv)
+$$
 
 where
 
@@ -76,8 +79,62 @@ where
 - $\#(S)$ is the cardinality of the set $S$.
 - $Sv$ is a subset of $S$ for which the feature $A$ has value $v$.
 
-The higher the information gain the more effective the attribute in classifying
+The higher the information gain the more effective the feature in classifying
 training data will be.
+
+![Gain Split|600](/files/dt_gain.png)
+
+The information gain is computed for all the features and the one the highest
+gain is selected as the first decision node. When we reach a point where the
+entropy is zero for all the branches, it means that the DT classified correctly
+every instance.
+
+### Gain Ratio
+
+The problem with information gain is that features with many possible values
+(e.g. real numbers) will be selected more often.
+
+Let's say for example that a feature $A$ is a real number and, in the given
+dataset, we have $l$ patterns, each with a different values for $A$. For that
+features the DT will create $l$ possible branches, each with one pattern;
+meaning in a $0$ entropy subset.
+
+This of course perfectly fits the data but does not generalize at all, leading
+to overfitting.
+
+In order to generate more informative and general subsets the **gain ratio** is
+typically implemented as follows
+
+$$
+\text{GainRatio}(S, A) =
+\frac{\text{Gain}(S, A)}{\text{SplitInformation}(S, A)}
+$$
+
+where $\text{SplitInformation}(S, A)$ is a measure of entropy $S$ with respect
+to the values of $A$ and it is defined as
+
+$$
+\text{SplitInformation}(S, A) = - \sum_{i=1}^C \frac{\#(S_i)}{\#(S)}
+\cdot \log_2 \left( \frac{\#(S_i)}{\#(S)} \right)
+$$
+
+where $S_i$ are the sets obtained by partitioning on value $v_i$ of $A$, up to
+$C$ values.
+
+The gain ratio penalizes features that split examples in many small classes.
+
+However there are cases were the $\text{SplitInformation}$ can be zero or very
+small when $\#(S_i) \approx \#(S)$ for some value $i$. An extreme case is when
+there is a feature with the same value for all the examples.
+
+To mitigate this is possible to apply some heuristics, for example a very simple
+one consists in compute the gain for each feature and then apply the gain ratio
+only for features with gain above average.
+
+## Problems
+
+If we keep the tree train, soon or later it will classify correctly all the
+examples, but it will fall inevitably in overfitting.
 
 ## References
 

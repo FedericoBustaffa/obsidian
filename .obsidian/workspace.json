@@ -253,6 +253,7 @@
   "active": "489c34045c1a4f77",
   "lastOpenFiles": [
     "notes/machine_learning/decision_tree.md~",
+    "files/dt_gain.png",
     "notes/machine_learning/convolutional_neural_network.md",
     "nohup.out",
     "files/entropy.png",
@@ -296,7 +297,6 @@
     "notes/machine_learning/support_vector_machine.md~",
     "indices/artificial_intelligence_fundamentals.md~",
     "notes/ai_fundamentals/artificial_life.md~",
-    "files/simple_ca.png",
     "maps/validation_pipeline.canvas"
   ]
 }
