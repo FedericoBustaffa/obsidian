@@ -1,7 +1,9 @@
 ---
 id: decision_tree
 aliases: []
-tags: []
+tags:
+  - master
+  - machine_learning
 ---
 
 # Decision Tree
