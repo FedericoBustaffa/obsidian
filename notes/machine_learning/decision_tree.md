@@ -9,7 +9,7 @@ tags:
 # Decision Tree
 
 The **decision tree** model can be used for both classification and regression
-tasks; howhever its structure suggests a propensity for classification.
+tasks; however its structure suggests a propensity for classification.
 
 Their intrinsic tree representation also makes them easily interpretable,
 providing critical points where their classification changes; that's why they
