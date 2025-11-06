@@ -48,8 +48,17 @@ formula:
 
 $$E(S) = -p_+ \log_2(p_+) - p_- \log_2(p_-)$$
 
-where $p_+$ and $p_-$ are respectively the number of positive and negative
-patterns (of course we are considering a binary classification problem).
+where $p_+$ and $p_-$ are respectively the proportions of positive and negative
+patterns ($0 \leq p_-, \, p_+ \leq 1$).
+
+So for two classes we have that the entropy has a maximum where the proportion
+is $0.5$ and minimum when all the patterns are classified the same.
+
+![Entropy|600](/files/entropy.png)
+
+The entropy alone cannot be used to select the best feature for the split
+because it doesn't consider any feature in the formula, it's just a measure of
+the impurity of the subset.
 
 ## References
 

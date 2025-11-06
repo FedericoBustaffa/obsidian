@@ -229,6 +229,7 @@
   "active": "d9882834bbd5cba1",
   "lastOpenFiles": [
     "notes/machine_learning/decision_tree.md~",
+    "files/entropy.png",
     "files/decision_tree_regions.png",
     "nohup.out",
     "notes/machine_learning/convolutional_neural_network.md~",
@@ -258,7 +259,6 @@
     "notes/machine_learning/support_vector_machine.md~",
     "indices/artificial_intelligence_fundamentals.md",
     "files/simple_ca.png",
-    "files/complex_ca.png",
     "notes/machine_learning/support_vector_machine.md",
     "notes/machine_learning/backpropagation.md",
     "notes/machine_learning/statistical_learning_theory.md",
