@@ -92,12 +92,11 @@ every instance.
 ### Gain Ratio
 
 The problem with information gain is that features with many possible values
-(e.g. real numbers) will be selected more often.
+will be selected more often.
 
-Let's say for example that a feature $A$ is a real number and, in the given
-dataset, we have $l$ patterns, each with a different values for $A$. For that
-features the DT will create $l$ possible branches, each with one pattern;
-meaning in a $0$ entropy subset.
+Let's say for example that in the given dataset, we have $l$ patterns, each with
+a different values for $A$. For that features the DT will create $l$ possible
+branches, each with one pattern; meaning in a $0$ entropy subset.
 
 This of course perfectly fits the data but does not generalize at all, leading
 to overfitting.
@@ -130,6 +129,11 @@ there is a feature with the same value for all the examples.
 To mitigate this is possible to apply some heuristics, for example a very simple
 one consists in compute the gain for each feature and then apply the gain ratio
 only for features with gain above average.
+
+### Continuous Features
+
+Let's say we have a feature that is continuous and so, it most likely be
+different for
 
 ## Overfitting
 
