@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
+                "file": "notes/machine_learning/convolutional_neural_network.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "decision_tree"
+              "title": "convolutional_neural_network"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
+                "file": "notes/machine_learning/convolutional_neural_network.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of decision_tree"
+              "title": "Outline of convolutional_neural_network"
             }
           }
         ]
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
+                "file": "notes/machine_learning/convolutional_neural_network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from decision_tree"
+              "title": "Outgoing links from convolutional_neural_network"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
+                "file": "notes/machine_learning/convolutional_neural_network.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for decision_tree"
+              "title": "Backlinks for convolutional_neural_network"
             }
           }
         ]
@@ -252,11 +252,13 @@
   },
   "active": "489c34045c1a4f77",
   "lastOpenFiles": [
-    "notes/machine_learning/random_forest.md",
+    "TODO.md",
+    "notes/machine_learning/convolutional_neural_network.md",
     "notes/machine_learning/decision_tree.md",
+    "notes/machine_learning/decision_tree.md~",
+    "notes/machine_learning/random_forest.md",
     "notes/machine_learning/backpropagation.md",
     "indices/parallel_computing.md",
-    "TODO.md",
     "notes/parallel_computing/metrics.md",
     "notes/parallel_computing/computational_models.md",
     "notes/coding/cpp.md",
@@ -270,10 +272,8 @@
     "notes/machine_learning/perceptron.md",
     "notes/machine_learning/activation_functions.md",
     "notes/machine_learning/ensemble.md",
-    "notes/machine_learning/decision_tree.md~",
     "notes/machine_learning/random_forest.md~",
     "notes/machine_learning/neural_networks.md",
-    "notes/machine_learning/convolutional_neural_network.md",
     "notes/machine_learning/convolutional_neural_network.md~",
     "notes/ai_fundamentals/logical_agents.md",
     "files/truth_table_model_checking.png",
@@ -295,7 +295,6 @@
     "files/complex_ca.png",
     "files/toroidal_grid.png",
     "files/logistic_map.png",
-    "notes/machine_learning/support_vector_machine.md",
     "files/svm_kernel.png",
     "notes/machine_learning/4913",
     "maps/validation_pipeline.canvas"
