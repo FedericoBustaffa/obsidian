@@ -143,9 +143,9 @@ A possible solution is to:
    is a change in classification.
 3. Evaluate candidate thresholds according to information gain.
 
-Another simpler, but for less effective solution, is to take for example the
-median and split in that point. Of course it is not a fine option but for sure
-is faster in terms of computational time.
+For large dataset this is still too expensive and so there are more coarse
+grained techniques, like grouping similar values of the feature in bins so that
+the bins are representative of a part of the features.
 
 ## Overfitting
 
@@ -155,7 +155,7 @@ what we can do is
 
 - Set a **max depth** beyond the tree stops grows. The remaining nodes that are
   still not _pure_ will be assigned with the most common classification.
-- **Prune** after the tree completed the training and overfit the data.
+- **Pruning** after the tree completed the training and overfit the data.
 
 For the first can be difficult to know which depth is good but can be done via
 model selection.
