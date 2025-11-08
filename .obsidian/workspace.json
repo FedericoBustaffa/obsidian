@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d9882834bbd5cba1",
+            "id": "489c34045c1a4f77",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -29,6 +29,30 @@
               },
               "icon": "lucide-file",
               "title": "decision_tree"
+            }
+          },
+          {
+            "id": "4214b951dba1c980",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TODO"
             }
           }
         ]
@@ -118,7 +142,7 @@
       {
         "id": "1728b1c62e4f1f4f",
         "type": "tabs",
-        "dimension": 43.29411764705882,
+        "dimension": 40.16319129646419,
         "children": [
           {
             "id": "6a6787f071b2b91c",
@@ -168,7 +192,7 @@
       {
         "id": "e6f8bb84f6edd43b",
         "type": "tabs",
-        "dimension": 33.1764705882353,
+        "dimension": 35.63009972801451,
         "children": [
           {
             "id": "4513753b4f6f78cb",
@@ -192,12 +216,12 @@
         ]
       },
       {
-        "id": "faccaf291a6396fa",
+        "id": "6fd30e3eead3fb2f",
         "type": "tabs",
-        "dimension": 23.529411764705877,
+        "dimension": 24.206708975521305,
         "children": [
           {
-            "id": "a6c463629d54957c",
+            "id": "fd1a5ddca45b0c4b",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -226,53 +250,54 @@
       "bases:Create new base": false
     }
   },
-  "active": "d9882834bbd5cba1",
+  "active": "489c34045c1a4f77",
   "lastOpenFiles": [
     "notes/machine_learning/decision_tree.md~",
-    "notes/machine_learning/decision_tree.md",
+    "notes/machine_learning/4913",
     "files/dt_gain.png",
+    "notes/machine_learning/convolutional_neural_network.md",
+    "nohup.out",
     "files/entropy.png",
     "files/decision_tree_regions.png",
-    "nohup.out",
     "notes/machine_learning/convolutional_neural_network.md~",
-    "notes/ai_fundamentals/logical_agents.md",
-    "notes/machine_learning/random_forest.md",
-    "notes/machine_learning/convolutional_neural_network.md",
     "files/sliding_window_nn.png",
     "files/function_convolution.png",
-    "notes/ai_fundamentals/logical_agents.md~",
-    "files/resolution_inference.png",
-    "files/truth_table_model_checking.png",
     "TODO.md",
+    "notes/machine_learning/decision_tree.md",
+    "notes/machine_learning/random_forest.md",
+    "notes/machine_learning/backpropagation.md",
+    "indices/parallel_computing.md",
+    "notes/parallel_computing/metrics.md",
+    "notes/parallel_computing/computational_models.md",
+    "notes/coding/cpp.md",
+    "notes/parallel_computing/mpi.md",
+    "notes/parallel_computing/workload_balancing.md",
+    "notes/parallel_computing/simd.md",
+    "notes/parallel_computing/parallel_architectures.md",
+    "indices/computational_mathematics.md",
+    "notes/machine_learning/supervised_learning.md",
+    "notes/machine_learning/neural_network_training.md",
+    "notes/machine_learning/perceptron.md",
+    "notes/machine_learning/activation_functions.md",
+    "notes/machine_learning/ensemble.md",
+    "notes/machine_learning/random_forest.md~",
+    "notes/machine_learning/neural_networks.md",
+    "notes/ai_fundamentals/logical_agents.md",
+    "files/truth_table_model_checking.png",
+    "files/resolution_inference.png",
     "notes/ai_fundamentals/logic_agents.md",
+    "notes/ai_fundamentals/logical_agents.md~",
+    "notes/ai_fundamentals/4913",
     "files/wumpus_entailment2.png",
     "files/wumpus_entailment1.png",
+    "indices/artificial_intelligence_fundamentals.md",
+    "notes/ai_fundamentals/artificial_life.md",
     "files/entailment.png",
     "notes/ai_fundamentals/logic_agents.md~",
-    "notes/machine_learning/ensemble.md",
-    "notes/machine_learning/ensemble.md~",
     "notes/machine_learning/bias_variance.md",
-    "notes/machine_learning/bias_variance.md~",
-    "notes/machine_learning/4913",
-    "notes/ai_fundamentals/artificial_life.md",
-    "indices/machine_learning.md~",
-    "notes/bias_variance.md",
     "notes/machine_learning/support_vector_machine.md~",
-    "indices/artificial_intelligence_fundamentals.md",
-    "notes/machine_learning/support_vector_machine.md",
-    "notes/machine_learning/backpropagation.md",
-    "notes/machine_learning/statistical_learning_theory.md",
-    "notes/computational_mathematics/least_squares.md",
-    "indices/machine_learning.md",
-    "notes/complex_systems/stochastic_simulations.md",
-    "notes/complex stoca.md",
-    "notes/complex_systems/chemistry_metaphor.md",
-    "notes/complex_systems/discrete_systems.md",
-    "notes/complex_systems/continuous_systems.md",
-    "notes/machine_learning/validation.md",
-    "notes/ai_fundamentals/games.md",
-    "notes/ai_fundamentals/novelty.md",
-    "notes/ai_fundamentals/genetic_algorithms.md",
+    "indices/artificial_intelligence_fundamentals.md~",
+    "notes/ai_fundamentals/artificial_life.md~",
     "maps/validation_pipeline.canvas"
   ]
 }
