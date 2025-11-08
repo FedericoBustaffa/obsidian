@@ -229,6 +229,7 @@
   "active": "d9882834bbd5cba1",
   "lastOpenFiles": [
     "notes/machine_learning/decision_tree.md~",
+    "notes/machine_learning/decision_tree.md",
     "files/dt_gain.png",
     "files/entropy.png",
     "files/decision_tree_regions.png",
@@ -236,7 +237,6 @@
     "notes/machine_learning/convolutional_neural_network.md~",
     "notes/ai_fundamentals/logical_agents.md",
     "notes/machine_learning/random_forest.md",
-    "notes/machine_learning/decision_tree.md",
     "notes/machine_learning/convolutional_neural_network.md",
     "files/sliding_window_nn.png",
     "files/function_convolution.png",
