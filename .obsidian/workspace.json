@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
+                "file": "notes/machine_learning/bias_variance.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "decision_tree"
+              "title": "bias_variance"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
+                "file": "notes/machine_learning/bias_variance.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of decision_tree"
+              "title": "Outline of bias_variance"
             }
           }
         ]
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
+                "file": "notes/machine_learning/bias_variance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from decision_tree"
+              "title": "Outgoing links from bias_variance"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
+                "file": "notes/machine_learning/bias_variance.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for decision_tree"
+              "title": "Backlinks for bias_variance"
             }
           }
         ]
@@ -252,8 +252,8 @@
   },
   "active": "489c34045c1a4f77",
   "lastOpenFiles": [
-    "notes/machine_learning/support_vector_machine.md",
     "notes/machine_learning/decision_tree.md",
+    "notes/machine_learning/support_vector_machine.md",
     "notes/machine_learning/decision_tree.md~",
     "notes/machine_learning/4913",
     "files/dt_gain.png",
