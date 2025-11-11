@@ -78,7 +78,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Esplora risorse"
+              "title": "Files"
             }
           },
           {
@@ -126,7 +126,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Struttura di decision_tree"
+              "title": "Outline of decision_tree"
             }
           }
         ]
@@ -155,7 +155,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Collegamenti in uscita da decision_tree"
+              "title": "Outgoing links from decision_tree"
             }
           },
           {
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Riferimenti a decision_tree"
+              "title": "Backlinks for decision_tree"
             }
           }
         ]
@@ -227,7 +227,7 @@
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
-              "title": "Vista grafo"
+              "title": "Graph view"
             }
           }
         ]
@@ -238,15 +238,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
       "obsidian-git:Open Git source control": false,
-      "switcher:Apri selezione rapida": false,
-      "graph:Apri vista grafo": false,
-      "canvas:Crea nuova lavagna": false,
-      "daily-notes:Apri nota del giorno": false,
-      "templates:Inserisci modello": false,
-      "command-palette:Apri riquadro comandi": false,
-      "audio-recorder:Avvia/ferma registrazione": false,
-      "workspaces:Gestisci layout delle aree di lavoro": false,
       "bases:Create new base": false
     }
   },
