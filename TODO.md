@@ -9,12 +9,12 @@ tags:
 
 ## Artificial Intelligence Fundamentals
 
-- Logical Agents
+- First Order Logical Agents
 
 ## Machine Learning
 
 - Support Vector Machine Regression
-- Bias Variance
+- Convolutional Neural Networks
 
 ## Computational Mathematics
 
