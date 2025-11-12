@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4214b951dba1c980",
+            "id": "489c34045c1a4f77",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,9 +30,32 @@
               "icon": "lucide-file",
               "title": "decision_tree"
             }
+          },
+          {
+            "id": "4214b951dba1c980",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TODO"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO.md",
+                "file": "notes/machine_learning/decision_tree.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TODO"
+              "title": "Outline of decision_tree"
             }
           }
         ]
@@ -127,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODO.md",
+                "file": "notes/machine_learning/decision_tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from TODO"
+              "title": "Outgoing links from decision_tree"
             }
           },
           {
@@ -177,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO.md",
+                "file": "notes/machine_learning/decision_tree.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for TODO"
+              "title": "Backlinks for decision_tree"
             }
           }
         ]
@@ -227,17 +250,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "4214b951dba1c980",
+  "active": "489c34045c1a4f77",
   "lastOpenFiles": [
     "TODO.md",
+    "notes/ai_fundamentals/first_order_logical_agents.md~",
+    "notes/ai_fundamentals/4913",
+    "notes/ai_fundamentals/logical_agents.md",
     "notes/ai_fundamentals/first_order_logical_agents.md",
-    "notes/machine_learning/bias_variance.md",
     "notes/machine_learning/decision_tree.md",
+    "notes/machine_learning/convolutional_neural_network.md",
+    "conflict-files-obsidian-git.md",
     "notes/machine_learning/support_vector_machine.md",
     "notes/machine_learning/decision_tree.md~",
     "notes/machine_learning/4913",
     "files/dt_gain.png",
-    "notes/machine_learning/convolutional_neural_network.md",
     "nohup.out",
     "files/entropy.png",
     "files/decision_tree_regions.png",
@@ -262,19 +288,15 @@
     "notes/machine_learning/ensemble.md",
     "notes/machine_learning/random_forest.md~",
     "notes/machine_learning/neural_networks.md",
-    "notes/ai_fundamentals/logical_agents.md",
     "files/truth_table_model_checking.png",
     "files/resolution_inference.png",
     "notes/ai_fundamentals/logic_agents.md",
     "notes/ai_fundamentals/logical_agents.md~",
-    "notes/ai_fundamentals/4913",
     "files/wumpus_entailment2.png",
     "files/wumpus_entailment1.png",
-    "indices/artificial_intelligence_fundamentals.md",
     "files/entailment.png",
     "notes/ai_fundamentals/logic_agents.md~",
     "notes/machine_learning/support_vector_machine.md~",
-    "indices/artificial_intelligence_fundamentals.md~",
     "maps/validation_pipeline.canvas"
   ]
 }
