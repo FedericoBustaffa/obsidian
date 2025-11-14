@@ -50,10 +50,41 @@ where
 
 A model with an interpretation is a model in the propositional logic.
 
+## Computational Issues
+
+A common assumption for FOL agents is the _closed world assumption_: atomic
+sentences that are not known to be true or false are assumed false. This allows
+to get rid of boilerplate stuff that handles incomplete information. In this
+kinf of agents we assume one unique referent of each constant, predicate or
+function.
+
+Due to the introduction of quantifiers, entailment via model checking is very
+expensive or impossible. For example if we have a variable $x$ that can be every
+real value in $[1, +\infty]$ the computation never stops.
+
+In case of _universal quantification_, a statement in the form
+
+$$\forall x \, P$$
+
+is true in a model if and only if the sentence $P$ is true for every possible
+object associated with $x$ in the model. In propositional logic it is a possibly
+infinite conjunction of instances of $x$.
+
+In case of _existential quantifiers_, a statement in the form
+
+$$\exists x \, P$$
+
+is true in a model if and only if the sentnces $P$ is true for at least one
+object associated with $x$ in the model. In propositional logic is a possibly
+infinite disjunction of instances of $x$.
+
+## First Order Logic Knowledge Base
+
 ## Questions
 
 - What is an object?
 - What is a relation?
+- What is a referent?
 - What the interpretation actually does?
 
 ## References
