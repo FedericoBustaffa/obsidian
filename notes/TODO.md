@@ -10,11 +10,13 @@ tags:
 ## Artificial Intelligence Fundamentals
 
 - First Order Logical Agents
+- Planning
 
 ## Machine Learning
 
 - Support Vector Machine Regression
 - Convolutional Neural Networks
+- Deep Learning
 
 ## Computational Mathematics
 
