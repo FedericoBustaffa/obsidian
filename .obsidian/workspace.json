@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/ai_fundamentals/first_order_logical_agents.md",
+                "file": "notes/machine_learning/gradient_descent.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "first_order_logical_agents"
+              "title": "gradient_descent"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/first_order_logical_agents.md",
+                "file": "notes/machine_learning/gradient_descent.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of first_order_logical_agents"
+              "title": "Outline of gradient_descent"
             }
           }
         ]
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/first_order_logical_agents.md",
+                "file": "notes/machine_learning/gradient_descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from first_order_logical_agents"
+              "title": "Outgoing links from gradient_descent"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/first_order_logical_agents.md",
+                "file": "notes/machine_learning/gradient_descent.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for first_order_logical_agents"
+              "title": "Backlinks for gradient_descent"
             }
           }
         ]
@@ -252,9 +252,12 @@
   },
   "active": "489c34045c1a4f77",
   "lastOpenFiles": [
+    "notes/machine_learning/backpropagation.md",
+    "notes/machine_learning/activation_functions.md",
+    "notes/machine_learning/neural_networks.md",
+    "notes/ai_fundamentals/first_order_logical_agents.md",
     "notes/ai_fundamentals/first_order_logical_agents.md~",
     "notes/ai_fundamentals/4913",
-    "notes/ai_fundamentals/first_order_logical_agents.md",
     "notes/TODO.md",
     "notes/machine_learning/decision_tree.md",
     "TODO.md",
@@ -272,7 +275,6 @@
     "files/sliding_window_nn.png",
     "files/function_convolution.png",
     "notes/machine_learning/random_forest.md",
-    "notes/machine_learning/backpropagation.md",
     "indices/parallel_computing.md",
     "notes/parallel_computing/metrics.md",
     "notes/parallel_computing/computational_models.md",
@@ -285,10 +287,8 @@
     "notes/machine_learning/supervised_learning.md",
     "notes/machine_learning/neural_network_training.md",
     "notes/machine_learning/perceptron.md",
-    "notes/machine_learning/activation_functions.md",
     "notes/machine_learning/ensemble.md",
     "notes/machine_learning/random_forest.md~",
-    "notes/machine_learning/neural_networks.md",
     "files/truth_table_model_checking.png",
     "files/resolution_inference.png",
     "notes/ai_fundamentals/logical_agents.md~",
