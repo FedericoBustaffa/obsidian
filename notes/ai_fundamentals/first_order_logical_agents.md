@@ -119,12 +119,25 @@ answer will be some or all substitutions $\sigma$ such that $KB \models S
 
 ## Universal and Existential Instantiations
 
+The **universal instantiation (UI)** is defined by any sentence obtained by
+replacing a _universally quantified_ variable with a **ground term** that can be
+inferred.
+
+$$\frac{\forall v \, a}{\sigma(\{ v / g \}, \, a)}$$
+
+that applies for every variable $v$, sentence $a$ and ground term $g$.
+
 ## Questions
 
 - What is an object?
+  - An element of the domain like a constant.
 - What is a relation?
+  - A set of tuples of objects for which a predicate is true.
 - What is a referent?
+  - A symbol that links to an actual thing in the domain.
 - What the interpretation actually does?
+  - A map that links FOL syntax to the model semantics. For example assigns a
+    objects to every constant or a relation to every predicate.
 
 ## References
 
