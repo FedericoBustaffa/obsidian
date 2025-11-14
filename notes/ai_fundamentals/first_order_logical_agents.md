@@ -58,9 +58,9 @@ to get rid of boilerplate stuff that handles incomplete information. In this
 kinf of agents we assume one unique referent of each constant, predicate or
 function.
 
-Due to the introduction of quantifiers, entailment via model checking is very
-expensive or impossible. For example if we have a variable $x$ that can be every
-real value in $[1, +\infty]$ the computation never stops.
+However with the introduction of quantifiers, entailment via model checking is
+very expensive or impossible. For example if we have a variable $x$ that can be
+every real value in $[1, +\infty]$ the computation never stops.
 
 In case of _universal quantification_, a statement in the form
 
@@ -79,6 +79,45 @@ object associated with $x$ in the model. In propositional logic is a possibly
 infinite disjunction of instances of $x$.
 
 ## First Order Logic Knowledge Base
+
+In order to build a FOL agent we need to build a **FOL knowledge base** and this
+is typically done by
+
+1. Identify questions.
+2. Assemble the relevant knowledge.
+3. Decide on a vocabulary predicates, functions and constants.
+4. Encode general knowledge about the domain.
+5. Encode a specific description of the problem instance.
+6. Ask queries to the inference algorithm to get answers.
+7. Debug and evaluate the knowledge base.
+
+For example in the Wumpus World we want to have an interface _ask_ and _tell_;
+the agent perceives a _breeze_ at $t = 5$, so
+
+- _Tell (KB, Percept([Smell, Breeze], 5))_
+- _Ask (KB, $\exists a$ Action($a$, 5))_
+
+And the answer should be _$a$ = Shoot_.
+
+A useful construct is the **substitution** operator $\sigma$ and it works by
+assigning (or substituting) a term value to a variable. For example we can have
+a predicate
+
+$$S = \text{Smarter} (x, y)$$
+
+and a substitution
+
+$$\sigma = \{ x / \text{Mario}, y / \text{Luigi} \}$$
+
+the resulint sentence is
+
+$$S \sigma = \text{Smarter} (\text{Mario}, \text{Luigi})$$
+
+This is used when the agent query the $KB$, for example _Ask($KB$, $S$)_; the
+answer will be some or all substitutions $\sigma$ such that $KB \models S
+\sigma$.
+
+## Universal and Existential Instantiations
 
 ## Questions
 

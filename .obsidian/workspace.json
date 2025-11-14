@@ -234,7 +234,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -253,11 +253,11 @@
   "active": "489c34045c1a4f77",
   "lastOpenFiles": [
     "notes/ai_fundamentals/first_order_logical_agents.md~",
+    "notes/ai_fundamentals/4913",
     "notes/ai_fundamentals/first_order_logical_agents.md",
     "notes/TODO.md",
     "notes/machine_learning/decision_tree.md",
     "TODO.md",
-    "notes/ai_fundamentals/4913",
     "notes/ai_fundamentals/logical_agents.md",
     "notes/machine_learning/convolutional_neural_network.md",
     "conflict-files-obsidian-git.md",
