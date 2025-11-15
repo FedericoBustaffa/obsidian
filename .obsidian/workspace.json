@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
+                "file": "notes/machine_learning/backpropagation.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "decision_tree"
+              "title": "backpropagation"
             }
           },
           {
-            "id": "4214b951dba1c980",
+            "id": "7272b0c298354690",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO.md",
+                "file": "notes/TODO.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
+                "file": "notes/machine_learning/backpropagation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of decision_tree"
+              "title": "Outline of backpropagation"
             }
           }
         ]
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
+                "file": "notes/machine_learning/backpropagation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from decision_tree"
+              "title": "Outgoing links from backpropagation"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
+                "file": "notes/machine_learning/backpropagation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for decision_tree"
+              "title": "Backlinks for backpropagation"
             }
           }
         ]
@@ -234,7 +234,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 235.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,17 +252,20 @@
   },
   "active": "489c34045c1a4f77",
   "lastOpenFiles": [
-    "notes/machine_learning/statistical_learning_theory.md",
-    "notes/machine_learning/support_vector_machine.md",
+    "notes/machine_learning/gradient_descent.md",
+    "notes/machine_learning/backpropagation.md",
+    "notes/machine_learning/activation_functions.md",
+    "notes/machine_learning/neural_networks.md",
     "notes/ai_fundamentals/first_order_logical_agents.md",
-    "notes/TODO.md",
     "notes/ai_fundamentals/first_order_logical_agents.md~",
+    "notes/ai_fundamentals/4913",
+    "notes/TODO.md",
     "notes/machine_learning/decision_tree.md",
     "TODO.md",
-    "notes/ai_fundamentals/4913",
     "notes/ai_fundamentals/logical_agents.md",
     "notes/machine_learning/convolutional_neural_network.md",
     "conflict-files-obsidian-git.md",
+    "notes/machine_learning/support_vector_machine.md",
     "notes/machine_learning/decision_tree.md~",
     "notes/machine_learning/4913",
     "files/dt_gain.png",
@@ -273,7 +276,6 @@
     "files/sliding_window_nn.png",
     "files/function_convolution.png",
     "notes/machine_learning/random_forest.md",
-    "notes/machine_learning/backpropagation.md",
     "indices/parallel_computing.md",
     "notes/parallel_computing/metrics.md",
     "notes/parallel_computing/computational_models.md",
@@ -286,10 +288,8 @@
     "notes/machine_learning/supervised_learning.md",
     "notes/machine_learning/neural_network_training.md",
     "notes/machine_learning/perceptron.md",
-    "notes/machine_learning/activation_functions.md",
     "notes/machine_learning/ensemble.md",
     "notes/machine_learning/random_forest.md~",
-    "notes/machine_learning/neural_networks.md",
     "files/truth_table_model_checking.png",
     "files/resolution_inference.png",
     "notes/ai_fundamentals/logical_agents.md~",
