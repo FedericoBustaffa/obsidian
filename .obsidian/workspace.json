@@ -252,6 +252,7 @@
   },
   "active": "489c34045c1a4f77",
   "lastOpenFiles": [
+    "notes/machine_learning/decision_tree.md~",
     "notes/machine_learning/gradient_descent.md",
     "notes/machine_learning/backpropagation.md",
     "notes/machine_learning/activation_functions.md",
@@ -266,7 +267,6 @@
     "notes/machine_learning/convolutional_neural_network.md",
     "conflict-files-obsidian-git.md",
     "notes/machine_learning/support_vector_machine.md",
-    "notes/machine_learning/decision_tree.md~",
     "notes/machine_learning/4913",
     "files/dt_gain.png",
     "nohup.out",
@@ -288,7 +288,6 @@
     "notes/machine_learning/supervised_learning.md",
     "notes/machine_learning/neural_network_training.md",
     "notes/machine_learning/perceptron.md",
-    "notes/machine_learning/ensemble.md",
     "notes/machine_learning/random_forest.md~",
     "files/truth_table_model_checking.png",
     "files/resolution_inference.png",
