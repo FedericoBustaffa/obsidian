@@ -9,14 +9,17 @@ tags:
 
 ## Artificial Intelligence Fundamentals
 
-- First Order Logical Agents
 - Planning
+- Uncertainty
 
 ## Machine Learning
 
 - Support Vector Machine Regression
 - Convolutional Neural Networks
 - Deep Learning
+- Randomized
+- Unsupervised
+- Recurrent Neural Networks
 
 ## Computational Mathematics
 

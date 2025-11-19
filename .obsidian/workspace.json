@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/ai_fundamentals/planning.md",
+                "file": "notes/machine_learning/backpropagation.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "planning"
+              "title": "backpropagation"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/planning.md",
+                "file": "notes/machine_learning/backpropagation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of planning"
+              "title": "Outline of backpropagation"
             }
           }
         ]
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/planning.md",
+                "file": "notes/machine_learning/backpropagation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from planning"
+              "title": "Outgoing links from backpropagation"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/planning.md",
+                "file": "notes/machine_learning/backpropagation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for planning"
+              "title": "Backlinks for backpropagation"
             }
           }
         ]
@@ -252,11 +252,12 @@
   },
   "active": "489c34045c1a4f77",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/planning.md",
+    "notes/TODO.md~",
     "notes/ai_fundamentals/planning.md~",
     "notes/ai_fundamentals/first_order_logical_agents.md",
     "indices/artificial_intelligence_fundamentals.md~",
     "indices/artificial_intelligence_fundamentals.md",
-    "notes/ai_fundamentals/planning.md",
     "notes/ai_fundamentals/first_order_logical_agents.md~",
     "notes/machine_learning/backpropagation.md",
     "notes/machine_learning/backpropagation.md~",
@@ -291,7 +292,6 @@
     "notes/parallel_computing/simd.md",
     "notes/parallel_computing/parallel_architectures.md",
     "indices/computational_mathematics.md",
-    "notes/machine_learning/random_forest.md~",
     "files/truth_table_model_checking.png",
     "files/resolution_inference.png",
     "files/wumpus_entailment2.png",
