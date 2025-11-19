@@ -14,6 +14,7 @@ tags:
 
 ## Machine Learning
 
+- Correct back-propagation
 - Support Vector Machine Regression
 - Convolutional Neural Networks
 - Deep Learning
