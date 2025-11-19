@@ -136,6 +136,30 @@ $$\frac{\exists v \; a}{\sigma (\{ v / k \}, \, a)}$$
 that applies for every variable $v$, sentence $a$ and constant symbol $k$ that
 does not belong to any other object.
 
+Applying UI repeatedly means **adding** new sentences to the $KB$, but the
+resulting $KB$ is logically equivalent to the initial $KB$.
+
+Applying EI repeatedly means **replacing** the existential quantification with a
+new sentence. In this case the resulting $KB$ is not logically equivalent to the
+initial and it is satisfiable if and only if the initial was.
+
+## Resolution in FOL
+
+What is needed for an inference algorithm with FOL is **resolution rule**:
+
+$$
+\frac{p_i \lor \cdots \lor p_k, \; m_1 \lor \cdots \lor m_n}
+{p_1 \lor \cdots \lor p_{i-1} \lor p_{i+1} \lor \cdots \lor p_k \lor
+m_1 \lor \cdots \lor m_{j-1} \lor m_{j+1} \lor \cdots \lor m_n} \theta'
+$$
+
+where
+
+$$\theta = \text{unify}(p_i, \lnot m_j)$$
+
+we can then apply resolution steps to $\text{CNF}(KB \land \lnot \alpha)$ to
+prove it is unsatisfiable.
+
 ## Questions
 
 - What is an object?
