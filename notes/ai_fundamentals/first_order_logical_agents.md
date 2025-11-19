@@ -137,11 +137,15 @@ that applies for every variable $v$, sentence $a$ and constant symbol $k$ that
 does not belong to any other object.
 
 Applying UI repeatedly means **adding** new sentences to the $KB$, but the
-resulting $KB$ is logically equivalent to the initial $KB$.
+resulting $KB$ is logically equivalent to the initial $KB$. If we apply the UI
+for every possible sentence in order to remove every $\forall$, we
+_propositionalize_ the $KB$.
 
 Applying EI repeatedly means **replacing** the existential quantification with a
 new sentence. In this case the resulting $KB$ is not logically equivalent to the
 initial and it is satisfiable if and only if the initial was.
+
+## Unification
 
 ## Resolution in FOL
 
