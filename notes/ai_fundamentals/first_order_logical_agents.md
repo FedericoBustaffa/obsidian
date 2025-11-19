@@ -119,13 +119,22 @@ answer will be some or all substitutions $\sigma$ such that $KB \models S
 
 ## Universal and Existential Instantiations
 
-The **universal instantiation (UI)** is defined by any sentence obtained by
-replacing a _universally quantified_ variable with a **ground term** that can be
+The **universal instantiation (UI)** tells us that any sentence obtained by
+replacing a _universally quantified_ variable with a **ground term** can be
 inferred.
 
-$$\frac{\forall v \, a}{\sigma(\{ v / g \}, \, a)}$$
+$$\frac{\forall v \; a}{\sigma(\{ v / g \}, \, a)}$$
 
 that applies for every variable $v$, sentence $a$ and ground term $g$.
+
+The **existential instantiation (EI)** tells us that a sentence that confirms
+the existance of something we can infer a sentence we a new constant $k$, called
+**Skolem constant**.
+
+$$\frac{\exists v \; a}{\sigma (\{ v / k \}, \, a)}$$
+
+that applies for every variable $v$, sentence $a$ and constant symbol $k$ that
+does not belong to any other object.
 
 ## Questions
 
