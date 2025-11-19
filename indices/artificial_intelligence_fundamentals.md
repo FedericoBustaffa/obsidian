@@ -22,6 +22,8 @@ algorithms.
 - [[evolutionary_optimization]]
 - [[artificial_life]]
 - [[logical_agents]]
+- [[first_order_logical_agents]]
+- [[planning]]
 
 ## References
 

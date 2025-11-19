@@ -147,6 +147,60 @@ initial and it is satisfiable if and only if the initial was.
 
 ## Unification
 
+Usually the process of propositionalization generates a lot of useless stuff.
+Taking also into account that if we have $p$ predicates that are $k$-ary and $n$
+constants, we can generate $p n^k$ possible instances.
+
+The trick is to find a way to make different logical expression identical, such
+that we reduce the number of possible instances. For this purpose,
+**unification** can be use to _unify_ two different expressions:
+
+$$\text{unify} (\alpha, \beta) = \theta)$$
+
+if $\alpha \theta = \beta \theta$, with $\alpha$ and $\beta$ sentences and
+$\theta$ substitution.
+
+If for example we have
+
+$$
+\begin{align*}
+\alpha &= \text{Knows} (\text{John}, x) \\
+\alpha &= \text{Knows} (\text{John}, \text{Jane})
+\end{align*}
+$$
+
+the unifier will be
+
+$$\theta = \{ x / \text{Jane} \}$$
+
+because $\alpha \theta = \text{Knows} (\text{John}, \text{Jane})$ that is
+equivalent to $\beta$.
+
+### Generalized Modus Ponens
+
+The unification let us define the **generalized Modus Ponens (GMP)** as follows
+
+$$\frac{p_1', \dots, p_2', \; (p_1 \land \cdots p_n \to q)}{q \theta}$$
+
+where $\forall i p_i' \theta = p_i \theta$ and $p_i'$ and $p_i$ are _atomic_.
+
+The GMP lifts the Modus Ponens, adding the minimal amount of complexity needed
+to make it work in FOL, obtaining a _sound_ algorithm.
+
+## Chaining
+
+Since we are dealing with definite clauses we are not covering the entire FOL,
+but this is often suffcient to most of the real world cases.
+
+The **forward chaining**, starting from the known facts, triggers all the
+possible applicable rules and add the conclusions to the facts. When the query
+is generated, it returns true, otherwise, if no new facts are generated, returns
+false. The _forward chaining_ is sound and complete.
+
+The **backward chaining** starts from the query $q$, generates all the terms
+connected to $q$ until it generates the premise to infer $q$. The _backward
+chaining_ is sound but not complete in case of infinite space or loops.
+
 ## Resolution in FOL
 
 What is needed for an inference algorithm with FOL is **resolution rule**:
@@ -163,6 +217,11 @@ $$\theta = \text{unify}(p_i, \lnot m_j)$$
 
 we can then apply resolution steps to $\text{CNF}(KB \land \lnot \alpha)$ to
 prove it is unsatisfiable.
+
+Resolution in FOL is complete and if $KB \models \alpha$ then resolution
+inference will derive $\alpha$ by contraddiction. It is also _semidecidable_
+because it will find proof for a true statement, but for a false statement might
+never stop.
 
 ## Questions
 
