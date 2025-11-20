@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/neural_network_training.md",
+                "file": "notes/machine_learning/activation_functions.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "neural_network_training"
+              "title": "activation_functions"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/neural_network_training.md",
+                "file": "notes/machine_learning/activation_functions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of neural_network_training"
+              "title": "Outline of activation_functions"
             }
           }
         ]
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/neural_network_training.md",
+                "file": "notes/machine_learning/activation_functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from neural_network_training"
+              "title": "Outgoing links from activation_functions"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/neural_network_training.md",
+                "file": "notes/machine_learning/activation_functions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for neural_network_training"
+              "title": "Backlinks for activation_functions"
             }
           }
         ]
@@ -253,6 +253,7 @@
   "active": "489c34045c1a4f77",
   "lastOpenFiles": [
     "notes/machine_learning/linear_models.md",
+    "notes/machine_learning/neural_network_training.md",
     "notes/machine_learning/backpropagation.md",
     "notes/ai_fundamentals/planning.md",
     "notes/machine_learning/backpropagation.md~",
@@ -289,7 +290,6 @@
     "notes/parallel_computing/parallel_architectures.md",
     "indices/computational_mathematics.md",
     "notes/machine_learning/supervised_learning.md",
-    "notes/machine_learning/neural_network_training.md",
     "notes/machine_learning/random_forest.md~",
     "files/truth_table_model_checking.png",
     "files/resolution_inference.png",
