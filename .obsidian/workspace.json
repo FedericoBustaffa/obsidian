@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/activation_functions.md",
+                "file": "notes/machine_learning/decision_tree.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "activation_functions"
+              "title": "decision_tree"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/activation_functions.md",
+                "file": "notes/machine_learning/decision_tree.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of activation_functions"
+              "title": "Outline of decision_tree"
             }
           }
         ]
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/activation_functions.md",
+                "file": "notes/machine_learning/decision_tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from activation_functions"
+              "title": "Outgoing links from decision_tree"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/activation_functions.md",
+                "file": "notes/machine_learning/decision_tree.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for activation_functions"
+              "title": "Backlinks for decision_tree"
             }
           }
         ]
@@ -252,20 +252,21 @@
   },
   "active": "489c34045c1a4f77",
   "lastOpenFiles": [
+    "files/truth_table_model_checking.png",
+    "notes/ai_fundamentals/planning.md",
+    "notes/machine_learning/decision_tree.md",
+    "notes/machine_learning/activation_functions.md",
     "notes/machine_learning/linear_models.md",
     "notes/machine_learning/neural_network_training.md",
     "notes/machine_learning/backpropagation.md",
-    "notes/ai_fundamentals/planning.md",
     "notes/machine_learning/backpropagation.md~",
     "notes/machine_learning/gradient_descent.md",
     "notes/machine_learning/decision_tree.md~",
-    "notes/machine_learning/activation_functions.md",
     "notes/machine_learning/neural_networks.md",
     "notes/ai_fundamentals/first_order_logical_agents.md",
     "notes/ai_fundamentals/first_order_logical_agents.md~",
     "notes/ai_fundamentals/4913",
     "notes/TODO.md",
-    "notes/machine_learning/decision_tree.md",
     "TODO.md",
     "notes/ai_fundamentals/logical_agents.md",
     "notes/machine_learning/convolutional_neural_network.md",
@@ -289,9 +290,7 @@
     "notes/parallel_computing/simd.md",
     "notes/parallel_computing/parallel_architectures.md",
     "indices/computational_mathematics.md",
-    "notes/machine_learning/supervised_learning.md",
     "notes/machine_learning/random_forest.md~",
-    "files/truth_table_model_checking.png",
     "files/resolution_inference.png",
     "notes/ai_fundamentals/logical_agents.md~",
     "files/wumpus_entailment2.png",
