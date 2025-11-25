@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "567de10d66edcc83",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.6"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
-            }
-          },
-          {
             "id": "7272b0c298354690",
             "type": "leaf",
             "state": {
@@ -67,8 +55,7 @@
               "title": "TODO"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -133,12 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "notes/machine_learning/decision_tree.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of decision_tree"
             }
           }
         ]
@@ -162,11 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "notes/machine_learning/decision_tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from decision_tree"
             }
           },
           {
@@ -211,6 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notes/machine_learning/decision_tree.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for decision_tree"
             }
           }
         ]
@@ -260,8 +250,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "567de10d66edcc83",
+  "active": "489c34045c1a4f77",
   "lastOpenFiles": [
+    "notes/TODO.md",
     "files/truth_table_model_checking.png",
     "notes/ai_fundamentals/planning.md",
     "notes/machine_learning/decision_tree.md",
@@ -276,7 +267,6 @@
     "notes/ai_fundamentals/first_order_logical_agents.md",
     "notes/ai_fundamentals/first_order_logical_agents.md~",
     "notes/ai_fundamentals/4913",
-    "notes/TODO.md",
     "TODO.md",
     "notes/ai_fundamentals/logical_agents.md",
     "notes/machine_learning/convolutional_neural_network.md",
