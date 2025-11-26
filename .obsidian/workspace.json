@@ -55,8 +55,7 @@
               "title": "TODO"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/TODO.md",
+                "file": "notes/machine_learning/decision_tree.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TODO"
+              "title": "Outline of decision_tree"
             }
           }
         ]
@@ -151,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/TODO.md",
+                "file": "notes/machine_learning/decision_tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from TODO"
+              "title": "Outgoing links from decision_tree"
             }
           },
           {
@@ -201,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/TODO.md",
+                "file": "notes/machine_learning/decision_tree.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for TODO"
+              "title": "Backlinks for decision_tree"
             }
           }
         ]
@@ -251,10 +250,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "7272b0c298354690",
+  "active": "489c34045c1a4f77",
   "lastOpenFiles": [
-    "notes/machine_learning/decision_tree.md",
     "notes/TODO.md",
+    "notes/machine_learning/decision_tree.md",
     "files/truth_table_model_checking.png",
     "notes/ai_fundamentals/planning.md",
     "notes/machine_learning/activation_functions.md",
