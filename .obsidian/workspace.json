@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/parallel_computing/slurm.md",
+                "file": "notes/parallel_computing/openMP.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "slurm"
+              "title": "openMP"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/parallel_computing/slurm.md",
+                "file": "notes/parallel_computing/openMP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of slurm"
+              "title": "Outline of openMP"
             }
           }
         ]
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/parallel_computing/slurm.md",
+                "file": "notes/parallel_computing/openMP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from slurm"
+              "title": "Outgoing links from openMP"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/parallel_computing/slurm.md",
+                "file": "notes/parallel_computing/openMP.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for slurm"
+              "title": "Backlinks for openMP"
             }
           }
         ]
@@ -252,6 +252,7 @@
   },
   "active": "489c34045c1a4f77",
   "lastOpenFiles": [
+    "notes/parallel_computing/slurm.md",
     "notes/machine_learning/decision_tree.md",
     "notes/TODO.md",
     "files/truth_table_model_checking.png",
