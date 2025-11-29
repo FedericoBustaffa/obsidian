@@ -252,8 +252,9 @@
   },
   "active": "489c34045c1a4f77",
   "lastOpenFiles": [
-    "notes/TODO.md",
+    "notes/parallel_computing/mpi.md",
     "notes/parallel_computing/openMP.md",
+    "notes/TODO.md",
     "notes/parallel_computing/slurm.md",
     "notes/machine_learning/decision_tree.md",
     "files/truth_table_model_checking.png",
@@ -287,7 +288,6 @@
     "notes/parallel_computing/metrics.md",
     "notes/parallel_computing/computational_models.md",
     "notes/coding/cpp.md",
-    "notes/parallel_computing/mpi.md",
     "notes/parallel_computing/workload_balancing.md",
     "notes/parallel_computing/simd.md",
     "notes/parallel_computing/parallel_architectures.md",
