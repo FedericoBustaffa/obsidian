@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/parallel_computing/openMP.md",
+                "file": "notes/parallel_computing/fastflow.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "openMP"
+              "title": "fastflow"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/parallel_computing/openMP.md",
+                "file": "notes/parallel_computing/fastflow.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of openMP"
+              "title": "Outline of fastflow"
             }
           }
         ]
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/parallel_computing/openMP.md",
+                "file": "notes/parallel_computing/fastflow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from openMP"
+              "title": "Outgoing links from fastflow"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/parallel_computing/openMP.md",
+                "file": "notes/parallel_computing/fastflow.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for openMP"
+              "title": "Backlinks for fastflow"
             }
           }
         ]
@@ -252,8 +252,8 @@
   },
   "active": "489c34045c1a4f77",
   "lastOpenFiles": [
-    "notes/parallel_computing/mpi.md",
     "notes/parallel_computing/openMP.md",
+    "notes/parallel_computing/mpi.md",
     "notes/TODO.md",
     "notes/parallel_computing/slurm.md",
     "notes/machine_learning/decision_tree.md",
