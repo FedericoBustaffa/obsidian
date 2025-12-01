@@ -246,7 +246,6 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-git:Open Git source control": false,
       "bases:Create new base": false
     }
   },
