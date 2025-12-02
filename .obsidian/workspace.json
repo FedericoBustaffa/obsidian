@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/parallel_computing/fastflow.md",
+                "file": "notes/machine_learning/linear_models.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "fastflow"
+              "title": "linear_models"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/parallel_computing/fastflow.md",
+                "file": "notes/machine_learning/linear_models.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of fastflow"
+              "title": "Outline of linear_models"
             }
           }
         ]
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/parallel_computing/fastflow.md",
+                "file": "notes/machine_learning/linear_models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from fastflow"
+              "title": "Outgoing links from linear_models"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/parallel_computing/fastflow.md",
+                "file": "notes/machine_learning/linear_models.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for fastflow"
+              "title": "Backlinks for linear_models"
             }
           }
         ]
@@ -252,6 +252,9 @@
   },
   "active": "489c34045c1a4f77",
   "lastOpenFiles": [
+    "notes/machine_learning/gradient_descent.md",
+    "notes/machine_learning/neural_network_training.md",
+    "notes/parallel_computing/fastflow.md",
     "notes/parallel_computing/openMP.md",
     "notes/parallel_computing/mpi.md",
     "notes/TODO.md",
@@ -261,10 +264,8 @@
     "notes/ai_fundamentals/planning.md",
     "notes/machine_learning/activation_functions.md",
     "notes/machine_learning/linear_models.md",
-    "notes/machine_learning/neural_network_training.md",
     "notes/machine_learning/backpropagation.md",
     "notes/machine_learning/backpropagation.md~",
-    "notes/machine_learning/gradient_descent.md",
     "notes/machine_learning/decision_tree.md~",
     "notes/machine_learning/neural_networks.md",
     "notes/ai_fundamentals/first_order_logical_agents.md",
@@ -290,7 +291,6 @@
     "notes/coding/cpp.md",
     "notes/parallel_computing/workload_balancing.md",
     "notes/parallel_computing/simd.md",
-    "notes/parallel_computing/parallel_architectures.md",
     "notes/machine_learning/random_forest.md~",
     "files/resolution_inference.png",
     "notes/ai_fundamentals/logical_agents.md~",
