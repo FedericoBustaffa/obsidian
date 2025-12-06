@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "489c34045c1a4f77",
+            "id": "e992a85b485556d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/neural_network_training.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "neural_network_training"
+              "title": "support_vector_machine"
             }
           },
           {
-            "id": "7272b0c298354690",
+            "id": "489c34045c1a4f77",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/TODO.md",
+                "file": "TODO.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -78,7 +78,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Esplora risorse"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/neural_network_training.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of neural_network_training"
+              "title": "Struttura di support_vector_machine"
             }
           }
         ]
@@ -142,7 +142,7 @@
       {
         "id": "1728b1c62e4f1f4f",
         "type": "tabs",
-        "dimension": 40.16319129646419,
+        "dimension": 51.6380655226209,
         "children": [
           {
             "id": "6a6787f071b2b91c",
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/neural_network_training.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from neural_network_training"
+              "title": "Collegamenti in uscita da support_vector_machine"
             }
           },
           {
@@ -192,7 +192,7 @@
       {
         "id": "e6f8bb84f6edd43b",
         "type": "tabs",
-        "dimension": 35.63009972801451,
+        "dimension": 24.18096723868955,
         "children": [
           {
             "id": "4513753b4f6f78cb",
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/neural_network_training.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for neural_network_training"
+              "title": "Riferimenti a support_vector_machine"
             }
           }
         ]
@@ -218,7 +218,7 @@
       {
         "id": "6fd30e3eead3fb2f",
         "type": "tabs",
-        "dimension": 24.206708975521305,
+        "dimension": 24.18096723868955,
         "children": [
           {
             "id": "fd1a5ddca45b0c4b",
@@ -227,77 +227,77 @@
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Vista grafo"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 251.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "audio-recorder:Avvia/ferma registrazione": false,
+      "workspaces:Gestisci layout delle aree di lavoro": false,
       "obsidian-git:Open Git source control": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false,
-      "workspaces:Manage workspace layouts": false,
       "bases:Create new base": false
     }
   },
-  "active": "489c34045c1a4f77",
+  "active": "e992a85b485556d9",
   "lastOpenFiles": [
-    "notes/machine_learning/linear_models.md",
-    "notes/machine_learning/gradient_descent.md",
-    "notes/machine_learning/neural_network_training.md",
-    "notes/parallel_computing/fastflow.md",
-    "notes/parallel_computing/openMP.md",
-    "notes/parallel_computing/mpi.md",
-    "notes/TODO.md",
-    "notes/parallel_computing/slurm.md",
-    "notes/machine_learning/decision_tree.md",
-    "files/truth_table_model_checking.png",
-    "notes/ai_fundamentals/planning.md",
-    "notes/machine_learning/activation_functions.md",
-    "notes/machine_learning/backpropagation.md",
-    "notes/machine_learning/backpropagation.md~",
-    "notes/machine_learning/decision_tree.md~",
-    "notes/machine_learning/neural_networks.md",
-    "notes/ai_fundamentals/first_order_logical_agents.md",
-    "notes/ai_fundamentals/first_order_logical_agents.md~",
-    "notes/ai_fundamentals/4913",
-    "TODO.md",
-    "notes/ai_fundamentals/logical_agents.md",
-    "notes/machine_learning/convolutional_neural_network.md",
-    "conflict-files-obsidian-git.md",
-    "notes/machine_learning/support_vector_machine.md",
-    "notes/machine_learning/4913",
-    "files/dt_gain.png",
-    "nohup.out",
-    "files/entropy.png",
-    "files/decision_tree_regions.png",
-    "notes/machine_learning/convolutional_neural_network.md~",
-    "files/sliding_window_nn.png",
-    "files/function_convolution.png",
     "notes/machine_learning/random_forest.md",
-    "indices/parallel_computing.md",
-    "notes/parallel_computing/metrics.md",
-    "notes/parallel_computing/computational_models.md",
-    "notes/coding/cpp.md",
-    "notes/parallel_computing/workload_balancing.md",
-    "notes/parallel_computing/simd.md",
-    "notes/machine_learning/random_forest.md~",
-    "files/resolution_inference.png",
-    "notes/ai_fundamentals/logical_agents.md~",
+    "notes/machine_learning/ensemble.md",
+    "notes/machine_learning/decision_tree.md",
+    "notes/machine_learning/convolutional_neural_network.md",
+    "notes/machine_learning/bias_variance.md",
+    "notes/ai_fundamentals/planning.md",
+    "notes/ai_fundamentals/logical_agents.md",
+    "notes/ai_fundamentals/first_order_logical_agents.md",
+    "notes/ai_fundamentals/artificial_life.md",
+    "notes/TODO.md",
     "files/wumpus_entailment2.png",
     "files/wumpus_entailment1.png",
-    "files/entailment.png",
-    "notes/ai_fundamentals/logic_agents.md~",
-    "maps/validation_pipeline.canvas"
+    "files/truth_table_model_checking.png",
+    "files/toroidal_grid.png",
+    "files/svm_kernel.png",
+    "files/sliding_window_nn.png",
+    "files/simple_ca.png",
+    "files/resolution_inference.png",
+    "files/non_linearly_separable_problem.png",
+    "files/logistic_map.png",
+    "notes/machine_learning/support_vector_machine.md",
+    "TODO.md",
+    "notes/machine_learning/support_vector_machine.md~",
+    "notes/machine_learning/4913",
+    "notes/ai_fundamentals/informed_search.md",
+    "notes/ai_fundamentals/evolutionary_strategies.md",
+    "notes/machine_learning/neural_networks.md",
+    "notes/machine_learning/perceptron.md",
+    "notes/ai_fundamentals/games.md",
+    "notes/ai_fundamentals/genetic_algorithms.md",
+    "notes/ai_fundamentals/novelty.md",
+    "notes/machine_learning/statistical_learning_theory.md",
+    "conflict-files-obsidian-git.md",
+    "notes/machine_learning/statistical_learning_theory.md~",
+    "notes/machine_learning/validation.md",
+    "notes/complex_systems/continuous_systems.md",
+    "notes/machine_learning/validation.md~",
+    "notes/machine_learning/gradient_descent.md",
+    "notes/machine_learning/gradient_descent.md~",
+    "notes/linear_algebra/vector_space_basis.md",
+    "indices/machine_learning.md",
+    "maps/validation_pipeline.canvas",
+    "maps",
+    "notes/ai_fundamentals/novelty.md~",
+    "notes/ai_fundamentals/genetic_algorithms.md~",
+    "notes/ai_fundamentals/evolutionary_optimization.md~",
+    "notes/ai_fundamentals/innovation.md~"
   ]
 }
