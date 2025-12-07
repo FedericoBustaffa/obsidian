@@ -158,7 +158,25 @@ The are basically three appraches for this:
 - **Goal monitoring**: before executing an action, the agent checks to see if
   there is a better set of goals it could be trying to achieve.
 
-## Time
+## Constraints
+
+The classical planning takes into account only the actions sequence, but doest
+consider the actual time or resources needed for every action, in order to
+performed.
+
+In this way we can omit some **constraints** given by the problem, failing to
+solve it. A more realistic agent should take into account the type and number of
+resources it needs to perform an action and also if the resource is consumable
+or reusable.
+
+Typically this problems are addressed by first **plan** and then **schedule**:
+
+- In the **planning phase** actions are selected, with some ordering
+  constraints, to meet the goals of the problem.
+- In the **scheduling phase** temporal information is added to the plan to
+  ensure that it meets resource and deadline constraints.
+
+This approach is common in real world manufacturing and logistical settings.
 
 ## References
 
