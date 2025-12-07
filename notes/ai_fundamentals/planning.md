@@ -86,6 +86,43 @@ Another is the **ignore delete list heuristic** that removes negative literals
 from actions' effect. This allows to make monotonic steps towards the goal since
 no action can undo previous steps.
 
+### Domain Independent Pruning
+
+The **symmetry reduction heuristic** prunes every symmetric branches of the tree
+but one.
+
+The **forward pruning** prunes away branches based on a _preferred action_,
+getting a relaxed plan that solves a relaxed version of the problem.
+
+### Reducing State Space Size
+
+Another approach is based on the reduction of state space size, unlike action
+based heuristics.
+
+The **state abstraction heuristic** applies a _many to one_ mapping from states
+to the abstract representation. It removes some fluents to get an approximate
+solution and, if possible, adds back some fluents to recover the exact solution.
+
+The **decomposition heuristic** divides a problem into parts, solving each part
+independently, and then combining the parts. For this a **sub-goal independence
+assumption** must be held: the cost of solving a conjunction of subgoals is
+approximated by the sum of the costs of solving subgoal independently.
+
+## Hierarchical Planning
+
+In order to mitigate _explosion of action_ in the final plan is possible to
+abstract away some details and build hierarchical structures.
+
+- **High level action (HLA)**: admits one or more refinements to a sequence of
+  actions.
+- **High level plan (HLP)**: a sequence of HLAs that, in its implementation
+  concatenates the implementation of all HLAs. HLP achieves the goal if at least
+  one of its implementation achieves the goal.
+
+An example of this is the **hierarchical forward planning** that, starting from
+a HLP with a single HLA, that HLA needs to reach the goal. It uses BFS to find
+possible refinements of each HLA in the current plan.
+
 ## References
 
 - [[artificial_intelligence_fundamentals]]
