@@ -40,6 +40,16 @@ A set of action schemas defines the **planning domain** and for a problem in the
 domain is necessary to add the _initial state_ (formed by a conjunction of
 ground fluents) and the _goal state_ (formed by a conjunction of literals).
 
+Given an action with precondition $P$, the action is applicable in a state $s$
+if and only if $S \models P$. Every positive literal in $P$ must also hold in
+$s$ and every negated laiteral in $P$ must not be present in $s$.
+
+The result of an action is a new state with all fluents from the previous state,
+from which it's necessary to
+
+- Remove fluents appearing as negated literals in the action's effects.
+- Add fluents appearing as positive literals in an action's effects.
+
 ## References
 
 - [[artificial_intelligence_fundamentals]]
