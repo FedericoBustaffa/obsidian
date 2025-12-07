@@ -50,6 +50,18 @@ from which it's necessary to
 - Remove fluents appearing as negated literals in the action's effects.
 - Add fluents appearing as positive literals in an action's effects.
 
+## Algorithms for Planning
+
+In order to find an actual plan, typically we can start from a declarative
+representation, and it's possible to proceed in two ways:
+
+- **Forward**: the start is the initial state, then it's necessary to **unify**
+  the current state agains the preconditions of each action schema to find the
+  _applicable_ actions. Then, by applying each resulting substitution, is
+  possible to get a ground action that we can apply.
+
 ## References
 
 - [[artificial_intelligence_fundamentals]]
+- [[logical_agents]]
+- [[first_order_logical_agents]]
