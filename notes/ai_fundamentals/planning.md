@@ -19,6 +19,13 @@ inference, and there are ad-hoc languages to implement this kind of stuff, like
 In this kind of languages it is possible represent a combinatorial number of
 actions with a single schema, and in the end return a _plan_.
 
+A core component in PDDL are states, that are basically a **conjunction of
+_ground atomic fluents_**, where
+
+- **Ground** means that there are no variables.
+- **Atomic** means that is a single literal with no structure.
+- **Fluents** is an aspect of the world that changes over time.
+
 ## References
 
 - [[artificial_intelligence_fundamentals]]
