@@ -252,6 +252,7 @@
   },
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/planning.md~",
     "notes/machine_learning/random_forest.md",
     "notes/machine_learning/ensemble.md",
     "notes/machine_learning/decision_tree.md",
@@ -292,7 +293,6 @@
     "notes/machine_learning/gradient_descent.md",
     "notes/machine_learning/gradient_descent.md~",
     "notes/linear_algebra/vector_space_basis.md",
-    "indices/machine_learning.md",
     "maps/validation_pipeline.canvas",
     "maps",
     "notes/ai_fundamentals/novelty.md~",
