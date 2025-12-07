@@ -59,6 +59,7 @@ representation, and it's possible to proceed in two ways:
   the current state agains the preconditions of each action schema to find the
   _applicable_ actions. Then, by applying each resulting substitution, is
   possible to get a ground action that we can apply.
+- **Backward**: the start is the goal state and considering **relevant actions**
 
 ## References
 
