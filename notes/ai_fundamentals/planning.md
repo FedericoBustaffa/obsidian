@@ -140,7 +140,25 @@ fluents in a belief state grows exponentially.
 ## Online Planning
 
 A potentially more flexible apprach is **online planning** where the agents
-plans as it explores more the environment.
+plans as it explores more the environment. This can be useful for
+non-deterministic environments, for example when
+
+- **Execution monitoring**: there is the need for for a new plan.
+- There are too many contingencies to prepare for.
+- A contingency is not prepared, **replanning** is required.
+- The agent's model of the world turns out to be incorrect and so a replanning
+  is needed.
+
+The are basically three appraches for this:
+
+- **Action monitoring**: before executing an action, the agent verifies that all
+  the preconditions still hold.
+- **Plan monitoring**: before executing an action, the agent verifies that the
+  remaining plan will still succeed.
+- **Goal monitoring**: before executing an action, the agent checks to see if
+  there is a better set of goals it could be trying to achieve.
+
+## Time
 
 ## References
 
