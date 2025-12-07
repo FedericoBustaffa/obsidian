@@ -123,6 +123,25 @@ An example of this is the **hierarchical forward planning** that, starting from
 a HLP with a single HLA, that HLA needs to reach the goal. It uses BFS to find
 possible refinements of each HLA in the current plan.
 
+## Sensorless Planning
+
+An extension of planning can be defined also for **sensorless** agents, that
+keep a _belief state_ and act under an **open-world assumption** (if a fluent
+does not appear, then its value is **unknown**).
+
+The agent acts under a **conditional effect**, where a _condition_ is a logical
+formula to be compared against the current belief and the _effect_ is a formula
+that describes the resulting state.
+
+In this case can happen that the action's effect might depend on the unknown
+state and dealing with all possible ramifications easily make the number of
+fluents in a belief state grows exponentially.
+
+## Online Planning
+
+A potentially more flexible apprach is **online planning** where the agents
+plans as it explores more the environment.
+
 ## References
 
 - [[artificial_intelligence_fundamentals]]
