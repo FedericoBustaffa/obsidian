@@ -178,8 +178,20 @@ Typically this problems are addressed by first **plan** and then **schedule**:
 
 This approach is common in real world manufacturing and logistical settings.
 
+In order to solve the scheduling problem we can define a **partial order** plan
+that is a path in a directed graph that allows multiple actions to be taken in
+parallel from initial to goal state.
+
+The **critical path** is the the one with the longest total duration and
+determines the duration of the entire plan.
+
+Actions that are off the critical path typically have a _window_ of time, called
+**slack**, in which they can be executed. For this type of scheduling greedy
+heuristics like _minimum slack heuristic_ work quite well.
+
 ## References
 
 - [[artificial_intelligence_fundamentals]]
 - [[logical_agents]]
 - [[first_order_logical_agents]]
+- [[work_span]]

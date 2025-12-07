@@ -9,8 +9,10 @@ tags:
 
 ## Artificial Intelligence Fundamentals
 
-- Planning
 - Uncertainty
+- Probabilistic reasoning
+- Probabilistic reasoning and time
+- Multi-agents
 
 ## Machine Learning
 
@@ -21,6 +23,7 @@ tags:
 - Randomized
 - Unsupervised
 - Recurrent Neural Networks
+- Learning on graphs
 
 ## Computational Mathematics
 
