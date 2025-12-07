@@ -53,13 +53,38 @@ from which it's necessary to
 ## Algorithms for Planning
 
 In order to find an actual plan, typically we can start from a declarative
-representation, and it's possible to proceed in two ways:
+representation, and it's possible to proceed in two ways: _forward_ or
+_backward_.
 
-- **Forward**: the start is the initial state, then it's necessary to **unify**
-  the current state agains the preconditions of each action schema to find the
-  _applicable_ actions. Then, by applying each resulting substitution, is
-  possible to get a ground action that we can apply.
-- **Backward**: the start is the goal state and considering **relevant actions**
+In the **forward** case the start is the initial state, then it's necessary to
+**unify** the current state agains the preconditions of each action schema to
+find the _applicable_ actions. Then, by applying each resulting substitution, is
+possible to get a ground action that we can apply.
+
+In the **backward** the start is the goal state and considering **relevant
+actions**, we can say that, their effect _unifies_ with one of the goal's
+literals and none of its effects negates any part of the goal. Applying any
+relevant until the initial state is reached.
+
+As many backward approaches the branching factor is reduced, because only
+relevant actions are considered (DFS-like), while the forward approach goes on
+until the goal state is reached (BFS-like).
+
+## Heuristics
+
+Even for planning algorithms is possible to design **heuristics** by thinking
+about exact solutions for relaxed problems.
+
+For example we can use the **ignore precondition heuristic**, that assumes that
+every action is applicable (drop preconditions). From each action's effect keep
+only literals present in the goal. Find the minimum number of actions needed
+such that the union of the actions' effects satisfy the goal. This is an
+_admissible_ heuristic that leads to a _greedy_ algorithm for an approximate
+solution.
+
+Another is the **ignore delete list heuristic** that removes negative literals
+from actions' effect. This allows to make monotonic steps towards the goal since
+no action can undo previous steps.
 
 ## References
 

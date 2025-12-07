@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
+                "file": "notes/ai_fundamentals/planning.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "support_vector_machine"
+              "title": "planning"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
+                "file": "notes/ai_fundamentals/planning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of support_vector_machine"
+              "title": "Outline of planning"
             }
           }
         ]
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
+                "file": "notes/ai_fundamentals/planning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from support_vector_machine"
+              "title": "Outgoing links from planning"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
+                "file": "notes/ai_fundamentals/planning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for support_vector_machine"
+              "title": "Backlinks for planning"
             }
           }
         ]
@@ -253,6 +253,7 @@
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
     "notes/ai_fundamentals/planning.md~",
+    "notes/machine_learning/support_vector_machine.md",
     "notes/machine_learning/random_forest.md",
     "notes/machine_learning/ensemble.md",
     "notes/machine_learning/decision_tree.md",
@@ -273,7 +274,6 @@
     "files/resolution_inference.png",
     "files/non_linearly_separable_problem.png",
     "files/logistic_map.png",
-    "notes/machine_learning/support_vector_machine.md",
     "TODO.md",
     "notes/machine_learning/support_vector_machine.md~",
     "notes/machine_learning/4913",
@@ -297,7 +297,6 @@
     "maps",
     "notes/ai_fundamentals/novelty.md~",
     "notes/ai_fundamentals/genetic_algorithms.md~",
-    "notes/ai_fundamentals/evolutionary_optimization.md~",
-    "notes/ai_fundamentals/innovation.md~"
+    "notes/ai_fundamentals/evolutionary_optimization.md~"
   ]
 }
