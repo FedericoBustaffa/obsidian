@@ -55,3 +55,4 @@ proposition being true or false.
 ## References
 
 - [[artificial_intelligence_fundamentals]]
+- [[bayesian_short]]
