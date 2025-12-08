@@ -1,7 +1,9 @@
 ---
 id: uncertainty
 aliases: []
-tags: []
+tags:
+  - master
+  - ai_fundamentals
 ---
 
 # Uncertainty
