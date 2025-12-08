@@ -1,12 +1,12 @@
 ---
-id: bayesian_short
+id: bayesian_probability
 aliases: []
 tags:
   - master
   - ai_fundamentals
 ---
 
-# Bayesian Short
+# Bayesian Probability
 
 In **probability theory** there is a **degree of belief** of a certain set of
 sentences and the _uncertainty_ is summarize and the _uncertainty_ is

@@ -10,6 +10,7 @@ tags:
 ## Artificial Intelligence Fundamentals
 
 - Uncertainty
+- Bayesian Probability
 - Probabilistic reasoning
 - Probabilistic reasoning and time
 - Multi-agents

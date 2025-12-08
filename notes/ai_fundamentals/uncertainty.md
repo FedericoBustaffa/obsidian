@@ -52,7 +52,38 @@ to move from a setting where an agent believes that a proposition is either true
 or false, to a setting where it has a **continuous** degree of belief on a given
 proposition being true or false.
 
+More in general, we want the posterior distribution of the **query variables**
+$Y$ given the observed values of the **evidence variables** $E$.
+
+Supposing we have unobserved, hidden variables $H$, we have
+
+$$H = X - Y - E$$
+
+with $X$ being the total number of variables. The probability of $Y$ knowing
+that $E = e$ is
+
+$$P(Y \mid E = e) = \alpha P(Y, E = e) = \alpha \sum_h P(Y, E = e, H = h)$$
+
+with $\alpha$ a normalizing constant to ensure valid probabilities. This
+probabilistic inference with $n$ variables and $d$ possible values per variable
+has $O(d^n)$ complexity in time and space for the worst case scenario (the joint
+distribution has $d^n$ entries).
+
+Also reasoning in solving _sub-problems_ first can have a big impact because,
+for the Bayesian probability, if $a$ and $b$ are independent the following
+properties hold
+
+$$
+\begin{align*}
+P(a \mid b) &= P(a) \\
+P(a \land b) &= P(a) \cdot P(b)
+\end{align*}
+$$
+
+This greatly reduces the size of the joint probability, expecially if all
+variables are mutually independent, it goes from $d^n$ to $d n$.
+
 ## References
 
 - [[artificial_intelligence_fundamentals]]
-- [[bayesian_short]]
+- [[bayesian_probability]]
