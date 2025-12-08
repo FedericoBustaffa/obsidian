@@ -253,6 +253,7 @@
   "active": "0845bb2b2dbaee64",
   "lastOpenFiles": [
     "notes/ai_fundamentals/uncertainty.md~",
+    "files/naive_bayes_graph.png",
     "notes/ai_fundamentals/planning.md",
     "notes/ai_fundamentals/uncertainty.md",
     "notes/ai_fundamentals/4913",
@@ -278,7 +279,6 @@
     "files/simple_ca.png",
     "files/resolution_inference.png",
     "files/non_linearly_separable_problem.png",
-    "files/logistic_map.png",
     "TODO.md",
     "notes/machine_learning/support_vector_machine.md~",
     "notes/machine_learning/4913",

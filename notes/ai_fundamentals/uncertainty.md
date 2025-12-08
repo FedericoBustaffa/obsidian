@@ -187,6 +187,29 @@ P(\text{cause} \mid \text{effect}_1, \dots, \text{effect}_n) =
 \alpha P(\text{cause}) \cdot \prod_j P(\text{effect}_j \mid \text{cause})
 $$
 
+## Naive Bayes Model
+
+The **naive Bayes model** is implemented by a graph that factorizes nicely our
+world and probabilities if random variables are independent and it scales
+linearly with the number $n$ of variables.
+
+![Naive Bayes Graph|400](/files/naive_bayes_graph.png)
+
+There are no horizontal links between effects. For example given a cause and two
+effects we have
+
+$$
+\begin{align*}
+P(\text{effect}_1, \text{effect}_2, \text{cause}) &= \\
+P(\text{effect}_1, \text{effect}_2 \mid \text{cause}) P(\text{cause}) &= \\
+P(\text{effect}_1 \mid \text{cause}) P(\text{effect}_2 \mid \text{cause})
+P(\text{cause}) &= \\
+\end{align*}
+$$
+
+and this means that we can deal with three small tables instead of one giant
+table.
+
 ## References
 
 - [[artificial_intelligence_fundamentals]]
