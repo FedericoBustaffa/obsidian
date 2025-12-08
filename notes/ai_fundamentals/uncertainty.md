@@ -142,6 +142,8 @@ $$
 This greatly reduces the size of the joint probability, expecially if all
 variables are mutually independent, it goes from $d^n$ to $d n$.
 
+---
+
 By applying the **Bayes' rule**
 
 $$P(b \mid a) = \frac{P(a \mid b) \cdot P(b)}{P(a)}$$
@@ -184,8 +186,6 @@ $$
 P(\text{cause} \mid \text{effect}_1, \dots, \text{effect}_n) =
 \alpha P(\text{cause}) \cdot \prod_j P(\text{effect}_j \mid \text{cause})
 $$
-
-## Naive Bayes Model
 
 ## References
 
