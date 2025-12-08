@@ -54,9 +54,60 @@ proposition being true or false.
 
 ---
 
-Brief recap of Bayesian probability...
+We are considering a sample space $\Omega$ that is the set of all possible
+worlds (or models), that are **mutually exclusive** and **exhaustive**. A
+probability model associates a numerical probability $P(w)$ with each possible
+world.
+
+The basic axioms of probability theory are that $P(w)$ must be between $0$ and
+$1$ and that the sum of probabilities of all possible worlds must be exactly
+$1$.
+
+The **unconditional** (or **prior**) probability represents the degree of belief
+in a proposition in absence of any other information.
+
+Other useful relations are
+
+- $P(\lnot a) = 1 - P(a)$
+- $P(a \lor b) = P(a) + P(b) - P(a \land b)$
+
+The **conditional** probability of $a$ given $b$ is defined as
+
+$$P(a \mid b) = \frac{P(a \land b)}{P(b)}$$
+
+meaning that
+
+$$P(a \land b) = P(a \mid b) \cdot P(b)$$
+
+If $a$ and $b$ are **independent** random variables then it holds
+
+$$P(a \mid b) = P(a)$$
+
+Generalizing conditional probability to more events we obtain the **chain rule
+of probability**:
+
+$$
+P(a_1 \land \cdots \land a_n) =
+P(a_1) \cdot \prod_{j=2}^n P(A_j \mid A_1 \land \cdots \land A_{j-1})
+$$
+
+that will be useful in many cases.
 
 ---
+
+So in principle is possible to represent the world by a set of pairs
+variable-value, where variables will be random variables and values their
+assignment. In this way is possible to define a probability distribution of all
+possible values of a random variable.
+
+Now is possible to make inference by **joint probability** of each variable
+
+$$P(A = a \land B = b)$$
+
+or more concisely $P(a, b)$. Another useful things is called
+**marginalization**, that defines the probability of a certain outcome $A$ as
+
+$$P(A) = \sum_b P(A, B = b)$$
 
 More in general, we want the posterior distribution of the **query variables**
 $Y$ given the observed values of the **evidence variables** $E$.
@@ -75,6 +126,8 @@ probabilistic inference with $n$ variables and $d$ possible values per variable
 has $O(d^n)$ complexity in time and space for the worst case scenario (the joint
 distribution has $d^n$ entries).
 
+---
+
 Also reasoning in solving _sub-problems_ first can have a big impact because,
 for the Bayesian probability, if $a$ and $b$ are independent the following
 properties hold
@@ -88,8 +141,6 @@ $$
 
 This greatly reduces the size of the joint probability, expecially if all
 variables are mutually independent, it goes from $d^n$ to $d n$.
-
----
 
 By applying the **Bayes' rule**
 
@@ -107,6 +158,8 @@ $$
 
 where $P(\text{cause} \mid \text{effect})$ quantifies the causal direction and
 $P(\text{effect} \mid \text{cause})$ quantifies the _diagnostic_ direction.
+
+---
 
 Another brick to add is **conditional independence** that is defined like
 follows: $A$ and $B$ are **conditionally independent** given $C$ if
@@ -131,6 +184,8 @@ $$
 P(\text{cause} \mid \text{effect}_1, \dots, \text{effect}_n) =
 \alpha P(\text{cause}) \cdot \prod_j P(\text{effect}_j \mid \text{cause})
 $$
+
+## Naive Bayes Model
 
 ## References
 
