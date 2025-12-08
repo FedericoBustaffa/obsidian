@@ -3,7 +3,7 @@ id: bayesian_short
 aliases: []
 tags:
   - master
-  - statistics
+  - ai_fundamentals
 ---
 
 # Bayesian Short
@@ -21,4 +21,5 @@ which are **mutually exclusive** and **exhaustive**
 
 ## References
 
-- [[statistics]]
+- [[artificial_intelligence_fundamentals]]
+- [[uncertainty]]
