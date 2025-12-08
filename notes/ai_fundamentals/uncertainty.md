@@ -108,6 +108,30 @@ $$
 where $P(\text{cause} \mid \text{effect})$ quantifies the causal direction and
 $P(\text{effect} \mid \text{cause})$ quantifies the _diagnostic_ direction.
 
+Another brick to add is **conditional independence** that is defined like
+follows: $A$ and $B$ are **conditionally independent** given $C$ if
+
+$$P(A, B \mid C) = P(A \mid C) \cdot P(B \mid C)$$
+
+or equivalently
+
+$$P(A \mid B, C) = P(A \mid C)$$
+
+that in Bayes' terms can be represented as
+
+$$
+P(\text{effect}_1, \dots, \text{effect}_n \mid \text{cause})
+= \prod_j P(\text{effect}_j \mid \text{cause})
+$$
+
+that means that effects are conditionally independent given the cause. To obtain
+the posterior of the cause we plug this into the Bayes theorem:
+
+$$
+P(\text{cause} \mid \text{effect}_1, \dots, \text{effect}_n) =
+\alpha P(\text{cause}) \cdot \prod_j P(\text{effect}_j \mid \text{cause})
+$$
+
 ## References
 
 - [[artificial_intelligence_fundamentals]]
