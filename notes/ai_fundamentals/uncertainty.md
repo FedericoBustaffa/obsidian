@@ -52,6 +52,12 @@ to move from a setting where an agent believes that a proposition is either true
 or false, to a setting where it has a **continuous** degree of belief on a given
 proposition being true or false.
 
+---
+
+Brief recap of Bayesian probability...
+
+---
+
 More in general, we want the posterior distribution of the **query variables**
 $Y$ given the observed values of the **evidence variables** $E$.
 
@@ -83,7 +89,25 @@ $$
 This greatly reduces the size of the joint probability, expecially if all
 variables are mutually independent, it goes from $d^n$ to $d n$.
 
+---
+
+By applying the **Bayes' rule**
+
+$$P(b \mid a) = \frac{P(a \mid b) \cdot P(b)}{P(a)}$$
+
+the _prior_ probability $P(b)$ gets updated by becoming the _posterior_
+probability $P(b \mid a)$ after observing the _likelihood_ $P(a \mid b)$ of the
+event $a$ when $b$ occurs. We can interpret Bayes' rule in a **causal** sense
+
+$$
+P(\text{cause} \mid \text{effect})
+= \frac{P(\text{effect} \mid \text{cause}) \cdot P(\text{cause})}
+{P(\text{effect})}
+$$
+
+where $P(\text{cause} \mid \text{effect})$ quantifies the causal direction and
+$P(\text{effect} \mid \text{cause})$ quantifies the _diagnostic_ direction.
+
 ## References
 
 - [[artificial_intelligence_fundamentals]]
-- [[bayesian_probability]]
