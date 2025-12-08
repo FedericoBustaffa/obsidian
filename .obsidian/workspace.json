@@ -253,6 +253,8 @@
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
     "notes/ai_fundamentals/uncertainty.md~",
+    "notes/statistics/conditional_probability.md",
+    "notes/statistics",
     "notes/TODO.md",
     "notes/ai_fundamentals/uncertainty.md",
     "notes/ai_fundamentals/planning.md",
@@ -291,12 +293,10 @@
     "notes/machine_learning/validation.md",
     "notes/complex_systems/continuous_systems.md",
     "notes/machine_learning/validation.md~",
-    "notes/machine_learning/gradient_descent.md",
     "notes/machine_learning/gradient_descent.md~",
     "maps/validation_pipeline.canvas",
     "maps",
     "notes/ai_fundamentals/novelty.md~",
-    "notes/ai_fundamentals/genetic_algorithms.md~",
-    "notes/ai_fundamentals/evolutionary_optimization.md~"
+    "notes/ai_fundamentals/genetic_algorithms.md~"
   ]
 }
