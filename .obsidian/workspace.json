@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "45ab5e3d1e5f17bb",
         "type": "tabs",
         "children": [
           {
-            "id": "e992a85b485556d9",
+            "id": "0845bb2b2dbaee64",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
+                "file": "notes/ai_fundamentals/planning.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,11 +28,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "uncertainty"
+              "title": "planning"
             }
           },
           {
-            "id": "d55ab094ce5e510a",
+            "id": "aaf699dfc441950e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -120,13 +120,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of uncertainty"
+              "title": "Outline"
             }
           }
         ]
@@ -142,7 +141,7 @@
       {
         "id": "1728b1c62e4f1f4f",
         "type": "tabs",
-        "dimension": 45.12338425381904,
+        "dimension": 51.6380655226209,
         "children": [
           {
             "id": "6a6787f071b2b91c",
@@ -150,12 +149,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from uncertainty"
+              "title": "Outgoing links"
             }
           },
           {
@@ -192,7 +190,7 @@
       {
         "id": "e6f8bb84f6edd43b",
         "type": "tabs",
-        "dimension": 30.669800235017625,
+        "dimension": 24.18096723868955,
         "children": [
           {
             "id": "4513753b4f6f78cb",
@@ -200,7 +198,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +207,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for uncertainty"
+              "title": "Backlinks"
             }
           }
         ]
@@ -218,7 +215,7 @@
       {
         "id": "6fd30e3eead3fb2f",
         "type": "tabs",
-        "dimension": 24.206815511163338,
+        "dimension": 24.18096723868955,
         "children": [
           {
             "id": "fd1a5ddca45b0c4b",
@@ -250,24 +247,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "e992a85b485556d9",
+  "active": "fd1a5ddca45b0c4b",
   "lastOpenFiles": [
-    "notes/ai_fundamentals/uncertainty.md~",
-    "notes/TODO.md~",
-    "indices/artificial_intelligence_fundamentals.md~",
-    "notes/ai_fundamentals/bayesian_probability.md~",
-    "notes/ai_fundamentals/bayesian_probability.md",
-    "notes/ai_fundamentals/bayesian_short.md",
     "notes/ai_fundamentals/uncertainty.md",
-    "indices/statistics.md",
-    "notes/statistics/bayesian_short.md",
-    "notes/statistics/bayesian_short.md~",
-    "indices/statistics.md~",
-    "notes/TODO.md",
-    "indices/machine_learning.md",
-    "notes/statistics",
-    "notes/statistics/conditional_probability.md",
+    "notes/ai_fundamentals/bayesian_probability.md",
     "notes/ai_fundamentals/planning.md",
+    "notes/TODO.md",
+    "notes/ai_fundamentals/planning.md~",
     "notes/machine_learning/support_vector_machine.md",
     "notes/machine_learning/random_forest.md",
     "notes/machine_learning/ensemble.md",
@@ -296,8 +282,19 @@
     "notes/machine_learning/perceptron.md",
     "notes/ai_fundamentals/games.md",
     "notes/ai_fundamentals/genetic_algorithms.md",
+    "notes/ai_fundamentals/novelty.md",
+    "notes/machine_learning/statistical_learning_theory.md",
+    "conflict-files-obsidian-git.md",
     "notes/machine_learning/statistical_learning_theory.md~",
+    "notes/machine_learning/validation.md",
+    "notes/complex_systems/continuous_systems.md",
     "notes/machine_learning/validation.md~",
-    "maps/validation_pipeline.canvas"
+    "notes/machine_learning/gradient_descent.md",
+    "notes/machine_learning/gradient_descent.md~",
+    "maps/validation_pipeline.canvas",
+    "maps",
+    "notes/ai_fundamentals/novelty.md~",
+    "notes/ai_fundamentals/genetic_algorithms.md~",
+    "notes/ai_fundamentals/evolutionary_optimization.md~"
   ]
 }
