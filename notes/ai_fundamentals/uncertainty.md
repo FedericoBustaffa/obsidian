@@ -210,6 +210,17 @@ $$
 and this means that we can deal with three small tables instead of one giant
 table.
 
+So now we can answer queries by applying marginalization, also based on some
+assumption. But still the number of terms can be high due to the fact that we
+need to take into account also probabilities of unknown environment states.
+
+Actually we don't have to, and what is usually done is to keep in the $KB$ only
+what we know, what is _adjacent_ to it is called **frontier** and we ignore the
+rest. This last step can usually be done exploiting independence.
+
+Now in order to answer a query on state in the frontier we have much less
+computation to make.
+
 ## References
 
 - [[artificial_intelligence_fundamentals]]
