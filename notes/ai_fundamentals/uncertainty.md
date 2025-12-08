@@ -25,6 +25,8 @@ An agent has only a _degree of belief_ in the relevant sentences and the
 rational decision depends on both the **relative importance** of various goals
 and the **likelihood** that they will be achieved.
 
+## Probability Theory
+
 ## References
 
 - [[artificial_intelligence_fundamentals]]
