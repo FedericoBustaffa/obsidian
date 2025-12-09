@@ -120,13 +120,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of uncertainty"
+              "title": "Outline"
             }
           }
         ]
@@ -150,12 +149,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from uncertainty"
+              "title": "Outgoing links"
             }
           },
           {
@@ -200,7 +198,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +207,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for uncertainty"
+              "title": "Backlinks"
             }
           }
         ]
@@ -250,15 +247,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "e992a85b485556d9",
+  "active": "fd1a5ddca45b0c4b",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/uncertainty.md",
     "notes/ai_fundamentals/uncertainty.md~",
     "notes/TODO.md~",
     "indices/artificial_intelligence_fundamentals.md~",
     "notes/ai_fundamentals/bayesian_probability.md~",
     "notes/ai_fundamentals/bayesian_probability.md",
     "notes/ai_fundamentals/bayesian_short.md",
-    "notes/ai_fundamentals/uncertainty.md",
     "indices/statistics.md",
     "notes/statistics/bayesian_short.md",
     "notes/statistics/bayesian_short.md~",
@@ -297,7 +294,6 @@
     "notes/ai_fundamentals/games.md",
     "notes/ai_fundamentals/genetic_algorithms.md",
     "notes/machine_learning/statistical_learning_theory.md~",
-    "notes/machine_learning/validation.md~",
     "maps/validation_pipeline.canvas"
   ]
 }
