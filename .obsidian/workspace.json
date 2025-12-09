@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
+                "file": "notes/ai_fundamentals/probabilistic_reasoning.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "uncertainty"
+              "title": "probabilistic_reasoning"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
+                "file": "notes/ai_fundamentals/probabilistic_reasoning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of uncertainty"
+              "title": "Outline of probabilistic_reasoning"
             }
           }
         ]
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
+                "file": "notes/ai_fundamentals/probabilistic_reasoning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from uncertainty"
+              "title": "Outgoing links from probabilistic_reasoning"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
+                "file": "notes/ai_fundamentals/probabilistic_reasoning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for uncertainty"
+              "title": "Backlinks for probabilistic_reasoning"
             }
           }
         ]
@@ -252,12 +252,12 @@
   },
   "active": "0845bb2b2dbaee64",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/uncertainty.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md~",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
     "notes/ai_fundamentals/uncertainty.md~",
     "files/naive_bayes_graph.png",
     "notes/ai_fundamentals/planning.md",
-    "notes/ai_fundamentals/uncertainty.md",
     "notes/ai_fundamentals/4913",
     "indices/artificial_intelligence_fundamentals.md~",
     "notes/ai_fundamentals/bayesian_probability.md",
@@ -297,7 +297,6 @@
     "notes/machine_learning/validation.md",
     "notes/machine_learning/validation.md~",
     "notes/machine_learning/gradient_descent.md~",
-    "maps/validation_pipeline.canvas",
-    "maps"
+    "maps/validation_pipeline.canvas"
   ]
 }

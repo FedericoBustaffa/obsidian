@@ -1,7 +1,9 @@
 ---
 id: probabilistic_reasoning
 aliases: []
-tags: []
+tags:
+  - master
+  - ai_fundamentals
 ---
 
 # Probabilistic Reasoning
