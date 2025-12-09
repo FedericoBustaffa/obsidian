@@ -250,13 +250,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "e992a85b485556d9",
+  "active": "516ff4dd0ec74e9f",
   "lastOpenFiles": [
-    "notes/TODO.md",
-    "conflict-files-obsidian-git.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
-    "files/naive_bayes_graph.png",
     "notes/ai_fundamentals/uncertainty.md",
+    "conflict-files-obsidian-git.md",
+    "notes/TODO.md",
+    "files/naive_bayes_graph.png",
     "notes/ai_fundamentals/uncertainty.md~",
     "notes/TODO.md~",
     "indices/artificial_intelligence_fundamentals.md~",
