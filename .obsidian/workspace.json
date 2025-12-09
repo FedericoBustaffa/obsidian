@@ -252,6 +252,8 @@
   },
   "active": "0845bb2b2dbaee64",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/probabilistic_reasoning.md~",
+    "notes/ai_fundamentals/probabilistic_reasoning.md",
     "notes/ai_fundamentals/uncertainty.md~",
     "files/naive_bayes_graph.png",
     "notes/ai_fundamentals/planning.md",
@@ -293,7 +295,6 @@
     "conflict-files-obsidian-git.md",
     "notes/machine_learning/statistical_learning_theory.md~",
     "notes/machine_learning/validation.md",
-    "notes/complex_systems/continuous_systems.md",
     "notes/machine_learning/validation.md~",
     "notes/machine_learning/gradient_descent.md~",
     "maps/validation_pipeline.canvas",

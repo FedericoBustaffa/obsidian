@@ -25,6 +25,7 @@ algorithms.
 - [[first_order_logical_agents]]
 - [[planning]]
 - [[uncertainty]]
+- [[probabilistic_reasoning]]
 
 ## References
 
