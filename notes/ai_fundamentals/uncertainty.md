@@ -40,7 +40,7 @@ _likelihood_ $P(E \mid H)$ quantifies how much the hypothesis explains the
 evidence, and the _posterior_ $P(H \mid E)$ is the updated belief after
 observing $E$:
 
-$$P(H \mid E) = \frac{P(E \mid H) \cdot P(P(H))}{P(E)}$$
+$$P(H \mid E) = \frac{P(E \mid H) \cdot P(H)}{P(E)}$$
 
 In this sense, this models _learn_ by updating their believes on the world, not
 by searching for absolute truth.
