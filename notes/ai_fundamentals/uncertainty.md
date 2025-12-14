@@ -27,13 +27,23 @@ and the **likelihood** that they will be achieved.
 
 ## Bayesian Probability
 
-In **probability theory** there is a **degree of belief** of a certain set of
-sentences and the _uncertainty_ is summarize and the _uncertainty_ is
-summarized.
+In **Bayesian probability theory**, probability represents an agent's **degree
+of belief** of a certain set of sentences, and the _uncertainty_ is summarized
+by a probability distribution.
 
 In the **Bayesian view** of probability there is an initial **belief** of an
 event (_prior_) that is updated (_posterior_) based on observations
 (_likelihood_).
+
+More formally the _prior_ $P(H)$ is the initial belief on an hypothesis, the
+_likelihood_ $P(E \mid H)$ quantifies how much the hypothesis explains the
+evidence, and the _posterior_ $P(H \mid E)$ is the updated belief after
+observing $E$:
+
+$$P(H \mid E) = \frac{P(E \mid H) \cdot P(P(H))}{P(E)}$$
+
+In this sense, this models _learn_ by updating their believes on the world, not
+by searching for absolute truth.
 
 An AI agent needs a preference among different possible outcomes of various
 plans and so we come up with
