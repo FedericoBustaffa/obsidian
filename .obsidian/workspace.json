@@ -96,13 +96,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of uncertainty"
+              "title": "Outline"
             }
           }
         ]
@@ -126,12 +125,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from uncertainty"
+              "title": "Outgoing links"
             }
           },
           {
@@ -176,7 +174,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +183,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for uncertainty"
+              "title": "Backlinks"
             }
           }
         ]
@@ -226,10 +223,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "e992a85b485556d9",
+  "active": "d55ab094ce5e510a",
   "lastOpenFiles": [
-    "notes/ai_fundamentals/uncertainty.md~",
     "notes/ai_fundamentals/uncertainty.md",
+    "notes/ai_fundamentals/uncertainty.md~",
     "notes/ai_fundamentals/first_order_logical_agents.md",
     "README.md",
     "notes/TODO.md",

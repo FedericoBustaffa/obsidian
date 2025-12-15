@@ -8,8 +8,9 @@
     "custom",
     "custom-admonitions.7206f7"
   ],
-  "textFontFamily": "",
-  "monospaceFontFamily": "",
+  "textFontFamily": "FreeSans",
+  "monospaceFontFamily": "Adwaita Sans",
   "showViewHeader": true,
-  "showRibbon": true
+  "showRibbon": true,
+  "interfaceFontFamily": ""
 }
