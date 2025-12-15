@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/neural_network_training.md",
+                "file": "notes/ai_fundamentals/uncertainty.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,31 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "neural_network_training"
-            }
-          },
-          {
-            "id": "d55ab094ce5e510a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/TODO.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "TODO"
+              "title": "uncertainty"
             }
           }
         ]
@@ -120,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/neural_network_training.md",
+                "file": "notes/ai_fundamentals/uncertainty.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of neural_network_training"
+              "title": "Outline of uncertainty"
             }
           }
         ]
@@ -142,7 +118,7 @@
       {
         "id": "1728b1c62e4f1f4f",
         "type": "tabs",
-        "dimension": 45.12338425381904,
+        "dimension": 49.772209567198175,
         "children": [
           {
             "id": "6a6787f071b2b91c",
@@ -150,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/neural_network_training.md",
+                "file": "notes/ai_fundamentals/uncertainty.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from neural_network_training"
+              "title": "Outgoing links from uncertainty"
             }
           },
           {
@@ -192,7 +168,7 @@
       {
         "id": "e6f8bb84f6edd43b",
         "type": "tabs",
-        "dimension": 30.669800235017625,
+        "dimension": 27.44874715261959,
         "children": [
           {
             "id": "4513753b4f6f78cb",
@@ -200,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/neural_network_training.md",
+                "file": "notes/ai_fundamentals/uncertainty.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,18 +186,18 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for neural_network_training"
+              "title": "Backlinks for uncertainty"
             }
           }
         ]
       },
       {
-        "id": "6fd30e3eead3fb2f",
+        "id": "bd827279a1ad28fe",
         "type": "tabs",
-        "dimension": 24.206815511163335,
+        "dimension": 22.779043280182233,
         "children": [
           {
-            "id": "fd1a5ddca45b0c4b",
+            "id": "d55ab094ce5e510a",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -253,11 +229,14 @@
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
     "notes/ai_fundamentals/uncertainty.md~",
+    "notes/ai_fundamentals/uncertainty.md",
+    "notes/ai_fundamentals/first_order_logical_agents.md",
+    "README.md",
+    "notes/TODO.md",
+    "notes/machine_learning/neural_network_training.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
     "notes/machine_learning/validation.md",
-    "notes/ai_fundamentals/uncertainty.md",
     "conflict-files-obsidian-git.md",
-    "notes/TODO.md",
     "files/naive_bayes_graph.png",
     "notes/TODO.md~",
     "indices/artificial_intelligence_fundamentals.md~",
@@ -279,7 +258,6 @@
     "notes/machine_learning/convolutional_neural_network.md",
     "notes/machine_learning/bias_variance.md",
     "notes/ai_fundamentals/logical_agents.md",
-    "notes/ai_fundamentals/first_order_logical_agents.md",
     "notes/ai_fundamentals/artificial_life.md",
     "files/wumpus_entailment2.png",
     "files/wumpus_entailment1.png",
@@ -294,8 +272,6 @@
     "notes/machine_learning/support_vector_machine.md~",
     "notes/machine_learning/4913",
     "notes/ai_fundamentals/informed_search.md",
-    "notes/ai_fundamentals/evolutionary_strategies.md",
-    "notes/machine_learning/neural_networks.md",
     "notes/machine_learning/statistical_learning_theory.md~",
     "maps/validation_pipeline.canvas"
   ]
