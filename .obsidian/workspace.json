@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/parallel_computing/metrics.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "metrics"
+              "title": "support_vector_machine"
+            }
+          },
+          {
+            "id": "489c34045c1a4f77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TODO"
             }
           }
         ]
@@ -54,7 +78,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Esplora risorse"
             }
           },
           {
@@ -96,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/parallel_computing/metrics.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of metrics"
+              "title": "Struttura di support_vector_machine"
             }
           }
         ]
@@ -118,7 +142,7 @@
       {
         "id": "1728b1c62e4f1f4f",
         "type": "tabs",
-        "dimension": 49.77220956719818,
+        "dimension": 51.6380655226209,
         "children": [
           {
             "id": "6a6787f071b2b91c",
@@ -126,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/parallel_computing/metrics.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from metrics"
+              "title": "Collegamenti in uscita da support_vector_machine"
             }
           },
           {
@@ -168,7 +192,7 @@
       {
         "id": "e6f8bb84f6edd43b",
         "type": "tabs",
-        "dimension": 27.44874715261959,
+        "dimension": 24.18096723868955,
         "children": [
           {
             "id": "4513753b4f6f78cb",
@@ -176,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/parallel_computing/metrics.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,24 +210,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for metrics"
+              "title": "Riferimenti a support_vector_machine"
             }
           }
         ]
       },
       {
-        "id": "bd827279a1ad28fe",
+        "id": "6fd30e3eead3fb2f",
         "type": "tabs",
-        "dimension": 22.779043280182233,
+        "dimension": 24.18096723868955,
         "children": [
           {
-            "id": "d55ab094ce5e510a",
+            "id": "fd1a5ddca45b0c4b",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Vista grafo"
             }
           }
         ]
@@ -214,14 +238,14 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false,
-      "workspaces:Manage workspace layouts": false,
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false,
+      "audio-recorder:Avvia/ferma registrazione": false,
+      "workspaces:Gestisci layout delle aree di lavoro": false,
       "obsidian-git:Open Git source control": false,
       "bases:Create new base": false
     }
@@ -229,37 +253,18 @@
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
     "notes/ai_fundamentals/uncertainty.md",
-    "notes/parallel_computing/metrics.md",
-    "notes/ai_fundamentals/uncertainty.md~",
-    "notes/ai_fundamentals/first_order_logical_agents.md",
-    "README.md",
-    "notes/TODO.md",
-    "notes/machine_learning/neural_network_training.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
-    "notes/machine_learning/validation.md",
-    "conflict-files-obsidian-git.md",
     "files/naive_bayes_graph.png",
-    "notes/TODO.md~",
-    "indices/artificial_intelligence_fundamentals.md~",
-    "notes/ai_fundamentals/bayesian_probability.md~",
-    "notes/ai_fundamentals/bayesian_probability.md",
-    "notes/ai_fundamentals/bayesian_short.md",
-    "indices/statistics.md",
-    "notes/statistics/bayesian_short.md",
-    "notes/statistics/bayesian_short.md~",
-    "indices/statistics.md~",
-    "indices/machine_learning.md",
-    "notes/statistics",
-    "notes/statistics/conditional_probability.md",
-    "notes/ai_fundamentals/planning.md",
-    "notes/machine_learning/support_vector_machine.md",
     "notes/machine_learning/random_forest.md",
     "notes/machine_learning/ensemble.md",
     "notes/machine_learning/decision_tree.md",
     "notes/machine_learning/convolutional_neural_network.md",
     "notes/machine_learning/bias_variance.md",
+    "notes/ai_fundamentals/planning.md",
     "notes/ai_fundamentals/logical_agents.md",
+    "notes/ai_fundamentals/first_order_logical_agents.md",
     "notes/ai_fundamentals/artificial_life.md",
+    "notes/TODO.md",
     "files/wumpus_entailment2.png",
     "files/wumpus_entailment1.png",
     "files/truth_table_model_checking.png",
@@ -269,11 +274,30 @@
     "files/simple_ca.png",
     "files/resolution_inference.png",
     "files/non_linearly_separable_problem.png",
+    "notes/machine_learning/support_vector_machine.md",
     "TODO.md",
     "notes/machine_learning/support_vector_machine.md~",
     "notes/machine_learning/4913",
     "notes/ai_fundamentals/informed_search.md",
+    "notes/ai_fundamentals/evolutionary_strategies.md",
+    "notes/machine_learning/neural_networks.md",
+    "notes/machine_learning/perceptron.md",
+    "notes/ai_fundamentals/games.md",
+    "notes/ai_fundamentals/genetic_algorithms.md",
+    "notes/ai_fundamentals/novelty.md",
+    "notes/machine_learning/statistical_learning_theory.md",
+    "conflict-files-obsidian-git.md",
     "notes/machine_learning/statistical_learning_theory.md~",
-    "maps/validation_pipeline.canvas"
+    "notes/machine_learning/validation.md",
+    "notes/complex_systems/continuous_systems.md",
+    "notes/machine_learning/validation.md~",
+    "notes/machine_learning/gradient_descent.md",
+    "notes/machine_learning/gradient_descent.md~",
+    "maps/validation_pipeline.canvas",
+    "maps",
+    "notes/ai_fundamentals/novelty.md~",
+    "notes/ai_fundamentals/genetic_algorithms.md~",
+    "notes/ai_fundamentals/evolutionary_optimization.md~",
+    "notes/ai_fundamentals/innovation.md~"
   ]
 }
