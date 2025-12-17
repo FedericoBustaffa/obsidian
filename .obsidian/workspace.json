@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
+                "file": "notes/parallel_computing/metrics.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "uncertainty"
+              "title": "metrics"
             }
           }
         ]
@@ -96,12 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "notes/parallel_computing/metrics.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of metrics"
             }
           }
         ]
@@ -125,11 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "notes/parallel_computing/metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from metrics"
             }
           },
           {
@@ -174,6 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notes/parallel_computing/metrics.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for metrics"
             }
           }
         ]
@@ -223,9 +226,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "d55ab094ce5e510a",
+  "active": "e992a85b485556d9",
   "lastOpenFiles": [
     "notes/ai_fundamentals/uncertainty.md",
+    "notes/parallel_computing/metrics.md",
     "notes/ai_fundamentals/uncertainty.md~",
     "notes/ai_fundamentals/first_order_logical_agents.md",
     "README.md",
