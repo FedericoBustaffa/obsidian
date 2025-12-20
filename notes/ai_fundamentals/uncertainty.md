@@ -105,7 +105,7 @@ that will be useful in many cases.
 
 ---
 
-So in principle is possible to represent the world by a set of pairs
+So, in principle is possible to represent the world by a set of pairs
 variable-value, where variables will be random variables and values their
 assignment. In this way is possible to define a probability distribution of all
 possible values of a random variable.

@@ -228,6 +228,7 @@
   },
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/uncertainty.md~",
     "notes/machine_learning/support_vector_machine.md",
     "notes/ai_fundamentals/uncertainty.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
@@ -267,7 +268,6 @@
     "notes/machine_learning/validation.md",
     "notes/complex_systems/continuous_systems.md",
     "notes/machine_learning/validation.md~",
-    "notes/machine_learning/gradient_descent.md",
     "notes/machine_learning/gradient_descent.md~",
     "maps/validation_pipeline.canvas",
     "maps",
