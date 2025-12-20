@@ -98,7 +98,7 @@ of probability**:
 
 $$
 P(a_1 \land \cdots \land a_n) =
-P(a_1) \cdot \prod_{j=2}^n P(A_j \mid A_1 \land \cdots \land A_{j-1})
+\prod_{j=1}^n P(a_j \mid a_1 \land \cdots \land a_{j-1})
 $$
 
 that will be useful in many cases.
