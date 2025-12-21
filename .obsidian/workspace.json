@@ -32,7 +32,7 @@
             }
           },
           {
-            "id": "01f9c18ac02664b6",
+            "id": "f758559e76c02ab3",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -217,9 +217,8 @@
       "bases:Create new base": false
     }
   },
-  "active": "01f9c18ac02664b6",
+  "active": "f758559e76c02ab3",
   "lastOpenFiles": [
-    "indices/complex_systems.md",
     "notes/ai_fundamentals/uncertainty.md",
     "notes/ai_fundamentals/uncertainty.md~",
     "notes/machine_learning/support_vector_machine.md",
