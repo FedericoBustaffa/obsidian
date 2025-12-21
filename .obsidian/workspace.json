@@ -30,8 +30,19 @@
               "icon": "lucide-file",
               "title": "uncertainty"
             }
+          },
+          {
+            "id": "01f9c18ac02664b6",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,13 +107,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of uncertainty"
+              "title": "Outline"
             }
           }
         ]
@@ -118,7 +128,7 @@
       {
         "id": "1728b1c62e4f1f4f",
         "type": "tabs",
-        "dimension": 51.6380655226209,
+        "dimension": 68.10699588477365,
         "children": [
           {
             "id": "6a6787f071b2b91c",
@@ -126,12 +136,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from uncertainty"
+              "title": "Outgoing links"
             }
           },
           {
@@ -168,7 +177,7 @@
       {
         "id": "e6f8bb84f6edd43b",
         "type": "tabs",
-        "dimension": 24.18096723868955,
+        "dimension": 31.89300411522634,
         "children": [
           {
             "id": "4513753b4f6f78cb",
@@ -176,7 +185,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,24 +194,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for uncertainty"
-            }
-          }
-        ]
-      },
-      {
-        "id": "6fd30e3eead3fb2f",
-        "type": "tabs",
-        "dimension": 24.18096723868955,
-        "children": [
-          {
-            "id": "fd1a5ddca45b0c4b",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Backlinks"
             }
           }
         ]
@@ -226,11 +217,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "e992a85b485556d9",
+  "active": "01f9c18ac02664b6",
   "lastOpenFiles": [
+    "indices/complex_systems.md",
+    "notes/ai_fundamentals/uncertainty.md",
     "notes/ai_fundamentals/uncertainty.md~",
     "notes/machine_learning/support_vector_machine.md",
-    "notes/ai_fundamentals/uncertainty.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
     "files/naive_bayes_graph.png",
     "notes/machine_learning/random_forest.md",
@@ -273,7 +265,6 @@
     "maps",
     "notes/ai_fundamentals/novelty.md~",
     "notes/ai_fundamentals/genetic_algorithms.md~",
-    "notes/ai_fundamentals/evolutionary_optimization.md~",
-    "notes/ai_fundamentals/innovation.md~"
+    "notes/ai_fundamentals/evolutionary_optimization.md~"
   ]
 }
