@@ -30,19 +30,8 @@
               "icon": "lucide-file",
               "title": "uncertainty"
             }
-          },
-          {
-            "id": "f758559e76c02ab3",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +117,7 @@
       {
         "id": "1728b1c62e4f1f4f",
         "type": "tabs",
-        "dimension": 68.10699588477365,
+        "dimension": 37.85259326660601,
         "children": [
           {
             "id": "6a6787f071b2b91c",
@@ -177,7 +166,7 @@
       {
         "id": "e6f8bb84f6edd43b",
         "type": "tabs",
-        "dimension": 31.89300411522634,
+        "dimension": 32.21110100090992,
         "children": [
           {
             "id": "4513753b4f6f78cb",
@@ -195,6 +184,23 @@
               },
               "icon": "links-coming-in",
               "title": "Backlinks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "8110b6d3c574d84a",
+        "type": "tabs",
+        "dimension": 29.936305732484076,
+        "children": [
+          {
+            "id": "12d36dfdb69f9bc4",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -217,9 +223,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "f758559e76c02ab3",
+  "active": "12d36dfdb69f9bc4",
   "lastOpenFiles": [
     "notes/ai_fundamentals/uncertainty.md",
+    "indices/complex_systems.md",
     "notes/ai_fundamentals/uncertainty.md~",
     "notes/machine_learning/support_vector_machine.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
