@@ -96,12 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "notes/ai_fundamentals/uncertainty.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of uncertainty"
             }
           }
         ]
@@ -125,11 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "notes/ai_fundamentals/uncertainty.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from uncertainty"
             }
           },
           {
@@ -174,6 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notes/ai_fundamentals/uncertainty.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for uncertainty"
             }
           }
         ]
@@ -223,11 +226,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "12d36dfdb69f9bc4",
+  "active": "e992a85b485556d9",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/uncertainty.md~",
     "notes/ai_fundamentals/uncertainty.md",
     "indices/complex_systems.md",
-    "notes/ai_fundamentals/uncertainty.md~",
     "notes/machine_learning/support_vector_machine.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
     "files/naive_bayes_graph.png",
@@ -264,7 +267,6 @@
     "conflict-files-obsidian-git.md",
     "notes/machine_learning/statistical_learning_theory.md~",
     "notes/machine_learning/validation.md",
-    "notes/complex_systems/continuous_systems.md",
     "notes/machine_learning/validation.md~",
     "notes/machine_learning/gradient_descent.md~",
     "maps/validation_pipeline.canvas",
