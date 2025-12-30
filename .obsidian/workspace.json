@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
+                "file": "notes/machine_learning/activation_functions.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "uncertainty"
+              "title": "activation_functions"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
+                "file": "notes/machine_learning/activation_functions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of uncertainty"
+              "title": "Outline of activation_functions"
             }
           }
         ]
@@ -126,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
+                "file": "notes/machine_learning/activation_functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from uncertainty"
+              "title": "Outgoing links from activation_functions"
             }
           },
           {
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
+                "file": "notes/machine_learning/activation_functions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for uncertainty"
+              "title": "Backlinks for activation_functions"
             }
           }
         ]
@@ -228,8 +228,8 @@
   },
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
-    "notes/ai_fundamentals/uncertainty.md~",
     "notes/ai_fundamentals/uncertainty.md",
+    "notes/ai_fundamentals/uncertainty.md~",
     "indices/complex_systems.md",
     "notes/machine_learning/support_vector_machine.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
