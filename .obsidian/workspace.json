@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/activation_functions.md",
+                "file": "notes/machine_learning/decision_tree.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "activation_functions"
+              "title": "decision_tree"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/activation_functions.md",
+                "file": "notes/machine_learning/decision_tree.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of activation_functions"
+              "title": "Outline of decision_tree"
             }
           }
         ]
@@ -126,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/activation_functions.md",
+                "file": "notes/machine_learning/decision_tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from activation_functions"
+              "title": "Outgoing links from decision_tree"
             }
           },
           {
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/activation_functions.md",
+                "file": "notes/machine_learning/decision_tree.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for activation_functions"
+              "title": "Backlinks for decision_tree"
             }
           }
         ]
@@ -228,6 +228,7 @@
   },
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
+    "notes/machine_learning/activation_functions.md",
     "notes/ai_fundamentals/uncertainty.md",
     "notes/ai_fundamentals/uncertainty.md~",
     "indices/complex_systems.md",
