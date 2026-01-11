@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/deep_learning.md",
+                "file": "notes/machine_learning/activation_functions.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "deep_learning"
+              "title": "activation_functions"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/deep_learning.md",
+                "file": "notes/machine_learning/activation_functions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of deep_learning"
+              "title": "Outline of activation_functions"
             }
           }
         ]
@@ -126,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/deep_learning.md",
+                "file": "notes/machine_learning/activation_functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from deep_learning"
+              "title": "Outgoing links from activation_functions"
             }
           },
           {
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/deep_learning.md",
+                "file": "notes/machine_learning/activation_functions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for deep_learning"
+              "title": "Backlinks for activation_functions"
             }
           }
         ]
@@ -228,15 +228,8 @@
   },
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
-    "notes/machine_learning/deep_learning.md~",
-    "notes/TODO.md~",
-    "notes/machine_learning/decision_tree.md",
     "notes/machine_learning/deep_learning.md",
-    "notes/machine_learning/convolutional.md~",
-    "notes/machine_learning/neural_networks.md~",
     "notes/machine_learning/convolutional.md",
-    "notes/machine_learning/convolutional_neural_network.md~",
-    "notes/machine_learning/activation_functions.md",
     "notes/ai_fundamentals/uncertainty.md",
     "notes/ai_fundamentals/uncertainty.md~",
     "indices/complex_systems.md",
@@ -245,6 +238,7 @@
     "files/naive_bayes_graph.png",
     "notes/machine_learning/random_forest.md",
     "notes/machine_learning/ensemble.md",
+    "notes/machine_learning/decision_tree.md",
     "notes/machine_learning/convolutional_neural_network.md",
     "notes/machine_learning/bias_variance.md",
     "notes/ai_fundamentals/planning.md",
@@ -271,9 +265,15 @@
     "notes/ai_fundamentals/games.md",
     "notes/ai_fundamentals/genetic_algorithms.md",
     "notes/ai_fundamentals/novelty.md",
+    "notes/machine_learning/statistical_learning_theory.md",
+    "conflict-files-obsidian-git.md",
     "notes/machine_learning/statistical_learning_theory.md~",
     "notes/machine_learning/validation.md~",
     "notes/machine_learning/gradient_descent.md~",
-    "maps/validation_pipeline.canvas"
+    "maps/validation_pipeline.canvas",
+    "maps",
+    "notes/ai_fundamentals/novelty.md~",
+    "notes/ai_fundamentals/genetic_algorithms.md~",
+    "notes/ai_fundamentals/evolutionary_optimization.md~"
   ]
 }
