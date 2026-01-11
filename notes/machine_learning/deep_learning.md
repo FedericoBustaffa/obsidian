@@ -15,10 +15,10 @@ networks:
 - Convolutional neural networks
 - Recurrent neural networks
 
-It introduces some new interesting concepts like
-
-- **Representation learning**
-- **Distributed representation**
+It introduces some new interesting concepts like **representation learning** and
+**distributed representation**. Now is possible to have a **hierarchical**
+features represtation through layers, that generally goes from rough to finer
+level of representation.
 
 ## References
 

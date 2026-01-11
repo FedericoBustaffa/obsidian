@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
+                "file": "notes/machine_learning/deep_learning.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "decision_tree"
+              "title": "deep_learning"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
+                "file": "notes/machine_learning/deep_learning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of decision_tree"
+              "title": "Outline of deep_learning"
             }
           }
         ]
@@ -126,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
+                "file": "notes/machine_learning/deep_learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from decision_tree"
+              "title": "Outgoing links from deep_learning"
             }
           },
           {
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
+                "file": "notes/machine_learning/deep_learning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for decision_tree"
+              "title": "Backlinks for deep_learning"
             }
           }
         ]
@@ -228,6 +228,8 @@
   },
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
+    "notes/machine_learning/deep_learning.md~",
+    "notes/machine_learning/decision_tree.md",
     "notes/machine_learning/deep_learning.md",
     "notes/machine_learning/convolutional.md",
     "notes/machine_learning/activation_functions.md",
@@ -239,7 +241,6 @@
     "files/naive_bayes_graph.png",
     "notes/machine_learning/random_forest.md",
     "notes/machine_learning/ensemble.md",
-    "notes/machine_learning/decision_tree.md",
     "notes/machine_learning/convolutional_neural_network.md",
     "notes/machine_learning/bias_variance.md",
     "notes/ai_fundamentals/planning.md",
@@ -266,7 +267,6 @@
     "notes/ai_fundamentals/games.md",
     "notes/ai_fundamentals/genetic_algorithms.md",
     "notes/ai_fundamentals/novelty.md",
-    "notes/machine_learning/statistical_learning_theory.md",
     "notes/machine_learning/statistical_learning_theory.md~",
     "notes/machine_learning/validation.md~",
     "notes/machine_learning/gradient_descent.md~",
