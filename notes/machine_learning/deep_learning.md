@@ -1,7 +1,9 @@
 ---
 id: deep_learning
 aliases: []
-tags: []
+tags:
+  - master
+  - machine_learning
 ---
 
 # Deep Learning

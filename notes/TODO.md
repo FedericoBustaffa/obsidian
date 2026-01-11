@@ -17,6 +17,7 @@ tags:
 
 ## Machine Learning
 
+- Cascade Correlation
 - Correct back-propagation
 - Support Vector Machine Regression
 - Convolutional Neural Networks

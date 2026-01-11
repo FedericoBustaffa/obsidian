@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
+                "file": "notes/machine_learning/deep_learning.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,21 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "decision_tree"
-            }
-          },
-          {
-            "id": "0ce7d40e459977d8",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "deep_learning"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,12 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "notes/machine_learning/deep_learning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of deep_learning"
             }
           }
         ]
@@ -136,11 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "notes/machine_learning/deep_learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from deep_learning"
             }
           },
           {
@@ -185,6 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notes/machine_learning/deep_learning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for deep_learning"
             }
           }
         ]
@@ -234,10 +226,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "0ce7d40e459977d8",
+  "active": "e992a85b485556d9",
   "lastOpenFiles": [
-    "notes/machine_learning/decision_tree.md",
     "notes/machine_learning/deep_learning.md~",
+    "notes/TODO.md~",
+    "notes/machine_learning/decision_tree.md",
     "notes/machine_learning/deep_learning.md",
     "notes/machine_learning/convolutional.md~",
     "notes/machine_learning/neural_networks.md~",
