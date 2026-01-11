@@ -1,5 +1,5 @@
 ---
-id: convolutional_neural_network
+id: convolutional
 aliases: []
 tags:
   - master

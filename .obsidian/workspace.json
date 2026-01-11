@@ -30,8 +30,19 @@
               "icon": "lucide-file",
               "title": "decision_tree"
             }
+          },
+          {
+            "id": "0ce7d40e459977d8",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,13 +107,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of decision_tree"
+              "title": "Outline"
             }
           }
         ]
@@ -126,12 +136,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from decision_tree"
+              "title": "Outgoing links"
             }
           },
           {
@@ -176,7 +185,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +194,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for decision_tree"
+              "title": "Backlinks"
             }
           }
         ]
@@ -226,8 +234,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "e992a85b485556d9",
+  "active": "0ce7d40e459977d8",
   "lastOpenFiles": [
+    "notes/machine_learning/decision_tree.md",
+    "notes/machine_learning/deep_learning.md~",
+    "notes/machine_learning/deep_learning.md",
+    "notes/machine_learning/convolutional.md~",
+    "notes/machine_learning/neural_networks.md~",
+    "notes/machine_learning/convolutional.md",
+    "notes/machine_learning/convolutional_neural_network.md~",
     "notes/machine_learning/activation_functions.md",
     "notes/ai_fundamentals/uncertainty.md",
     "notes/ai_fundamentals/uncertainty.md~",
@@ -237,7 +252,6 @@
     "files/naive_bayes_graph.png",
     "notes/machine_learning/random_forest.md",
     "notes/machine_learning/ensemble.md",
-    "notes/machine_learning/decision_tree.md",
     "notes/machine_learning/convolutional_neural_network.md",
     "notes/machine_learning/bias_variance.md",
     "notes/ai_fundamentals/planning.md",
@@ -264,16 +278,9 @@
     "notes/ai_fundamentals/games.md",
     "notes/ai_fundamentals/genetic_algorithms.md",
     "notes/ai_fundamentals/novelty.md",
-    "notes/machine_learning/statistical_learning_theory.md",
-    "conflict-files-obsidian-git.md",
     "notes/machine_learning/statistical_learning_theory.md~",
-    "notes/machine_learning/validation.md",
     "notes/machine_learning/validation.md~",
     "notes/machine_learning/gradient_descent.md~",
-    "maps/validation_pipeline.canvas",
-    "maps",
-    "notes/ai_fundamentals/novelty.md~",
-    "notes/ai_fundamentals/genetic_algorithms.md~",
-    "notes/ai_fundamentals/evolutionary_optimization.md~"
+    "maps/validation_pipeline.canvas"
   ]
 }

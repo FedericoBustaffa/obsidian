@@ -209,4 +209,5 @@ order to make the network _learn_.
 - [[gradient_descent]]
 - [[backpropagation]]
 - [[neural_network_training]]
-- [[convolutional_neural_network]]
+- [[deep_learning]]
+- [[convolutional]]
