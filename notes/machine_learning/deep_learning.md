@@ -15,6 +15,11 @@ networks:
 - Convolutional neural networks
 - Recurrent neural networks
 
+It introduces some new interesting concepts like
+
+- **Representation learning**
+- **Distributed representation**
+
 ## References
 
 - [[neural_networks]]
