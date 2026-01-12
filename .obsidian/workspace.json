@@ -96,13 +96,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/deep_learning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of deep_learning"
+              "title": "Outline"
             }
           }
         ]
@@ -126,12 +125,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/deep_learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from deep_learning"
+              "title": "Outgoing links"
             }
           },
           {
@@ -176,7 +174,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/deep_learning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +183,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for deep_learning"
+              "title": "Backlinks"
             }
           }
         ]
@@ -226,13 +223,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "e992a85b485556d9",
+  "active": "12d36dfdb69f9bc4",
   "lastOpenFiles": [
-    "notes/ai_fundamentals/uncertainty.md",
     "notes/machine_learning/deep_learning.md",
-    "notes/machine_learning/convolutional.md",
-    "notes/machine_learning/activation_functions.md",
     "notes/machine_learning/deep_learning.md~",
+    "notes/machine_learning/activation_functions.md",
+    "notes/machine_learning/convolutional.md",
+    "notes/ai_fundamentals/uncertainty.md",
     "notes/ai_fundamentals/uncertainty.md~",
     "indices/complex_systems.md",
     "notes/machine_learning/support_vector_machine.md",
