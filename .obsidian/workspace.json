@@ -30,8 +30,21 @@
               "icon": "lucide-file",
               "title": "deep_learning"
             }
+          },
+          {
+            "id": "86216f5785351755",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -223,7 +236,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "12d36dfdb69f9bc4",
+  "active": "86216f5785351755",
   "lastOpenFiles": [
     "notes/machine_learning/deep_learning.md",
     "notes/machine_learning/deep_learning.md~",
