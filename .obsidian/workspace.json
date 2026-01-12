@@ -30,8 +30,21 @@
               "icon": "lucide-file",
               "title": "deep_learning"
             }
+          },
+          {
+            "id": "3bcec00f1531d267",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,13 +109,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/deep_learning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of deep_learning"
+              "title": "Outline"
             }
           }
         ]
@@ -126,12 +138,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/deep_learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from deep_learning"
+              "title": "Outgoing links"
             }
           },
           {
@@ -176,7 +187,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/deep_learning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +196,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for deep_learning"
+              "title": "Backlinks"
             }
           }
         ]
@@ -226,7 +236,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "e992a85b485556d9",
+  "active": "3bcec00f1531d267",
   "lastOpenFiles": [
     "notes/machine_learning/deep_learning.md~",
     "notes/machine_learning/activation_functions.md",
