@@ -80,6 +80,9 @@ far from examples that share underlying structure.
 
 ## Representation Learning
 
+**Representation learning** is a concept related to the fact that deep learning
+allows
+
 ## References
 
 - [[neural_networks]]
