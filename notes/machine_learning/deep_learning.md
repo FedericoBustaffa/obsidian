@@ -55,7 +55,28 @@ to learn does not have any compositional hidden structure.
 
 ## Curse of Dimensionality
 
-Many learners rely on
+Many learners rely on **local approximation** by assuming that, for two
+different points in a very small region of space, the true function output
+should be very similar for both.
+
+The problem is that they lack in generalization of the surroundings for which
+they don't have examples to train on. This problem is also amplified in highly
+dimensional spaces, where points are more _sparse_ and the uncertainty is way
+higher between them.
+
+So make assumptions is needed to have a non local generalization in an
+exponential number of regions with respect to the number of examples. The
+stronger the assumption, the less is the uncertainty. Of course the assumption
+could be completely wrong, leading to bad results.
+
+Deep learning approaches instead rely on a compositional and hierarchical
+inductive bias, allowing the model to represent complex functions through
+reusable and distributed features.
+
+The hierarchical way of learning, potentially increases the number of regions
+that can be distinguished by an exponential factor. In other words the model has
+a quite general inductive bias, but can also generalize well in regions of space
+far from examples that share underlying structure.
 
 ## References
 
