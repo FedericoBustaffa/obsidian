@@ -22,6 +22,34 @@ more than three layers. Implications of _deep learning_ are mainly
   - Learn a **continuous representation** of a concept (particularly useful for
     categorical data).
 
+The need for **deep learning** is justified by the fact that, yes we have the
+**universale approximation theorem**, but it does not provide informations on
+the number of units.
+
+For many modern problems, a single layer network would require an exponential
+number of units to achieve good performance. In general, a deep network can
+achieve same performance as a flat one, but with much less units.
+
+> [!NOTE] No-Flatten Theorem
+> There is also a _pseudo-theorem_, called **no-flatten** that want to define
+> better where a flat network requires (in practice) a unfeasible number of
+> units.
+
+So the problem of a single layer network can be either the expressity power or
+the efficiency issue of having too many units.
+
+---
+
+Of course this kind of architecture brings a _inductive bias_ assuming that the
+function the network is trying to learn is a _composition_ of functions (or at
+least that there is a nested factor of variation).
+
+If the task match this bias is generally a good idea to have a _deep_
+architecture. This is typical with image recognition, where usually the first
+layer learns only very specific segments and, going deeper, it starts to build
+much more complex structures that in the end put together to recognize
+handwritten digits, animals and so on.
+
 ## References
 
 - [[neural_networks]]
