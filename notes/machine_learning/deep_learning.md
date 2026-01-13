@@ -38,17 +38,24 @@ achieve same performance as a flat one, but with much less units.
 So the problem of a single layer network can be either the expressity power or
 the efficiency issue of having too many units.
 
----
+## Inductive Bias
 
-Of course this kind of architecture brings a _inductive bias_ assuming that the
-function the network is trying to learn is a _composition_ of functions (or at
-least that there is a nested factor of variation).
+Of course this kind of architecture brings a **inductive bias** assuming that
+the function the network is trying to learn is a _composition_ of functions (or
+at least that there is a nested factor of variation).
 
 If the task match this bias is generally a good idea to have a _deep_
 architecture. This is typical with image recognition, where usually the first
 layer learns only very specific segments and, going deeper, it starts to build
 much more complex structures that in the end put together to recognize
 handwritten digits, animals and so on.
+
+Notice also that this bias is quite general, so is no big deal if the function
+to learn does not have any compositional hidden structure.
+
+## Curse of Dimensionality
+
+Many learners rely on
 
 ## References
 
