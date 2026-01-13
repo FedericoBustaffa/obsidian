@@ -78,6 +78,8 @@ that can be distinguished by an exponential factor. In other words the model has
 a quite general inductive bias, but can also generalize well in regions of space
 far from examples that share underlying structure.
 
+## Representation Learning
+
 ## References
 
 - [[neural_networks]]
