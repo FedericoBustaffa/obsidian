@@ -8,17 +8,19 @@ tags:
 
 # Deep Learning
 
-**Deep learning** is mainly referred to a multi-layer implementation of neural
-networks:
+It's possible to start talking about **deep learning** for neural network with
+more than three layers. Implications of _deep learning_ are mainly
 
-- Multi-layer perceptron
-- Convolutional neural networks
-- Recurrent neural networks
-
-It introduces some new interesting concepts like **representation learning** and
-**distributed representation**. Now is possible to have a **hierarchical**
-features represtation through layers, that generally goes from rough to finer
-level of representation.
+- **Hierarchical feature learning**: each layer produce the input for the next
+  one, that sees the output of the previous as features. This relaxes the
+  usually needed preprocessing that developers need to do.
+- **Distributed representation learning**: the network can learn patterns that
+  can be used like _building blocks_ in order to
+  - **Generate** new data obtained by composition.
+  - Learn a _concept_ **by exclusion**: the network can learn something that is
+    in some sense _complementary_ to what is present in the training set.
+  - Learn a **continuous representation** of a concept (particularly useful for
+    categorical data).
 
 ## References
 
