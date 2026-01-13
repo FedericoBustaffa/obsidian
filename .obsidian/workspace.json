@@ -30,6 +30,30 @@
               "icon": "lucide-file",
               "title": "deep_learning"
             }
+          },
+          {
+            "id": "dec5fbbe210063ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/TODO.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TODO"
+            }
           }
         ]
       }
@@ -228,6 +252,7 @@
   },
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
+    "notes/TODO.md",
     "notes/machine_learning/deep_learning.md",
     "notes/machine_learning/deep_learning.md~",
     "notes/machine_learning/activation_functions.md",
@@ -247,7 +272,6 @@
     "notes/ai_fundamentals/logical_agents.md",
     "notes/ai_fundamentals/first_order_logical_agents.md",
     "notes/ai_fundamentals/artificial_life.md",
-    "notes/TODO.md",
     "files/wumpus_entailment2.png",
     "files/wumpus_entailment1.png",
     "files/truth_table_model_checking.png",
