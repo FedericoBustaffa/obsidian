@@ -84,6 +84,21 @@ far from examples that share underlying structure.
 allows a network to automatically discover representations needed for a specific
 task.
 
+In general, in computer science is true that a task that involves information
+processing of some kind can be very easy or very difficult, depending on
+information representation.
+
+A good representation often makes the task easier, but for some problems a
+manual design of feature representation is very challenging. In ML words,
+engineering the $\phi(x)$ function of LBE is often very difficult. Neural
+networks, and in particular deep ones, can learn the $\phi$ function. This is
+because for them $\phi$ is also a function of the weights: $\phi(x, w)$, and so
+can be learned.
+
+A deeper aspect is the fact that neural networks, automatically find **hidden**
+representations or structure in information, that is way more difficult for a
+human.
+
 ## References
 
 - [[neural_networks]]
