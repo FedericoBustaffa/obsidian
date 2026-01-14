@@ -58,7 +58,12 @@ Also repetition of multiplication of small quantities through many layers leads
 to exponentially small gradients going towards input layer.
 
 This problem can be addressed in many ways, for example with **ReLU** activation
-function (and its variants).
+function (and its variants) or with **batch normalization**.
+
+### Batch Normalization
+
+An interesting technique is called **bacth normalization** at it consists in
+normalizing the batch
 
 ## References
 
