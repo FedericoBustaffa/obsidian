@@ -190,7 +190,24 @@ net learns the concept of animal in some sense and so now "cat" and "dog" are
 closer in the new space with respect to "train".
 
 This new representation also **quantify** how much of a feature is present in a
-certain word
+certain word. For example let's assume we want to represent 4 concepts: _blue
+car_, _red car_, _blue bike_ and _red bike_.
+
+First of all 4 neurons are not necessary, 2 are sufficient because we can reason
+in a complementary way. One neuron take care of the color and the other of the
+object.
+
+So the first learns something like the _redness_ regardless the context; it does
+not learn what is a red car specifically, but it only learns how to recognize
+_red_.
+
+This implies that a network can learn the concept of red bike without ever seen
+it during the training: it's sufficient that it knows what is a _bike_ and what
+is _red_.
+
+More in general we can say that, for a discrete case scenario, a distributed
+representation, can use $n$ features with $k$ values to describe $k^n$ different
+concepts.
 
 ## References
 
