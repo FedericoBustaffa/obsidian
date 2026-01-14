@@ -112,7 +112,10 @@ function to optimize but there is no real target.
 ![Autoencoder|500](/files/autoencoder.png)
 
 Compressing the input and then decompressing it has the effect of catch
-underlying structure in it.
+underlying structure in it (**undercomplete** autoencoder). It's also possible
+to have an autoencoder that maps the input in a higher dimensional space
+(**overcomplete** autoencoder); this can be useful for example in classification
+to make the problem linearly sperable in that new space.
 
 One of the first methods to train a deep neural network without backpropagation
 is proposed by the **Bengio algorithm**, that performs a so called **greedy
@@ -135,12 +138,20 @@ This might not work as well as a network fully specialized for a specific task,
 but has some interesting implications.
 
 First of all, all layers but the last, contains good representations and so good
-starting weights for a generic supervised task.
+starting weights for a generic supervised task. It also works as a
+regularization technique because it smooths the noise, and reduce probability
+of overfitting.
+
+On the other hand a too extreme compression may end up flattening crucial
+differences in input data; while a mapping to higher dimensionality can cause
+loss of relationships.
 
 ### Transfer Learning
 
 Once hidden representations are available, with **transfer learning** is
 possible to use them for supervised tasks like classification and regression.
+
+This is pretty
 
 ## References
 
