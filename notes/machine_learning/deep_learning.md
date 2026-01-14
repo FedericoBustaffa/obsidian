@@ -179,6 +179,19 @@ vocabulary. Let's also notice that every word is distant $\sqrt{2}$ from every
 other, so is pratically impossible to catch any relation between couples of
 words.
 
+But here is the deep learning trick that let a model learn a meaningful
+representation automatically. Starting from a _one-hot_ encoded dataset, is
+possible to train an autoencoder with text so that it learns how much words are
+related just by looking at things like occurences in similar sentences.
+
+In this way is possible to go from a one-hot representation to a vectorial
+representation with each entry being a continuous value. We can imagine that the
+net learns the concept of animal in some sense and so now "cat" and "dog" are
+closer in the new space with respect to "train".
+
+This new representation also **quantify** how much of a feature is present in a
+certain word
+
 ## References
 
 - [[neural_networks]]
