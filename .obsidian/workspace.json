@@ -229,8 +229,10 @@
   },
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
-    "notes/machine_learning/deep_learning_techniques.md",
     "notes/machine_learning/double_descent.md~",
+    "notes/machine_learning/4913",
+    "files/double_descent.png",
+    "notes/machine_learning/deep_learning_techniques.md",
     "notes/machine_learning/double_descent.md",
     "notes/machine_learning/representation_learning.md",
     "notes/machine_learning/deep_learning.md~",
@@ -243,7 +245,6 @@
     "notes/machine_learning/neural_network_training.md~",
     "notes/machine_learning/deep_learning_training.md",
     "notes/machine_learning/deep_learning.md",
-    "notes/machine_learning/4913",
     "notes/machine_learning/activation_functions.md",
     "notes/machine_learning/neural_network_training.md",
     "files/autoencoder.png",
@@ -271,7 +272,6 @@
     "files/svm_kernel.png",
     "files/sliding_window_nn.png",
     "files/simple_ca.png",
-    "files/resolution_inference.png",
     "TODO.md",
     "notes/ai_fundamentals/informed_search.md",
     "maps/validation_pipeline.canvas"
