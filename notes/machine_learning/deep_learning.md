@@ -134,6 +134,9 @@ modern MLP, trained end-to-end with backpropagation.
 This might not work as well as a network fully specialized for a specific task,
 but has some interesting implications.
 
+First of all, all layers but the last, contains good representations and so good
+starting weights for a generic supervised task.
+
 ### Transfer Learning
 
 Once hidden representations are available, with **transfer learning** is
