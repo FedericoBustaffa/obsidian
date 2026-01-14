@@ -36,7 +36,22 @@ where $g$ is the gradient vector, the new gradient becomes
 
 $$g = v \cdot \frac{g}{\| g \|}$$
 
+Take into account that the clipping can be done layer by layer during
+backpropagation or _globally_ in a single step:
+
+- **Layer wise**: during backpropagation each layer computes its gradient
+  vector and clip it if necessary. Can be finer for each layer but can modify
+  proportions between layers.
+- **Global**: each layer computes its gradient vector. The clipping is based on
+  the norm of the global gradient vector of each layer. This is more stable and
+  preserve relative gradient directions through layers.
+
+The standard for most libraries is the global approach.
+
 ## Gradient Vanish
+
+If weights are small can happen that the gradient for first layers is too small
+and the update is almost zero.
 
 ## References
 
