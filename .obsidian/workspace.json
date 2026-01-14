@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/activation_functions.md",
+                "file": "notes/machine_learning/deep_learning_techniques.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "activation_functions"
+              "title": "deep_learning_techniques"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/activation_functions.md",
+                "file": "notes/machine_learning/deep_learning_techniques.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of activation_functions"
+              "title": "Outline of deep_learning_techniques"
             }
           }
         ]
@@ -126,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/activation_functions.md",
+                "file": "notes/machine_learning/deep_learning_techniques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from activation_functions"
+              "title": "Outgoing links from deep_learning_techniques"
             }
           },
           {
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/activation_functions.md",
+                "file": "notes/machine_learning/deep_learning_techniques.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for activation_functions"
+              "title": "Backlinks for deep_learning_techniques"
             }
           }
         ]
@@ -230,6 +230,8 @@
   "active": "e2f209e9073c612f",
   "lastOpenFiles": [
     "notes/machine_learning/deep_learning_techniques.md~",
+    "notes/machine_learning/activation_functions.md",
+    "files/gradient_clipping.png",
     "notes/machine_learning/double_descent.md",
     "notes/machine_learning/double_descent.md~",
     "files/regression_example_deg16.png",
@@ -248,7 +250,6 @@
     "notes/machine_learning/neural_network_training.md~",
     "notes/machine_learning/deep_learning_training.md",
     "notes/machine_learning/deep_learning.md",
-    "notes/machine_learning/activation_functions.md",
     "notes/machine_learning/neural_network_training.md",
     "files/autoencoder.png",
     "notes/machine_learning/convolutional.md",
@@ -271,7 +272,6 @@
     "files/wumpus_entailment2.png",
     "files/wumpus_entailment1.png",
     "files/truth_table_model_checking.png",
-    "files/toroidal_grid.png",
     "TODO.md",
     "notes/ai_fundamentals/informed_search.md",
     "maps/validation_pipeline.canvas"
