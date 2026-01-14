@@ -163,6 +163,22 @@ learned features between different domains are shared.
 
 ## Distributed Representation
 
+Deep learning also brings to the table the concept of **distributed
+representation** of data, that tries to improve to the **symbolic** one.
+
+There are fields, like in NLP, where data has no mathematical meaning (or at
+least it's not clear to define o recognize it); in fact words cannot be easily
+mapped in a vectorial space because their meaning, context and semantics are
+something too abstract.
+
+Intuitively we can say that "cat" is more similar to "dog" than "train", but how
+to map this to math is not trivial at all. The simplest way is for example by
+doing a one-hot encoding of every word in a vocabulary, but this results in a
+vector space with $N$ dimension where $N$ is the number of words in the
+vocabulary. Let's also notice that every word is distant $\sqrt{2}$ from every
+other, so is pratically impossible to catch any relation between couples of
+words.
+
 ## References
 
 - [[neural_networks]]
