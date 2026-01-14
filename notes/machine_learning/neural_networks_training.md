@@ -1,5 +1,5 @@
 ---
-id: neural_network_training
+id: neural_networks_training
 aliases: []
 tags:
   - master
