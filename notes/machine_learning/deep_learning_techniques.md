@@ -62,8 +62,14 @@ function (and its variants) or with **batch normalization**.
 
 ### Batch Normalization
 
-An interesting technique is called **bacth normalization** at it consists in
-normalizing the batch
+An interesting technique is called **batch normalization** at it consists in
+normalizing each batch through a standardization, keeping $wx + b$ with mean to
+0 and variance to 1.
+
+This helps stabilize sigmoids activation functions that now will saturate less
+easily and it adds a regularization effect due to the introduced noise.
+
+## Dropout
 
 ## References
 
