@@ -151,7 +151,17 @@ loss of relationships.
 Once hidden representations are available, with **transfer learning** is
 possible to use them for supervised tasks like classification and regression.
 
-This is pretty
+This is done under the assumption that some features discovered in the
+pre-training phase are useful for different tasks.
+
+So now is also possible to use a pre-trained model for different tasks without
+the need to retrain it entirely; the only thing needed to be retrained is the
+output layer to make predictions.
+
+Is also possible to change the input domain under the assumption that some
+learned features between different domains are shared.
+
+## Distributed Representation
 
 ## References
 
