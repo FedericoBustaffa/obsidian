@@ -51,7 +51,14 @@ The standard for most libraries is the global approach.
 ## Gradient Vanish
 
 If weights are small can happen that the gradient for first layers is too small
-and the update is almost zero.
+and the update is almost zero. This usually happens for sigmoidal activation
+functions that reach saturations and produce very small gradient.
+
+Also repetition of multiplication of small quantities through many layers leads
+to exponentially small gradients going towards input layer.
+
+This problem can be addressed in many ways, for example with **ReLU** activation
+function (and its variants).
 
 ## References
 
