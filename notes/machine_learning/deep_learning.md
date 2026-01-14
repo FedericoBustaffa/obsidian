@@ -99,6 +99,16 @@ A deeper aspect is the fact that neural networks, automatically find **hidden**
 representations or structure in information, that is way more difficult for a
 human.
 
+### Pre-Training
+
+In order to obtain _hidden representations_, one historical case is
+**pre-training**, that exploit the concept of **semi-supervised learning**.
+
+### Transfer Learning
+
+Once hidden representations are available, with **transfer learning** is
+possible to use them for supervised tasks like classification and regression.
+
 ## References
 
 - [[neural_networks]]
