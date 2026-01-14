@@ -104,6 +104,36 @@ human.
 In order to obtain _hidden representations_, one historical case is
 **pre-training**, that exploit the concept of **semi-supervised learning**.
 
+To perform _pre-training_ is necessary to build an **autoencoder**, that at its
+core, is a network that tries to reproduce its input. That's way is called
+_semi-supervised_ (or _self-supervised_) learning; there is still an _error_
+function to optimize but there is no real target.
+
+![Autoencoder|500](/files/autoencoder.png)
+
+Compressing the input and then decompressing it has the effect of catch
+underlying structure in it.
+
+One of the first methods to train a deep neural network without backpropagation
+is proposed by the **Bengio algorithm**, that performs a so called **greedy
+layer-wise unsupervised pre-training** by training a multi-layer network one
+layer at a time.
+
+1. Start with a single layer network that tries to reproduce its input.
+2. Remove the output layer and add a new hidden layer. This hidden layer is
+   trained to reproduce the output of the previous layer.
+3. Repeat until the desired number of layers is reached. At each step weights of
+   already trained layers are freezed; only one layer at a time is trained.
+4. In the end add a _task layer_ for supervised task, that will be trained on
+   actual targets.
+
+In the end the effect is that hidden layers contains hierarchical
+representations of the world, but not a specialized way for the task, like for a
+modern MLP, trained end-to-end with backpropagation.
+
+This might not work as well as a network fully specialized for a specific task,
+but has some interesting implications.
+
 ### Transfer Learning
 
 Once hidden representations are available, with **transfer learning** is
