@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/double_descent.md",
+                "file": "notes/machine_learning/activation_functions.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "double_descent"
+              "title": "activation_functions"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/double_descent.md",
+                "file": "notes/machine_learning/activation_functions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of double_descent"
+              "title": "Outline of activation_functions"
             }
           }
         ]
@@ -126,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/double_descent.md",
+                "file": "notes/machine_learning/activation_functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from double_descent"
+              "title": "Outgoing links from activation_functions"
             }
           },
           {
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/double_descent.md",
+                "file": "notes/machine_learning/activation_functions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for double_descent"
+              "title": "Backlinks for activation_functions"
             }
           }
         ]
@@ -229,11 +229,12 @@
   },
   "active": "e2f209e9073c612f",
   "lastOpenFiles": [
+    "notes/machine_learning/double_descent.md",
+    "notes/machine_learning/deep_learning_techniques.md~",
     "notes/machine_learning/double_descent.md~",
     "files/regression_example_deg16.png",
     "files/regression_example_deg7.png",
     "files/regression_example_deg2.png",
-    "notes/machine_learning/double_descent.md",
     "notes/machine_learning/4913",
     "files/double_descent.png",
     "notes/machine_learning/deep_learning_techniques.md",
@@ -242,7 +243,6 @@
     "notes/machine_learning/backpropagation.md~",
     "notes/machine_learning/representation_learning.md~",
     "notes/machine_learning/activation_functions.md~",
-    "notes/machine_learning/deep_learning_techniques.md~",
     "notes/machine_learning/neural_networks.md~",
     "notes/machine_learning/neural_networks_training.md",
     "notes/machine_learning/neural_network_training.md~",
