@@ -223,7 +223,12 @@ example given in training, and so is possible to generalize well on unseen
 configurations by reasoning in mutually exclusive way.
 
 This is widely used in NLP fields and its interesting how a neural network is
-able to catch hidden relationships between words
+able to catch hidden relationships between words in mathematical and statistical
+way, while humans don't think like that at all. A famouse example of this is
+given by **word embeddings** (like **word2vec**) that is a proof of how a neural
+network is able to catch semantics of a language just by looking at texts. This
+can imply that language has the compositionality inductive bias that let a
+neural network learn it.
 
 ## References
 
