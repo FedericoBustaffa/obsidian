@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "8def99a9922e264f",
         "type": "tabs",
         "children": [
           {
-            "id": "e992a85b485556d9",
+            "id": "e2f209e9073c612f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -227,13 +227,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "e992a85b485556d9",
+  "active": "e2f209e9073c612f",
   "lastOpenFiles": [
     "notes/machine_learning/double_descent.md~",
+    "files/regression_example_deg16.png",
+    "files/regression_example_deg7.png",
+    "files/regression_example_deg2.png",
+    "notes/machine_learning/double_descent.md",
     "notes/machine_learning/4913",
     "files/double_descent.png",
     "notes/machine_learning/deep_learning_techniques.md",
-    "notes/machine_learning/double_descent.md",
     "notes/machine_learning/representation_learning.md",
     "notes/machine_learning/deep_learning.md~",
     "notes/machine_learning/backpropagation.md~",
@@ -269,9 +272,6 @@
     "files/wumpus_entailment1.png",
     "files/truth_table_model_checking.png",
     "files/toroidal_grid.png",
-    "files/svm_kernel.png",
-    "files/sliding_window_nn.png",
-    "files/simple_ca.png",
     "TODO.md",
     "notes/ai_fundamentals/informed_search.md",
     "maps/validation_pipeline.canvas"
