@@ -18,6 +18,10 @@ through many layers can cause these issues causing the failure of training.
 
 ## Exploding Gradient
 
+When the model backpropagate the error through many layers, when the weights are
+big, the gradient magnitude grows exponentially, causing very unstable training
+and overflows.
+
 ## Gradient Vanish
 
 ## References
