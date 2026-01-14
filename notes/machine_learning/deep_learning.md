@@ -209,6 +209,22 @@ More in general we can say that, for a discrete case scenario, a distributed
 representation, can use $n$ features with $k$ values to describe $k^n$ different
 concepts.
 
+Is also possible to encode binary features of dimension $N$ with distributed
+representation by assigning a unique code to an exponential number of regions:
+$O(2^n)$.
+
+In general, models based on distributed representation are able to distinguish
+exponentially many more regions than others like _K-nn_ or _SVMs_.
+
+### Shared Attributes
+
+Having data sharing some feature let the model disentagle a concept from the
+example given in training, and so is possible to generalize well on unseen
+configurations by reasoning in mutually exclusive way.
+
+This is widely used in NLP fields and its interesting how a neural network is
+able to catch hidden relationships between words
+
 ## References
 
 - [[neural_networks]]
