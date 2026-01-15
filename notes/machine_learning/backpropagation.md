@@ -6,9 +6,9 @@ tags:
   - machine_learning
 ---
 
-# Back-Propagation
+# Backpropagation
 
-The **back-propagation** is the basically most important algorithm in deep
+The **backpropagation** is the basically most important algorithm in deep
 learning, because let a neural network learn through multiple layers.
 
 A common misconception (at least for me it was) is that there is an information
@@ -21,7 +21,7 @@ once computed remains constant.
 
 ## Base Case
 
-In order to understand the back-propagation is sufficient to build a very simple
+In order to understand the backpropagation is sufficient to build a very simple
 network like the following.
 
 ![Linear Neural Network](/files/linear_nn.svg)
@@ -97,7 +97,7 @@ and this process is repeated until the first hidden layer is updated.
 
 ## General Case
 
-In order to apply the back-propagation in a classic multi-layer perceptron
+In order to apply the backpropagation in a classic multi-layer perceptron
 topology not much changes.
 
 ![Multi-Layer Perceptron](/files/mlp.png)
@@ -114,7 +114,7 @@ for a single input unit.
 
 ## Common Notation
 
-A common notation that is used for the back-propagation is the following
+A common notation that is used for the backpropagation is the following
 
 $$
 \Delta_p w_{tu} = \delta_t \cdot o_u =

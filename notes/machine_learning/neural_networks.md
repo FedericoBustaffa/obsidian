@@ -41,7 +41,7 @@ represents our network as a composition of non linear functions.
 ## Notation
 
 Let's now introduce some notation that is commonly used, also to move in better
-in the back-propagation algorithm.
+in the backpropagation algorithm.
 
 - **Weight/Connections**: a generic weight is denoted with $w_{ji}$ to indicate
   that a unit $i$ (that can be an input unit or a hidden unit) produces an output
@@ -198,7 +198,7 @@ weights. If we notice there is also a sort of temporal relation between the
 computation of each layer: of course we can see the network as a big function
 composed by many nested function, but it's clear that there is a forward
 propagation of the input and so, the error correction must have a
-**back-propagation**. Here the **back-propagation algorithm** becomes crucial in
+**backpropagation**. Here the **backpropagation algorithm** becomes crucial in
 order to make the network _learn_.
 
 ## References

@@ -154,7 +154,7 @@ follows these steps:
    current leaf.
 3. **Simulation**: perform one rollout from the newly expanded node using the
    playout policy.
-4. **Back-propagation**: update the value of the nodes in the search tree from
+4. **Backpropagation**: update the value of the nodes in the search tree from
    the newly added node up to the root, following the selection path.
 
 ![MCTS|600](/files/mcts.png)

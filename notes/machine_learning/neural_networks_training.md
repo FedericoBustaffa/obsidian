@@ -78,7 +78,7 @@ problem of choosing between **on-line** and **batch** training:
 
 - **Batch**: all the patterns are presented to the network, that make the
   prediction and so the error is accumulated. Only in the end the weigths are
-  updated with back-propagation.
+  updated with backpropagation.
 - **On-line or Stochastic** (**SGD**): for each pattern presented to the network
   the weights are immdiately updated based on that specific pattern error. The
   method cycles through every pattern (an **epoch**), and then starts over again
