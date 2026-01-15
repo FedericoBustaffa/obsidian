@@ -22,8 +22,8 @@ Scaling the computation to general case is pretty straightforward.
 
 ![Linear Neural Network](/files/linear_nn.svg)
 
-Assuming $y$ is the target value, is possible to compute the error between $y$
-and $o_k$, that is the network's output for input $x$;
+Assuming $y$ is the target value, is possible to compute the error (MSE in this
+case) between $y$ and $o_k$, that is the network's output for input $x$;
 
 $$E(w) = (o_k - y)^2$$
 
