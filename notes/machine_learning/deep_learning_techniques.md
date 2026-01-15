@@ -71,6 +71,20 @@ easily and it adds a regularization effect due to the introduced noise.
 
 ## Dropout
 
+Another interesting technique for deep learning is **dropout** that basically
+randomly selects a subset of the network during training.
+
+Basically a mask is applied the entire network, turning on and off some neurons
+and train them for an epoch. Typically the number of **subnet** is fixed (like
+10-20) and some configuration might not be valid: there isn't a path from input
+to output.
+
+This has the effect of training multiple models potentially with different input
+and different outputs (same task but specialized on a specific output).
+
+This has an effect of training multiple subnets, sharing weights and keeping the
+computation and memory usage tractable.
+
 ## References
 
 - [[deep_learning]]
