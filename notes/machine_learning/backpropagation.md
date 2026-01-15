@@ -90,12 +90,46 @@ and so
 
 $$\frac{\partial E}{\partial w_k} = \delta_k \cdot o_j$$
 
+### Hidden Layers
+
 The key now is to repeat the same process also for the hidden layer/unit $j$,
-updating its free parameters
+updating its free parameters. Starting to the fact that the contribution to
+$\text{net}_k$ is given by $w_k$, $b_k$ (already updated) and $o_j$ that, like
+$o_k$ cannot be directly updated.
+
+$$
+\frac{\partial E}{\partial o_j} =
+\frac{\partial E}{\partial o_k} \cdot
+\frac{\partial o_k}{\partial \text{net}_k} \cdot
+\frac{\partial \text{net}_k}{\partial o_j}
+$$
+
+Again we have that
+
+$$o_j = \sigma (net_j)$$
+
+and so the contribution of $\text{net}_j$ to $o_j$ is
+
+$$\frac{\partial o_j}{\partial \text{net}_j} = \sigma' (\text{net}_j)$$
+
+As before we have that
+
+$$\text{net}_j = w_j \cdot o_i + b_j$$
+
+and so we can again optimize the free parameters
+
+$$
+\frac{\partial \text{net}_j}{\partial w_j} = o_i \qquad
+\frac{\partial \text{net}_j}{\partial b_j} = 1
+$$
+
+But now the full formula to update $w_j$ is
 
 $$
 \frac{\partial E}{\partial w_j} =
-\frac{\partial E}{\partial o_j} \cdot
+\frac{\partial E}{\partial o_k} \cdot
+\frac{\partial o_k}{\partial \text{net}_k} \cdot
+\frac{\partial \text{net}_k}{\partial o_j} \cdot
 \frac{\partial o_j}{\partial \text{net}_j} \cdot
 \frac{\partial \text{net}_j}{\partial w_j}
 $$
