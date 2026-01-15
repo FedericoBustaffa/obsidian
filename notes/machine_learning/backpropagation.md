@@ -137,17 +137,20 @@ $$
 \frac{\partial \text{net}_j}{\partial w_j}
 $$
 
-Again we want to measure the contribution of $o_j$ for the result and so we have
-to see how much its weights and bias are involved in order to update them.
+But if we take a look we have that
 
-But now there is a little bit of twist and that's why it's called
-**backpropagation**: the $j$-th layer is updated on the base of its contribution
-to the contribution of the last layer to the error, so for an hidden layer holds
+$$
+\frac{\partial E}{\partial o_k} \cdot \frac{\partial o_k}{\partial \text{net}_k}
+= \delta_k \qquad
+\frac{\partial \text{net}_k}{\partial o_j} = \sigma'(\text{net}_j)
+$$
+
+and so it's clear that
 
 $$\delta_j = \delta_k \cdot w_k \cdot \sigma'(\text{net}_j)$$
 
-that can be obtained by expanding the chain rule formula above for
-$\frac{\partial E}{\partial w_j}$.
+This should give a rough idea of _propagating backward_ hence $\delta_j$ is
+function of $\delta_k$, computed in the $k$-th layer.
 
 ## General Case
 
