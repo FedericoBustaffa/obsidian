@@ -103,6 +103,8 @@ $$
 Again we want to measure the contribution of $o_j$ for the result and so we have
 to see how much its weights and bias are involved in order to update them.
 
+But now there is a little bit of twist
+
 ## General Case
 
 In order to apply the backpropagation in a classic multi-layer perceptron
