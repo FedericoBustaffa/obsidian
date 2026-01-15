@@ -58,7 +58,6 @@ logistic.
 An interesting aspect for activation functions emerges by seeing at their
 **derivatives**:
 
-- **Linear**: a constant.
 - **Threshold**: not defined, in fact is not used in LMS.
 - **Sigmoids**: for $a = 1$ we have
   $$
@@ -79,10 +78,24 @@ different ways and used for different purposes, here some of them:
 - **Rectifier**: one of the most popular in Deep-Learning is the **ReLU**
   (rectified linear unit)
   $$f(x) = \max (0, x)$$
+- **Leaky ReLU**: like ReLU but with learning also on negative part:
+  $$
+  f(x) = \begin{cases}
+  0.01 x & \text{if } x < 0 \\
+  x & \text{if } x \geq 0
+  \end{cases}
+  $$
+- **ELU**: exponential function on negative part:
+  $$
+  f(x) = \begin{cases}
+  \alpha (e^x - 1) & \text{if } x < 0 \\
+  x & \text{if } x \geq 0
+  \end{cases}
+  $$
 - **Softplus**: a smooth approximation of ReLU:
   $$f(x) = \ln (1 + e^x)$$
 
-Most of them perform comparably but of course there are some that became popular
+Most of them perform comparable but of course there are some that became popular
 for different reasons and based on the field of applications.
 
 ## Other Activation Functions
