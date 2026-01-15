@@ -8,27 +8,27 @@ tags:
 
 # Backpropagation
 
-The **backpropagation** is the basically most important algorithm in deep
+The **backpropagation** is basically the most important algorithm in deep
 learning, because let a neural network learn through multiple layers.
 
-A common misconception (at least for me it was) is that there is an information
-flow from the input layer towards the ouput layer and then back. But new
-information flows only forward: when the input goes through every layer and
-arrives to the last, there is a comparison with the pattern $p$ correct answer
-and an error is computed. Then the algorithm change the weights layer by layer
-taking into account the error, but the only new information is the error, that
-once computed remains constant.
+<!-- A common misconception (at least for me it was) is that there is an information -->
+<!-- flow from the input layer towards the ouput layer and then back. But new -->
+<!-- information flows only forward: when the input goes through every layer and -->
+<!-- arrives to the last, there is a comparison with the pattern $p$ correct answer -->
+<!-- and an error is computed. Then the algorithm change the weights layer by layer -->
+<!-- taking into account the error, but the only new information is the error, that -->
+<!-- once computed remains constant. -->
 
 ## Base Case
 
 In order to understand the backpropagation is sufficient to build a very simple
-network like the following.
+network with one neuron per layer and consider only one training example.
 
 ![Linear Neural Network](/files/linear_nn.svg)
 
-Because let us use a simpler notation and also it's easy to scale the same
-reasoning on full network with many units for each layer. Another assumption is
-that we consider only one training example for simplicity.
+In this way the notation is simpler to and is also clearer how every piece
+contributes. Scale the computation to general case is pretty straightforward and
+it only needs to add sums and means instead of single values.
 
 The network at the end produces $o_k$ that is our guess on the input $x$.
 Assuming $y$ is the correct answer, we can now compute the error
