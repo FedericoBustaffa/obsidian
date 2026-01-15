@@ -23,31 +23,36 @@ Scaling the computation to general case is pretty straightforward.
 ![Linear Neural Network](/files/linear_nn.svg)
 
 Assuming $y$ is the target value, is possible to compute the error (MSE in this
-case) between $y$ and $o_k$, that is the network's output for input $x$;
+case) between $y$ and $o_k$, that is the network's output for input $x$.
 
 $$E(w) = (o_k - y)^2$$
 
-in order to minimize it we compute the gradient with respect to our output,
-because we want modify $o_k$ in order to reduce the total error
+The only contribution to the final error is given by $o_k$ and so it must be
+modified to decrease the error. In order to minimize the error it's necessary to
+compute the gradient of the error function with respect to $o_k$.
 
 $$\frac{\partial E}{\partial o_k} = 2 \cdot (o_k - y)$$
 
-but in order to make the output change we cannot directly modify $o_k$ and so we
-have to unpack it
+Of course is not possible to modify $o_k$ directly, it's necessary to unpack it
+until we have some free parameters to work on.
 
 $$o_k = \sigma (\text{net}_k)$$
 
-where $\sigma$ is a generic sigmoidal activation function and $\text{net}_k$ is
-the input of the node $k$
-
-$$\text{net}_k = w_k \cdot o_j + b_k$$
-
-and so we obtain
+where $\sigma$ is a generic activation function and $\text{net}_k$ is the input
+of the node at layer $k$. So now is possible to see how much $\text{net}_k$
+contributes to the error by computing the following partial derivative
 
 $$\frac{\partial o_k}{\partial \text{net}_k} = \sigma' (\text{net}_k)$$
 
-So now we have to compute the gradient of $\text{net}_k$ in order to have access
-to $w_k$ and $b_k$ that are the free parameters we want to modify.
+but again $\text{net}_k$ cannot be modified directly; it's necessary to unpack
+it again
+
+$$\text{net}_k = w_k \cdot o_j + b_k$$
+
+where $w_k$ and $b_k$ are respectively weights and bias of layer $k$ and $o_j$
+is the output of layer $j$ (the previous). What is important is that $w_k$ and
+$b_k$ now are actual scalar we can directly access and optimize. For now we
+consider $o_j$ like a constant.
 
 $$
 \frac{\partial \text{net}_k}{\partial w_k} = o_j \quad
