@@ -19,7 +19,7 @@ and an error is computed. Then the algorithm change the weights layer by layer
 taking into account the error, but the only new information is the error, that
 once computed remains constant.
 
-## Basic Case
+## Base Case
 
 In order to understand the back-propagation is sufficient to build a very simple
 network like the following.
