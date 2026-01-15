@@ -161,15 +161,9 @@ topology not much changes.
 
 ![Multi-Layer Perceptron](/files/mlp.png)
 
-In this case we have the same exact formula but what truly changes is the
-$\text{net}_k$ function for a generic unit/layer $k$, because now the unit $k$
-receives in input all the outputs of the previous layers:
-
-$$\text{net}_k = \sum_j w_{kj} \cdot o_j$$
-
-and so we have to update every $w_{kj}$ for a single unit $k$ (and also its bias
-$b_k$), but for updating a single weight we can now reuse the previous formula
-for a single input unit.
+What in the previous case we considered scalars are now vectors or matrices, for
+example weights and biases. So we can think about every operation in a vectorial
+form or in an element-wise way.
 
 ## References
 
