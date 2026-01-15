@@ -11,27 +11,19 @@ tags:
 The **backpropagation** is basically the most important algorithm in deep
 learning, because let a neural network learn through multiple layers.
 
-<!-- A common misconception (at least for me it was) is that there is an information -->
-<!-- flow from the input layer towards the ouput layer and then back. But new -->
-<!-- information flows only forward: when the input goes through every layer and -->
-<!-- arrives to the last, there is a comparison with the pattern $p$ correct answer -->
-<!-- and an error is computed. Then the algorithm change the weights layer by layer -->
-<!-- taking into account the error, but the only new information is the error, that -->
-<!-- once computed remains constant. -->
+The key idea to understand backpropagation is that we want to know how much
+every unit contributed to the final output and so to the final error.
 
 ## Base Case
 
 In order to understand the backpropagation is sufficient to build a very simple
 network with one neuron per layer and consider only one training example.
+Scaling the computation to general case is pretty straightforward.
 
 ![Linear Neural Network](/files/linear_nn.svg)
 
-In this way the notation is simpler to and is also clearer how every piece
-contributes. Scale the computation to general case is pretty straightforward and
-it only needs to add sums and means instead of single values.
-
-The network at the end produces $o_k$ that is our guess on the input $x$.
-Assuming $y$ is the correct answer, we can now compute the error
+Assuming $y$ is the target value, is possible to compute the error between $y$
+and $o_k$, that is the network's output for input $x$;
 
 $$E(w) = (o_k - y)^2$$
 
