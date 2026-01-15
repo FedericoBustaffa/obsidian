@@ -100,7 +100,7 @@ for different reasons and based on the field of applications.
 
 ## Other Activation Functions
 
-- **Radial Basis**: used in _RBF_ networks; one example is the gaussian
+- **Radial basis**: used in _RBF_ networks; one example is the gaussian
   $$f(x) = e^{-ax^2}$$
 - **Softmax**: used for multiple output classifications.
 - **Stochastic neurons**: output will be $+1$ with probability $P(net)$ or $-1$
