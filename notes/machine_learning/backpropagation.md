@@ -166,7 +166,8 @@ example weights and biases. So we can think about every operation in a vectorial
 form or in an element-wise way.
 
 What can actually change is that to think at the algorithm in terms of
-mini-batch or full batch
+mini-batch or full batch, is necessary to add the formula for the MSE for a
+batch of samples.
 
 ## References
 
