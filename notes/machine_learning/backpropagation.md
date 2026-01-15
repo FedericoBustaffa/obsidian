@@ -94,8 +94,11 @@ $$\frac{\partial E}{\partial w_k} = \delta_k \cdot o_j$$
 
 The key now is to repeat the same process also for the hidden layer/unit $j$,
 updating its free parameters. Starting to the fact that the contribution to
-$\text{net}_k$ is given by $w_k$, $b_k$ (already updated) and $o_j$ that, like
-$o_k$ cannot be directly updated.
+$\text{net}_k$ is given by $w_k$, $b_k$ (already updated) and $o_j$.
+
+$$\frac{\partial \text{net}_k}{\partial o_j} = w_k$$
+
+and so
 
 $$
 \frac{\partial E}{\partial o_j} =
