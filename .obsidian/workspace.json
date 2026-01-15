@@ -230,6 +230,7 @@
   "active": "e2f209e9073c612f",
   "lastOpenFiles": [
     "notes/machine_learning/deep_learning_techniques.md~",
+    "files/dropout.png",
     "notes/machine_learning/activation_functions.md",
     "files/gradient_clipping.png",
     "notes/machine_learning/double_descent.md",
@@ -271,7 +272,6 @@
     "notes/TODO.md",
     "files/wumpus_entailment2.png",
     "files/wumpus_entailment1.png",
-    "files/truth_table_model_checking.png",
     "TODO.md",
     "notes/ai_fundamentals/informed_search.md",
     "maps/validation_pipeline.canvas"

@@ -79,11 +79,15 @@ and train them for an epoch. Typically the number of **subnet** is fixed (like
 10-20) and some configuration might not be valid: there isn't a path from input
 to output.
 
-This has the effect of training multiple models potentially with different input
-and different outputs (same task but specialized on a specific output).
+![Dropout|400](/files/dropout.png)
 
-This has an effect of training multiple subnets, sharing weights and keeping the
-computation and memory usage tractable.
+This has the effect of training multiple models potentially with different input
+parts (like a bootstrap) but for the same task. In practice this is an ensemble
+(in particular a bagging) of networks that in the end make their prediction
+based on a majority vote (or a mean for regression).
+
+Of course this introduces noise and act like a regularization technique, like
+for every ensemble model; high variance models can perform well on average.
 
 ## References
 
