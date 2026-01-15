@@ -165,6 +165,9 @@ What in the previous case we considered scalars are now vectors or matrices, for
 example weights and biases. So we can think about every operation in a vectorial
 form or in an element-wise way.
 
+What can actually change is that to think at the algorithm in terms of
+mini-batch or full batch
+
 ## References
 
 - [[neural_networks]]
