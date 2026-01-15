@@ -53,27 +53,7 @@ decisions.
 For the $\tanh$ the threshold is in $0$ but is possible to do the same as the
 logistic.
 
-## Other Activation Functions
-
-Just to list them, there are many other activation functions that behave in many
-different ways and used for different purposes, here some of them:
-
-- **Radial Basis**: used in _RBF_ networks; one example is the gaussian
-  $$f(x) = e^{-ax^2}$$
-- **Softmax**: used for multiple output classifications.
-- **Stochastic neurons**: output will be $+1$ with probability $P(net)$ or $-1$
-  with probability $1 - P(net)$.
-- **Tanh-like**: used for efficient computation.
-- **Rectifier**: one of the most popular in Deep-Learning is the **ReLU**
-  (rectified linear unit)
-  $$f(x) = \max (0, x)$$
-- **Softplus**: a smooth approximation of ReLU:
-  $$f(x) = \ln (1 + e^x)$$
-
-Most of them perform comparably but of course there are some that became popular
-for different reasons and based on the field of applications.
-
-## Differentiability
+### Differentiability
 
 An interesting aspect for activation functions emerges by seeing at their
 **derivatives**:
@@ -91,10 +71,31 @@ An interesting aspect for activation functions emerges by seeing at their
 The fact that sigmoids are **differentiable** lead to the possibility for a
 gradient based algorithm.
 
+## Rectifiers
+
+Just to list them, there are many other activation functions that behave in many
+different ways and used for different purposes, here some of them:
+
+- **Rectifier**: one of the most popular in Deep-Learning is the **ReLU**
+  (rectified linear unit)
+  $$f(x) = \max (0, x)$$
+- **Softplus**: a smooth approximation of ReLU:
+  $$f(x) = \ln (1 + e^x)$$
+
+Most of them perform comparably but of course there are some that became popular
+for different reasons and based on the field of applications.
+
+## Other Activation Functions
+
+- **Radial Basis**: used in _RBF_ networks; one example is the gaussian
+  $$f(x) = e^{-ax^2}$$
+- **Softmax**: used for multiple output classifications.
+- **Stochastic neurons**: output will be $+1$ with probability $P(net)$ or $-1$
+  with probability $1 - P(net)$.
+
 ## References
 
 - [[perceptron]]
 - [[neural_networks]]
 - [[neural_networks_training]]
 - [[deep_learning_techniques]]
-

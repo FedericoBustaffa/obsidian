@@ -92,6 +92,11 @@ for every ensemble model; high variance models can perform well on average.
 Typically there is an hyperparameter that defines the probability of sampling a
 mask value of 1. Each unit not included is multiplied by 0 ("drop out").
 
+Of course can happen that some unit is present in multiple subnets, causing an
+implicit weights sharing among them. This also brings a side effect for each
+shared unit: now an hidden unit is not just a good feature, but a good feature
+in many contexts.
+
 ## References
 
 - [[deep_learning]]

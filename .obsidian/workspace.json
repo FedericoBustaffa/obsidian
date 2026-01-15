@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/deep_learning_techniques.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "deep_learning_techniques"
+              "title": "support_vector_machine"
+            }
+          },
+          {
+            "id": "7634e09e109837b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/TODO.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TODO"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/deep_learning_techniques.md",
+                "file": "notes/TODO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of deep_learning_techniques"
+              "title": "Outline of TODO"
             }
           }
         ]
@@ -126,12 +151,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/deep_learning_techniques.md",
+                "file": "notes/TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from deep_learning_techniques"
+              "title": "Outgoing links from TODO"
             }
           },
           {
@@ -176,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/deep_learning_techniques.md",
+                "file": "notes/TODO.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +211,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for deep_learning_techniques"
+              "title": "Backlinks for TODO"
             }
           }
         ]
@@ -227,8 +252,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "e2f209e9073c612f",
+  "active": "7634e09e109837b1",
   "lastOpenFiles": [
+    "notes/machine_learning/activation_functions.md~",
+    "notes/machine_learning/support_vector_machine.md",
+    "notes/machine_learning/deep_learning_techniques.md",
     "notes/machine_learning/deep_learning_techniques.md~",
     "files/dropout.png",
     "notes/machine_learning/activation_functions.md",
@@ -240,12 +268,10 @@
     "files/regression_example_deg2.png",
     "notes/machine_learning/4913",
     "files/double_descent.png",
-    "notes/machine_learning/deep_learning_techniques.md",
     "notes/machine_learning/representation_learning.md",
     "notes/machine_learning/deep_learning.md~",
     "notes/machine_learning/backpropagation.md~",
     "notes/machine_learning/representation_learning.md~",
-    "notes/machine_learning/activation_functions.md~",
     "notes/machine_learning/neural_networks.md~",
     "notes/machine_learning/neural_networks_training.md",
     "notes/machine_learning/neural_network_training.md~",
@@ -257,7 +283,6 @@
     "notes/ai_fundamentals/uncertainty.md",
     "notes/ai_fundamentals/uncertainty.md~",
     "indices/complex_systems.md",
-    "notes/machine_learning/support_vector_machine.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
     "files/naive_bayes_graph.png",
     "notes/machine_learning/random_forest.md",
