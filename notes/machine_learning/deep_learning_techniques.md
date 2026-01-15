@@ -89,6 +89,9 @@ based on a majority vote (or a mean for regression).
 Of course this introduces noise and act like a regularization technique, like
 for every ensemble model; high variance models can perform well on average.
 
+Typically there is an hyperparameter that defines the probability of sampling a
+mask value of 1. Each unit not included is multiplied by 0 ("drop out").
+
 ## References
 
 - [[deep_learning]]
