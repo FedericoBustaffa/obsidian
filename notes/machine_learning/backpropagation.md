@@ -150,7 +150,9 @@ and so it's clear that
 $$\delta_j = \delta_k \cdot w_k \cdot \sigma'(\text{net}_j)$$
 
 This should give a rough idea of _propagating backward_ hence $\delta_j$ is
-function of $\delta_k$, computed in the $k$-th layer.
+function of $\delta_k$, computed in the $k$-th layer. The rest is exactly the
+same and of course the algorithm exploit that it's not necessary to compute
+again the entire chain every time.
 
 ## General Case
 
@@ -168,41 +170,6 @@ $$\text{net}_k = \sum_j w_{kj} \cdot o_j$$
 and so we have to update every $w_{kj}$ for a single unit $k$ (and also its bias
 $b_k$), but for updating a single weight we can now reuse the previous formula
 for a single input unit.
-
-## Common Notation
-
-A common notation that is used for the backpropagation is the following
-
-$$
-\Delta_p w_{tu} = \delta_t \cdot o_u =
--\frac{\partial E}{\partial o_t} \cdot
-\frac{\partial o_t}{\partial \text{net}_t} \cdot
-\frac{\partial \text{net}_t}{\partial w_{tu}}
-$$
-
-for two generic units $t$ and $u$ connected via $w_{tu}$, with
-
-$$o_u = \frac{\partial \text{net}_t}{\partial w_{tu}}$$
-
-that is the output of unit $u$ that goes into unit $t$, and
-
-$$
-\delta_t = -\frac{\partial E}{\partial o_t} \cdot
-\frac{\partial o_t}{\partial \text{net}_t}
-$$
-
-that for an output node $k$ is
-
-$$\delta_k = (o_k - y) \cdot \sigma' (\text{net}_k)$$
-
-while for an hidden node $j$ is
-
-$$
-\delta_j = \left( \sum_{k=1}^K \delta_k \cdot w_{kj} \right) \cdot
-\sigma' (\text{net}_j)
-$$
-
-that is the local error of unit $t$.
 
 ## References
 
