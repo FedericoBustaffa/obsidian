@@ -78,10 +78,20 @@ $$
 \frac{\partial \text{net}_k}{\partial b_k}
 $$
 
-so now we can update $w_k$ and $b_k$ applying the gradient descent learning
-rule.
+that in more compact way can be written as
 
-To update also $w_j$ and $b_j$ we apply this exact formula but for the node $j$:
+$$
+\delta_k = \frac{\partial E}{\partial o_k} \cdot
+\frac{\partial o_k}{\partial \text{net}_k} \qquad
+o_j = \frac{\partial \text{net}_k}{\partial w_k}
+$$
+
+and so
+
+$$\frac{\partial E}{\partial w_k} = \delta_k \cdot o_j$$
+
+The key now is to repeat the same process also for the hidden layer/unit $j$,
+updating its free parameters
 
 $$
 \frac{\partial E}{\partial w_j} =
@@ -90,7 +100,8 @@ $$
 \frac{\partial \text{net}_j}{\partial w_j}
 $$
 
-and this process is repeated until the first hidden layer is updated.
+Again we want to measure the contribution of $o_j$ for the result and so we have
+to see how much its weights and bias are involved in order to update them.
 
 ## General Case
 
