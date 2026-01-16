@@ -22,6 +22,8 @@ in the input data. Usually we are talking about **clusering** and
 A typical task for unsupervised learning is **clustering** where the model tries
 to partition data into **clusters**, that are subsets of similar data.
 
+![Clustering|600](/files/clustering.png)
+
 Usually the number of cluster must be known before the algorithm runs, or it
 must be a grid search hyperparameter, assuming there is a good way to determine
 if the algorithm performed good clustering.
@@ -37,13 +39,12 @@ cluster (**centroid**). This approach has a big limitation because if we have as
 many centroids as points, the final error will be zero, but the clusters are the
 points themselves so there is no information gain.
 
-## Index
-
-- [[autoencoder]]
-- [[k-means]]
-- [[self_organizing_maps]]
+## Vector Quantization
 
 ## References
 
 - [[machine_learning]]
 - [[representation_learning]]
+- [[autoencoder]]
+- [[k-means]]
+- [[self_organizing_maps]]

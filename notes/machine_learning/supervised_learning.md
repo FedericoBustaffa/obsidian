@@ -72,8 +72,9 @@ tries to use all its complexity to better solve the few problems it has.
 Instead when we give a lot of data, the model has to try a balance to get the
 best result for each problem without losing accuracy.
 
-## Index
+## References
 
+- [[machine_learning]]
 - [[linear_models]]
 - [[knn]]
 - [[perceptron]]
@@ -82,7 +83,3 @@ best result for each problem without losing accuracy.
 - [[decision_tree]]
 - [[ensemble]]
 - [[random_forest]]
-
-## References
-
-- [[machine_learning]]

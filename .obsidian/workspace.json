@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/k_means.md",
+                "file": "notes/machine_learning/unsupervised_learning.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "k_means"
+              "title": "unsupervised_learning"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/k_means.md",
+                "file": "notes/machine_learning/unsupervised_learning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of k_means"
+              "title": "Outline of unsupervised_learning"
             }
           }
         ]
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/k_means.md",
+                "file": "notes/machine_learning/unsupervised_learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from k_means"
+              "title": "Outgoing links from unsupervised_learning"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/k_means.md",
+                "file": "notes/machine_learning/unsupervised_learning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for k_means"
+              "title": "Backlinks for unsupervised_learning"
             }
           }
         ]
@@ -253,13 +253,16 @@
   },
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
-    "notes/machine_learning/self_organizing_maps.md",
     "notes/machine_learning/k_means.md",
-    "notes/machine_learning/unsupervised_learning.md",
+    "notes/machine_learning/supervised_learning.md~",
+    "notes/machine_learning/unsupervised_learning.md~",
     "notes/machine_learning/k_means.md~",
+    "notes/TODO.md",
+    "notes/machine_learning/unsupervised_learning.md",
+    "files/clustering.png",
+    "notes/machine_learning/self_organizing_maps.md",
     "notes/machine_learning/self_organizing_maps.md~",
     "notes/machine_learning/self_organiziing_maps.md",
-    "notes/machine_learning/unsupervised_learning.md~",
     "notes/machine_learning/deep_learning.md",
     "notes/machine_learning/representation_learning.md",
     "notes/machine_learning/recurrent.md",
@@ -276,7 +279,6 @@
     "files/double_descent.png",
     "files/autoencoder.png",
     "notes/machine_learning/deep_learning.md~",
-    "notes/TODO.md",
     "notes/machine_learning/activation_functions.md",
     "notes/machine_learning/convolutional.md",
     "notes/ai_fundamentals/uncertainty.md",
@@ -292,12 +294,10 @@
     "notes/machine_learning/bias_variance.md",
     "notes/ai_fundamentals/planning.md",
     "files/wumpus_entailment2.png",
-    "files/wumpus_entailment1.png",
     "notes/machine_learning/support_vector_machine.md~",
     "notes/machine_learning/4913",
     "notes/machine_learning/statistical_learning_theory.md~",
     "notes/machine_learning/validation.md~",
-    "notes/machine_learning/gradient_descent.md~",
     "maps/validation_pipeline.canvas"
   ]
 }
