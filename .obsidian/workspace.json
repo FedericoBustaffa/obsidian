@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/recurrent.md",
+                "file": "notes/machine_learning/unsupervised_learning.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "recurrent"
+              "title": "unsupervised_learning"
             }
           },
           {
@@ -55,8 +55,7 @@
               "title": "TODO"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/TODO.md",
+                "file": "notes/machine_learning/unsupervised_learning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of TODO"
+              "title": "Outline of unsupervised_learning"
             }
           }
         ]
@@ -151,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/TODO.md",
+                "file": "notes/machine_learning/unsupervised_learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from TODO"
+              "title": "Outgoing links from unsupervised_learning"
             }
           },
           {
@@ -201,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/TODO.md",
+                "file": "notes/machine_learning/unsupervised_learning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for TODO"
+              "title": "Backlinks for unsupervised_learning"
             }
           }
         ]
@@ -252,8 +251,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "7634e09e109837b1",
+  "active": "e2f209e9073c612f",
   "lastOpenFiles": [
+    "notes/machine_learning/recurrent.md",
+    "notes/TODO.md",
     "notes/parallel_computing/distributed_systems.md~",
     "notes/parallel_computing/work_span.md~",
     "notes/parallel_computing/mpi.md~",
@@ -264,14 +265,11 @@
     "notes/parallel_computing/threads.md~",
     "notes/parallel_computing/map.md~",
     "notes/complex_systems/continuous_systems.md~",
-    "notes/complex_systems/chemistry_metaphor.md~",
-    "notes/machine_learning/recurrent.md",
     "notes/machine_learning/unsupervised_learning.md",
     "notes/machine_learning/autoencoder.md",
     "notes/machine_learning/randomized.md",
     "notes/machine_learning/support_vector_machine.md",
     "notes/machine_learning/backpropagation.md",
-    "notes/TODO.md",
     "notes/machine_learning/deep_learning_techniques.md",
     "files/dropout.png",
     "notes/machine_learning/activation_functions.md",
