@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/deep_learning.md",
+                "file": "notes/machine_learning/unsupervised_learning.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "deep_learning"
+              "title": "unsupervised_learning"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/deep_learning.md",
+                "file": "notes/machine_learning/unsupervised_learning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of deep_learning"
+              "title": "Outline of unsupervised_learning"
             }
           }
         ]
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/deep_learning.md",
+                "file": "notes/machine_learning/unsupervised_learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from deep_learning"
+              "title": "Outgoing links from unsupervised_learning"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/deep_learning.md",
+                "file": "notes/machine_learning/unsupervised_learning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for deep_learning"
+              "title": "Backlinks for unsupervised_learning"
             }
           }
         ]
@@ -238,6 +238,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -252,6 +253,8 @@
   },
   "active": "e992a85b485556d9",
   "lastOpenFiles": [
+    "notes/machine_learning/unsupervised_learning.md~",
+    "notes/machine_learning/deep_learning.md",
     "notes/machine_learning/unsupervised_learning.md",
     "notes/machine_learning/representation_learning.md",
     "notes/machine_learning/recurrent.md",
@@ -269,7 +272,6 @@
     "files/autoencoder.png",
     "notes/machine_learning/deep_learning.md~",
     "notes/TODO.md",
-    "notes/machine_learning/deep_learning.md",
     "notes/machine_learning/activation_functions.md",
     "notes/machine_learning/convolutional.md",
     "notes/ai_fundamentals/uncertainty.md",
@@ -289,7 +291,6 @@
     "notes/ai_fundamentals/artificial_life.md",
     "files/wumpus_entailment2.png",
     "files/wumpus_entailment1.png",
-    "TODO.md",
     "notes/machine_learning/support_vector_machine.md~",
     "notes/machine_learning/4913",
     "notes/machine_learning/statistical_learning_theory.md~",
