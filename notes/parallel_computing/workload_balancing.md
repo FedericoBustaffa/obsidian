@@ -168,4 +168,4 @@ queue has a blocking behaviour in case it fills up completely.
 
 ## References
 
-Links: [[parallel_computing]]
+- [[parallel_computing]]

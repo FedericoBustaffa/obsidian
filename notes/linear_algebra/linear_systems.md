@@ -33,4 +33,5 @@ $$x = A^{-1} y$$
 
 ## References
 
-Links: [[linear_algebra]], [[matrices]]
+- [[linear_algebra]]
+- [[matrices]]

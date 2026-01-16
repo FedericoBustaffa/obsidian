@@ -49,4 +49,6 @@ fair amount of data is needed.
 
 ## References
 
-Links: [[search_problems]], [[greedy_search]], [[a_star_search]]
+- [[search_problems]]
+- [[greedy_search]]
+- [[a_star_search]]

@@ -56,4 +56,4 @@ where $\alpha = \| v \|$ and $w = v / \| v \|$ is the unit vector.
 
 ## References
 
-Links: [[linear_algebra]]
+- [[linear_algebra]]

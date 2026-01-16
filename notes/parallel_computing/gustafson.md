@@ -114,4 +114,4 @@ and find a nice combination of these two parameters.
 
 ## References
 
-Links: [[laws]]
+- [[laws]]

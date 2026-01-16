@@ -157,4 +157,4 @@ node selection.
 
 ## References
 
-Links: [[artificial_intelligence_fundamentals]]
+- [[artificial_intelligence_fundamentals]]

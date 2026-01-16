@@ -88,4 +88,4 @@ lot of distances in an $n$-dimensional space that can be quite costly.
 
 ## References
 
-Links: [[supervised_learning]]
+- [[supervised_learning]]

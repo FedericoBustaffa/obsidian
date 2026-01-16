@@ -67,5 +67,11 @@ that we try to obtain in distributed memory systems.
 
 ## References
 
-Links: [[parallel_computing]], [[pipeline]], [[farm]],
-[[map]], [[reduce]], [[stencil]], [[divide_and_conquer]], [[fastflow]]
+- [[parallel_computing]]
+- [[pipeline]]
+- [[farm]]
+- [[map]]
+- [[reduce]]
+- [[stencil]]
+- [[divide_and_conquer]]
+- [[fastflow]]

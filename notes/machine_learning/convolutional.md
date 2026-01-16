@@ -30,3 +30,4 @@ In convolutional neural networks the output of a unit $t$ can be something like
 ## References
 
 - [[neural_networks]]
+- [[deep_learning]]

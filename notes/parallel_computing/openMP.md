@@ -46,4 +46,5 @@ int main()
 
 ## References
 
-Links: [[parallel_computing]], [[cpp]]
+- [[parallel_computing]]
+- [[cpp]]

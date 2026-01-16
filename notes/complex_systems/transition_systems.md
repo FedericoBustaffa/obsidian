@@ -134,4 +134,4 @@ transition.
 
 ## References
 
-Links: [[complex_systems]]
+- [[complex_systems]]

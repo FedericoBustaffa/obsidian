@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/randomized.md",
+                "file": "notes/machine_learning/recurrent.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "randomized"
+              "title": "recurrent"
             }
           },
           {
@@ -55,7 +55,8 @@
               "title": "TODO"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/randomized.md",
+                "file": "notes/TODO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of randomized"
+              "title": "Outline of TODO"
             }
           }
         ]
@@ -150,12 +151,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/randomized.md",
+                "file": "notes/TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from randomized"
+              "title": "Outgoing links from TODO"
             }
           },
           {
@@ -200,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/randomized.md",
+                "file": "notes/TODO.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +211,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for randomized"
+              "title": "Backlinks for TODO"
             }
           }
         ]
@@ -251,27 +252,31 @@
       "bases:Create new base": false
     }
   },
-  "active": "e2f209e9073c612f",
+  "active": "7634e09e109837b1",
   "lastOpenFiles": [
-    "notes/machine_learning/randomized.md~",
-    "notes/machine_learning/support_vector_machine.md",
+    "notes/parallel_computing/distributed_systems.md~",
+    "notes/parallel_computing/work_span.md~",
+    "notes/parallel_computing/mpi.md~",
+    "notes/parallel_computing/bsp.md~",
+    "notes/parallel_computing/lock_free.md~",
+    "notes/complex_systems/transition_systems.md~",
+    "notes/parallel_computing/network_topologies.md~",
+    "notes/parallel_computing/threads.md~",
+    "notes/parallel_computing/map.md~",
+    "notes/complex_systems/continuous_systems.md~",
+    "notes/complex_systems/chemistry_metaphor.md~",
+    "notes/machine_learning/recurrent.md",
+    "notes/machine_learning/unsupervised_learning.md",
+    "notes/machine_learning/autoencoder.md",
     "notes/machine_learning/randomized.md",
+    "notes/machine_learning/support_vector_machine.md",
     "notes/machine_learning/backpropagation.md",
     "notes/TODO.md",
-    "notes/machine_learning/backpropagation.md~",
-    "notes/TODO.md~",
-    "notes/machine_learning/4913",
-    "notes/machine_learning/neural_networks.md~",
-    "notes/machine_learning/neural_networks_training.md~",
-    "notes/ai_fundamentals/games.md~",
-    "notes/machine_learning/activation_functions.md~",
     "notes/machine_learning/deep_learning_techniques.md",
-    "notes/machine_learning/deep_learning_techniques.md~",
     "files/dropout.png",
     "notes/machine_learning/activation_functions.md",
     "files/gradient_clipping.png",
     "notes/machine_learning/double_descent.md",
-    "notes/machine_learning/double_descent.md~",
     "files/regression_example_deg16.png",
     "files/regression_example_deg7.png",
     "files/regression_example_deg2.png",
@@ -293,9 +298,6 @@
     "notes/machine_learning/convolutional_neural_network.md",
     "notes/machine_learning/bias_variance.md",
     "notes/ai_fundamentals/planning.md",
-    "notes/ai_fundamentals/logical_agents.md",
-    "notes/ai_fundamentals/first_order_logical_agents.md",
-    "notes/ai_fundamentals/artificial_life.md",
     "files/wumpus_entailment2.png",
     "files/wumpus_entailment1.png",
     "maps/validation_pipeline.canvas"

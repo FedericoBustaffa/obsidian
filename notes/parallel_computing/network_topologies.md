@@ -106,4 +106,4 @@ large bisection width.
 
 ## References
 
-Links: [[distributed_systems]]
+- [[distributed_systems]]

@@ -156,4 +156,4 @@ _Apache_ instead it is more recent and can be more common on HPC architectures.
 
 ## Reference
 
-Links: [[structured_parallel_programming]], [[map_reduce]]
+- [[structured_parallel_programming]], [[map_reduce]]

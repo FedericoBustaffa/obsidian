@@ -32,6 +32,18 @@ strange that such a thing even work but there is theorem that ensures it.
 > **non-linearly**, is more likely to be **linearly separable** than in a
 > low-dimensional space, provided that the space is not densely populated.
 
+For a feed forward neural network this has the effect of **randomized basis
+expansion** that, using many units, results in a sufficient space mapping to
+solve the problem also due to non-linearity added by activation functions.
+
+Of course in this way all the advantages of the hierarchical way of learning,
+typical of deep learning, are lost but it worth mention. There are also finer
+ways of tuning these models like
+
+- Pruning units to reduce model complexity.
+- Add hidden units to increase model complexity and flexibility during training
+  or model selection.
+
 ## References
 
 - [[neural_networks]]

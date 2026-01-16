@@ -45,6 +45,6 @@ executed.
 
 ## References
 
-Links: [[structured_parallel_programming]]
+- [[structured_parallel_programming]]
 
 - [fastflow github](https://github.com/fastflow/fastflow)

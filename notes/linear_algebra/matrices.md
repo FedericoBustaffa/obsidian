@@ -148,4 +148,5 @@ linear algebra.
 
 ## References
 
-Links: [[linear_algebra]], [[linear_systems]]
+- [[linear_algebra]]
+- [[linear_systems]]

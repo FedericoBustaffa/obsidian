@@ -190,4 +190,5 @@ $$k_\text{opt} = \left\lceil \frac{T_s^\text{seq} (F)}{T_a} \right\rceil$$
 
 ## References
 
-Links: [[structured_parallel_programming]], [[pipeline_farm]]
+- [[structured_parallel_programming]]
+- [[pipeline_farm]]

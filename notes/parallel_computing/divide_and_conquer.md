@@ -111,4 +111,4 @@ parallel.
 
 ## References
 
-Links: [[structured_parallel_programming]]
+- [[structured_parallel_programming]]

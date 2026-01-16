@@ -139,4 +139,5 @@ in order to identify the right partition and send the task to the proper worker.
 
 ## References
 
-Links: [[structured_parallel_programming]], [[pipeline_farm]]
+- [[structured_parallel_programming]]
+- [[pipeline_farm]]

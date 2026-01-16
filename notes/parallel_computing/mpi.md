@@ -10,4 +10,6 @@ tags:
 
 ## References
 
-Links: [[cpp]], [[distributed_systems]], [[network_topologies]]
+- [[cpp]]
+- [[distributed_systems]]
+- [[network_topologies]]

@@ -199,4 +199,4 @@ so they are both SPSD.
 
 ## References
 
-Links: [[linear_algebra]]
+- [[linear_algebra]]

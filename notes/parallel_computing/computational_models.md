@@ -27,4 +27,4 @@ performances and also to define lower and upper bounds to them.
 
 ## References
 
-Links: [[parallel_computing]]
+- [[parallel_computing]]

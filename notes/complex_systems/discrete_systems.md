@@ -67,4 +67,5 @@ smaller $\Delta t$ to gain accuracy. Actually we want to let $\Delta t$ tend to
 
 ## References
 
-Links: [[complex_systems]]
+- [[complex_systems]]
+

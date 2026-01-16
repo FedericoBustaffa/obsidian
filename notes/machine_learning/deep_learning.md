@@ -93,9 +93,8 @@ manual design of feature representation is very challenging. A neural network
 can automatically find **hidden** representations or structure in information
 with training, that is way more difficult for a human.
 
-## Training Techniques
-
 ## References
 
 - [[neural_networks]]
 - [[neural_networks_training]]
+- [[deep_learning_techniques]]

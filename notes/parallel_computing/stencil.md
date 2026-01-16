@@ -73,4 +73,4 @@ the computation, changing the actual cost of the parallel computation.
 
 ## References
 
-Links: [[structured_parallel_programming]]
+- [[structured_parallel_programming]]

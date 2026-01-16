@@ -70,4 +70,5 @@ function $T_c^\text{reduce} (n, k)$ and find its minimum.
 
 ## Reference
 
-Links: [[structured_parallel_programming]], [[map_reduce]]
+- [[structured_parallel_programming]]
+- [[map_reduce]]

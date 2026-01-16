@@ -138,4 +138,6 @@ that must be computed and could be any matrix.
 
 ## References
 
-Links: [[linear_algebra]], [[matrices]], [[vector_norms]]
+- [[linear_algebra]]
+- [[matrices]]
+- [[vector_norms]]

@@ -188,4 +188,4 @@ All assumptions that cannot be implemented in a real context.
 
 ## References
 
-Links: [[computational_models]]
+- [[computational_models]]

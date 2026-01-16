@@ -138,7 +138,8 @@ will be destroyed.
 
 ## References
 
-Links: [[parallel_computing]], [[cpp]]
+- [[parallel_computing]]
+- [[cpp]]
 
 - [std::thread](https://en.cppreference.com/w/cpp/thread/thread)
 - [std::promise](https://en.cppreference.com/w/cpp/thread/promise)

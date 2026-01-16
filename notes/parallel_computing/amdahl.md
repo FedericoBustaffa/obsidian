@@ -107,4 +107,4 @@ processes, which is still overhead but can be better than serial communication.
 
 ## References
 
-Links: [[laws]]
+- [[laws]]

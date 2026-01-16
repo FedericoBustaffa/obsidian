@@ -23,4 +23,4 @@ in memory but a good heuristic can improve dramatically the execution time.
 
 ## References
 
-Links: [[informed_search]]
+- [[informed_search]]

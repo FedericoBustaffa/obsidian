@@ -133,4 +133,8 @@ flexibility for different use cases.
 
 ## References
 
-Links: [[parallel_computing]], [[cpp]], [[workload_balancing]], [[threads]], [[synchronization]]
+- [[parallel_computing]]
+- [[cpp]]
+- [[workload_balancing]]
+- [[threads]]
+- [[synchronization]]

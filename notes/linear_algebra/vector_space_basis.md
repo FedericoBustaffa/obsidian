@@ -102,4 +102,5 @@ dimensional space, is the number of basis vectors of $V$.
 
 ## References
 
-Links: [[linear_algebra]], [[linear_independence]]
+- [[linear_algebra]]
+- [[linear_independence]]

@@ -81,4 +81,6 @@ il singolo core (L1), mentre altri possono essere condivisi (L3).
 
 ## References
 
-Links: [[parallel_architectures]], [[threads]], [[fastflow]]
+- [[parallel_architectures]]
+- [[threads]]
+- [[fastflow]]

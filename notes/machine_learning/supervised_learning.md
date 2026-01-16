@@ -85,4 +85,4 @@ best result for each problem without losing accuracy.
 
 ## References
 
-Links: [[machine_learning]]
+- [[machine_learning]]

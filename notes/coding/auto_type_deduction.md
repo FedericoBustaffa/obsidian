@@ -185,7 +185,8 @@ function but specialized with the needed type.
 
 ## References
 
-Links: [[cpp]], [[move_semantics]]
+- [[cpp]]
+- [[move_semantics]]
 
 - [auto](https://en.cppreference.com/w/cpp/keyword/auto)
 - [std::forward](https://en.cppreference.com/w/cpp/utility/forward)

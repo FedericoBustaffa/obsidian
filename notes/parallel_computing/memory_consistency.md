@@ -166,4 +166,5 @@ avoid incurring in the overhead of strict ordering for every operation.
 
 ## References
 
-Links: [[parallel_computing]], [[lock_free]]
+- [[parallel_computing]]
+- [[lock_free]]

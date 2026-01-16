@@ -37,4 +37,5 @@ predict the trend of the performance of our algorithm.
 
 ## References
 
-Links: [[parallel_computing]], [[metrics]]
+- [[parallel_computing]]
+- [[metrics]]

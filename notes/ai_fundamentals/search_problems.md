@@ -78,4 +78,7 @@ needed to reach that node.
 
 ## References
 
-Links: [[artificial_intelligence_fundamentals]], [[intelligent_agents]] [[uninformed_search]], [[informed_search]]
+- [[artificial_intelligence_fundamentals]]
+- [[intelligent_agents]]
+- [[uninformed_search]]
+- [[informed_search]]

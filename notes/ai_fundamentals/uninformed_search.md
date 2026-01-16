@@ -43,4 +43,4 @@ complexity.
 
 ## References
 
-Links: [[search_problems]]
+- [[search_problems]]

@@ -210,4 +210,7 @@ order to make the network _learn_.
 - [[backpropagation]]
 - [[neural_networks_training]]
 - [[deep_learning]]
+- [[randomized]]
+- [[autoencoder]]
 - [[convolutional]]
+- [[recurrent]]

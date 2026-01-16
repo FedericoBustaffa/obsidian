@@ -79,4 +79,4 @@ of cost between $C^*$ and $W C^*$.
 
 ## References
 
-Links: [[informed_search]]
+- [[informed_search]]

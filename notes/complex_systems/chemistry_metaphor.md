@@ -187,4 +187,5 @@ the fact that it is negative means that some $X$ must be consumed as a reactant.
 
 ## References
 
-Links: [[complex_systems]], [[continuous_systems]]
+- [[complex_systems]]
+- [[continuous_systems]]

@@ -27,4 +27,5 @@ communication cost, increasing the end-to-end latency.
 
 ## References
 
-Links: [[pipeline]], [[farm]]
+- [[pipeline]]
+- [[farm]]

@@ -21,4 +21,5 @@ Brief collection of some useful features and utility implementations in C++.
 
 ## References
 
-Links: [[parallel_computing]]
+- [[parallel_computing]]
+

@@ -83,4 +83,4 @@ combination, are linearly independent.
 
 ## References
 
-Links: [[linear_algebra]]
+- [[linear_algebra]]

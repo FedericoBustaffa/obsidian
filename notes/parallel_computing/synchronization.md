@@ -45,7 +45,9 @@ consumer.join();
 
 ## References
 
-Links: [[parallel_computing]], [[cpp]], [[threads]]
+- [[parallel_computing]]
+- [[cpp]]
+- [[threads]]
 
 - [std::mutex](https://en.cppreference.com/w/cpp/thread/mutex)
 - [std::condition_variable](https://en.cppreference.com/w/cpp/thread/condition_variable)

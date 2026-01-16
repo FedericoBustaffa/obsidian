@@ -155,7 +155,7 @@ of length $\tau$, so now the formula is slightly different:
 
 $$N_{k+1} = N_k + \tau f(N_{k+1})$$
 
-where $N_k$ approximates $N(k \tau)$. 
+where $N_k$ approximates $N(k \tau)$.
 
 With stiff systems this kind of methods are often more efficient and greater
 values of $\tau$ can be used. However we have to pay a more heavy computation
@@ -196,4 +196,5 @@ the same initial state. This happens when some events in the system are somehow
 
 ## References
 
-Links: [[complex_systems]], [[chemistry_metaphor]]
+- [[complex_systems]]
+- [[chemistry_metaphor]]

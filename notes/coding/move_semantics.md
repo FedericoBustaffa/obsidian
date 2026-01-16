@@ -113,7 +113,6 @@ in fact every STL container of C++ respects this rule.
 
 ## References
 
-Links: [[cpp]]
-
+- [[cpp]]
 - [Move Constructor](https://en.cppreference.com/w/cpp/language/move_constructor)
 - [std::move](https://en.cppreference.com/w/cpp/utility/move)

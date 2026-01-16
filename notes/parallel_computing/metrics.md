@@ -174,4 +174,4 @@ that we can observe very small speedup and efficiency decrease.
 
 ## References
 
-Links: [[parallel_computing]]
+- [[parallel_computing]]

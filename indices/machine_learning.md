@@ -19,6 +19,7 @@ considering best practices to train, validate and test models.
 - [[supervised_learning]]
 - [[validation]]
 - [[bias_variance]]
+- [[unsupervised_learning]]
 
 ## References
 

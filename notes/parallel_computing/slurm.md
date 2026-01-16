@@ -131,8 +131,7 @@ SPM cluster to keep your session alive.
 
 ## References
 
+- [[parallel_computing]]
 - [SLURM documentation]("https://slurm.schedmd.com/documentation.html")
 - [SLURM tutorial]("https://hpc.llnl.gov/banks-jobs/running-jobs/slurm")
 - [TMUX]("https://github.com/tmux/tmux/wiki")
-
-Links: [[parallel_computing]]

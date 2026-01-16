@@ -71,4 +71,4 @@ number (in FLOPS) that is quite more precise than an order of magnitude.
 
 ## References
 
-Links: [[computational_models]]
+- [[computational_models]]

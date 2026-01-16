@@ -286,4 +286,6 @@ circumnstances, the square grid method is better.
 
 ## References
 
-Links: [[parallel_architectures]], [[network_topologies]], [[mpi]]
+- [[parallel_architectures]]
+- [[network_topologies]]
+- [[mpi]]

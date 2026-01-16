@@ -22,4 +22,5 @@ reduce operator on its local partition and then share data with other workers.
 
 ## References
 
-Links: [[map]], [[reduce]]
+- [[map]]
+- [[reduce]]
