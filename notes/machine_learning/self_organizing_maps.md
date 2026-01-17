@@ -40,12 +40,20 @@ the input $x$ considering two forces:
 
 - The distance between $w$ and $x$ in input space: the greater the distance the
   bigger the update.
+  $$w_i (t+1) = w_i(t) + \eta(t) \cdot h_{i, i^*} (t) [x - w_i (t)]$$
 - The topological distance between the neuron and the _winner_ on the grid. The
   higher the distance the smaller is the update.
+  $$
+  h_{i, i^*} (t) =
+  \exp \left( - \frac{\| r_i - r_{i^*} \|^2}{2 \sigma (t)^2} \right)
+  $$
 
 This two forces are typically not equally strong: the first is proportional to
 the distance, while the other decays exponentially with the distance, resulting
 in very tiny updates for very far away neurons.
+
+Let's notice that learning rate and neighbourhood radius values ($\sigma$) are
+decreased as function of iteration $t$.
 
 ## References
 
