@@ -68,7 +68,31 @@ but the most common one is the **squared error**:
 
 $$d(x, w_{i^*(x)}) = \| x - w_{i^*(x)} \|^2$$
 
-that can be seen as a **loss function**.
+that can be seen as a **loss function**. Generally the _quantization error_ is
+defined as the mean error over the distribution of data, computed between each
+point and its centroid.
+
+$$
+E = \int f(d(x, w_{i^*(x)})) p(x) \; dx =
+\int \| x - w_{i^*(x)} \|^2 p(x) \; dx
+$$
+
+where $p(x)$ is the probability distribution of input $x$. In a discrete version
+is defined as
+
+$$E = \sum_i^l \sum_j^K \| x_i - w_j \|^2 \cdot \delta(i,j)$$
+
+where $\delta$ is the characteristic function defined as
+
+$$
+\delta(i, j) = \begin{cases}
+1 & \text{if } w_j \text{ is the winner} \\
+0 & \text{otherwise}
+\end{cases}
+$$
+
+Of course is possible to minimize $E$ by choosing an optimal set of $w$, that is
+the solution of vector quantization problem.
 
 ## References
 
