@@ -35,6 +35,10 @@ has two phases for each iteration
 
 The algorithm continues until convergence criterion is met.
 
+A critical aspect is the collaborative stage, where each neuron moves towards
+the input $x$ proportionally to the distance to the _winner_ neuron in map
+space.
+
 ## References
 
 - [[unsupervised_learning]]
