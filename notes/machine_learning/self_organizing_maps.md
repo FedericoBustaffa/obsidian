@@ -36,8 +36,16 @@ has two phases for each iteration
 The algorithm continues until convergence criterion is met.
 
 A critical aspect is the collaborative stage, where each neuron moves towards
-the input $x$ proportionally to the distance to the _winner_ neuron in map
-space.
+the input $x$ considering two forces:
+
+- The distance between $w$ and $x$ in input space: the greater the distance the
+  bigger the update.
+- The topological distance between the neuron and the _winner_ on the grid. The
+  higher the distance the smaller is the update.
+
+This two forces are typically not equally strong: the first is proportional to
+the distance, while the other decays exponentially with the distance, resulting
+in very tiny updates for very far away neurons.
 
 ## References
 
