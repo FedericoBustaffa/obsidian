@@ -56,6 +56,20 @@ $$V_i = \{ x \in V \mid \| x - w_i \| \leq \| x - w_j \| \}$$
 for all $j$ and where $V$ is the original manifold, defining a **Voronoi
 polyhedra**.
 
+The goal in these scenarios is typically to find the best partitioning of
+unknown distribution in input space into regions approximated by a _centroid_.
+This corresponds to build a set of **vector quantizers** on which input
+(continuous) space vectors are mapped.
+
+### Quantization Error
+
+The **quantization error** could be defined based on the task and type of data
+but the most common one is the **squared error**:
+
+$$d(x, w_{i^*(x)}) = \| x - w_{i^*(x)} \|^2$$
+
+that can be seen as a **loss function**.
+
 ## References
 
 - [[machine_learning]]
