@@ -25,6 +25,16 @@ close in the input space are mapped onto the same or _nearby map units_.
 
 ---
 
+The aim of the SOM is to learn a map from vectors to a discrete output space
+(the coordinates of the unit on the map). The map is randomly initialized and
+has two phases for each iteration
+
+- **Competitive stage**: the winner is the most similar unit to $x$.
+- **Collaborative stage**: update weights of the units that have topological
+  relationships with the winner unit (soft-max approach).
+
+The algorithm continues until convergence criterion is met.
+
 ## References
 
 - [[unsupervised_learning]]
