@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "8def99a9922e264f",
         "type": "tabs",
         "children": [
           {
-            "id": "e992a85b485556d9",
+            "id": "e2f209e9073c612f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/k_means.md",
+                "file": "notes/machine_learning/self_organizing_maps.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,11 +28,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "k_means"
+              "title": "self_organizing_maps"
             }
           },
           {
-            "id": "dec5fbbe210063ab",
+            "id": "7634e09e109837b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/k_means.md",
+                "file": "notes/machine_learning/self_organizing_maps.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of k_means"
+              "title": "Outline of self_organizing_maps"
             }
           }
         ]
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/k_means.md",
+                "file": "notes/machine_learning/self_organizing_maps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from k_means"
+              "title": "Outgoing links from self_organizing_maps"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/k_means.md",
+                "file": "notes/machine_learning/self_organizing_maps.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for k_means"
+              "title": "Backlinks for self_organizing_maps"
             }
           }
         ]
@@ -251,53 +251,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "e992a85b485556d9",
+  "active": "e2f209e9073c612f",
   "lastOpenFiles": [
-    "notes/machine_learning/k_means.md~",
-    "notes/machine_learning/unsupervised_learning.md",
-    "notes/machine_learning/unsupervised_learning.md~",
     "notes/machine_learning/k_means.md",
-    "notes/machine_learning/supervised_learning.md~",
-    "notes/TODO.md",
-    "files/clustering.png",
+    "notes/machine_learning/k_means.md~",
+    "files/two_moons.png",
+    "files/k_means_clusters.png",
     "notes/machine_learning/self_organizing_maps.md",
-    "notes/machine_learning/self_organizing_maps.md~",
-    "notes/machine_learning/self_organiziing_maps.md",
-    "notes/machine_learning/deep_learning.md",
-    "notes/machine_learning/representation_learning.md",
+    "notes/machine_learning/unsupervised_learning.md",
+    "files/clustering.png",
     "notes/machine_learning/recurrent.md",
-    "notes/machine_learning/randomized.md",
-    "notes/machine_learning/neural_networks_training.md",
-    "notes/machine_learning/double_descent.md",
-    "notes/machine_learning/deep_learning_techniques.md",
+    "notes/TODO.md",
+    "notes/parallel_computing/distributed_systems.md~",
+    "notes/parallel_computing/work_span.md~",
+    "notes/parallel_computing/mpi.md~",
+    "notes/parallel_computing/bsp.md~",
+    "notes/parallel_computing/lock_free.md~",
+    "notes/complex_systems/transition_systems.md~",
+    "notes/parallel_computing/network_topologies.md~",
+    "notes/parallel_computing/threads.md~",
+    "notes/parallel_computing/map.md~",
     "notes/machine_learning/autoencoder.md",
+    "notes/machine_learning/randomized.md",
+    "notes/machine_learning/support_vector_machine.md",
+    "notes/machine_learning/backpropagation.md",
+    "notes/machine_learning/deep_learning_techniques.md",
+    "files/dropout.png",
+    "notes/machine_learning/activation_functions.md",
+    "files/gradient_clipping.png",
+    "notes/machine_learning/double_descent.md",
+    "files/regression_example_deg16.png",
     "files/regression_example_deg7.png",
     "files/regression_example_deg2.png",
-    "files/regression_example_deg16.png",
-    "files/gradient_clipping.png",
-    "files/dropout.png",
     "files/double_descent.png",
+    "notes/machine_learning/representation_learning.md",
+    "notes/machine_learning/neural_networks_training.md",
+    "notes/machine_learning/deep_learning_training.md",
+    "notes/machine_learning/deep_learning.md",
+    "notes/machine_learning/neural_network_training.md",
     "files/autoencoder.png",
-    "notes/machine_learning/deep_learning.md~",
-    "notes/machine_learning/activation_functions.md",
     "notes/machine_learning/convolutional.md",
     "notes/ai_fundamentals/uncertainty.md",
-    "notes/ai_fundamentals/uncertainty.md~",
     "indices/complex_systems.md",
-    "notes/machine_learning/support_vector_machine.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
-    "files/naive_bayes_graph.png",
     "notes/machine_learning/random_forest.md",
     "notes/machine_learning/ensemble.md",
     "notes/machine_learning/decision_tree.md",
     "notes/machine_learning/convolutional_neural_network.md",
-    "notes/machine_learning/bias_variance.md",
-    "notes/ai_fundamentals/planning.md",
-    "files/wumpus_entailment2.png",
-    "notes/machine_learning/support_vector_machine.md~",
-    "notes/machine_learning/4913",
-    "notes/machine_learning/statistical_learning_theory.md~",
-    "notes/machine_learning/validation.md~",
     "maps/validation_pipeline.canvas"
   ]
 }
