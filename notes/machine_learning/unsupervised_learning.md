@@ -41,6 +41,21 @@ points themselves so there is no information gain.
 
 ## Vector Quantization
 
+The **vector quantization** technique aims to **encode** a data _manifold_ using
+only a finite set of vectors $w = (w_1, \dots, w_K)$ called **references**.
+
+So now a data vector $x$ from the original dataset is encoded and described by
+the **best-matching** (or _winner_) reference vector $w_{i^*(x)}$ of $w$ for
+which the **distortion error**, defined as some function $d(x, w_{i^*(x)})$ is
+minimal.
+
+This procedure has the effect of dividing the manifold in a set of subregions
+
+$$V_i = \{ x \in V \mid \| x - w_i \| \leq \| x - w_j \| \}$$
+
+for all $j$ and where $V$ is the original manifold, defining a **Voronoi
+polyhedra**.
+
 ## References
 
 - [[machine_learning]]
