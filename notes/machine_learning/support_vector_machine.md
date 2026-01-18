@@ -390,9 +390,11 @@ produce a valid kernel.
 ## Regression
 
 SVMs can be used also for **regression** tasks but the now they work in the
-opposite way of classification. For a _hard margin_ version, the classification
-SVM does not allow any point inside the margin; for regression instead the SVM
-wants to put every point inside the margin, minimizing its size.
+opposite way of classification.
+
+For a _hard margin_ version, the classification SVM does not allow any point
+inside the margin; for regression instead the SVM wants to put every point
+inside the margin, minimizing its size.
 
 For a soft margin version instead, some points are allowed to stay outside of
 the tube.
