@@ -254,6 +254,7 @@
   "active": "dec5fbbe210063ab",
   "lastOpenFiles": [
     "notes/machine_learning/support_vector_machine.md~",
+    "files/svm_regression.jpg",
     "notes/machine_learning/cascade_correlation.md",
     "notes/machine_learning/cascade_correlation.md~",
     "files/cascade_correlation.png",
@@ -286,7 +287,6 @@
     "files/regression_example_deg16.png",
     "files/gradient_clipping.png",
     "files/dropout.png",
-    "files/double_descent.png",
     "notes/machine_learning/deep_learning.md~",
     "notes/machine_learning/activation_functions.md",
     "notes/machine_learning/convolutional.md",

@@ -417,6 +417,31 @@ L_\epsilon (y, h(x)) = \begin{cases}
 \end{cases}
 $$
 
+where $\epsilon$ defines the tube's _width_.
+
+![SVR|400](/files/svm_regression.jpg)
+
+The problem formulation is very similar to the classification one: as before
+also here there are **slack variables** $\xi_i$ and $\xi_i'$ that hold the
+following property:
+
+$$-\xi_i' - \epsilon \leq y_i - w^\top \phi(x_i) \leq \epsilon + \xi_i$$
+
+for all $i$ from $1$ to $N$. This leads to the following constraints
+
+$$
+\begin{align*}
+y_i - w^\top \phi(x_i) & \leq \epsilon + \xi_i \\
+w^\top \phi(x_i) - y_i & \leq \epsilon + \xi_i' \\
+\xi_i & \geq 0 \\
+\xi_i' & \geq 0 \\
+\end{align*}
+$$
+
+Like for classification, only support vectors matter and so as long as they are
+in the tube, points that are not support vectors can be disposed in every
+possible configuration.
+
 ## References
 
 - [[supervised_learning]]
