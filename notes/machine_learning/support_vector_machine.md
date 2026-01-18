@@ -400,6 +400,13 @@ For a soft margin version instead, some points are allowed to stay outside of
 the tube, leading to an higher resistence to outliers than other models like
 neural networks.
 
+---
+
+More formally, the model again tries to estimate targets using a linear
+expansion of (possibly) non linear functions
+
+$$y \approx h(x) = w^\top \phi(x)$$
+
 ## References
 
 - [[supervised_learning]]
