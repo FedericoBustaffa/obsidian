@@ -407,6 +407,16 @@ expansion of (possibly) non linear functions
 
 $$y \approx h(x) = w^\top \phi(x)$$
 
+In order to perform regression a loss function is needed and in case of SVMs we
+have $\epsilon$-insensitive loss:
+
+$$
+L_\epsilon (y, h(x)) = \begin{cases}
+    | y - h(x) | - \epsilon & \text{if } | y - h(x) | < \epsilon \\
+    0 & \text{otherwise}
+\end{cases}
+$$
+
 ## References
 
 - [[supervised_learning]]
