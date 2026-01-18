@@ -438,6 +438,50 @@ w^\top \phi(x_i) - y_i & \leq \epsilon + \xi_i' \\
 \end{align*}
 $$
 
+The formulation for the **primal problem** is similar to the classification task
+formulation. Given the training set, find the optimal values of $w$ such that
+the following objective function is minimized
+
+$$\psi (w, \xi, \xi') = \frac12 w^\top w + C \sum_{i=1}^N (\xi + \xi')$$
+
+under the constraints defined before. The formulation for the dual problem again
+needs the Lagrangian multipliers. Given the training set, find the optimal
+values of $\{ \alpha_i \}_{i=1}^N$ and $\{ \alpha_i' \}_{i=1}^N$ which maximize
+the objective function
+
+$$
+Q(\alpha, \alpha') = \sum_{i=1}^N y_i (\alpha_i - \alpha_i') - \epsilon
+\sum_{i=1}^N (\alpha_i + \alpha_i') - \frac12 \sum_{(i,j)=1}^N (\alpha_i -
+\alpha_i') (\alpha_j - \alpha_j') k (x_i, x_j)
+$$
+
+under the constraints
+
+$$
+\begin{gather*}
+\sum_{i=1}^N (\alpha_i - \alpha_i') = 0 \\
+0 \leq \alpha_i \leq C
+0 \leq \alpha_i' \leq C
+\end{gather*}
+$$
+
+for all $i$ from $1$ to $N$. Solving the dual problem we obtain the optimal
+values of Lagrangian multipliers, then we compute the optimal value of vector
+$w$ like follows
+
+$$
+w = \sum_{i=1}^N (\alpha_i - \alpha_i') \phi(x_i) =
+\sum_{i=1}^N \gamma_i \phi(x_i)
+$$
+
+and in this case support vectors correspond to non zero values of $\gamma_i$.
+The estimated function using the linear expansion is defined as
+
+$$
+h(x) = \sum_{i=1}^N \gamma_i \phi^\top (x_i) \phi (x) =
+\sum_{i=1}^N \gamma_i k(x_i, x)
+$$
+
 Like for classification, only support vectors matter and so as long as they are
 in the tube, points that are not support vectors can be disposed in every
 possible configuration.
