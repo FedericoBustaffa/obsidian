@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e2f209e9073c612f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "support_vector_machine"
-            }
-          },
-          {
             "id": "7634e09e109837b1",
             "type": "leaf",
             "state": {
@@ -120,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
+                "file": "notes/TODO.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of support_vector_machine"
+              "title": "Outline of TODO"
             }
           }
         ]
@@ -150,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
+                "file": "notes/TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from support_vector_machine"
+              "title": "Outgoing links from TODO"
             }
           },
           {
@@ -200,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
+                "file": "notes/TODO.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for support_vector_machine"
+              "title": "Backlinks for TODO"
             }
           }
         ]
@@ -251,8 +227,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "e2f209e9073c612f",
+  "active": "7634e09e109837b1",
   "lastOpenFiles": [
+    "notes/machine_learning/support_vector_machine.md",
     "notes/machine_learning/cascade_correlation.md",
     "files/svm_regression.jpg",
     "files/cascade_correlation.png",
@@ -277,7 +254,6 @@
     "notes/parallel_computing/threads.md~",
     "notes/machine_learning/autoencoder.md",
     "notes/machine_learning/randomized.md",
-    "notes/machine_learning/support_vector_machine.md",
     "notes/machine_learning/backpropagation.md",
     "notes/machine_learning/deep_learning_techniques.md",
     "files/dropout.png",
