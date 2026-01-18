@@ -397,7 +397,8 @@ inside the margin; for regression instead the SVM wants to put every point
 inside the margin, minimizing its size.
 
 For a soft margin version instead, some points are allowed to stay outside of
-the tube.
+the tube, leading to an higher resistence to outliers than other models like
+neural networks.
 
 ## References
 
