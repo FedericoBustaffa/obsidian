@@ -17,8 +17,6 @@ tags:
 
 ## Machine Learning
 
-- Cascade Correlation
-- Support Vector Machine Regression
 - Convolutional Neural Networks
 - Recurrent Neural Networks
 - Learning on graphs

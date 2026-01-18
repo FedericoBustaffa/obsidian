@@ -253,6 +253,8 @@
   },
   "active": "dec5fbbe210063ab",
   "lastOpenFiles": [
+    "notes/TODO.md",
+    "notes/machine_learning/support_vector_machine.md",
     "notes/machine_learning/support_vector_machine.md~",
     "files/svm_regression.jpg",
     "notes/machine_learning/cascade_correlation.md",
@@ -260,8 +262,6 @@
     "files/cascade_correlation.png",
     "notes/machine_learning/neural_networks_training.md",
     "notes/machine_learning/neural_networks_training.md~",
-    "notes/machine_learning/support_vector_machine.md",
-    "notes/TODO.md",
     "notes/machine_learning/statistical_learning_theory.md",
     "notes/machine_learning/bias_variance.md",
     "notes/machine_learning/k_means.md",
