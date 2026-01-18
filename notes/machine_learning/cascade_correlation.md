@@ -24,6 +24,16 @@ previously added units.
 
 The intuition behind the algorithm is that new units aim to _explain_ the
 current error, by maximizing the correlation between them and the network error.
+This is done by maximizing a correlation function
+
+$$S = \sum_k \left| \sum_p (o_p - \overline{o}) (E_{p,k} - \overline{E}) \right|$$
+
+that leads to the following derivation
+
+$$
+\frac{\partial S}{\partial w_j} = \sum_k \text{sign}(S_k) \sum_p (E_{p,k} -
+\overline{E}) \cdot f'(\text{net}_{p,h}) \cdot I_{p,j}
+$$
 
 ## References
 
