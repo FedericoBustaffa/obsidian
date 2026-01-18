@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
+                "file": "notes/machine_learning/neural_networks_training.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "support_vector_machine"
+              "title": "neural_networks_training"
+            }
+          },
+          {
+            "id": "876e7a641dc45ae6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/TODO.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "TODO"
             }
           }
         ]
@@ -96,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
+                "file": "notes/machine_learning/neural_networks_training.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of support_vector_machine"
+              "title": "Outline of neural_networks_training"
             }
           }
         ]
@@ -126,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
+                "file": "notes/machine_learning/neural_networks_training.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from support_vector_machine"
+              "title": "Outgoing links from neural_networks_training"
             }
           },
           {
@@ -176,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
+                "file": "notes/machine_learning/neural_networks_training.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for support_vector_machine"
+              "title": "Backlinks for neural_networks_training"
             }
           }
         ]
@@ -229,10 +253,11 @@
   },
   "active": "dec5fbbe210063ab",
   "lastOpenFiles": [
-    "notes/machine_learning/support_vector_machine.md~",
-    "notes/machine_learning/statistical_learning_theory.md",
+    "notes/machine_learning/neural_networks_training.md~",
     "notes/machine_learning/support_vector_machine.md",
     "notes/TODO.md",
+    "notes/machine_learning/support_vector_machine.md~",
+    "notes/machine_learning/statistical_learning_theory.md",
     "notes/machine_learning/bias_variance.md",
     "notes/machine_learning/k_means.md",
     "files/two_moons.png",
@@ -273,7 +298,6 @@
     "notes/machine_learning/convolutional_neural_network.md",
     "notes/machine_learning/4913",
     "notes/machine_learning/statistical_learning_theory.md~",
-    "notes/machine_learning/validation.md~",
     "maps/validation_pipeline.canvas"
   ]
 }

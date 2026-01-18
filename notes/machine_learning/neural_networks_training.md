@@ -346,8 +346,21 @@ In case of multi-class problems we need a $1$-of-$k$ encoding and $k$ outputs
 nodes, each with the activation function that is a **softmax**, basically saying
 the probability that input $x$ is class $i$ (repeated for each class).
 
+## Number of Units
+
+In general there isn't a way to know how many units and layers are optimal for
+the problem; typically this is addressed with model selection where many
+architectures are compared.
+
+In alternative there are other methods to find a good architecture
+**automatically** like **constructive approaches** and **pruning methods**.
+
+The first tries to build the network, starting from few units and adding them
+during the training; a popular approach is **cascade correlation**.
+
 ## References
 
 - [[neural_networks]]
 - [[backpropagation]]
 - [[activation_functions]]
+- [[cascade_correlation]]
