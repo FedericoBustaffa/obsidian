@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/cascade_correlation.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "cascade_correlation"
+              "title": "support_vector_machine"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/cascade_correlation.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of cascade_correlation"
+              "title": "Outline of support_vector_machine"
             }
           }
         ]
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/cascade_correlation.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from cascade_correlation"
+              "title": "Outgoing links from support_vector_machine"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/cascade_correlation.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for cascade_correlation"
+              "title": "Backlinks for support_vector_machine"
             }
           }
         ]
@@ -253,9 +253,10 @@
   },
   "active": "dec5fbbe210063ab",
   "lastOpenFiles": [
-    "notes/machine_learning/cascade_correlation.md~",
-    "notes/machine_learning/neural_networks_training.md",
     "notes/machine_learning/cascade_correlation.md",
+    "notes/machine_learning/cascade_correlation.md~",
+    "files/cascade_correlation.png",
+    "notes/machine_learning/neural_networks_training.md",
     "notes/machine_learning/neural_networks_training.md~",
     "notes/machine_learning/support_vector_machine.md",
     "notes/TODO.md",
@@ -286,7 +287,6 @@
     "files/gradient_clipping.png",
     "files/dropout.png",
     "files/double_descent.png",
-    "files/autoencoder.png",
     "notes/machine_learning/deep_learning.md~",
     "notes/machine_learning/activation_functions.md",
     "notes/machine_learning/convolutional.md",
