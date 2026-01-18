@@ -210,7 +210,7 @@ because
 - The VC-dimension of some hypothesis space is difficult to compute.
 - As an upper bound is over pessimistic and may not suitable for reliable
   evaluation of the model's generalization capabilities.
-- Regularization heuristics (Tikhnov) already provide an implicit SRM
+- Regularization heuristics (Tikhonov) already provide an implicit SRM
   implementation.
 
 On the other hand this approach provides theory driven development of new models

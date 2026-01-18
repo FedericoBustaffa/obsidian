@@ -230,8 +230,9 @@
   "active": "dec5fbbe210063ab",
   "lastOpenFiles": [
     "notes/machine_learning/support_vector_machine.md~",
-    "notes/TODO.md",
+    "notes/machine_learning/statistical_learning_theory.md",
     "notes/machine_learning/support_vector_machine.md",
+    "notes/TODO.md",
     "notes/machine_learning/bias_variance.md",
     "notes/machine_learning/k_means.md",
     "files/two_moons.png",
@@ -270,7 +271,6 @@
     "notes/machine_learning/ensemble.md",
     "notes/machine_learning/decision_tree.md",
     "notes/machine_learning/convolutional_neural_network.md",
-    "notes/ai_fundamentals/planning.md",
     "notes/machine_learning/4913",
     "notes/machine_learning/statistical_learning_theory.md~",
     "notes/machine_learning/validation.md~",
