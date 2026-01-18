@@ -358,6 +358,9 @@ In alternative there are other methods to find a good architecture
 The first tries to build the network, starting from few units and adding them
 during the training; a popular approach is **cascade correlation**.
 
+The other one, starting from a relatively big network, remove units, also having
+a regularization effect.
+
 ## References
 
 - [[neural_networks]]

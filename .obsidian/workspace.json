@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/neural_networks_training.md",
+                "file": "notes/machine_learning/cascade_correlation.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "neural_networks_training"
+              "title": "cascade_correlation"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/neural_networks_training.md",
+                "file": "notes/machine_learning/cascade_correlation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of neural_networks_training"
+              "title": "Outline of cascade_correlation"
             }
           }
         ]
@@ -150,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/neural_networks_training.md",
+                "file": "notes/machine_learning/cascade_correlation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from neural_networks_training"
+              "title": "Outgoing links from cascade_correlation"
             }
           },
           {
@@ -200,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/neural_networks_training.md",
+                "file": "notes/machine_learning/cascade_correlation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for neural_networks_training"
+              "title": "Backlinks for cascade_correlation"
             }
           }
         ]
@@ -253,6 +253,9 @@
   },
   "active": "dec5fbbe210063ab",
   "lastOpenFiles": [
+    "notes/machine_learning/neural_networks_training.md",
+    "notes/machine_learning/cascade_correlation.md~",
+    "notes/machine_learning/cascade_correlation.md",
     "notes/machine_learning/neural_networks_training.md~",
     "notes/machine_learning/support_vector_machine.md",
     "notes/TODO.md",
@@ -274,7 +277,6 @@
     "notes/machine_learning/representation_learning.md",
     "notes/machine_learning/recurrent.md",
     "notes/machine_learning/randomized.md",
-    "notes/machine_learning/neural_networks_training.md",
     "notes/machine_learning/double_descent.md",
     "notes/machine_learning/deep_learning_techniques.md",
     "notes/machine_learning/autoencoder.md",
@@ -295,9 +297,7 @@
     "notes/machine_learning/random_forest.md",
     "notes/machine_learning/ensemble.md",
     "notes/machine_learning/decision_tree.md",
-    "notes/machine_learning/convolutional_neural_network.md",
     "notes/machine_learning/4913",
-    "notes/machine_learning/statistical_learning_theory.md~",
     "maps/validation_pipeline.canvas"
   ]
 }
