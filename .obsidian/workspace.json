@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e992a85b485556d9",
+            "id": "dec5fbbe210063ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,57 +30,8 @@
               "icon": "lucide-file",
               "title": "support_vector_machine"
             }
-          },
-          {
-            "id": "dec5fbbe210063ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/TODO.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "TODO"
-            }
-          },
-          {
-            "id": "2a9a526cca2cc148",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/machine_learning/bias_variance.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "bias_variance"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -145,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/bias_variance.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of bias_variance"
+              "title": "Outline of support_vector_machine"
             }
           }
         ]
@@ -175,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/bias_variance.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from bias_variance"
+              "title": "Outgoing links from support_vector_machine"
             }
           },
           {
@@ -225,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/bias_variance.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for bias_variance"
+              "title": "Backlinks for support_vector_machine"
             }
           }
         ]
@@ -276,11 +227,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "2a9a526cca2cc148",
+  "active": "dec5fbbe210063ab",
   "lastOpenFiles": [
-    "notes/machine_learning/support_vector_machine.md",
     "notes/machine_learning/support_vector_machine.md~",
     "notes/TODO.md",
+    "notes/machine_learning/support_vector_machine.md",
+    "notes/machine_learning/bias_variance.md",
     "notes/machine_learning/k_means.md",
     "files/two_moons.png",
     "files/k_means_clusters.png",
@@ -318,7 +270,6 @@
     "notes/machine_learning/ensemble.md",
     "notes/machine_learning/decision_tree.md",
     "notes/machine_learning/convolutional_neural_network.md",
-    "notes/machine_learning/bias_variance.md",
     "notes/ai_fundamentals/planning.md",
     "notes/machine_learning/4913",
     "notes/machine_learning/statistical_learning_theory.md~",

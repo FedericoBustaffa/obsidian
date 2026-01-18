@@ -16,9 +16,9 @@ It can be used for classification and regression and it can adapt well to both
 linear and non linear task; in particular it tries to find separation
 hyper-planes also for classification problems that are not linearly separable.
 
-## Binary Classification
+## Classification
 
-In the classifical **binary classification problem** we want to find an
+In the classical **binary classification problem** we want to find an
 hyper-plane of equation
 
 $$g(x) = w^\top x + b = 0$$
@@ -267,7 +267,7 @@ Now the **Kuhn-Tucker conditions** say to us that
 
 The dual problem is solved as before but now we also want to optimize $\xi$.
 
-## Kernel Trick
+### Kernel Trick
 
 In general we can address non linearly separable problems with a _soft margin_
 approach, but there are problems where even with that the SVM will not perform
