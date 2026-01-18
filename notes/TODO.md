@@ -20,7 +20,6 @@ tags:
 - Cascade Correlation
 - Support Vector Machine Regression
 - Convolutional Neural Networks
-- Unsupervised
 - Recurrent Neural Networks
 - Learning on graphs
 
