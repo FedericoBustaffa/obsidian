@@ -202,7 +202,12 @@ $$g(x) = \sum_{p=1}^{N_s} \alpha_p y_p x_p^\top x + b$$
 > x_n$. For the class of separating hyper-planes described by the equation
 > $$w^\top x + b = 0$$
 > the upper bound to the VC-dimension is
-> $$VC \leq \min \left( \lceil \frac{D^2}{\rho^2} \rceil, m \right) + 1$$
+>
+> $$
+> VC \leq \min \left( \left\lceil \frac{D^2}{\rho^2} \right\rceil,
+> m \right) + 1
+> $$
+>
 > where $m$ is the dimension of the input vector.
 
 ### Soft Margin
@@ -445,7 +450,7 @@ the following objective function is minimized
 $$\psi (w, \xi, \xi') = \frac12 w^\top w + C \sum_{i=1}^N (\xi + \xi')$$
 
 under the constraints defined before. The formulation for the dual problem again
-needs the Lagrangian multipliers. Given the training set, find the optimal
+needs the lagrangian multipliers. Given the training set, find the optimal
 values of $\{ \alpha_i \}_{i=1}^N$ and $\{ \alpha_i' \}_{i=1}^N$ which maximize
 the objective function
 
@@ -466,7 +471,7 @@ $$
 $$
 
 for all $i$ from $1$ to $N$. Solving the dual problem we obtain the optimal
-values of Lagrangian multipliers, then we compute the optimal value of vector
+values of lagrangian multipliers, then we compute the optimal value of vector
 $w$ like follows
 
 $$
