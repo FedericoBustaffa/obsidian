@@ -267,7 +267,7 @@ negativity of slack variables.
 
 Now the **Kuhn-Tucker conditions** say to us that
 
-- if $0 < \alpha_p < C$ and so $\xi_p = 0$ the points is a support vector.
+- if $0 < \alpha_p < C$ and so $\xi_p = 0$ the point is a support vector.
 - if $\alpha_p = C$ and so $\xi_p \geq 0$ the point is inside the margin.
 
 The dual problem is solved as before but now we also want to optimize $\xi$.
