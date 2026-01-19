@@ -39,7 +39,7 @@ efficiently. The two main types of inductive biases are
   regularization leads to models with lower weigths.
 
 Typically we are interested in the second because the first basically defines
-$H$.
+the hypothesis space $H$.
 
 ## True and Empirical Risk
 
