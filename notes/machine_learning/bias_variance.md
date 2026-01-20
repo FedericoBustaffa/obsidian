@@ -50,7 +50,7 @@ $\sigma$ and the error is the classic MSE.
 
 Let's now suppose that every training set is built from the same probability
 distribution $P$ and so we want to train the same model on _all_ the possible
-realizations of the training set. Theorically, this can give us the **expected
+realizations of the training set. Theoretically, this can give us the **expected
 prediction error** on a given point $x$.
 
 $$E_P [(y - h(x))^2]$$
