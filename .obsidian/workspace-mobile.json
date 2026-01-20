@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
+                "file": "notes/machine_learning/bias_variance.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "decision_tree"
+              "title": "bias_variance"
             }
           }
         ]
@@ -181,6 +181,7 @@
   },
   "active": "5e8d481f89992dad",
   "lastOpenFiles": [
+    "notes/machine_learning/decision_tree.md",
     "notes/machine_learning/support_vector_machine.md",
     "files/dt_gain.png",
     "notes/machine_learning/backpropagation.md",
