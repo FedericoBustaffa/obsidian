@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
+                "file": "notes/machine_learning/bias_variance.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "support_vector_machine"
+              "title": "bias_variance"
             }
           },
           {
@@ -120,13 +120,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of support_vector_machine"
+              "title": "Outline"
             }
           }
         ]
@@ -150,12 +149,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from support_vector_machine"
+              "title": "Outgoing links"
             }
           },
           {
@@ -200,7 +198,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +207,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for support_vector_machine"
+              "title": "Backlinks"
             }
           }
         ]
@@ -251,12 +248,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "d2eb5a70b12ea411",
+  "active": "12d36dfdb69f9bc4",
   "lastOpenFiles": [
+    "notes/machine_learning/bias_variance.md",
+    "notes/machine_learning/support_vector_machine.md",
     "notes/machine_learning/statistical_learning_theory.md~",
     "notes/machine_learning/support_vector_machine.md~",
     "notes/TODO.md",
-    "notes/machine_learning/support_vector_machine.md",
     "notes/machine_learning/cascade_correlation.md",
     "files/svm_regression.jpg",
     "files/cascade_correlation.png",
@@ -276,7 +274,6 @@
     "notes/parallel_computing/bsp.md~",
     "notes/parallel_computing/lock_free.md~",
     "notes/complex_systems/transition_systems.md~",
-    "notes/parallel_computing/network_topologies.md~",
     "notes/machine_learning/autoencoder.md",
     "notes/machine_learning/randomized.md",
     "notes/machine_learning/backpropagation.md",
