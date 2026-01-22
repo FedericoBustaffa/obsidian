@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "c53df2ebe6e7e6f2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
+          },
+          {
             "id": "7634e09e109837b1",
             "type": "leaf",
             "state": {
@@ -55,7 +67,8 @@
               "title": "TODO"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -251,7 +264,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "d2eb5a70b12ea411",
+  "active": "c53df2ebe6e7e6f2",
   "lastOpenFiles": [
     "notes/TODO.md",
     "notes/machine_learning/bias_variance.md",
