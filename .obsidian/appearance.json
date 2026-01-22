@@ -1,0 +1,16 @@
+{
+  "cssTheme": "Minimal",
+  "baseFontSize": 20,
+  "theme": "moonstone",
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "custome",
+    "custom",
+    "custom-admonitions.7206f7"
+  ],
+  "textFontFamily": "",
+  "monospaceFontFamily": "",
+  "showViewHeader": true,
+  "showRibbon": true,
+  "interfaceFontFamily": ""
+}
