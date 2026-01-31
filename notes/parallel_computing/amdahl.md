@@ -58,27 +58,9 @@ $$
 So we can use this law to predict the performance of a parallel program
 providing the serial and parallel fractions.
 
-> [!example]-
->
-> Lets suppose we have $f = 0.05$ and $6$ CPUs. The Amdahl's law says that the
-> maximum achievable speed up is
-> $$S(6) \leq \frac{1}{0.05 + \frac{(1-0.05)}{6}} = 4.8$$
-> from which we can derive a maximum efficiency of
-> $$E(p) = \frac{4.8}{6} = 0.8$$
-> that is an $80\%$ of efficiency.
-
 Another interesting thing we can do is to put $p = \infty$ and see what happens
 
 $$\lim_{p \to \infty} \frac{1}{f + \frac{1-f}{p}} = \frac{1}{f}$$
-
-so in general we can say that the speedup with $p = \infty$ tends to
-
-> [!example]-
->
-> Lets now consider a problem with $f = 0.1$, a number of CPUs that is
-> $p=\infty$ and apply the Amdahl's law
-> $$S(\infty) \leq \lim_{p \to \infty} \frac{1}{0.1 + \frac{0.9}{p}} = 10$$
-> which gives us a strong upper bound to the performance.
 
 Therefore strong scalability is limited by the serial fraction. We can of course
 use this value to make some predictions on the efficiency:
@@ -94,12 +76,6 @@ formula can be
 $$S(p) \leq \frac{1}{[f + O(p)] + \frac{1-f}{p}}$$
 
 where $O(p)$ is a function that takes into account the overhead.
-
-> [!example]-
->
-> If we consider a problem with linear overhead; the formula becomes
-> $$S(p) = \frac{1}{f + p \cdot o + \frac{1-f}{p}}$$
-> where $o$ is the overhead that must be payed for every processor used.
 
 This formula assumes that the overhead is part of the serial part but could not
 always be the case. For example we can have parallel communication among
