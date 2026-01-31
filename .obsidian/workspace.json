@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/parallel_computing/metrics.md",
+                "file": "notes/parallel_computing/workload_balancing.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "metrics"
+              "title": "workload_balancing"
             }
           },
           {
@@ -254,15 +254,19 @@
   },
   "active": "11f3607550ee9031",
   "lastOpenFiles": [
-    "notes/parallel_computing/laws.md",
-    "notes/parallel_computing/metrics.md",
-    "notes/parallel_computing/metrics.md~",
+    "notes/parallel_computing/amdahl.md~",
+    "notes/parallel_computing/workload_balancing.md",
+    "notes/parallel_computing/shared_memory.md",
+    "notes/parallel_computing/parallel_architectures.md",
     "indices/parallel_computing.md",
+    "notes/parallel_computing/distributed_systems.md",
+    "notes/parallel_computing/metrics.md",
+    "notes/parallel_computing/amdahl.md",
+    "notes/parallel_computing/laws.md",
+    "notes/parallel_computing/metrics.md~",
     "notes/parallel_computing/laws.md~",
     "notes/parallel_computing/work_span.md",
     "notes/parallel_computing/structured_parallel_programming.md",
-    "notes/parallel_computing/distributed_systems.md",
-    "notes/parallel_computing/parallel_architectures.md",
     "notes/parallel_computing/memory_consistency.md",
     "notes/TODO.md",
     "notes/parallel_computing/computational_models.md",
@@ -291,11 +295,8 @@
     "notes/machine_learning/autoencoder.md",
     "notes/machine_learning/randomized.md",
     "notes/machine_learning/backpropagation.md",
-    "notes/machine_learning/deep_learning_techniques.md",
     "files/dropout.png",
-    "notes/machine_learning/activation_functions.md",
     "files/gradient_clipping.png",
-    "notes/machine_learning/double_descent.md",
     "files/regression_example_deg16.png",
     "files/regression_example_deg7.png",
     "files/regression_example_deg2.png",
