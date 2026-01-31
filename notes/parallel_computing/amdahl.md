@@ -8,7 +8,7 @@ tags:
 
 # Amdahl's Law
 
-The **Amdahl's Law** assumes that a program is composed by various parts which
+The **Amdahl's law** assumes that a program is composed by various parts which
 must be _serial_ and some parts that can be _parallelized_.
 
 This law describes the theoretical limit on the achievable speedup when using
