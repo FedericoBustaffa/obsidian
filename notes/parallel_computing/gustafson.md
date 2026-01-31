@@ -8,9 +8,9 @@ tags:
 
 # Gustafson's Law
 
-The **Gustafson's Law** try to take into account also weak scalability in a more
-general formula because is quite common that when we use more processors, we
-also want to increase the problem size. In this case we talk about **scaled
+The **Gustafson's law** tries to take into account also weak scalability in a
+more general formula because is quite common that when we use more processors,
+we also want to increase the problem size. In this case we talk about **scaled
 speedup**, that incorporates such scenarios when calculating the achievable
 speedup.
 
@@ -23,7 +23,7 @@ $$
 
 where $\alpha$ is a scaling function for the part of the program that cannot be
 parallelized and $\beta$ a scaling function for the parallelized part. Similarly
-to what done for Amdahl's law we can now compute the speedup as follows
+to Amdahl's law we can now compute the speedup as follows
 
 $$
 S_{\alpha \beta} (p) =
@@ -95,3 +95,4 @@ and find a nice combination of these two parameters.
 
 - [[laws]]
 - [[amdahl]]
+

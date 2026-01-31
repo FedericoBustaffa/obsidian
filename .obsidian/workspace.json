@@ -254,6 +254,7 @@
   },
   "active": "11f3607550ee9031",
   "lastOpenFiles": [
+    "notes/parallel_computing/gustafson.md~",
     "notes/parallel_computing/metrics.md",
     "notes/parallel_computing/laws.md",
     "notes/parallel_computing/workload_balancing.md",
@@ -294,7 +295,6 @@
     "notes/parallel_computing/mpi.md~",
     "notes/machine_learning/autoencoder.md",
     "notes/machine_learning/randomized.md",
-    "notes/machine_learning/backpropagation.md",
     "files/dropout.png",
     "files/gradient_clipping.png",
     "files/regression_example_deg16.png",
