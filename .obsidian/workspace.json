@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/parallel_computing/workload_balancing.md",
+                "file": "notes/parallel_computing/metrics.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "workload_balancing"
+              "title": "metrics"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/parallel_computing/amdahl.md",
+                "file": "notes/parallel_computing/gustafson.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "amdahl"
+              "title": "gustafson"
             }
           }
         ],
@@ -121,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/parallel_computing/amdahl.md",
+                "file": "notes/parallel_computing/gustafson.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of amdahl"
+              "title": "Outline of gustafson"
             }
           }
         ]
@@ -151,12 +151,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/parallel_computing/amdahl.md",
+                "file": "notes/parallel_computing/gustafson.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from amdahl"
+              "title": "Outgoing links from gustafson"
             }
           },
           {
@@ -201,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/parallel_computing/amdahl.md",
+                "file": "notes/parallel_computing/gustafson.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for amdahl"
+              "title": "Backlinks for gustafson"
             }
           }
         ]
@@ -254,15 +254,16 @@
   },
   "active": "11f3607550ee9031",
   "lastOpenFiles": [
-    "notes/parallel_computing/amdahl.md~",
+    "notes/parallel_computing/metrics.md",
+    "notes/parallel_computing/laws.md",
     "notes/parallel_computing/workload_balancing.md",
+    "notes/parallel_computing/gustafson.md",
+    "notes/parallel_computing/amdahl.md",
+    "notes/parallel_computing/amdahl.md~",
     "notes/parallel_computing/shared_memory.md",
     "notes/parallel_computing/parallel_architectures.md",
     "indices/parallel_computing.md",
     "notes/parallel_computing/distributed_systems.md",
-    "notes/parallel_computing/metrics.md",
-    "notes/parallel_computing/amdahl.md",
-    "notes/parallel_computing/laws.md",
     "notes/parallel_computing/metrics.md~",
     "notes/parallel_computing/laws.md~",
     "notes/parallel_computing/work_span.md",
@@ -291,7 +292,6 @@
     "notes/parallel_computing/distributed_systems.md~",
     "notes/parallel_computing/work_span.md~",
     "notes/parallel_computing/mpi.md~",
-    "notes/parallel_computing/bsp.md~",
     "notes/machine_learning/autoencoder.md",
     "notes/machine_learning/randomized.md",
     "notes/machine_learning/backpropagation.md",

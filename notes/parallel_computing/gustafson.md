@@ -45,32 +45,11 @@ $$
 
 There are two notable cases for the possible values of $\gamma$:
 
-- $\gamma = 1$ ($\alpha = \beta$): we obtain the [[amdahl#Amdahl's Law]].
-- $\gamma = p$: we obtain the [[#Gustafson's Law]], that means that the
+- $\gamma = 1$ ($\alpha = \beta$): we obtain the Amdahl's law.
+- $\gamma = p$: we obtain the Gustafson's law, that means that the
   parallelizable part grows linear in $p$ while the non-parallelizable part
   remains constant.
   $$S(p) \leq f + p \cdot (1 - f) = p + f \cdot (1-p)$$
-
-> [!example]-
->
-> Suppose to have a program that, for a given input size, is 15% serial and
-> 85% linearly parallelizable and lets assume that the serial time does not grow
-> as the problem size is scaled.
->
-> - **How much speed up we can achieve if we use 50 processors without scaling
->   the problem?**
->   $$
->   S_{\gamma = 1} (50) \leq
->   \frac{f + \gamma \cdot (1-f)}{f + \frac{\gamma \cdot (1-f)}{p}} =
->   \frac{1}{0.15} + \frac{0.85}{50} = 5.99
->   $$
-> - **Suppose we scale up the problem size by a factor of 100. Which is the
->   speedup with 50 processors?**
->   $$
->   S_{\gamma=100} (50) \leq
->   \frac{f + \gamma \cdot (1-f)}{f + \frac{\gamma \cdot (1-f)}{p}} =
->   \frac{0.15 + 100 \cdot 0.85}{0.15 + \frac{100 \cdot 0.85}{50}} = 46.03
->   $$
 
 ## Functional Dependency of Scaled Speedup
 
@@ -115,3 +94,4 @@ and find a nice combination of these two parameters.
 ## References
 
 - [[laws]]
+- [[amdahl]]

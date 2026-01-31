@@ -78,13 +78,6 @@ $$T_c (p) \times p \approx T_{c_\text{seq}}$$
 
 because it means that the overhead si low and the efficiency grows higher.
 
-> [!example]-
->
-> If we have that $T_{c_\text{seq}} = 100$ and $T_c (4) = 30$, the cost of
-> parallelization is
-> $$T_c(4) \times p = 30 \times 4 = 120$$
-> which means that $120 - 100 = 20$ is the _overhead_.
-
 ## Scalability
 
 The **scalability** measures how well a parallel program utilizes a increasing
@@ -123,22 +116,6 @@ factor we use to increase the problem size.
 For example if we want to calculate the **problem size** $S$ for computing the
 weak scaling of a given **problem** $P(p, S)$ that we can parallelize using $p$
 processors and which has a **computational cost** $C(S)$.
-
-> [!question]-
->
-> **What is value of $S$ for $p = 1, 2, \dots, n$ if $C(S)$ is not linear in $S$?**
->
-> Lets consider a generic problem whose size depends on a variable $N$ which gives
-> the problem size as
-> $$S = S(N) = N^2$$
-> Lets also suppose that the computational cost of the problem is $C(S) = N^2$.
-> If we start with $p=1$ and $N = 4$ for example, we have that
-> $$\frac{C(S)}{p} = \frac{N^2}{1} = 4^2 = 16$$
-> Lets double the number of processors, keeping the same ratio:
-> $$\frac{C(S)}{p} = \frac{N^2}{p} = 16$$
-> so
-> $$\frac{N^2}{2} = 16 \implies N^2 = 32 \implies N = 4 \sqrt{2}$$
-> which is not the double of the previous input.
 
 ## Computation to Communication Ratio
 
