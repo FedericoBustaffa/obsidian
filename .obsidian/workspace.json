@@ -120,13 +120,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Struttura di decision_tree"
+              "title": "Struttura"
             }
           }
         ]
@@ -150,12 +149,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Collegamenti in uscita da decision_tree"
+              "title": "Collegamenti in uscita"
             }
           },
           {
@@ -200,7 +198,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/decision_tree.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +207,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Riferimenti a decision_tree"
+              "title": "Riferimenti"
             }
           }
         ]
@@ -250,8 +247,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "489c34045c1a4f77",
+  "active": "fd1a5ddca45b0c4b",
   "lastOpenFiles": [
+    "notes/machine_learning/decision_tree.md",
     "notes/machine_learning/unsupervised_learning.md",
     "notes/machine_learning/self_organizing_maps.md",
     "notes/machine_learning/representation_learning.md",
@@ -269,7 +267,6 @@
     "files/double_descent.png",
     "files/clustering.png",
     "notes/machine_learning/support_vector_machine.md",
-    "notes/machine_learning/decision_tree.md",
     "notes/machine_learning/decision_tree.md~",
     "notes/machine_learning/4913",
     "notes/machine_learning/convolutional_neural_network.md",
