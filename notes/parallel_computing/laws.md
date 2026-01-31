@@ -23,13 +23,6 @@ discussed before:
 Once we define those elements we can start to apply some _law_ and formulas to
 predict the trend of the performance of our algorithm.
 
-## Main Laws
-
-- [[amdahl]]
-- [[gustafson]]
-
-## Comparison
-
 | Law       | Scaling         | Generality                           |
 | --------- | --------------- | ------------------------------------ |
 | Amdahl    | Strong          | Strict                               |
@@ -39,3 +32,6 @@ predict the trend of the performance of our algorithm.
 
 - [[parallel_computing]]
 - [[metrics]]
+- [[amdahl]]
+- [[gustafson]]
+

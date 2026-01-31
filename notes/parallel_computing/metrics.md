@@ -10,10 +10,10 @@ tags:
 
 There are many metrics that can be evaluated to measure performances, like:
 
-- **Latency** ($L$): the time from when an input arrives until the output is
-  computed and ready to be delivered.
+- **Latency** ($L$): the time from the input arrival to the end of computation,
+  when the output is ready to be delivered.
 - **Completion Time** ($T_c$): The overall latency of an application, for example
-  the total time for an application takes to complete all tasks and deliver
+  the total time that an application takes to complete all tasks and deliver
   results. It could happen that
   $$L = T_c$$
   if there is only one task to compute for an application.
@@ -28,11 +28,11 @@ We are not considering I/O operations because most of the time we use synthetic
 data that is always in RAM, so there is no need to load or store data from or
 to the disk.
 
-To study scalability, speed-up and efficiency of a parallel program we mostly
+To study scalability, speedup and efficiency of a parallel program we mostly
 consider the _completion time_, varying the number of _processors_.
 
 The typical scenario is when we have a sequential version of an application
-whose completion time is $T_\text{seq}$ and we want to estimate the speed-up
+whose completion time is $T_\text{seq}$ and we want to estimate the speedup
 when running with a parallel degree $p$.
 
 ## Speedup
@@ -98,7 +98,7 @@ here we measure the ratio between the parallel version using only one processor
 and the parallel version using $p$ processors. In the speedup we use the the
 completion time of the sequential version as numerator.
 
-### Strong and Weak Scalability
+### Strong and Weak Scaling
 
 To measure if problem size affect scalability and speedup we can measure the
 **strong scaling**, where the problem size is _fixed_ and number of processors
@@ -175,3 +175,4 @@ that we can observe very small speedup and efficiency decrease.
 ## References
 
 - [[parallel_computing]]
+- [[laws]]
