@@ -194,4 +194,4 @@ heuristics like _minimum slack heuristic_ work quite well.
 - [[artificial_intelligence_fundamentals]]
 - [[logical_agents]]
 - [[first_order_logical_agents]]
-- [[work_span]]
+- [[work_span_model]]
