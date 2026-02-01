@@ -169,8 +169,6 @@ $$S(p) = \frac{T_1}{T_p} \approx p$$
 
 if $T_1 / T_\infty \gg p$.
 
----
-
 That been said, the greedy scheduler achieve (almost) linear speedup if the
 problem is **overdecomposed** to create much more parallelism than the number of
 processors and this generally takes the name of **parallel slack** that is

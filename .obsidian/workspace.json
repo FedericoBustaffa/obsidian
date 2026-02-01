@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/parallel_computing/work_span_model.md",
+                "file": "notes/parallel_computing/pram_model.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "work_span_model"
+              "title": "pram_model"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/parallel_computing/work_span_model.md",
+                "file": "notes/parallel_computing/pram_model.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of work_span_model"
+              "title": "Outline of pram_model"
             }
           }
         ]
@@ -126,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/parallel_computing/work_span_model.md",
+                "file": "notes/parallel_computing/pram_model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from work_span_model"
+              "title": "Outgoing links from pram_model"
             }
           },
           {
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/parallel_computing/work_span_model.md",
+                "file": "notes/parallel_computing/pram_model.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for work_span_model"
+              "title": "Backlinks for pram_model"
             }
           }
         ]
@@ -229,16 +229,17 @@
   },
   "active": "d2eb5a70b12ea411",
   "lastOpenFiles": [
+    "notes/parallel_computing/pram_model.md~",
+    "files/pram_model.png",
+    "notes/parallel_computing/work_span_model.md~",
+    "notes/parallel_computing/work_span_model.md",
     "notes/ai_fundamentals/planning.md~",
     "notes/machine_learning/k_means.md",
-    "notes/parallel_computing/work_span_model.md",
     "notes/k-means.md",
-    "notes/parallel_computing/work_span_model.md~",
     "notes/parallel_computing/parallel_architectures.md",
     "notes/parallel_computing/shared_memory_systems.md~",
     "indices/parallel_computing.md~",
     "notes/parallel_computing/bsp_model.md~",
-    "notes/parallel_computing/pram_model.md~",
     "notes/parallel_computing/pram_model.md",
     "notes/parallel_computing/bsp_model.md",
     "notes/parallel_computing/bsp.md~",
@@ -246,7 +247,6 @@
     "notes/parallel_computing/synchronization.md~",
     "notes/parallel_computing/fastflow.md~",
     "notes/parallel_computing/fastflow.md",
-    "notes/parallel_computing/network_topologies.md~",
     "notes/parallel_computing/shared_memory.md",
     "notes/parallel_computing/shared_memory_systems.md",
     "notes/parallel_computing/distributed_memory_systems.md",
@@ -274,7 +274,6 @@
     "files/gradient_clipping.png",
     "files/regression_example_deg16.png",
     "files/regression_example_deg7.png",
-    "files/regression_example_deg2.png",
     "maps/validation_pipeline.canvas"
   ]
 }

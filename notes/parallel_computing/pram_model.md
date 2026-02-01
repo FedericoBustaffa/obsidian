@@ -19,7 +19,7 @@ The PRAM machine is composed by $n$ _identical_ processors connected to a global
 shared memory $M$ and any memory location is accessible from any processor in
 **constant time**.
 
-![[pram_model.jpg]]
+![Pram Model|500](/files/pram_model.png)
 
 The communication between processors can be implemented by reading and writing
 to the global memory $M$.
@@ -81,7 +81,7 @@ $$
 $$
 
 A possible algorithm is called **recursive doubling algorithm** which consider
-$n = \#X$ and $p = n$:
+$n = |X|$ and $p = n$:
 
 ```cpp
 for (int j = 0; j < n; j++) { // parallel for
@@ -103,12 +103,6 @@ $$C(n) = T(N) \times P(N) = n \cdot \log (n)$$
 that is worse than the serial version of the algorithm that have $O(n)$
 complexity.
 
-> [!example]-
->
-> Suppose we have an array of $n = 8$ elements and $p = n = 8$ and we have
-> $\circ = +$.
-> $$A = \{ 4, 3, 5, 8, 2, 6, 3, 1 \}$$
-
 Actually, in the PRAM model, lowering the number of processors can improve
 performance and lead to a cost optimal algorithm for the prefix computation.
 Instead of using $p = n$ processors lets use $p = \frac{n}{\log (n)}$ processors
@@ -118,10 +112,6 @@ $$C(n) = T(n) \times P(n) = \log(n) \cdot \frac{n}{\log (n)} = n$$
 
 We also need to slightly change the previous algorithm in a way that it works
 with a partitioned input instead of _unit level_ input per processor.
-
-> [!example]-
->
-> Better version of recursive doubling algorithm.
 
 #### Sparse Array Compaction
 
