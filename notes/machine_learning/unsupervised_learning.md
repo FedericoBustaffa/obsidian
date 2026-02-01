@@ -99,5 +99,5 @@ the solution of vector quantization problem.
 - [[machine_learning]]
 - [[representation_learning]]
 - [[autoencoder]]
-- [[k-means]]
+- [[k_means]]
 - [[self_organizing_maps]]

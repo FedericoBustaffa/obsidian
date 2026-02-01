@@ -229,6 +229,7 @@
   },
   "active": "11f3607550ee9031",
   "lastOpenFiles": [
+    "notes/machine_learning/unsupervised_learning.md~",
     "files/pram_model.png",
     "conflict-files-obsidian-git.md",
     "notes/parallel_computing/work_span_model.md~",
@@ -274,7 +275,6 @@
     "files/gradient_clipping.png",
     "files/regression_example_deg16.png",
     "files/regression_example_deg7.png",
-    "files/regression_example_deg2.png",
     "maps/validation_pipeline.canvas"
   ]
 }
