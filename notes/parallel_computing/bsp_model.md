@@ -20,47 +20,58 @@ parts:
 All the $n$ processors are identical and they can communicate through the
 network via message passing, in a uniform amount of time.
 
+![BSP Model|400](/files/bulk_model.png)
+
 This differs a little from the PRAM model which use the global memory as a space
 to write messages among processors.
 
-## Algorithm
+## Supersteps
 
-The BSP algorithm is composed by a sequence of **supersteps**, each of which
-consists of
+The BSP model works as a sequence of **supersteps**, each consisting of three
+main simple steps:
 
-- **Computation**, **communication** steps or both (**mixed superstep**).
+- **Computation**: local progress of tasks (floating point operations).
+- **Communication**: data exchange among processes.
 - **Global barrier** synchronization which ensures that the previous computation
   or communication supersteps have completed for every processor.
 
-The global barrier also gives the name _Bulk Synchronous_ to the model.
+In this sense the algorithm is ruled by the slowest worker and the speed of data
+exchange.
 
-### Cost
+### Computational Cost
 
-The BSP model takes into account also the communication time in a fine grained
-way, introducing the concept of $h$-relation which tells us the maximum number
-of data words exchanged by processors in a single communication (or mixed)
-superstep.
+The computational step is defined in function of
 
-The cost of an $h$-relation is given by the following formula
+- The amount of **work** $w$, defined as the maximum number of operations
+  performed in the superstep by any processor.
+- The **latency** $l$ of the global barrier.
+
+In total a computation step simply costs the sum of the two:
+
+$$T_\text{comp} = w + l$$
+
+### Communication Cost
+
+To measure the communication step cost, the BSP introduces the concept of
+$h$-relation, that is a communication superstep in which every processor sends
+and receives at most $h$ data words. In other words, the maximum number of data
+words sent or received by a processor.
+
+So the cost of an $h$-relation is defined by
+
+- The **gap** $g$ or the cost to send a word.
+- The **latency** $l$ of the global barrier.
+
+as
 
 $$T(h) = h \cdot g + l$$
-
-where $g$ is the **gap** and $l$ is the **latency**. The _gap_ is communication
-cost of a single data word and the _latency_ is the cost of the global barrier
-synchronization.
 
 When we have that all processors send or receive exactly $h$ data words, we can
 talk about **full $h$-relations**. They can be useful to approximate $g$ and $l$
 on a real machine, by measuring execution times for a range of full
 $h$-relations, varying $h$ and $p$.
 
-For the cmputational part we have a simpler formula that takes into account only
-the amount of work to be done and the latency given by the global barrier
-
-$$T_\text{comp} = w + l$$
-
-in particular $w$ represents the maximum number of operations to be done among
-all processors.
+### Total Cost
 
 Overall we have that a BSP based algorithm has a computational cost of
 

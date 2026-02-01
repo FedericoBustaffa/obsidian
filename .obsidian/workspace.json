@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/parallel_computing/pram_model.md",
+                "file": "notes/parallel_computing/bsp_model.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "pram_model"
+              "title": "bsp_model"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/parallel_computing/pram_model.md",
+                "file": "notes/parallel_computing/bsp_model.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of pram_model"
+              "title": "Outline of bsp_model"
             }
           }
         ]
@@ -126,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/parallel_computing/pram_model.md",
+                "file": "notes/parallel_computing/bsp_model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from pram_model"
+              "title": "Outgoing links from bsp_model"
             }
           },
           {
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/parallel_computing/pram_model.md",
+                "file": "notes/parallel_computing/bsp_model.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for pram_model"
+              "title": "Backlinks for bsp_model"
             }
           }
         ]
@@ -230,6 +230,8 @@
   "active": "11f3607550ee9031",
   "lastOpenFiles": [
     "notes/parallel_computing/bsp_model.md~",
+    "files/bulk_model.png",
+    "notes/parallel_computing/pram_model.md",
     "notes/parallel_computing/pram_model.md~",
     "files/prefix1.png",
     "notes/parallel_computing/4913",
@@ -241,7 +243,6 @@
     "notes/parallel_computing/memory_consistency.md",
     "notes/parallel_computing/gustafson.md",
     "notes/parallel_computing/shared_memory_systems.md",
-    "notes/parallel_computing/pram_model.md",
     "notes/parallel_computing/gustafson_law.md",
     "notes/parallel_computing/distributed_memory_systems.md",
     "notes/parallel_computing/bsp_model.md",
@@ -266,7 +267,6 @@
     "notes/parallel_computing/laws.md~",
     "notes/parallel_computing/structured_parallel_programming.md",
     "notes/TODO.md",
-    "notes/machine_learning/statistical_learning_theory.md~",
     "files/svm_regression.jpg",
     "files/cascade_correlation.png",
     "files/two_moons.png",
@@ -274,7 +274,6 @@
     "files/clustering.png",
     "files/dropout.png",
     "files/gradient_clipping.png",
-    "files/regression_example_deg16.png",
     "maps/validation_pipeline.canvas"
   ]
 }
