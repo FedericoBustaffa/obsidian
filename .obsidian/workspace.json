@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d2eb5a70b12ea411",
+            "id": "11f3607550ee9031",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "work_span_model"
             }
+          },
+          {
+            "id": "e658ef4059fe78ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/parallel_computing/memory_consistency.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "memory_consistency"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/parallel_computing/work_span_model.md",
+                "file": "notes/parallel_computing/memory_consistency.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of work_span_model"
+              "title": "Outline of memory_consistency"
             }
           }
         ]
@@ -126,12 +151,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/parallel_computing/work_span_model.md",
+                "file": "notes/parallel_computing/memory_consistency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from work_span_model"
+              "title": "Outgoing links from memory_consistency"
             }
           },
           {
@@ -176,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/parallel_computing/work_span_model.md",
+                "file": "notes/parallel_computing/memory_consistency.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +211,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for work_span_model"
+              "title": "Backlinks for memory_consistency"
             }
           }
         ]
@@ -227,49 +252,49 @@
       "bases:Create new base": false
     }
   },
-  "active": "d2eb5a70b12ea411",
+  "active": "e658ef4059fe78ac",
   "lastOpenFiles": [
-    "notes/ai_fundamentals/planning.md~",
-    "notes/machine_learning/k_means.md",
     "notes/parallel_computing/work_span_model.md",
-    "notes/k-means.md",
-    "notes/parallel_computing/work_span_model.md~",
-    "notes/parallel_computing/parallel_architectures.md",
-    "notes/parallel_computing/shared_memory_systems.md~",
-    "indices/parallel_computing.md~",
-    "notes/parallel_computing/bsp_model.md~",
-    "notes/parallel_computing/pram_model.md~",
-    "notes/parallel_computing/pram_model.md",
-    "notes/parallel_computing/bsp_model.md",
-    "notes/parallel_computing/bsp.md~",
-    "notes/parallel_computing/lock_free.md~",
-    "notes/parallel_computing/synchronization.md~",
-    "notes/parallel_computing/fastflow.md~",
-    "notes/parallel_computing/fastflow.md",
-    "notes/parallel_computing/network_topologies.md~",
-    "notes/parallel_computing/shared_memory.md",
+    "notes/parallel_computing/gustafson.md",
     "notes/parallel_computing/shared_memory_systems.md",
-    "notes/parallel_computing/distributed_memory_systems.md",
-    "notes/computational_mathematics/conjugate_gradient.md",
+    "notes/parallel_computing/pram_model.md",
     "notes/parallel_computing/gustafson_law.md",
+    "notes/parallel_computing/distributed_memory_systems.md",
+    "notes/parallel_computing/bsp_model.md",
     "notes/parallel_computing/amdahl_law.md",
-    "notes/TODO.md",
-    "notes/parallel_computing/distributed_systems.md",
+    "notes/k-means.md",
+    "notes/computational_mathematics/conjugate_gradient.md",
+    "notes/parallel_computing/lock_free.md",
+    "notes/parallel_computing/memory_consistency.md",
+    "notes/parallel_computing/mpi.md~",
+    "notes/parallel_computing/laws.md",
+    "notes/parallel_computing/amdahl.md",
+    "indices/parallel_computing.md",
+    "notes/parallel_computing/computational_models.md",
+    "notes/parallel_computing/work_span.md",
     "notes/parallel_computing/workload_balancing.md",
-    "notes/machine_learning/decision_tree.md",
+    "notes/parallel_computing/shared_memory.md",
     "notes/parallel_computing/metrics.md",
+    "notes/parallel_computing/gustafson.md~",
+    "notes/parallel_computing/amdahl.md~",
+    "notes/parallel_computing/parallel_architectures.md",
+    "notes/parallel_computing/distributed_systems.md",
+    "notes/parallel_computing/metrics.md~",
+    "notes/parallel_computing/laws.md~",
+    "notes/parallel_computing/structured_parallel_programming.md",
+    "notes/TODO.md",
+    "notes/machine_learning/decision_tree.md",
     "notes/machine_learning/bias_variance.md",
-    "notes/machine_learning/support_vector_machine.md",
-    "notes/machine_learning/cascade_correlation.md",
+    "notes/machine_learning/statistical_learning_theory.md~",
+    "notes/machine_learning/support_vector_machine.md~",
     "files/svm_regression.jpg",
     "files/cascade_correlation.png",
-    "notes/machine_learning/convolutional.md",
-    "notes/machine_learning/self_organizing_maps.md",
+    "notes/machine_learning/self_organizing_maps.md~",
+    "notes/machine_learning/k_means.md~",
     "files/two_moons.png",
     "files/k_means_clusters.png",
-    "notes/machine_learning/unsupervised_learning.md",
     "files/clustering.png",
-    "notes/machine_learning/recurrent.md",
+    "notes/parallel_computing/distributed_systems.md~",
     "files/dropout.png",
     "files/gradient_clipping.png",
     "files/regression_example_deg16.png",
