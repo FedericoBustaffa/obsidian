@@ -229,6 +229,9 @@
   },
   "active": "11f3607550ee9031",
   "lastOpenFiles": [
+    "notes/parallel_computing/pram_model.md~",
+    "files/prefix1.png",
+    "notes/parallel_computing/4913",
     "notes/machine_learning/unsupervised_learning.md~",
     "files/pram_model.png",
     "conflict-files-obsidian-git.md",
@@ -263,18 +266,14 @@
     "notes/parallel_computing/structured_parallel_programming.md",
     "notes/TODO.md",
     "notes/machine_learning/statistical_learning_theory.md~",
-    "notes/machine_learning/support_vector_machine.md~",
     "files/svm_regression.jpg",
     "files/cascade_correlation.png",
-    "notes/machine_learning/self_organizing_maps.md~",
-    "notes/machine_learning/k_means.md~",
     "files/two_moons.png",
     "files/k_means_clusters.png",
     "files/clustering.png",
     "files/dropout.png",
     "files/gradient_clipping.png",
     "files/regression_example_deg16.png",
-    "files/regression_example_deg7.png",
     "maps/validation_pipeline.canvas"
   ]
 }

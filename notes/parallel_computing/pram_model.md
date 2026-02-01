@@ -83,17 +83,7 @@ $$
 A possible algorithm is called **recursive doubling algorithm** which consider
 $n = |X|$ and $p = n$:
 
-```cpp
-for (int j = 0; j < n; j++) { // parallel for
-   reg = A[j];
-   for (int i = 0; i < ceil(log(n)); i++) {
-      for (int j = pow(2, i); j < n; j++) { // parallel for
-          reg += A[j - pow(2, i)];
-          A[j] = reg;
-      }
-   }
-}
-```
+![Prefix Computation|400](/files/prefix1.png)
 
 But for the PRAM model it is not cost optimal because we have to consider that
 every processor executes $\log (n)$ operations that gives us a total cost of
@@ -112,16 +102,6 @@ $$C(n) = T(n) \times P(n) = \log(n) \cdot \frac{n}{\log (n)} = n$$
 
 We also need to slightly change the previous algorithm in a way that it works
 with a partitioned input instead of _unit level_ input per processor.
-
-#### Sparse Array Compaction
-
-A possible interesting use case for the prefix computation is the \*\*sparse array
-compaction where we want to index every non-zero cell of the array.
-
-To do that we can use a temporary auxiliary array containing $0$ where the main
-array has zeros and $1$ where the main array has non-zero values. We can now
-perform a prefix summation to generate the addresses for the non-zero elements
-of the main array.
 
 ## Limitations
 
