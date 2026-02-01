@@ -101,5 +101,3 @@ the classic `delete[]`.
 
 - [Intel Intrinsics
   Guide](https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html#)
-
-- [[cpp]]

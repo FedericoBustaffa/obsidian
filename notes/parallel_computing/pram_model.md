@@ -1,12 +1,12 @@
 ---
-id: pram
+id: pram_model
 aliases: []
 tags:
   - master
   - parallel_computing
 ---
 
-# PRAM
+# PRAM Model
 
 The **PRAM** (Parallel Access Random Machine) model is shared memory platform
 which make the following **assumptions**:
@@ -151,4 +151,4 @@ that actually have a huge impact on performance.
 
 ## References
 
-- [[computational_models]]
+- [[parallel_computing]]

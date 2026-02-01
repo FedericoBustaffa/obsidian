@@ -152,4 +152,3 @@ that we can observe very small speedup and efficiency decrease.
 ## References
 
 - [[parallel_computing]]
-- [[laws]]

@@ -116,7 +116,6 @@ in concurrent programming.
 
 ## References
 
-- [[cpp]]
 - [Function objects](https://en.cppreference.com/w/cpp/utility/functional)
 - [Lambda](https://en.cppreference.com/w/cpp/language/lambda)
 - [std::function](https://en.cppreference.com/w/cpp/utility/functional/function)

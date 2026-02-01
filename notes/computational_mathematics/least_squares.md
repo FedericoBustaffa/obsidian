@@ -1,5 +1,5 @@
 ---
-id: least_square
+id: least_squares
 aliases: []
 tags:
   - master
@@ -118,7 +118,7 @@ $$x = A^+ y$$
 
 where $A^+ = (A^\top A)^{-1} A^\top$ is the pseudoinverse of $A$.
 
-# References
+## References
 
 - [[computational_mathematics]]
 - [[eigenvalues_eigenvectors]]

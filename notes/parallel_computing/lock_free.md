@@ -159,6 +159,4 @@ and **hazard pointers** are used for safe reclamation of memory.
 ## References
 
 - [[parallel_computing]]
-- [[cpp]]
 - [[memory_consistency]]
-- [[threads]]

@@ -1,12 +1,12 @@
 ---
-id: shared_memory
+id: shared_memory_systems
 aliases: []
 tags:
   - master
   - parallel_computing
 ---
 
-# Shared Memory
+# Shared Memory Systems
 
 Consideriamo una CPU a 3GHz con 8 core, ciascuno in grado di eseguire 16
 operazioni in virgola mobile per ciclo di clock. Il **picco** massimo di
@@ -82,5 +82,3 @@ il singolo core (L1), mentre altri possono essere condivisi (L3).
 ## References
 
 - [[parallel_architectures]]
-- [[threads]]
-- [[fastflow]]

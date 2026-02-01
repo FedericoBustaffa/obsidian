@@ -1,12 +1,12 @@
 ---
-id: work_span
+id: work_span_model
 aliases: []
 tags:
   - master
   - parallel_computing
 ---
 
-# Work-Span
+# Work-Span Model
 
 One of simplest model is the **Work-Span** model, which gives us more strict
 bounds to compared to Amdahl's and Gustafson's laws.
@@ -188,4 +188,4 @@ All assumptions that cannot be implemented in a real context.
 
 ## References
 
-- [[computational_models]]
+- [[parallel_computing]]

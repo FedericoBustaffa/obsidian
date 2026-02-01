@@ -1,5 +1,5 @@
 ---
-id: gustafson
+id: gustafson_law
 aliases: []
 tags:
   - master
@@ -93,6 +93,5 @@ and find a nice combination of these two parameters.
 
 ## References
 
-- [[laws]]
-- [[amdahl]]
-
+- [[parallel_computing]]
+- [[amdahl_law]]

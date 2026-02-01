@@ -79,5 +79,5 @@ and less energy efficient. From the standpoint point of the programmer
 ## References
 
 - [[parallel_computing]]
-- [[shared_memory]]
-- [[distributed_systems]]
+- [[shared_memory_systems]]
+- [[distributed_memory_systems]]

@@ -16,16 +16,20 @@ use of multi-threading, multi-processing and other techniques.
 ## Index
 
 - [[parallel_architectures]]
+- [[shared_memory_systems]]
 - [[simd]]
 - [[slurm]]
 - [[metrics]]
-- [[laws]]
-- [[computational_models]]
-- [[cpp]]
+- [[amdahl_law]]
+- [[gustafson_law]]
+- [[work_span_model]]
+- [[pram_model]]
+- [[bsp_model]]
+- [[lock_free]]
 - [[memory_consistency]]
 - [[workload_balancing]]
 - [[structured_parallel_programming]]
-- [[mpi]]
+- [[distributed_memory_systems]]
 
 ## References
 

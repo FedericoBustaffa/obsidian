@@ -1,5 +1,5 @@
 ---
-id: amdahl
+id: amdahl_law
 aliases: []
 tags:
   - master
@@ -83,4 +83,4 @@ processes, which is still overhead but can be better than serial communication.
 
 ## References
 
-- [[laws]]
+- [[parallel_computing]]

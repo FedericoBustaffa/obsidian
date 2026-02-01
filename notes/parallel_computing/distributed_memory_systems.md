@@ -1,19 +1,20 @@
 ---
-id: distributed_systems
+id: distributed_memory_systems
 aliases: []
 tags:
   - master
   - parallel_computing
 ---
 
-# Distributed Systems
+# Distributed Memory Systems
 
 In the field of parallel computing there are situations where remaining on one
 single node is not possible. Can happen that the computation takes to long even
 with an ideal parallel algorithm or simply because the amount of data to process
 can be huge and does not fit in memory.
 
-So **distribute** computation on multiple nodes can improve performances by a lot under certain circumstances.
+So **distribute** computation on multiple nodes can improve performances by a
+lot under certain circumstances.
 
 ## Interconnection Networks
 
@@ -288,4 +289,3 @@ circumnstances, the square grid method is better.
 
 - [[parallel_architectures]]
 - [[network_topologies]]
-- [[mpi]]

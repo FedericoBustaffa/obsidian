@@ -334,10 +334,7 @@ where the $(X^T X + \lambda I)$ matrix **is always invertible**.
 
 ## References
 
-- Machine Learning
-  - [[supervised_learning]]
-  - [[gradient_descent]]
-
-- Computational Mathematics
-  - [[least_squares]]
-  - [[singular_value_decomposition]]
+- [[supervised_learning]]
+- [[gradient_descent]]
+- [[least_squares]]
+- [[singular_value_decomposition]]

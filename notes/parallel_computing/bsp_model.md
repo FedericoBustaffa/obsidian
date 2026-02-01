@@ -1,12 +1,12 @@
 ---
-id: bsp
+id: bsp_model
 aliases: []
 tags:
   - master
   - parallel_computing
 ---
 
-# BSP
+# BSP Model
 
 The **BSP** (Bulk Synchronous Parallel) model is a offer a framework to design,
 analyse and programming general purpose parallel systems. In other words it
@@ -71,4 +71,4 @@ number (in FLOPS) that is quite more precise than an order of magnitude.
 
 ## References
 
-- [[computational_models]]
+- [[parallel_computing]]

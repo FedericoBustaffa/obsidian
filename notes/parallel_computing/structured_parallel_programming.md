@@ -74,4 +74,3 @@ that we try to obtain in distributed memory systems.
 - [[reduce]]
 - [[stencil]]
 - [[divide_and_conquer]]
-- [[fastflow]]
