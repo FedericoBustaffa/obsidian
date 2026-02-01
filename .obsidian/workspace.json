@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/parallel_computing/work_span_model.md",
+                "file": "notes/parallel_computing/pram_model.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "work_span_model"
-            }
-          },
-          {
-            "id": "e658ef4059fe78ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/parallel_computing/memory_consistency.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "memory_consistency"
+              "title": "pram_model"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/parallel_computing/memory_consistency.md",
+                "file": "notes/parallel_computing/pram_model.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of memory_consistency"
+              "title": "Outline of pram_model"
             }
           }
         ]
@@ -151,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/parallel_computing/memory_consistency.md",
+                "file": "notes/parallel_computing/pram_model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from memory_consistency"
+              "title": "Outgoing links from pram_model"
             }
           },
           {
@@ -201,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/parallel_computing/memory_consistency.md",
+                "file": "notes/parallel_computing/pram_model.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for memory_consistency"
+              "title": "Backlinks for pram_model"
             }
           }
         ]
@@ -252,9 +227,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "e658ef4059fe78ac",
+  "active": "11f3607550ee9031",
   "lastOpenFiles": [
+    "notes/parallel_computing/work_span_model.md~",
     "notes/parallel_computing/work_span_model.md",
+    "notes/parallel_computing/memory_consistency.md",
     "notes/parallel_computing/gustafson.md",
     "notes/parallel_computing/shared_memory_systems.md",
     "notes/parallel_computing/pram_model.md",
@@ -265,7 +242,6 @@
     "notes/k-means.md",
     "notes/computational_mathematics/conjugate_gradient.md",
     "notes/parallel_computing/lock_free.md",
-    "notes/parallel_computing/memory_consistency.md",
     "notes/parallel_computing/mpi.md~",
     "notes/parallel_computing/laws.md",
     "notes/parallel_computing/amdahl.md",
@@ -284,7 +260,6 @@
     "notes/parallel_computing/structured_parallel_programming.md",
     "notes/TODO.md",
     "notes/machine_learning/decision_tree.md",
-    "notes/machine_learning/bias_variance.md",
     "notes/machine_learning/statistical_learning_theory.md~",
     "notes/machine_learning/support_vector_machine.md~",
     "files/svm_regression.jpg",
