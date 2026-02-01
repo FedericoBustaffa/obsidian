@@ -14,7 +14,7 @@ bounds to compared to Amdahl's and Gustafson's laws.
 It represents the parallel program as a set of tasks that can be dependencies of
 each other, organized as **DAG** (Directed Acyclic Graph).
 
-![[work_span_dag.png]]
+![Work-Span DAG|600](/files/work_span_dag.png)
 
 Every task can be executed if and only if all its dependencies were completed.
 
@@ -40,7 +40,7 @@ also two special values of $p$ that give the name to the model:
 The _span_ is also called **critical path** because it represents the DAG's
 _longest_ path starting from the first to the final level of the graph.
 
-![[work_span_critical_path.png]]
+![Work-Span Critical Path|300](/files/work_span_critical_path.png)
 
 Note also that the _work_ is the sequential version of the algorithm, not the
 parallel version with only one processor.
