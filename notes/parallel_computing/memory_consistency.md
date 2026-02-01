@@ -38,8 +38,8 @@ correct way to ensure correctness. Let's consider a situation where we have
 three variables `a`, `b` and `flag`, all set to 0. One thread executes
 
 ```cpp
-a = 1;
-b = 1;
+A = 1;
+B = 1;
 flag = 1;
 ```
 
