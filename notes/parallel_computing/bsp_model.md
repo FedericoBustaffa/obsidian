@@ -6,12 +6,12 @@ tags:
   - parallel_computing
 ---
 
-# BSP Model
+# Bulk Synchronous Parallel Model
 
-The **BSP** (Bulk Synchronous Parallel) model is a offer a framework to design,
-analyse and programming general purpose parallel systems. In other words it
-provides a way to implement parallel algorithms and a structure composed by
-three main parts:
+The **bulk synchronous parallel (BSP)** model is a framework to design, analyse
+and programming general purpose parallel systems. In other words it provides a
+way to implement parallel algorithms and a structure composed by three main
+parts:
 
 - A collection of **processors** with their own **local memories**.
 - A **communication network** to move data.
