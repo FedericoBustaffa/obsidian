@@ -93,6 +93,22 @@ $$I = \frac{N}{D}$$
 
 is called **computational intensity** measured in FLOP/byte.
 
+With this model should be clear if our application's bottleneck is the
+computation or the memory channels' bandwidth. Starting from the data channels
+performance, which can be expressed in FLOPS with the factor
+
+$$
+I \cdot B \quad \left( \frac{\text{FLOP}}{{\text{byte}}} \cdot
+\frac{\text{byte}}{\text{seconds}} = \text{FLOPS} \right)
+$$
+
+Both $R_\text{peak}$ and $I \cdot B$ are upper limits, therefore, the expected
+performance is
+
+$$P = \min (R_\text{peak}, I \cdot B)$$
+
+![Roofline Model|350](/files/roofline_model.png)
+
 ## References
 
 - [[parallel_architectures]]
