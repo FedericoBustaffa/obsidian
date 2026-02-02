@@ -44,6 +44,8 @@ Another common way to optimize code that introduces a form of synchronous
 parallelism, keeping the computation on a single core, is through **vector
 units**.
 
+We are talking about actual hardware
+
 ## Threading
 
 ## Roofline Model
