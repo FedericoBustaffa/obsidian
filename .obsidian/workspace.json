@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/parallel_computing/bsp_model.md",
+                "file": "notes/parallel_computing/memory_consistency.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "bsp_model"
+              "title": "memory_consistency"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/parallel_computing/bsp_model.md",
+                "file": "notes/parallel_computing/memory_consistency.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of bsp_model"
+              "title": "Outline of memory_consistency"
             }
           }
         ]
@@ -126,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/parallel_computing/bsp_model.md",
+                "file": "notes/parallel_computing/memory_consistency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from bsp_model"
+              "title": "Outgoing links from memory_consistency"
             }
           },
           {
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/parallel_computing/bsp_model.md",
+                "file": "notes/parallel_computing/memory_consistency.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for bsp_model"
+              "title": "Backlinks for memory_consistency"
             }
           }
         ]
@@ -230,6 +230,7 @@
   "active": "11f3607550ee9031",
   "lastOpenFiles": [
     "notes/parallel_computing/parallel_architectures.md~",
+    "notes/parallel_computing/bsp_model.md",
     "4-architectures.pdf",
     "notes/parallel_computing/bsp_model.md~",
     "files/bulk_model.png",
@@ -247,7 +248,6 @@
     "notes/parallel_computing/shared_memory_systems.md",
     "notes/parallel_computing/gustafson_law.md",
     "notes/parallel_computing/distributed_memory_systems.md",
-    "notes/parallel_computing/bsp_model.md",
     "notes/parallel_computing/amdahl_law.md",
     "notes/k-means.md",
     "notes/computational_mathematics/conjugate_gradient.md",
@@ -265,7 +265,6 @@
     "notes/parallel_computing/amdahl.md~",
     "notes/parallel_computing/parallel_architectures.md",
     "notes/parallel_computing/distributed_systems.md",
-    "notes/parallel_computing/metrics.md~",
     "notes/parallel_computing/structured_parallel_programming.md",
     "notes/TODO.md",
     "files/svm_regression.jpg",
