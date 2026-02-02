@@ -22,10 +22,11 @@ the given system has to offer.
 - **Cores and node number**.
 - **Interconnection networks**.
 
+each focusing on a different aspect.
+
 ## Flynn's Taxonomy
 
-The **Flynn's Taxonomy** is based on the instruction type and data stream; it
-contains 4 possibile classifications for parallel systems:
+The **Flynn's Taxonomy** is based on the instruction type and data stream:
 
 - **SISD (Single Instruction Single Data)**: classic Von Neumann model where a
   single instruction is applied on a single stream of data.
@@ -35,6 +36,10 @@ contains 4 possibile classifications for parallel systems:
   a single item, producing multiple outputs.
 - **MIMD (Multiple Instruction Multiple Data)**: multiple instructions are applied
   to multiple data.
+
+A paranthesis for GPU is **SIMT**, that stands for **single instruction multiple
+threads**, due to the different GPU model of computation, that supports
+_divergence_ of threads and different paths of execution.
 
 ## Memory Layout
 
