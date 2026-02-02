@@ -66,6 +66,33 @@ compute and memory constraints or capabilities. The model gives a much more
 realistic view than the raw $R_\text{peak}$ value, also identifying if the
 workload is compute or memory bound, and so potential bottlenecks.
 
+In other words the roofline model tries to show how far the application is from
+the achievable performance on a given system. In order to make this evaluation,
+the model considers the relationship between **operational intensity**,
+**memory bandwidth** and **peak computational performance**, considering also
+_loops_ as the main source of computational workload.
+
+The first assumption the model does is a simplified view of the hardware
+architecture:
+
+- **Execution units** operate at maximum speed $R_\text{peak}$ measured in
+  FLOPS.
+- **Data store** is any source of data.
+- **Data channels** to and from the data store have and work at a peak bandwidth
+  $B$.
+
+The other set of assumptions is on the application:
+
+- It is composed by a sequence of loops with a large amount of iterations $L$.
+- At steady state the considered loop does $N$ FLOP using $D$ bytes of data
+  transferred to or from the data store.
+
+Considering that, the ratio
+
+$$I = \frac{N}{D}$$
+
+is called **computational intensity** measured in FLOP/byte.
+
 ## References
 
 - [[parallel_architectures]]
