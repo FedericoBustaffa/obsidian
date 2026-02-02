@@ -15,7 +15,7 @@ processes data and passes its output to the next stage.
 The stages operate in parallel, enabling overlapping computation and improved
 throughput.
 
-![[pipeline.png|center]]
+![Pipeline](pipeline.png)
 
 In general it can be applied on problems where a big computation $F(x)$ can be
 divided in something like

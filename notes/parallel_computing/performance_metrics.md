@@ -1,12 +1,12 @@
 ---
-id: metrics
+id: performance_metrics
 aliases: []
 tags:
   - master
   - parallel_computing
 ---
 
-# Metrics
+# Performance Metrics
 
 There are many metrics that can be evaluated to measure performances, like:
 
