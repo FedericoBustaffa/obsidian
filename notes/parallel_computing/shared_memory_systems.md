@@ -107,7 +107,20 @@ performance is
 
 $$P = \min (R_\text{peak}, I \cdot B)$$
 
+Wrapping up, considering that $R_\text{peak}$ and $B$ are constant, the only
+thing the programmer can directly manage is the computational intensity $I$,
+trying to either increase the number of operations, or reducing the amount of
+transferred data.
+
 ![Roofline Model|350](/files/roofline_model.png)
+
+If $I$ is low, the performance is limited by the transfer $B$, if instead $I$ is
+high, the performance is limited by the execution units $R_\text{peak}$.
+
+The best use of resources is the inflection point, called **machine balance**,
+that can change with different architectures.
+
+![Roofline Model|350](/files/roofline_model2.png)
 
 ## References
 
