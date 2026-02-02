@@ -61,6 +61,11 @@ to dependencies.
 
 ## Roofline Model
 
+The **roofline model** is a way to better understand performance limits based on
+compute and memory constraints or capabilities. The model gives a much more
+realistic view than the raw $R_\text{peak}$ value, also identifying if the
+workload is compute or memory bound, and so potential bottlenecks.
+
 ## References
 
 - [[parallel_architectures]]
