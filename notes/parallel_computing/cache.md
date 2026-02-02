@@ -23,6 +23,16 @@ Depending on the architecture we can have some **private** levels of cache for
 each processor or core (typically L1 and L2), while L3 level is typically
 shared.
 
+## Locality
+
+The **locality principle** is the core concept that makes the memory hierarchy
+work properly. It increases the probability of reusing data blocks that were
+previously moved from one level to the previous, thus reducing the miss rate.
+There are two types of locality:
+
+- **Temporal**:
+- **Spatial**:
+
 ## References
 
 - [[shared_memory_systems]]
