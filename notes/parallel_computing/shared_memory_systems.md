@@ -8,77 +8,67 @@ tags:
 
 # Shared Memory Systems
 
-Consideriamo una CPU a 3GHz con 8 core, ciascuno in grado di eseguire 16
-operazioni in virgola mobile per ciclo di clock. Il **picco** massimo di
-performance raggiungibile è dato dalla formula
+The basic structure of a **shared memory system** is represented by the Von
+Neumann architecture, where an central processing unit takes an input and
+produce an output, reading and writing from **memory**.
 
-$$\mathrm{Peak} = \text{Frequency} \cdot \text{Cores} \cdot \text{FLOP}$$
+![Von Neumann Architecture|450](/files/von_neumann.png)
 
-che nel nostro caso specifico equivale a
+An important aspect of this architecture is the so called **Von Neumann
+bottleneck**, originated by the difference between computation speed (typically
+high) of the central processing unit and the main memory read and write speed
+(nowadays high but significantly lower than computation speed).
 
-$$3 \cdot 8 \cdot 16 = 384 \text{ GFLOPS}$$
+<!-- add FLOPS example for Rpeak -->
 
-Il **picco di trasferimento dati** è invece la massima capacità di trasferimento
-dalla RAM ai registri del processore e si indica in byte al secondo. Nel nostro
-caso abbiamo una massima capacità di trasferimento dati di $51.2 \text{GB/s}$.
+## Optimizations and Parallelism
 
-Consideriamo ora il problema di calcolare il **prodotto scalare** tra due
-vettori
+The first way to optimize code and reduce the impact of Von Neumann bottleneck
+is writing cache aware programs. The **cache** is a smaller memory, much faster
+than RAM, capable of boosting performance well used. Modern CPUs typically have
+a hierarchy composed by three levels of cache:
 
-```cpp
-double dot_product(double* u, double* v, int n){
-	double dotp = 0.0;
-	for (int i = 0; i < n; i++)
-			dotp += u[i] * v[i];
+- **L1**: very small but very fast (0.5 - 1 ns).
+- **L2**: bigger but slower.
+- **L3**: bigger than L2 but the slowest among the three (15 - 40 ns).
+- **RAM** very big but order of magnitude slower than cache memories (50 - 100
+  ns).
 
-	return dotp;
-}
-```
+Depending on the architecture we can have some **private** levels of cache for
+each processor or core (typically L1 and L2), while L3 level is typically
+shared.
 
-Se $n = 2^{30}$ abbiamo
+---
 
-$$2 \cdot n = 2 \cdot 2^{30} = 2^{31} = 2 \cdot 10^9$$
+Another common way to optimize code that introduces a form of synchronous
+parallelism, keeping the computation on a single core, is through **vector
+units**.
 
-operazioni in virgola mobile (somma e prodotto) e
+We are talking about actual hardware, capable of process multiple data in
+parallel with one clock cycle; they are the basics of SIMD parallelization, that
+works in locksteps with a combination of **multiple ALUs** and **vector
+registers**.
 
-$$
-2 \cdot n \cdot 8 \text{ B} = 2 \cdot 10^{9} \cdot 8 \text{ B} >
-16 \text{ GB}
-$$
+---
 
-di dati trasferiti dalla RAM alla CPU. Otteniamo quindi un tempo totale di
-computazione pari a
+The last way of improving performance on shared memory systems is through
+**threading**, exploited by multi-threads and multi-cores processors.
 
-$$t_\text{comp} = \frac{2 \text{ GFLOP}}{384 \text{ GFLOPS}} = 5.2 \text{ ms}$$
+This introduces an asynchronous parallelization where each thread/core has its
+own set of registers and program counter, kept by the processor in order to
+quickly switch between different contexts, mitigating pipeline bottlenecks due
+to dependencies.
 
-Mentre un tempo totale di trasferimento dati pari a
+## Roofline Model
 
-$$t_\text{mem} = \frac{16 \text{ GB}}{51.2 \text{ GB/s}}$$
-
-Nel caso si riuscisse a mascherare completamente computazione e trasferimento,
-il tempo complessivo sarebbe equivalente al massimo di uno dei due.
-
-$$t_\text{exec} \geq \max (t_\text{comp}, t_\text{mem}) = 312.5 \text{ ms}$$
-
-Possiamo quindi ottenere un picco massimo di performance di
-
-$$\frac{2 \text{ GFLOP}}{312.5 \text{ ms}} = 6.4 \text{ GFLOPS}$$
-
-ossia meno del 2% del picco di performance raggiungibile. Possiamo quindi
-concludere che il prodotto scalare, sulla piattaforma d'esempio sia limitato dal
-trasferimento dati dalla memoria.
-
-## Cache
-
-Tipicamente le CPU moderne hanno tre livelli di **cache**:
-
-- L1 è molto piccola ma molto veloce (0.5 - 1 ns).
-- L3 è più grande ma più lenta (15 - 40 ns).
-- RAM molto grande ma lenta (50 - 100 ns).
-
-A seconda dell'architettura possiamo avere alcuni livelli di cache privati per
-il singolo core (L1), mentre altri possono essere condivisi (L3).
+The **roofline model** is a way to better understand performance limits based on
+compute and memory constraints or capabilities. The model gives a much more
+realistic view than the raw $R_\text{peak}$ value, also identifying if the
+workload is compute or memory bound, and so potential bottlenecks.
 
 ## References
 
 - [[parallel_architectures]]
+- [[cache]]
+- [[simd]]
+- [[threading]]

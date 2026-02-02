@@ -93,5 +93,5 @@ and find a nice combination of these two parameters.
 
 ## References
 
-- [[parallel_computing]]
+- [[parallelization_laws]]
 - [[amdahl_law]]
