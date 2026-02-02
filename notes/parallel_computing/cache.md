@@ -1,7 +1,9 @@
 ---
 id: cache
 aliases: []
-tags: []
+tags:
+  - master
+  - parallel_computing
 ---
 
 # Cache

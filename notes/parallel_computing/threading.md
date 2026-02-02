@@ -1,7 +1,9 @@
 ---
 id: threading
 aliases: []
-tags: []
+tags:
+  - master
+  - parallel_computing
 ---
 
 # Threading

@@ -122,6 +122,17 @@ that can change with different architectures.
 
 ![Roofline Model|350](/files/roofline_model2.png)
 
+The aim of the program is not always to reach peak performances, but to stay out
+of the _poor performance_ zone, either performing good or make a good usage of
+memory bandwidth.
+
+To be more precise is also possible to define a **cache-aware** roofline model
+with various levels of cache to have a finer grain estimation
+
+![Cache-Aware Roofline Model|350](/files/roofline_model_cache.png)
+
+having now different levels of bandwidth to evaluate performances.
+
 ## References
 
 - [[parallel_architectures]]
