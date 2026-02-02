@@ -21,7 +21,7 @@ high) of the central processing unit and the main memory read and write speed
 
 <!-- add FLOPS example for Rpeak -->
 
-## Cache
+## Optimizations and Parallelism
 
 The first way to optimize code and reduce the impact of Von Neumann bottleneck
 is writing cache aware programs. The **cache** is a smaller memory, much faster
@@ -38,15 +38,26 @@ Depending on the architecture we can have some **private** levels of cache for
 each processor or core (typically L1 and L2), while L3 level is typically
 shared.
 
-## Vector Units
+---
 
 Another common way to optimize code that introduces a form of synchronous
 parallelism, keeping the computation on a single core, is through **vector
 units**.
 
-We are talking about actual hardware
+We are talking about actual hardware, capable of process multiple data in
+parallel with one clock cycle; they are the basics of SIMD parallelization, that
+works in locksteps with a combination of **multiple ALUs** and **vector
+registers**.
 
-## Threading
+---
+
+The last way of improving performance on shared memory systems is through
+**threading**, exploited by multi-threads and multi-cores processors.
+
+This introduces an asynchronous parallelization where each thread/core has its
+own set of registers and program counter, kept by the processor in order to
+quickly switch between different contexts, mitigating pipeline bottlenecks due
+to dependencies.
 
 ## Roofline Model
 
