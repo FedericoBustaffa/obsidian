@@ -12,7 +12,7 @@ The basic structure of a **shared memory system** is represented by the Von
 Neumann architecture, where an central processing unit takes an input and
 produce an output, reading and writing from **memory**.
 
-![Von Neumann Architecture|450](/files/von_neumann.png)
+![Von Neumann Architecture|500](/files/von_neumann.png)
 
 An important aspect of this architecture is the so called **Von Neumann
 bottleneck**, originated by the difference between computation speed (typically
