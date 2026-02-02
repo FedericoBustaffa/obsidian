@@ -126,6 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notes/parallel_computing/amdahl_law.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for amdahl_law"
             }
           },
           {
