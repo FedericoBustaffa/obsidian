@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "8def99a9922e264f",
         "type": "tabs",
         "children": [
           {
-            "id": "e992a85b485556d9",
+            "id": "11f3607550ee9031",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/support_vector_machine.md",
+                "file": "notes/parallel_computing/parallel_architectures.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "support_vector_machine"
-            }
-          },
-          {
-            "id": "489c34045c1a4f77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/parallel_computing/memory_consistency.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "memory_consistency"
+              "title": "parallel_architectures"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -79,7 +54,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Esplora risorse"
+              "title": "Files"
             }
           },
           {
@@ -121,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/parallel_computing/memory_consistency.md",
+                "file": "notes/parallel_computing/parallel_architectures.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Struttura di memory_consistency"
+              "title": "Outline of parallel_architectures"
             }
           }
         ]
@@ -143,7 +118,7 @@
       {
         "id": "1728b1c62e4f1f4f",
         "type": "tabs",
-        "dimension": 51.6380655226209,
+        "dimension": 37.85259326660601,
         "children": [
           {
             "id": "6a6787f071b2b91c",
@@ -151,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/parallel_computing/memory_consistency.md",
+                "file": "notes/parallel_computing/parallel_architectures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Collegamenti in uscita da memory_consistency"
+              "title": "Outgoing links from parallel_architectures"
             }
           },
           {
@@ -193,7 +168,7 @@
       {
         "id": "e6f8bb84f6edd43b",
         "type": "tabs",
-        "dimension": 24.18096723868955,
+        "dimension": 32.21110100090992,
         "children": [
           {
             "id": "4513753b4f6f78cb",
@@ -201,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/parallel_computing/memory_consistency.md",
+                "file": "notes/parallel_computing/parallel_architectures.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,95 +186,94 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Riferimenti a memory_consistency"
+              "title": "Backlinks for parallel_architectures"
             }
           }
         ]
       },
       {
-        "id": "6fd30e3eead3fb2f",
+        "id": "8110b6d3c574d84a",
         "type": "tabs",
-        "dimension": 24.18096723868955,
+        "dimension": 29.936305732484076,
         "children": [
           {
-            "id": "fd1a5ddca45b0c4b",
+            "id": "12d36dfdb69f9bc4",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
-              "title": "Vista grafo"
+              "title": "Graph view"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 214.5
+    "width": 251.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Crea nuova Base": false,
       "omnisearch:Omnisearch": false,
-      "switcher:Apri selezione rapida": false,
-      "graph:Apri vista grafo": false,
-      "canvas:Crea nuova lavagna": false,
-      "daily-notes:Apri nota del giorno": false,
-      "templates:Inserisci modello": false,
-      "command-palette:Apri riquadro comandi": false,
-      "audio-recorder:Avvia/ferma registrazione": false,
-      "workspaces:Gestisci layout delle aree di lavoro": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "bases:Create new base": false
     }
   },
-  "active": "489c34045c1a4f77",
+  "active": "11f3607550ee9031",
   "lastOpenFiles": [
-    "notes/parallel_computing/work_span_model.md",
-    "notes/machine_learning/self_organizing_maps.md",
-    "notes/machine_learning/representation_learning.md",
-    "notes/machine_learning/recurrent.md",
-    "notes/machine_learning/randomized.md",
-    "notes/machine_learning/neural_networks_training.md",
-    "notes/machine_learning/k_means.md",
-    "notes/machine_learning/double_descent.md",
-    "notes/machine_learning/deep_learning_techniques.md",
-    "files/two_moons.png",
-    "files/svm_regression.jpg",
-    "files/regression_example_deg7.png",
-    "files/regression_example_deg2.png",
-    "files/regression_example_deg16.png",
+    "notes/parallel_computing/parallel_architectures.md~",
+    "notes/parallel_computing/memory_consistency.md",
+    "notes/parallel_computing/bsp_model.md",
+    "4-architectures.pdf",
+    "notes/parallel_computing/bsp_model.md~",
+    "files/bulk_model.png",
+    "notes/parallel_computing/pram_model.md",
+    "notes/parallel_computing/pram_model.md~",
     "files/prefix1.png",
+    "notes/parallel_computing/4913",
+    "notes/machine_learning/unsupervised_learning.md~",
     "files/pram_model.png",
-    "files/k_means_clusters.png",
-    "files/gradient_clipping.png",
-    "files/dropout.png",
-    "notes/ai_fundamentals/uncertainty.md",
-    "notes/ai_fundamentals/probabilistic_reasoning.md",
-    "notes/machine_learning/random_forest.md",
-    "notes/machine_learning/ensemble.md",
-    "notes/machine_learning/decision_tree.md",
-    "notes/machine_learning/convolutional_neural_network.md",
-    "notes/machine_learning/bias_variance.md",
-    "notes/ai_fundamentals/planning.md",
-    "notes/ai_fundamentals/logical_agents.md",
-    "notes/ai_fundamentals/first_order_logical_agents.md",
-    "notes/ai_fundamentals/artificial_life.md",
+    "conflict-files-obsidian-git.md",
+    "notes/parallel_computing/work_span_model.md~",
+    "notes/parallel_computing/work_span_model.md",
+    "notes/parallel_computing/gustafson.md",
+    "notes/parallel_computing/shared_memory_systems.md",
+    "notes/parallel_computing/gustafson_law.md",
+    "notes/parallel_computing/distributed_memory_systems.md",
+    "notes/parallel_computing/amdahl_law.md",
+    "notes/k-means.md",
+    "notes/computational_mathematics/conjugate_gradient.md",
+    "notes/parallel_computing/lock_free.md",
+    "notes/parallel_computing/mpi.md~",
+    "notes/parallel_computing/laws.md",
+    "notes/parallel_computing/amdahl.md",
+    "indices/parallel_computing.md",
+    "notes/parallel_computing/computational_models.md",
+    "notes/parallel_computing/work_span.md",
+    "notes/parallel_computing/workload_balancing.md",
+    "notes/parallel_computing/shared_memory.md",
+    "notes/parallel_computing/metrics.md",
+    "notes/parallel_computing/gustafson.md~",
+    "notes/parallel_computing/amdahl.md~",
+    "notes/parallel_computing/parallel_architectures.md",
+    "notes/parallel_computing/distributed_systems.md",
+    "notes/parallel_computing/structured_parallel_programming.md",
     "notes/TODO.md",
-    "notes/machine_learning/support_vector_machine.md",
-    "TODO.md",
-    "notes/machine_learning/support_vector_machine.md~",
-    "notes/machine_learning/4913",
-    "notes/ai_fundamentals/informed_search.md",
-    "notes/ai_fundamentals/evolutionary_strategies.md",
-    "notes/machine_learning/neural_networks.md",
-    "notes/machine_learning/statistical_learning_theory.md~",
-    "notes/machine_learning/validation.md~",
-    "notes/machine_learning/gradient_descent.md~",
-    "maps/validation_pipeline.canvas",
-    "maps",
-    "notes/ai_fundamentals/novelty.md~",
-    "notes/ai_fundamentals/genetic_algorithms.md~",
-    "notes/ai_fundamentals/evolutionary_optimization.md~",
-    "notes/ai_fundamentals/innovation.md~"
+    "files/svm_regression.jpg",
+    "files/cascade_correlation.png",
+    "files/two_moons.png",
+    "files/k_means_clusters.png",
+    "files/clustering.png",
+    "files/dropout.png",
+    "files/gradient_clipping.png",
+    "maps/validation_pipeline.canvas"
   ]
 }
