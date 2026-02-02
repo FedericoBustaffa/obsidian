@@ -229,8 +229,9 @@
   },
   "active": "11f3607550ee9031",
   "lastOpenFiles": [
-    "notes/parallel_computing/parallel_architectures.md",
     "notes/parallel_computing/shared_memory_systems.md~",
+    "files/von_neumann.png",
+    "notes/parallel_computing/parallel_architectures.md",
     "notes/parallel_computing/parallel_architectures.md~",
     "notes/parallel_computing/parallelization_laws.md",
     "notes/parallel_computing/parallelization_laws.md~",
@@ -273,7 +274,6 @@
     "files/k_means_clusters.png",
     "files/clustering.png",
     "files/dropout.png",
-    "files/gradient_clipping.png",
     "maps/validation_pipeline.canvas"
   ]
 }
