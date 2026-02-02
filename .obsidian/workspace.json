@@ -85,6 +85,27 @@
             }
           }
         ]
+      },
+      {
+        "id": "44cfe7c464934497",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b28bb64b1c74a27a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "notes/parallel_computing/amdahl_law.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of amdahl_law"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -97,6 +118,7 @@
       {
         "id": "fc2d7fe85f21aaf4",
         "type": "tabs",
+        "dimension": 33.33333333333333,
         "children": [
           {
             "id": "3ee2800b70e30458",
@@ -104,7 +126,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/parallel_computing/amdahl_law.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,21 +135,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for amdahl_law"
-            }
-          },
-          {
-            "id": "5e543faca727b175",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "notes/parallel_computing/amdahl_law.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from amdahl_law"
+              "title": "Backlinks"
             }
           },
           {
@@ -159,20 +166,43 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "23820440ca464f75",
+        "type": "tabs",
+        "dimension": 38.25136612021858,
+        "children": [
           {
-            "id": "b28bb64b1c74a27a",
+            "id": "5e543faca727b175",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "outgoing-link",
               "state": {
                 "file": "notes/parallel_computing/amdahl_law.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               },
-              "icon": "lucide-list",
-              "title": "Outline of amdahl_law"
+              "icon": "links-going-out",
+              "title": "Outgoing links from amdahl_law"
+            }
+          }
+        ]
+      },
+      {
+        "id": "a810f6f1d82e6636",
+        "type": "tabs",
+        "dimension": 28.415300546448087,
+        "children": [
+          {
+            "id": "e54e14b4d76cf135",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -196,8 +226,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4b2ca16cb4b67ded",
+  "active": "3ee2800b70e30458",
   "lastOpenFiles": [
+    "notes/parallel_computing/amdahl_law.md",
     "conflict-files-obsidian-git.md"
   ]
 }
