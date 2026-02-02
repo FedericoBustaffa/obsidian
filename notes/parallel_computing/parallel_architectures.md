@@ -52,6 +52,12 @@ hierarchy in _shared memory_ systems like:
   a local private memory and to a global shared memory. In this case the time
   access is asymmetric based on which memory is accessed.
 
+In the case of NUMA multicores, with multiple sockets and single socket with
+multiple chiplets architectures, each CPU has its local memory and controller.
+To maintain a single, shared address space, the nodes are connected by an high
+speed **network on chip (NoC)** and the OS tries to allocate memory _close_ to
+the allocating thread in order to reduce memory access cost.
+
 Inherently, distributed systems are NUMA, because of their strongly asymmetric
 access to their private local memory.
 
@@ -75,9 +81,9 @@ memory.
 In general we can say that distributed memory systems are more scalable, costly
 and less energy efficient. From the standpoint point of the programmer
 
-- In **shared memory systems** have faster communication between
-  threads or processes; however the efficient management of synchronization and
-  locking is generally a critical point of paying attention.
+- In **shared memory systems** have faster communication between threads or
+  processes; however the efficient management of synchronization and locking is
+  generally a critical point of paying attention.
 - For **distributed memory systems**, the most important aspect is to reduce the
   cost of communication as much as possible.
 
