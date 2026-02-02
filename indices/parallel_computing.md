@@ -17,7 +17,9 @@ use of multi-threading, multi-processing and other techniques.
 
 - [[parallel_architectures]]
 - [[shared_memory_systems]]
-- [[simd]]
+  - [[cache]]
+  - [[simd]]
+  - [[threading]]
 - [[slurm]]
 - [[performance_metrics]]
 - [[parallelization_laws]]

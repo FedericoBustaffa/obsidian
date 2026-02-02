@@ -99,5 +99,7 @@ the classic `delete[]`.
 
 ## References
 
+- [[shared_memory_systems]]
+
 - [Intel Intrinsics
   Guide](https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html#)
