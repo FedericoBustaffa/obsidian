@@ -229,6 +229,8 @@
   },
   "active": "11f3607550ee9031",
   "lastOpenFiles": [
+    "4-architectures.pdf",
+    "notes/parallel_computing/parallel_architectures.md~",
     "notes/parallel_computing/bsp_model.md~",
     "files/bulk_model.png",
     "notes/parallel_computing/pram_model.md",
@@ -264,7 +266,6 @@
     "notes/parallel_computing/parallel_architectures.md",
     "notes/parallel_computing/distributed_systems.md",
     "notes/parallel_computing/metrics.md~",
-    "notes/parallel_computing/laws.md~",
     "notes/parallel_computing/structured_parallel_programming.md",
     "notes/TODO.md",
     "files/svm_regression.jpg",
