@@ -82,6 +82,44 @@ $$
 \text{CPI}_\text{MEM-MISS}
 $$
 
+So now, knowing the clock frequency of the CPU, the clocks per instruction etc.
+is possible to see how a decrease in hit rate can worsen performance by a lot.
+
+## Cache Algorithms
+
+Typically the cache hierarchy is not directly managed by the user, but by a set
+of **caching policies** that determine
+
+- which data is cached during program execution.
+- where the data is stored.
+- what cache line should be evicted if the cache is full.
+
+Typically the data loaded from memory is a **cache line**, composed by several
+items stored contiguosly in memory, in order to enforce _spatial locality_.
+
+So the cache is organized in a number of cache lines and the cache line where
+the data is stored is decided by some **cache mapping strategy**:
+
+- **Direct mapping**: each memory block is restricted to exactly one cache line.
+- **N-way set associative**: each memory block can be placed in any of $N$ lines
+  within a set.
+- **Fully associative cache**: any memory block can occupy any cache line.
+
+In the end there is the need for a policy to replace cache lines when the cache
+is full and a new line must by loaded:
+
+- **Last recently used (LRU)**: remove the least recently used cache line ,
+  accordingly to the temporale locality principle.
+- **Pseudo LRU**: approximation of LRU keeping a set of bits that tracks which
+  ways of a set have been recently used.
+
+Another important concept is the **working set** of program, defined as the
+collection of data the program actively accesses during a specific time
+interval. If the working set entirely fits into the cache, the risk of cache
+misses is minimized.
+
+## Cache Coherence
+
 ## References
 
 - [[shared_memory_systems]]
