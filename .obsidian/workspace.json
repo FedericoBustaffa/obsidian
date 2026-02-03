@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/parallel_computing/map.md",
+                "file": "notes/parallel_computing/farm.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "map"
+              "title": "farm"
             }
           },
           {
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/parallel_computing/performance_metrics.md",
+                "file": "notes/parallel_computing/map.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,10 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "performance_metrics"
+              "title": "map"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -251,13 +252,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4b2ca16cb4b67ded",
+  "active": "54bdeecb294b55f1",
   "lastOpenFiles": [
-    "notes/parallel_computing/structured_parallel_programming.md",
     "notes/parallel_computing/farm.md",
+    "notes/parallel_computing/network_topologies.md",
+    "notes/parallel_computing/map.md",
+    "notes/parallel_computing/map.md~",
+    "notes/parallel_computing/performance_metrics.md",
+    "indices/parallel_computing.md",
+    "notes/parallel_computing/structured_parallel_programming.md",
     "notes/parallel_computing/pipeline_farm.md",
     "notes/parallel_computing/farm.md~",
-    "notes/parallel_computing/performance_metrics.md",
     "notes/parallel_computing/pipeline.md",
     "notes/parallel_computing/pipeline.md~",
     "notes/parallel_computing/performance_metrics.md~",
@@ -267,7 +272,6 @@
     "notes/parallel_computing/cache.md~",
     "notes/parallel_computing/4913",
     "notes/parallel_computing/shared_memory_systems.md",
-    "indices/parallel_computing.md",
     "notes/parallel_computing/threading.md",
     "notes/parallel_computing/shared_memory_systems.md~",
     "files/roofline_model_cache.png",

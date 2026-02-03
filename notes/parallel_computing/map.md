@@ -64,7 +64,7 @@ Also notice that between the workers stage and the two communication stages,
 there is a partial overlap between computation and communication, unless a
 _"lockstep"_ behavior is enforced.
 
-### Number of Workers
+### Optimal Number of Workers
 
 It is also possible to find a nice number of workers by finding the value $k$
 that minimizes the completion time. Considering the linear communication cost
@@ -105,7 +105,7 @@ In order to reduce the service time of the emitter and the overall latency of
 the map to complete the scatter distribution, a binary tree scatter distribution
 can be employed.
 
-![[map_tree_scatter.png]]
+![Map Tree Scatter|400](/files/map_tree_scatter.png)
 
 In this way the emitter service time becomes
 
@@ -121,7 +121,7 @@ $$
 Similarly, the same patter can be used to reduce the collector's service time
 and the end-to-end latency.
 
-![[map_tree_gather.png]]
+![Map Tree|400](/files/map_tree_gather.png)
 
 In this way the collector service time becomes
 
@@ -156,4 +156,5 @@ _Apache_ instead it is more recent and can be more common on HPC architectures.
 
 ## Reference
 
-- [[structured_parallel_programming]], [[map_reduce]]
+- [[structured_parallel_programming]]
+- [[map_reduce]]
