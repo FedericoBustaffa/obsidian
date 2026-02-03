@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/parallel_computing/farm.md",
+                "file": "notes/parallel_computing/map.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "farm"
+              "title": "map"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/parallel_computing/farm.md",
+                "file": "notes/parallel_computing/map.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of farm"
+              "title": "Outline of map"
             }
           }
         ]
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/parallel_computing/farm.md",
+                "file": "notes/parallel_computing/map.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for farm"
+              "title": "Backlinks for map"
             }
           },
           {
@@ -205,12 +205,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/parallel_computing/farm.md",
+                "file": "notes/parallel_computing/map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from farm"
+              "title": "Outgoing links from map"
             }
           }
         ]
@@ -253,13 +253,14 @@
   },
   "active": "4b2ca16cb4b67ded",
   "lastOpenFiles": [
+    "notes/parallel_computing/structured_parallel_programming.md",
+    "notes/parallel_computing/farm.md",
+    "notes/parallel_computing/pipeline_farm.md",
     "notes/parallel_computing/farm.md~",
     "notes/parallel_computing/performance_metrics.md",
-    "notes/parallel_computing/farm.md",
     "notes/parallel_computing/pipeline.md",
     "notes/parallel_computing/pipeline.md~",
     "notes/parallel_computing/performance_metrics.md~",
-    "notes/parallel_computing/structured_parallel_programming.md",
     "notes/parallel_computing/structured_parallel_programming.md~",
     "notes/parallel_computing/workload_balancing.md",
     "notes/parallel_computing/cache.md",

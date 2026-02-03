@@ -90,7 +90,7 @@ workload balancing. In practice the right choice depends on the problem and on
 the computational payload of each task.
 
 Let's suppose that the time needed to compute a task is more or less the same
-fro every tasks
+for every tasks
 
 $$F(x_i) \approx F(x_j)$$
 
