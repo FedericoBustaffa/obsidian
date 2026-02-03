@@ -47,6 +47,41 @@ Other useful terminology to reason about cache locality are
 - **Hit rate**: the fraction of memory accesses found in the cache:
   $$\text{HR} = 1 - {MR}$$
 
+So now it's possible to measure CPU time by the following formula
+
+$$\text{CPU}_\text{time} = \text{ClockCycles} \cdot \text{ClockCycleTime}$$
+
+where the number of clock cycles is defined as function of
+
+- **Instruction count (IC)**: the number of instructions executed, that can be
+  further detailed as
+  $$\text{IC}_\text{CPU} + \text{IC}_\text{MEM}$$
+- **Clock cycles per instruction (CPI)**: average clock cycles per instruction,
+  defined as
+  $$\text{CPI} = \frac{\text{ClockCycles}}{\text{IC}}$$
+  that again can be detailed as
+  $$
+  \text{CPI} = \frac{\text{IC}_\text{CPU}}{\text{IC}} \cdot
+  \text{CPI}_\text{CPU} + \frac{\text{IC}_\text{MEM}}{\text{IC}} \cdot
+  \text{CPI}_\text{MEM}
+  $$
+
+so now the above formulation for the CPU time becomes
+
+$$
+\text{CPU}_\text{time} = \text{IC} \cdot \text{CPI} \cdot
+\text{ClockCycleTime}
+$$
+
+Considering that each memory instruction may generate a cache hit or miss with a
+given probability, and given the hit rate the probability of a cache hit, we
+have
+
+$$
+\text{CPI}_\text{MEM} = \text{CPI}_\text{MEM-HIT} + (1 - \text{HR}) \cdot
+\text{CPI}_\text{MEM-MISS}
+$$
+
 ## References
 
 - [[shared_memory_systems]]
