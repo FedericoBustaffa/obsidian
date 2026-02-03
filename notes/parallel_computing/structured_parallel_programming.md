@@ -50,10 +50,10 @@ we will analyze some skeleton by reviewing some library.
 
 ## Stream Parallelism
 
-Another aspect to take into account is **stream parallelism**, which is the way
-tasks flow from a _computation module_ to another. In other works a **stream of
-tasks** is an ordered sequence of a computational or operational units (called
-tasks) of the same type that are processed one after the other:
+One possible type of parallelism is the so called **stream parallelism**, which
+is the way tasks flow from a _computation module_ to another. In other works a
+**stream of tasks** is an ordered sequence of a computational or operational
+units (called tasks) of the same type that are processed one after the other:
 
 Each task in the stream typically represents a discrete piece of work, such as a
 computation, data transformation, or process operation, which contributes to the
@@ -64,6 +64,19 @@ computation workflow that produce and consume the stream of tasks.
 
 This can be related in some sense to the computation and communication overlap
 that we try to obtain in distributed memory systems.
+
+The two main parallel patterns that handle stream parallelism are **pipeline**
+and **farm**, that typically aim to increase the throughput.
+
+## Data Parallelism
+
+The other possible kind of parallelism is **data parallelism**, which operates
+on a input collection of data and produces an ouput collection of data.
+
+This type of parallelism applies the same operation to many data elements (or
+blocks) concurrently. The main data parallel patterns are: **map**, **reduce**,
+**stencil**, **divide and conquer** and **scan** that have the main goal of
+reduce end to end latency.
 
 ## References
 

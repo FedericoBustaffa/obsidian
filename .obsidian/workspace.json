@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/parallel_computing/structured_parallel_programming.md",
+                "file": "notes/parallel_computing/pipeline.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "structured_parallel_programming"
+              "title": "pipeline"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/parallel_computing/structured_parallel_programming.md",
+                "file": "notes/parallel_computing/pipeline.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of structured_parallel_programming"
+              "title": "Outline of pipeline"
             }
           }
         ]
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/parallel_computing/structured_parallel_programming.md",
+                "file": "notes/parallel_computing/pipeline.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for structured_parallel_programming"
+              "title": "Backlinks for pipeline"
             }
           },
           {
@@ -181,12 +181,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/parallel_computing/structured_parallel_programming.md",
+                "file": "notes/parallel_computing/pipeline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from structured_parallel_programming"
+              "title": "Outgoing links from pipeline"
             }
           }
         ]
@@ -229,6 +229,7 @@
   },
   "active": "4b2ca16cb4b67ded",
   "lastOpenFiles": [
+    "notes/parallel_computing/structured_parallel_programming.md",
     "notes/parallel_computing/structured_parallel_programming.md~",
     "notes/parallel_computing/workload_balancing.md",
     "notes/parallel_computing/cache.md",
