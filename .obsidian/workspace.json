@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/parallel_computing/pipeline.md",
+                "file": "notes/parallel_computing/farm.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "pipeline"
+              "title": "farm"
             }
           },
           {
@@ -120,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/parallel_computing/pipeline.md",
+                "file": "notes/parallel_computing/farm.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of pipeline"
+              "title": "Outline of farm"
             }
           }
         ]
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/parallel_computing/pipeline.md",
+                "file": "notes/parallel_computing/farm.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for pipeline"
+              "title": "Backlinks for farm"
             }
           },
           {
@@ -205,12 +205,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/parallel_computing/pipeline.md",
+                "file": "notes/parallel_computing/farm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from pipeline"
+              "title": "Outgoing links from farm"
             }
           }
         ]
@@ -253,7 +253,9 @@
   },
   "active": "4b2ca16cb4b67ded",
   "lastOpenFiles": [
+    "notes/parallel_computing/farm.md~",
     "notes/parallel_computing/performance_metrics.md",
+    "notes/parallel_computing/farm.md",
     "notes/parallel_computing/pipeline.md",
     "notes/parallel_computing/pipeline.md~",
     "notes/parallel_computing/performance_metrics.md~",

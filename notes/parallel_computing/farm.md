@@ -61,7 +61,10 @@ $$
 
 The service time is
 
-$$T_s^\text{farm} (F, k) = \max{(\frac{T_s^w (F)}{k}, T_s^e, T_s^c)}$$
+$$
+T_s^\text{farm} (F, k) =
+\max{\left( \frac{T_s^w (F)}{k}, T_s^e, T_s^c \right)}
+$$
 
 The task latency is
 
@@ -75,6 +78,10 @@ A farm is a _bottleneck_ if its service time is higher than the inter-arrival
 time:
 
 $$T_s^\text{farm} (F) > T_a$$
+
+therefore the minimal $k$ that ensures the stage not being a bottleneck is
+
+$$k_\text{opt} = \left\lceil \frac{T_s^w (F)}{T_a} \right\rceil$$
 
 ## Task Scheduling
 
