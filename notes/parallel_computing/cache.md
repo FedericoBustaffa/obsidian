@@ -30,8 +30,22 @@ work properly. It increases the probability of reusing data blocks that were
 previously moved from one level to the previous, thus reducing the miss rate.
 There are two types of locality:
 
-- **Temporal**:
-- **Spatial**:
+- **Temporal**: refers to the tendency of a program to access the same memory
+  location multiple times in a short period of time.
+- **Spatial**: refers to the tendency of a program to access memory locations
+  that are spatially close to each other.
+
+Other useful terminology to reason about cache locality are
+
+- **Cache jit**: the data is present in the cache.
+- **Cache miss**: the data is not present in the cache.
+- **Miss penalty**: the time spent transferring a cache line into the first
+  level cache and the requested data to the processor.
+- **Miss rate**: the fraction of memory accesses not found in the cache, defined
+  by
+  $$\text{MR} = \frac{\text{\# misses}}{\text{\# memory accesses}}$$
+- **Hit rate**: the fraction of memory accesses found in the cache:
+  $$\text{HR} = 1 - {MR}$$
 
 ## References
 
