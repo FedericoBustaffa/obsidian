@@ -14,9 +14,9 @@ patterns to achieve parallelization that can be generalized and reused.
 
 This is called **structured parallel programming** and its aim is to simplify
 the development of parallel applications by _composing_ them from a small set of
-recurring patterns mentioned before.
+recurring patterns.
 
-This approach have pros and cons and in every case is up to the programmer
+This approach have pros and cons and in every case is up to the programmer to
 decide the best approach. In general we can say that the structured approach is
 more readable, maintainable and more high-level. In fact it provides patterns
 and implementations that a non expert in parallel computation can use.

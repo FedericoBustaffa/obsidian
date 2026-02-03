@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/parallel_computing/workload_balancing.md",
+                "file": "notes/parallel_computing/structured_parallel_programming.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "workload_balancing"
+              "title": "structured_parallel_programming"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/parallel_computing/workload_balancing.md",
+                "file": "notes/parallel_computing/structured_parallel_programming.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of workload_balancing"
+              "title": "Outline of structured_parallel_programming"
             }
           }
         ]
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/parallel_computing/workload_balancing.md",
+                "file": "notes/parallel_computing/structured_parallel_programming.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for workload_balancing"
+              "title": "Backlinks for structured_parallel_programming"
             }
           },
           {
@@ -181,12 +181,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/parallel_computing/workload_balancing.md",
+                "file": "notes/parallel_computing/structured_parallel_programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from workload_balancing"
+              "title": "Outgoing links from structured_parallel_programming"
             }
           }
         ]
@@ -229,6 +229,8 @@
   },
   "active": "4b2ca16cb4b67ded",
   "lastOpenFiles": [
+    "notes/parallel_computing/structured_parallel_programming.md~",
+    "notes/parallel_computing/workload_balancing.md",
     "notes/parallel_computing/cache.md",
     "notes/parallel_computing/cache.md~",
     "notes/parallel_computing/4913",
