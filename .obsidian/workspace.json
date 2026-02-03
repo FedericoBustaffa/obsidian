@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/parallel_computing/cache.md",
+                "file": "notes/parallel_computing/workload_balancing.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "cache"
+              "title": "workload_balancing"
             }
           }
         ]
@@ -96,20 +96,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/parallel_computing/cache.md",
+                "file": "notes/parallel_computing/workload_balancing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of cache"
+              "title": "Outline of workload_balancing"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 243.5
   },
   "right": {
     "id": "7b4f685f917d2d3f",
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/parallel_computing/cache.md",
+                "file": "notes/parallel_computing/workload_balancing.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for cache"
+              "title": "Backlinks for workload_balancing"
             }
           },
           {
@@ -181,12 +181,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/parallel_computing/cache.md",
+                "file": "notes/parallel_computing/workload_balancing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from cache"
+              "title": "Outgoing links from workload_balancing"
             }
           }
         ]
@@ -229,10 +229,11 @@
   },
   "active": "4b2ca16cb4b67ded",
   "lastOpenFiles": [
+    "notes/parallel_computing/cache.md",
     "notes/parallel_computing/cache.md~",
+    "notes/parallel_computing/4913",
     "notes/parallel_computing/shared_memory_systems.md",
     "indices/parallel_computing.md",
-    "notes/parallel_computing/cache.md",
     "notes/parallel_computing/threading.md",
     "notes/parallel_computing/shared_memory_systems.md~",
     "files/roofline_model_cache.png",

@@ -37,7 +37,7 @@ There are two types of locality:
 
 Other useful terminology to reason about cache locality are
 
-- **Cache jit**: the data is present in the cache.
+- **Cache hit**: the data is present in the cache.
 - **Cache miss**: the data is not present in the cache.
 - **Miss penalty**: the time spent transferring a cache line into the first
   level cache and the requested data to the processor.
@@ -119,6 +119,55 @@ interval. If the working set entirely fits into the cache, the risk of cache
 misses is minimized.
 
 ## Cache Coherence
+
+In order to understand the cache coherence problem is necessary to understand
+the typical **cache write policies**. In fact, when a core modifies a memory
+location in the cache, the value is not consistent anymore with the value stored
+in main memory. There are two main ways of handling this situation:
+
+- **Write through**: the main memory is updated as soon as the cache value is
+  modified.
+- **Write back**: caches mark data in the cache as **dirty** and only when a new
+  cache line replaces the dirty cache line, the value is updated in main memory.
+
+One of the main problem with modern multi-cores is the **cache coherence**
+problem, originated by the fact that every core has its private cache. This
+means that is possible to have several copies of shared data in different
+caches, each possibly containing different values.
+
+This is handled by a **cache coherence protocol**, that ensures that multiple
+processors accessing the same memory location see a consistent view of the data:
+
+- **Update based**: updates are propagated to all caches when a processor
+  modifies a cached data.
+- **Invalidation based**: when a processor modifies a cached data, every other
+  copy is _invalidated_, forcing every core to refetch data from the main memory.
+
+The first one is better for workloads with high read intensity, while the
+second is better for high write intesity workloads.
+
+### False Sharing
+
+While the cache coherence protocol ensures consistency among different CPUs
+private caches, it also introduces a performance problem called **false
+sharing**.
+
+This happens because the cache coherence protocol updates/invalidates an entire
+cache line and not the single element. In particular if two processors have the
+same cache line their private L1 cache, even if they are modifying different
+items, the cache line is continuously updated/invalidated causing a significant
+overhead.
+
+The two main solutions to this problem are
+
+- **Data padding**: put some padding between items meant to be accessed by
+  different threads, ensuring they will not end up in the same cache line.
+- **Temporary variables**: instead of continuously update the item shared among
+  different CPUs caches, use a temporary private variable and only in the end
+  write the result in the actual cached variable.
+
+False sharing does not introduce any error but only a possibly big overhead for
+multi-threaded programs.
 
 ## References
 
