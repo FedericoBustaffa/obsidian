@@ -12,8 +12,8 @@ There are many metrics that can be evaluated to measure performances, like:
 
 - **Latency** ($L$): the time from the input arrival to the end of computation,
   when the output is ready to be delivered.
-- **Completion Time** ($T_c$): The overall latency of an application, for example
-  the total time that an application takes to complete all tasks and deliver
+- **Completion Time** ($T_c$): The overall latency of an application, measured
+  as the total time that an application takes to complete all tasks and deliver
   results. It could happen that
   $$L = T_c$$
   if there is only one task to compute for an application.

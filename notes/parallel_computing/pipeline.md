@@ -45,67 +45,60 @@ When all stages are working in parallel we can talk about **steady state
 phase**, where all different computations of different $f_i$ are overlapped,
 providing a speedup that can be approximated with $k$ (the number of stages).
 
-> [!EXAMPLE]
-> Let's suppose we have to compute $F(x)$ and it takes 75 time units for each
-> input $x$ so we indicate the completion time with
+Let $T_F$ be the time to compute $F(x)$ for every input $x$ and suppose that $F$
+can be splitted in $k$ stages, with each stage taking $T_f \approx T_F / k$ time units for each
+input $x$.
+
+Supposing we need to compute $n$ tasks, the sequential time becomes
+$n \cdot T_F$, with a throughput of
+
+$$\frac{n}{n \cdot T_F} = \frac{1}{T_F}$$
+
+but if the $k$-stages pipeline is feeded with the same amount of tasks, the
+speedup is approximately
+
+$$S(k) = \frac{T_F}{T_f} = \frac{T_F}{T_F / k} = k$$
+
+while the throughput at steady state is
+
+$$
+\frac{n}{n \cdot T_f} = \frac{1}{T_f} = \frac{1}{T_F / k} =
+k \cdot \frac{1}{T_F}
+$$
+
+that is approximately $k$ times greater. Let's now consider also the
+communication time between stages $T_\text{comm}$; for a single task going
+through the pipeline costs
+
+$$k \cdot (T_f + T_\text{comm})$$
+
+but considering $n$ tasks and the computation and communication overlapping, we
+can say that now the total time is approximately
+
+$$T_\text{pipe} (n) = n \cdot (T_f + T_\text{comm})$$
+
+for a speedup of
+
+$$
+S(k) = \frac{T_F}{T_f + T_\text{comm}} =
+\frac{T_F}{\frac{T_F}{k} + T_\text{comm}} =
+k \cdot \frac{T_F}{T_F + k \cdot T_\text{comm}}
+$$
+
+and a throughput at steady state of
+
+$$
+\frac{1}{T_f + T_\text{comm}} =
+k \cdot \frac{1}{T_F + k \cdot T_\text{comm}}
+$$
+
+> [!NOTE]
+> Latency is worse than the serial version because of the overhead introduced
+> with the communication between stages. From the standpoint of one individual
+> task there is no improvement but a worsening:
 >
-> $$T_s^\text{seq} = 75$$
->
-> The function $F$ can be splitted in 3 sub-functions such that
->
-> $$F(x) = f_3 (f_2 (f_1(x)))$$
->
-> and each stage $f_i$ takes about 25 time units. Let's now feed the pipeline with
-> $n$ tasks into the pipeline and, just for now, let's assume that the inter-stage
-> communication cost is zero.
->
-> The throughput of the sequential version can be computed like the number of
-> tasks of the the time to compute them
->
-> $$\text{throughput}_\text{seq} = \frac{n}{n \cdot 75}$$
->
-> for the pipeline version the throughput can be computed the same way, considering
-> the stages time and the fact the pipeline is not always at steady state.
->
-> $$\text{throughput}_\text{pipe} = \frac{n}{(n + 2) \cdot 25}$$
->
-> that for large $n$ values can be approximated with $1/25$, or one task every 25
-> time units.
->
-> Let's now consider a more precise example with communication time
-> $T_\text{comm}=0$ and $n = 300$. The completion time for the two versions is
->
-> $$
-> \begin{gather*}
-> T_c^\text{seq} = n \cdot T_s^\text{seq} = 22500 \\
-> T_c^\text{pipe} = (2 + n) \cdot T_s^\text{stage} = 7550
-> \end{gather*}
-> $$
->
-> with a final speedup of
->
-> $$S(3) = \frac{T_c^\text{seq}}{T_c^\text{pipe}} \approx 2.98$$
->
-> that is very close to ideal. If we now add some communication cost, for example
-> $T_\text{comm} = 5$, the sequential completion time remains the same, while the
-> parallel completion time becomes
->
-> $$
-> T_c^\text{pipe} = 2 \cdot (T_s^\text{stage} + T_\text{comm}) + (n-1) \cdot
-> (T_s^\text{stage} + T_\text{comm}) + T_s^\text{stage} = 9055
-> $$
->
-> which leads to a speedup of
->
-> $$S(3) = \frac{T_c^\text{seq}}{T_c^\text{pipe}} \approx 2.48$$
->
-> > [!NOTE]
-> > Latency is worse than the serial version because of the overhead introduced
-> > with the communication between stages. From the standpoint of one individual
-> > task there is no improvement but a worsening:
-> >
-> > - All the stages are executed one after the other.
-> > - There is communication overhead between stages.
+> - All the stages are executed one after the other.
+> - There is communication overhead between stages.
 
 In general a $k$-stages pipeline with balanced stages has a completion time of
 
@@ -146,22 +139,22 @@ Given a pipeline of $k$ stages such that
 
 $$T_s^\text{seq} (F) = \sum_{i=1}^k T_s^i (f_i)$$
 
-- The service time is
+- The **service time** is
   $$T_s^\text{pipe} = \max_{i=1 \dots k}{(T_s^i (f_i))}$$
   where
   $$
   T_s^i (f_i) = \begin{cases}
-      T_{f_i} + T_\text{comm} & \text{no communication overlap} \\
+      T_{f_i} + T_\text{comm} & \text{if no communication overlap} \\
       \max{(T_{f_i}, T_\text{comm})} & \text{otherwise}
   \end{cases}
   $$
-- The task latency is
+- The task **latency** is
   $$L_\text{pipe} = \sum_{i=1}^k T_s^i (f_i) + (k-1) \cdot T_\text{comm}$$
   with no communication overlap accounted.
-- The completion time for $n$ tasks is
+- The **completion time** for $n$ tasks is
   $$T_c^\text{pipe} (n, k) \approx (n + k - 1) \cdot T_s^\text{pipe}$$
 - The bottleneck condition verifies if stage $i$ service time is higher than the
-  task's inter-arrival time ($T_a$)
+  task's **inter-arrival** time ($T_a$)
   $$T_s^i (f_i) > T_a^i$$
 
 In general, if a stage is a bottleneck must be parallelized, otherwise its input
@@ -187,6 +180,8 @@ $$L_\text{pipe} = \sum_{i=1}^k T_s^i (f_i) + (k - 1) \cdot T_\text{comm}$$
 The minimal $k$ that satisfies both equations is
 
 $$k_\text{opt} = \left\lceil \frac{T_s^\text{seq} (F)}{T_a} \right\rceil$$
+
+with $k_\text{opt}$ being the optimal number of stages.
 
 ## References
 
