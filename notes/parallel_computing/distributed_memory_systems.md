@@ -289,4 +289,3 @@ circumnstances, the square grid method is better.
 
 - [[parallel_architectures]]
 - [[interconnection_networks]]
-- [[message_passing]]
