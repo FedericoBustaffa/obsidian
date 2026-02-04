@@ -288,4 +288,4 @@ circumnstances, the square grid method is better.
 ## References
 
 - [[parallel_architectures]]
-- [[network_topologies]]
+- [[interconnection_networks]]

@@ -217,11 +217,11 @@
     "outputFormat": "NONE",
     "quality": 100,
     "colorDepth": 1,
-    "resizeMode": "Height",
-    "desiredWidth": 800,
+    "resizeMode": "Width",
+    "desiredWidth": 700,
     "desiredHeight": 400,
     "desiredLongestEdge": 1000,
-    "enlargeOrReduce": "Auto",
+    "enlargeOrReduce": "Reduce",
     "allowLargerFiles": false,
     "pngquantExecutablePath": "",
     "pngquantQuality": "65-80",
@@ -316,8 +316,9 @@
     ]
   },
   "isImageAlignmentEnabled": true,
-  "imageAlignment_cacheCleanupInterval": 0,
-  "imageAlignment_cacheLocation": ".obsidian",
+  "imageAlignmentDefaultAlignment": "none",
+  "imageAlignmentCacheCleanupInterval": 3600000,
+  "imageAlignmentCacheLocation": "config",
   "isDragResizeEnabled": true,
   "isScrollResizeEnabled": true,
   "isDragAspectRatioLocked": false,
@@ -331,6 +332,7 @@
   "enableContextMenu": true,
   "showSpaceSavedNotification": true,
   "revertToOriginalIfLarger": false,
+  "minimumCompressionSavingsInKB": 30,
   "enableImageCaptions": true,
   "skipCaptionExtensions": "icns",
   "captionFontSize": "var(--font-smaller)",
@@ -345,5 +347,7 @@
   "captionLetterSpacing": "normal",
   "captionBorder": "none",
   "captionMarginTop": "4px",
-  "captionAlignment": "center"
+  "captionAlignment": "center",
+  "imageAlignment_cacheCleanupInterval": 0,
+  "imageAlignment_cacheLocation": ".obsidian"
 }

@@ -40,7 +40,7 @@ use of multi-threading, multi-processing and other techniques.
   - [[stencil]]
   - [[divide_and_conquer]]
 - [[distributed_memory_systems]]
-  - [[network_topologies]]
+  - [[interconnection_networks]]
 
 ## References
 
