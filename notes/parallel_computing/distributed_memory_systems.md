@@ -166,7 +166,7 @@ Gb/s.
 
 This model is simple and so cannot express some aspect of the communication, for
 example does not include effect of network distance and does not model
-contention in any way, not taking into account the network usage.of network
+contention in any way, not taking into account the network usage of network
 distance and does not model contention in any way, not taking into account the
 network usage. It also does not know if the communication happens synchrnously
 or asynchronously.

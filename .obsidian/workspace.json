@@ -13,6 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "notes/parallel_computing/pipeline.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "pipeline"
+            }
+          },
+          {
+            "id": "8f8df267bcf62a1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "notes/parallel_computing/distributed_memory_systems.md",
                 "mode": "preview",
                 "source": true,
@@ -31,7 +55,8 @@
               "title": "distributed_memory_systems"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -227,8 +252,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "b67c0ca09f9d951b",
+  "active": "8f8df267bcf62a1d",
   "lastOpenFiles": [
+    "notes/parallel_computing/pipeline.md",
+    "notes/parallel_computing/distributed_memory_systems.md",
     "indices/parallel_computing.md~",
     "notes/parallel_computing/pcam.md",
     "notes/parallel_computing/distributed_memory_systems.md~",
@@ -258,7 +285,6 @@
     "notes/parallel_computing/performance_metrics.md",
     "notes/parallel_computing/lock_free.md",
     "notes/parallel_computing/structured_parallel_programming.md",
-    "notes/parallel_computing/pipeline.md",
     "notes/parallel_computing/pram_model.md",
     "files/prefix1.png",
     "files/bulk_model.png",
@@ -268,7 +294,6 @@
     "notes/parallel_computing/memory_consistency.md",
     "notes/parallel_computing/gustafson.md",
     "notes/parallel_computing/gustafson_law.md",
-    "notes/parallel_computing/distributed_memory_systems.md",
     "notes/parallel_computing/bsp_model.md",
     "notes/parallel_computing/amdahl_law.md",
     "files/svm_regression.jpg",
