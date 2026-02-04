@@ -24,7 +24,7 @@ subproblem created are usually less costly to solve.
 So, even if the divide and conquer can be implemented like a map skeleton, the
 concept is different and can lead to a more efficient algorithm.
 
-![[divide_conquer.png]]
+![Divide and Conquer|400](divide_conquer.png)
 
 Achieving efficient parallel DC requires addressing two challenges:
 

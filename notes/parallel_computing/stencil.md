@@ -37,7 +37,7 @@ Also to simplify the logic of the computation, so called **halo cells** are
 added, in order to let the compute the border cells the same way of the others
 without the need of any conditional statement.
 
-![[stencil2D.png]]
+![Stencil|300](stencil2D.png)
 
 The main challenge in this case is to partition data elements to the processors,
 in order to reduce the communication overhead and balance the workload. This is
@@ -65,7 +65,7 @@ T_\text{compute} (n^2, k, F) = m \cdot \left[ \max{(T_F \cdot (\sqrt{k} - 2)^2,
 4 \cdot T_\text{comm} (\sqrt{k}) )} + 4 \cdot T_F \cdot \sqrt{k} \right]
 $$
 
-![[stencil2D_tile.png]]
+![2D Tile Stencil|600](stencil2D_tile.png)
 
 More complex stencils can be **irregular** or **dyanmic**, for example
 unstructured grids or _wavefront_ that could add dependencies and complexity to
