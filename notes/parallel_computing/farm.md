@@ -16,7 +16,7 @@ stage of the computation.
 The most common pattern involves an initial phase of task distribution, a
 computation phase and a final phase in which the results are gathered.
 
-![[farm.png]]
+![Farm|700](farm.png)
 
 Often the notation to describe farms involve the definition of two entities in
 addition to worker, **emitters** and **collectors**.
@@ -27,7 +27,11 @@ collector job. In other cases can happen that emitters and collectors are
 implemented to better overlap communication and communication, for example in a
 multithreaded and distributed application.
 
-![[farm_skeletons.png]]
+![Farm Skeletons](farm_skeletons.png)
+
+In order to reduce the cost of a sequential communication, the farm can
+implemented with a tree of emitters and collectors, trying to achieve a
+logarithmic communication time.
 
 ## Cost Model
 
@@ -37,18 +41,19 @@ same amount of time to distribute and collect tasks, respectively.
 
 $$T_s^e = T_s^c$$
 
-The farm has $k$ workers and
+The farm has $k$ workers and the emitter's service time is lower than the
+inter-arrival time and workers' service time
 
-$$T_s^e < T_a \quad \text{and} \quad T_s^e < T_s^w$$
+$$T_s^e < T_a \quad \land \quad T_s^e < T_s^w$$
 
-and $n$ are submitted. The completion time in this case is
+If $n$ tasks are submitted, the **completion time** is
 
 $$
-T_c^\text{farm} (n, k) = (k + 1) \cdot T_\text{comm} + \frac{n}{k} \cdot
+T_c (n, k) = (k + 1) \cdot T_\text{comm} + \frac{n}{k} \cdot
 (T_s^w + T_\text{comm})
 $$
 
-![[farm_time.png]]
+![Farm Completion Time](farm_time.png)
 
 In general, given a farm with $k$ workers, each with a service time of
 
