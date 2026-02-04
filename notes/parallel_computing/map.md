@@ -62,7 +62,8 @@ model we have that
 
 $$T_\text{comm} (n) = t_0 + n \cdot s$$
 
-and assuming that
+where $t_0$ is the setup time, $n$ is the number of elements or their dimension
+in byte and $s$ can be seen as the latency of sending one element. Assuming that
 
 $$
 T_{\text{split}(n, k)} = T_\text{gather}
@@ -73,7 +74,7 @@ we have that the completion time can be computed as
 
 $$
 \begin{align*}
-T_c^\text{map} (n, k) &= k \cdot T_\text{comm} \left( \frac{n}{k} \right) +
+T_c (n, k) &= k \cdot T_\text{comm} \left( \frac{n}{k} \right) +
 \frac{n}{k} \cdot T_F + T_\text{comm} \left( \frac{n}{k} \right) \\
 &= (k + 1) \cdot T_\text{comm} \left( \frac{n}{k} \right) +
 \frac{n}{k} \cdot T_F \\
@@ -99,7 +100,7 @@ can be employed.
 
 In this way the emitter service time becomes
 
-$$T_S^E = 2 \cdot T_\text{comm} \left( \frac{n}{2} \right)$$
+$$T_s^e = 2 \cdot T_\text{comm} \left( \frac{n}{2} \right)$$
 
 and the scatter latency becomes
 
@@ -115,7 +116,7 @@ and the end-to-end latency.
 
 In this way the collector service time becomes
 
-$$T_S^C = 2 \cdot T_\text{comm} \left( \frac{n}{2} \right)$$
+$$T_s^c = 2 \cdot T_\text{comm} \left( \frac{n}{2} \right)$$
 
 and the gather latency becomes
 
