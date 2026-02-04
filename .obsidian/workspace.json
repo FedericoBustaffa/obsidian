@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/parallel_computing/pipeline.md",
+                "file": "notes/parallel_computing/gustafson_law.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "pipeline"
+              "title": "gustafson_law"
             }
           },
           {
-            "id": "8f8df267bcf62a1d",
+            "id": "a57c86b448993b63",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/parallel_computing/distributed_memory_systems.md",
+                "file": "notes/parallel_computing/amdahl_law.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,11 +52,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "distributed_memory_systems"
+              "title": "amdahl_law"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/parallel_computing/distributed_memory_systems.md",
+                "file": "notes/parallel_computing/gustafson_law.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of distributed_memory_systems"
+              "title": "Outline of gustafson_law"
             }
           }
         ]
@@ -151,12 +150,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/parallel_computing/distributed_memory_systems.md",
+                "file": "notes/parallel_computing/gustafson_law.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from distributed_memory_systems"
+              "title": "Outgoing links from gustafson_law"
             }
           },
           {
@@ -201,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/parallel_computing/distributed_memory_systems.md",
+                "file": "notes/parallel_computing/gustafson_law.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +210,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for distributed_memory_systems"
+              "title": "Backlinks for gustafson_law"
             }
           }
         ]
@@ -252,8 +251,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "8f8df267bcf62a1d",
+  "active": "b67c0ca09f9d951b",
   "lastOpenFiles": [
+    "notes/parallel_computing/amdahl_law.md",
+    "notes/parallel_computing/gustafson_law.md",
     "notes/parallel_computing/pipeline.md",
     "notes/parallel_computing/distributed_memory_systems.md",
     "indices/parallel_computing.md~",
@@ -293,9 +294,7 @@
     "notes/parallel_computing/work_span_model.md",
     "notes/parallel_computing/memory_consistency.md",
     "notes/parallel_computing/gustafson.md",
-    "notes/parallel_computing/gustafson_law.md",
     "notes/parallel_computing/bsp_model.md",
-    "notes/parallel_computing/amdahl_law.md",
     "files/svm_regression.jpg",
     "files/cascade_correlation.png",
     "files/two_moons.png",
