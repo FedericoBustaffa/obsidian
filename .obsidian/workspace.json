@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/parallel_computing/interconnection_networks.md",
+                "file": "notes/parallel_computing/message_passing.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "interconnection_networks"
+              "title": "message_passing"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/parallel_computing/interconnection_networks.md",
+                "file": "notes/parallel_computing/message_passing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of interconnection_networks"
+              "title": "Outline of message_passing"
             }
           }
         ]
@@ -126,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/parallel_computing/interconnection_networks.md",
+                "file": "notes/parallel_computing/message_passing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from interconnection_networks"
+              "title": "Outgoing links from message_passing"
             }
           },
           {
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/parallel_computing/interconnection_networks.md",
+                "file": "notes/parallel_computing/message_passing.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for interconnection_networks"
+              "title": "Backlinks for message_passing"
             }
           }
         ]
@@ -229,12 +229,16 @@
   },
   "active": "11f3607550ee9031",
   "lastOpenFiles": [
-    "notes/parallel_computing/interconnection_networks.md~",
-    "notes/parallel_computing/distributed_memory_systems.md~",
+    "notes/parallel_computing/pcam.md~",
+    "notes/parallel_computing/pcam.md",
+    "notes/parallel_computing/message_passing.md",
+    "notes/parallel_computing/interconnection_networks.md",
     "indices/parallel_computing.md~",
+    "notes/parallel_computing/distributed_memory_systems.md~",
+    "notes/parallel_computing/message_passing.md~",
+    "notes/parallel_computing/interconnection_networks.md~",
     "notes/parallel_computing/shared_memory_systems.md",
     "notes/parallel_computing/network_topologies.md",
-    "notes/parallel_computing/interconnection_networks.md",
     "files/roofline_model_cache.png",
     "files/roofline_model2.png",
     "files/roofline_model.png",
@@ -248,10 +252,8 @@
     "notes/parallel_computing/parallel_architectures.md",
     "notes/parallel_computing/parallel_architectures.md~",
     "notes/parallel_computing/parallelization_laws.md",
-    "notes/parallel_computing/parallelization_laws.md~",
     "indices/parallel_computing.md",
     "notes/parallel_computing/models_of_computation.md",
-    "notes/parallel_computing/models_of_computation.md~",
     "notes/parallel_computing/metrics.md",
     "notes/parallel_computing/performance_metrics.md",
     "notes/parallel_computing/lock_free.md",
@@ -269,8 +271,6 @@
     "notes/parallel_computing/distributed_memory_systems.md",
     "notes/parallel_computing/bsp_model.md",
     "notes/parallel_computing/amdahl_law.md",
-    "notes/k-means.md",
-    "notes/computational_mathematics/conjugate_gradient.md",
     "files/svm_regression.jpg",
     "files/cascade_correlation.png",
     "files/two_moons.png",

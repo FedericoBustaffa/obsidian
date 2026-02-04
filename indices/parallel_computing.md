@@ -41,6 +41,8 @@ use of multi-threading, multi-processing and other techniques.
   - [[divide_and_conquer]]
 - [[distributed_memory_systems]]
   - [[interconnection_networks]]
+  - [[message_passing]]
+  - [[pcam]]
 
 ## References
 

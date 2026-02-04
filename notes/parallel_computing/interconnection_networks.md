@@ -40,6 +40,19 @@ Then network topologies are divided in
 - **Direct**: there are no switches; all nodes are both endpoints and swithes.
 - **Indirect**: endpoints are connected through switches.
 
+and characterized by three main features:
+
+- **Degree**: maximum number of neighbors of any node.
+- **Diameter**: the length of the longest path among all the node to node
+  shortes paths.
+- **Bisection width**: the smallest number of edges to be removed in order to
+  create two networks of equal size.
+
+Typically a **low diameter** supports efficient communication between any pair
+of nodes, **high bisection width** means that there are many interconnections
+that is better for _collective communications_ and **constant degree** let the
+network scale to large number of nodes without the need to add connections.
+
 ### Direct Networks
 
 In a **linear array** topology the $n$ nodes are connected sequentially one to
