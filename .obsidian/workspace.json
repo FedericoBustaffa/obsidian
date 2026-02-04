@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "54bdeecb294b55f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/parallel_computing/stencil.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "stencil"
-            }
-          },
-          {
             "id": "bb932e3f515ea801",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/parallel_computing/divide_and_conquer.md",
+                "file": "notes/parallel_computing/network_topologies.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -52,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "divide_and_conquer"
+              "title": "network_topologies"
             }
           }
         ]
@@ -120,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/parallel_computing/stencil.md",
+                "file": "notes/parallel_computing/network_topologies.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of stencil"
+              "title": "Outline of network_topologies"
             }
           }
         ]
@@ -150,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/parallel_computing/stencil.md",
+                "file": "notes/parallel_computing/network_topologies.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for stencil"
+              "title": "Backlinks for network_topologies"
             }
           },
           {
@@ -205,12 +181,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/parallel_computing/stencil.md",
+                "file": "notes/parallel_computing/network_topologies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from stencil"
+              "title": "Outgoing links from network_topologies"
             }
           }
         ]
@@ -251,12 +227,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "54bdeecb294b55f1",
+  "active": "bb932e3f515ea801",
   "lastOpenFiles": [
-    "notes/parallel_computing/divide_and_conquer.md",
     "notes/parallel_computing/divide_and_conquer.md~",
-    "notes/parallel_computing/map.md",
+    "notes/parallel_computing/divide_and_conquer.md",
     "notes/parallel_computing/stencil.md",
+    "notes/parallel_computing/map.md",
     "notes/parallel_computing/stencil.md~",
     "notes/parallel_computing/map_reduce.md",
     "notes/parallel_computing/reduce.md",
