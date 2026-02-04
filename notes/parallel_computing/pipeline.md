@@ -75,7 +75,7 @@ $$k \cdot (T_f + T_\text{comm})$$
 but considering $n$ tasks and the computation and communication overlapping, we
 can say that now the total time is approximately
 
-$$T_\text{pipe} (n) = n \cdot (T_f + T_\text{comm})$$
+$$T_c (n) = n \cdot (T_f + T_\text{comm})$$
 
 for a speedup of
 
@@ -102,7 +102,7 @@ $$
 
 In general a $k$-stages pipeline with balanced stages has a completion time of
 
-$$T_c^\text{pipe} = (n + k - 1) \cdot (T_s^\text{stage} + T_\text{comm})$$
+$$T_c = (n + k - 1) \cdot (T_s^\text{stage} + T_\text{comm})$$
 
 if we consider that the _sink_ stage sends out the result. In case of unbalanced
 stages, the whole pipeline completion time is conditioned by the slowest stage.
@@ -120,14 +120,14 @@ $$T_c^\text{seq} = n \cdot T_s^\text{seq} = 15600$$
 and for the parallel version we have a completion time of
 
 $$
-T_c^\text{pipe} = (T_s^1 + T_\text{comm}) +
+T_c = (T_s^1 + T_\text{comm}) +
 n \cdot (T_s^2 + T_\text{comm}) + T_s^3 = 9032
 $$
 
 That is in fact a similar time as if all stages have the service time of the
 slowest stage (in this case stage 2):
 
-$$T_c^\text{pipe} = (300 + 3 - 1) \cdot (25 + 5) - 5 = 9055$$
+$$T_c = (300 + 3 - 1) \cdot (25 + 5) - 5 = 9055$$
 
 So in this case, when the pipeline reach the steady state, the slowest stage
 (also called **bottleneck stage**) is the one the dictates the pipeline's
@@ -140,7 +140,7 @@ Given a pipeline of $k$ stages such that
 $$T_s^\text{seq} (F) = \sum_{i=1}^k T_s^i (f_i)$$
 
 - The **service time** is
-  $$T_s^\text{pipe} = \max_{i=1 \dots k}{(T_s^i (f_i))}$$
+  $$T_s = \max_{i=1 \dots k}{(T_s^i (f_i))}$$
   where
   $$
   T_s^i (f_i) = \begin{cases}
@@ -149,10 +149,10 @@ $$T_s^\text{seq} (F) = \sum_{i=1}^k T_s^i (f_i)$$
   \end{cases}
   $$
 - The task **latency** is
-  $$L_\text{pipe} = \sum_{i=1}^k T_s^i (f_i) + (k-1) \cdot T_\text{comm}$$
+  $$L = \sum_{i=1}^k T_s^i (f_i) + (k-1) \cdot T_\text{comm}$$
   with no communication overlap accounted.
 - The **completion time** for $n$ tasks is
-  $$T_c^\text{pipe} (n, k) \approx (n + k - 1) \cdot T_s^\text{pipe}$$
+  $$T_c (n, k) \approx (n + k - 1) \cdot T_s$$
 - The bottleneck condition verifies if stage $i$ service time is higher than the
   task's **inter-arrival** time ($T_a$)
   $$T_s^i (f_i) > T_a^i$$
@@ -175,7 +175,7 @@ $$\frac{T_s^\text{seq} (F)}{k} \leq T_a$$
 
 additionally we want to minimize the task latency
 
-$$L_\text{pipe} = \sum_{i=1}^k T_s^i (f_i) + (k - 1) \cdot T_\text{comm}$$
+$$L = \sum_{i=1}^k T_s^i (f_i) + (k - 1) \cdot T_\text{comm}$$
 
 The minimal $k$ that satisfies both equations is
 

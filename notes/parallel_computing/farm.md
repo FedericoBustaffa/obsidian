@@ -55,6 +55,19 @@ $$
 
 ![Farm Completion Time](farm_time.png)
 
+A farm is a _bottleneck_ if the workers stage service time higher than the
+inter-arrival time, so it must hold:
+
+$$\max (T_s^e, T_s^c) \leq \frac{T^w_s (F)}{k} \leq T_a$$
+
+therefore
+
+$$\frac{T_s^w (F)}{T_a} \leq k \leq \frac{T_s^w (F)}{\max (T_s^e, T_s^c)}$$
+
+the minimal $k$ that ensures the stage not being a bottleneck is
+
+$$k_\text{opt} = \left\lceil \frac{T_s^w (F)}{T_a} \right\rceil$$
+
 In general, given a farm with $k$ workers, each with a service time of
 
 $$
@@ -64,29 +77,20 @@ T_s^\text{seq} + T_\text{comm} & \text{no communication overlap} \\
 \end{cases}
 $$
 
-The service time is
+The **service time** is
 
 $$
-T_s^\text{farm} (F, k) =
+T_s (F, k) =
 \max{\left( \frac{T_s^w (F)}{k}, T_s^e, T_s^c \right)}
 $$
 
-The task latency is
+The task **latency** is
 
-$$L_\text{farm} = T_s^w (F) + T_s^e + T_s^c$$
+$$L = T_s^w (F) + T_s^e + T_s^c$$
 
-The completion time for $n$ tasks is
+The **completion time** for $n$ tasks is
 
-$$T_c^\text{farm} (n, k) = (k+1) \cdot T_\text{comm} + \frac{n}{k} \cdot T_s^w$$
-
-A farm is a _bottleneck_ if its service time is higher than the inter-arrival
-time:
-
-$$T_s^\text{farm} (F) > T_a$$
-
-therefore the minimal $k$ that ensures the stage not being a bottleneck is
-
-$$k_\text{opt} = \left\lceil \frac{T_s^w (F)}{T_a} \right\rceil$$
+$$T_c (n, k) = (k+1) \cdot T_\text{comm} + \frac{n}{k} \cdot T_s^w$$
 
 ## Task Scheduling
 
