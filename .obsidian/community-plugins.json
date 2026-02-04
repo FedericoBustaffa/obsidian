@@ -4,5 +4,6 @@
   "vim-yank-highlight",
   "obsidian-vimrc-support",
   "image-converter",
-  "omnisearch"
+  "omnisearch",
+  "scroll-with-jk"
 ]
