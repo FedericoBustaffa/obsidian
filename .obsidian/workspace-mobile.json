@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/bias_variance.md",
+                "file": "notes/parallel_computing/workload_balancing.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "bias_variance"
+              "title": "workload_balancing"
             }
           }
         ]
@@ -181,6 +181,9 @@
   },
   "active": "5e8d481f89992dad",
   "lastOpenFiles": [
+    "indices/parallel_computing.md",
+    "notes/parallel_computing/workload_balancing.md",
+    "notes/machine_learning/bias_variance.md",
     "notes/machine_learning/decision_tree.md",
     "notes/machine_learning/support_vector_machine.md",
     "files/dt_gain.png",
