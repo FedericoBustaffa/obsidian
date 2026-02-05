@@ -229,6 +229,7 @@
   },
   "active": "b67c0ca09f9d951b",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/probabilistic_reasoning.md~",
     "notes/ai_fundamentals/uncertainty.md~",
     "notes/parallel_computing/gustafson_law.md",
     "notes/parallel_computing/amdahl_law.md",
@@ -256,7 +257,6 @@
     "notes/parallel_computing/simd.md~",
     "files/von_neumann.png",
     "notes/parallel_computing/parallel_architectures.md",
-    "notes/parallel_computing/parallel_architectures.md~",
     "notes/parallel_computing/parallelization_laws.md",
     "indices/parallel_computing.md",
     "notes/parallel_computing/models_of_computation.md",
