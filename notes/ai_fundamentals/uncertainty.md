@@ -8,7 +8,7 @@ tags:
 
 # Uncertainty
 
-Real world problems contain uncertainty due to partial observability,
+Real world problems contain **uncertainty** due to partial observability,
 nondeterminism or adversaries.
 
 In large domain contexts we may fail to predict well what to do for three main
@@ -32,8 +32,8 @@ of belief** of a certain set of sentences, and the _uncertainty_ is summarized
 by a probability distribution.
 
 In the **Bayesian view** of probability there is an initial **belief** of an
-event (_prior_) that is updated (_posterior_) based on observations
-(_likelihood_).
+event (**prior**) that is updated (**posterior**) based on observations
+(**likelihood**).
 
 More formally the _prior_ $P(H)$ is the initial belief on an hypothesis, the
 _likelihood_ $P(E \mid H)$ quantifies how much the hypothesis explains the
