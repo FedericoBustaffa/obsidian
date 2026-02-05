@@ -211,7 +211,7 @@ $$
 P(\text{effect}_1, \text{effect}_2, \text{cause}) &= \\
 P(\text{effect}_1, \text{effect}_2 \mid \text{cause}) P(\text{cause}) &= \\
 P(\text{effect}_1 \mid \text{cause}) P(\text{effect}_2 \mid \text{cause})
-P(\text{cause}) &= \\
+P(\text{cause}) \\
 \end{align*}
 $$
 
