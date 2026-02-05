@@ -73,15 +73,13 @@ The basic axioms of probability theory are that $P(w)$ must be between $0$ and
 $1$ and that the sum of probabilities of all possible worlds must be exactly
 $1$.
 
-The **unconditional** (or **prior**) probability represents the degree of belief
-in a proposition in absence of any other information.
-
-Other useful relations are
+The **unconditional probability** (**prior**) represents the degree of belief in
+a proposition, in absence of any other information. Other useful relations are
 
 - $P(\lnot a) = 1 - P(a)$
 - $P(a \lor b) = P(a) + P(b) - P(a \land b)$
 
-The **conditional** probability of $a$ given $b$ is defined as
+The **conditional probability** of $a$ given $b$ is defined as
 
 $$P(a \mid b) = \frac{P(a \land b)}{P(b)}$$
 
