@@ -229,6 +229,7 @@
   },
   "active": "b67c0ca09f9d951b",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/uncertainty.md~",
     "notes/parallel_computing/gustafson_law.md",
     "notes/parallel_computing/amdahl_law.md",
     "notes/parallel_computing/reduce.md",
@@ -271,7 +272,6 @@
     "notes/parallel_computing/work_span_model.md",
     "notes/parallel_computing/memory_consistency.md",
     "notes/parallel_computing/gustafson.md",
-    "notes/parallel_computing/bsp_model.md",
     "files/svm_regression.jpg",
     "files/cascade_correlation.png",
     "files/two_moons.png",
