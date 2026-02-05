@@ -114,7 +114,7 @@ Now is possible to make inference by **joint probability** of each variable
 
 $$P(A = a \land B = b)$$
 
-or more concisely $P(a, b)$. Another useful things is called
+or more concisely $P(a, b)$. Another useful thing is called
 **marginalization**, that defines the probability of a certain outcome $A$ as
 
 $$P(A) = \sum_b P(A, B = b)$$
