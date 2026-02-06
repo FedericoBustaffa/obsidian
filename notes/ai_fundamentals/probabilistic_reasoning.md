@@ -102,6 +102,24 @@ mass; only the inhibition probability of the true parents counts.
 
 ## Hybrid Bayesian Networks
 
+Can happen that some nodes are discrete and some are continuous. Continuous
+values can be discretized in ranges, leading to possibly large CPTs and
+numerical errors.
+
+In order to implement **hybrid bayesian networks** is necessary to specify
+
+- Conditional distribution of continuous variable given discrete or continuous
+  pasrents.
+- Conditional distribution of discrete varaible given continuous parents.
+
+If a network contains only continuous variable with linear gaussian
+distributions, then the joint distribution is gaussian (multivariate over all
+variables).
+
+If there are discrete variables as parent, then, given any assignment of the
+discrete variable, the distribution over continuous ones is Gaussian
+(multivariate over all continuous variables).
+
 ## Inference
 
 ### Variable Elimination
