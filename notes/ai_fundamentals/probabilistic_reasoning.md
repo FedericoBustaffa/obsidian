@@ -62,6 +62,16 @@ $$
 \prod_i P(X_i \mid \text{Parents} (X_i)
 $$
 
+## Compact Conditional Distributions
+
+### Noisy OR
+
+### Hybrid Bayesian Networks
+
+## Inference
+
+### Variable Elimination
+
 ## References
 
 - [[artificial_intelligence_fundamentals]]
