@@ -32,15 +32,27 @@
             }
           },
           {
-            "id": "da83db410b9f8cb6",
+            "id": "5ef959c7b9f3fa29",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.7"
+                "file": "notes/ai_fundamentals/uncertainty.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
+              "icon": "lucide-file",
+              "title": "uncertainty"
             }
           }
         ],
@@ -109,12 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "notes/ai_fundamentals/uncertainty.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of uncertainty"
             }
           }
         ]
@@ -138,11 +151,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "notes/ai_fundamentals/uncertainty.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from uncertainty"
             }
           },
           {
@@ -187,6 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notes/ai_fundamentals/uncertainty.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +211,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for uncertainty"
             }
           }
         ]
@@ -237,12 +252,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "da83db410b9f8cb6",
+  "active": "5ef959c7b9f3fa29",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/probabilistic_reasoning_time.md",
     "notes/ai_fundamentals/probabilistic_reasoning_time.md~",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md~",
-    "notes/ai_fundamentals/probabilistic_reasoning_time.md",
     "notes/ai_fundamentals/uncertainty.md",
     "notes/ai_fundamentals/uncertainty.md~",
     "notes/parallel_computing/gustafson_law.md",
