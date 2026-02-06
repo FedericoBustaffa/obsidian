@@ -22,6 +22,8 @@ time**.
 
 ## Hidden Markov Model
 
+The **hidden Markov model** is of course based on **Markov chains**
+
 ### Inference
 
 ### Filtering

@@ -30,8 +30,21 @@
               "icon": "lucide-file",
               "title": "probabilistic_reasoning_time"
             }
+          },
+          {
+            "id": "da83db410b9f8cb6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,13 +109,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/probabilistic_reasoning_time.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of probabilistic_reasoning_time"
+              "title": "Outline"
             }
           }
         ]
@@ -126,12 +138,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/probabilistic_reasoning_time.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from probabilistic_reasoning_time"
+              "title": "Outgoing links"
             }
           },
           {
@@ -176,7 +187,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/probabilistic_reasoning_time.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +196,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for probabilistic_reasoning_time"
+              "title": "Backlinks"
             }
           }
         ]
@@ -227,7 +237,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "b67c0ca09f9d951b",
+  "active": "da83db410b9f8cb6",
   "lastOpenFiles": [
     "notes/ai_fundamentals/probabilistic_reasoning_time.md~",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
