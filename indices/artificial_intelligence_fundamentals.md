@@ -26,6 +26,7 @@ algorithms.
 - [[planning]]
 - [[uncertainty]]
 - [[probabilistic_reasoning]]
+- [[probabilistic_reasoning_time]]
 
 ## References
 

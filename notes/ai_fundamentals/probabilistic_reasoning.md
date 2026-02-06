@@ -158,7 +158,44 @@ $\mathcal{O} (n)$ in space.
 
 ### Variable Elimination
 
+A good optimization to avoid recomputation is **variable elimination**, where
+summations are carried out right to left and intermediate results are stored.
+
+For this optimization is necessary to define the **factors**, for example $f(A)$
+is a matrix depending only on the variable $A$. Then we can procede with a point
+wise product of _factors_:
+
+$$f(X_i, Y_j) \times g(Y_j, Z_k) = h(X_i, Y_j, Z_k)$$
+
 ### Approximate Inference
+
+In order to reduce again the computational cost, is possible to perform an
+**approximate inference** with a Monte-Carlo approach, called **direct
+sampling**:
+
+1. Draw $N$ samples from the sampling distribution defined by the bayesian
+   network.
+2. Compute the **approximate posterior** $Q$.
+
+The $Q$ quantity converges to the true posterior as $N$ approaches infinity,
+because the sampling computes a **consistent estimate** of the posterior.
+
+In other words after $N$ trials is possible to compute the posterior considering
+that $N(X = x_1, \dots, x_n)$ is the number of times the event $X$ occurred over
+the $N$ trials.
+
+Counting how many times the query occurred out of all $N$ trials and that is the
+answer.
+
+Another approach is called **rejection sampling**, that
+
+1. Generates samples from the network distribution as before.
+2. Rejects all the samples that do not match the evidence.
+3. Estimates the probability $P(X = x \mid e)$ by counting the frequency of $X$
+   having value $x$ in the remaining samples.
+
+Also rejection sampling returns consistent estimates and convergence depends on
+the evidence probability $P(e)$.
 
 ## References
 
