@@ -229,8 +229,8 @@
   },
   "active": "bb932e3f515ea801",
   "lastOpenFiles": [
-    "notes/ai_fundamentals/uncertainty.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md~",
+    "notes/ai_fundamentals/uncertainty.md",
     "notes/ai_fundamentals/uncertainty.md~",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
     "notes/parallel_computing/map.md",
@@ -267,7 +267,6 @@
     "files/roofline_model2.png",
     "files/roofline_model.png",
     "notes/parallel_computing/amdahl_law.md",
-    "conflict-files-obsidian-git.md",
     "files/von_neumann.png"
   ]
 }

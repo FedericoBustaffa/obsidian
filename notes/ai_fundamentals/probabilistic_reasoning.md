@@ -129,6 +129,33 @@ so that the decision switches around a given threshold.
 
 ## Inference
 
+To compute the posteriors in a bayesian network there is the need of
+
+- A set of **query variables**.
+- A set of **evidence variables** which receive value assignments based on
+  observed events.
+- A **query**: $P(Y \mid e)$
+  - Multiple query variables can be decomposed with the chain rule.
+
+Making use of unobserved, hidden variables
+
+$$
+H: P(Y \mid e) = \frac{P(Y, e)}{P(e)} = \alpha P (Y, e) =
+\alpha \sum_{h \in H} P(Y, e, h)
+$$
+
+is possible to make **inference by enumeration** where
+
+- The joint probability can be computed efficiently via bayesian network.
+- Results in sums of products of conditional probabilities, where
+  - Sums are loops over variables' assignments for a given conditional
+    distribution.
+  - Products combine different conditional distributions.
+
+The resulting tree can be inefficient due to repeated computations; a
+depth-first enumeration has complexity $\mathcal{O} (d^n)$ in time and
+$\mathcal{O} (n)$ in space.
+
 ### Variable Elimination
 
 ### Approximate Inference
