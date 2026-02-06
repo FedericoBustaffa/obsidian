@@ -54,9 +54,33 @@
               "icon": "lucide-file",
               "title": "uncertainty"
             }
+          },
+          {
+            "id": "c1ad028d4cc1a226",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/ai_fundamentals/probabilistic_reasoning.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "probabilistic_reasoning"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -121,13 +145,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
+                "file": "notes/ai_fundamentals/probabilistic_reasoning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of uncertainty"
+              "title": "Outline of probabilistic_reasoning"
             }
           }
         ]
@@ -151,12 +175,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
+                "file": "notes/ai_fundamentals/probabilistic_reasoning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from uncertainty"
+              "title": "Outgoing links from probabilistic_reasoning"
             }
           },
           {
@@ -201,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
+                "file": "notes/ai_fundamentals/probabilistic_reasoning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +235,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for uncertainty"
+              "title": "Backlinks for probabilistic_reasoning"
             }
           }
         ]
@@ -252,13 +276,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "5ef959c7b9f3fa29",
+  "active": "c1ad028d4cc1a226",
   "lastOpenFiles": [
-    "notes/ai_fundamentals/probabilistic_reasoning_time.md",
-    "notes/ai_fundamentals/probabilistic_reasoning_time.md~",
-    "notes/ai_fundamentals/probabilistic_reasoning.md",
-    "notes/ai_fundamentals/probabilistic_reasoning.md~",
     "notes/ai_fundamentals/uncertainty.md",
+    "notes/ai_fundamentals/probabilistic_reasoning_time.md",
+    "notes/ai_fundamentals/probabilistic_reasoning.md",
+    "notes/prob.md",
+    "notes/ai_fundamentals/probabilistic_reasoning_time.md~",
+    "notes/ai_fundamentals/probabilistic_reasoning.md~",
     "notes/ai_fundamentals/uncertainty.md~",
     "notes/parallel_computing/gustafson_law.md",
     "notes/parallel_computing/amdahl_law.md",
