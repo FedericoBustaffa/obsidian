@@ -64,9 +64,21 @@ $$
 
 ## Compact Conditional Distributions
 
+In case random variables are continuous, CPTs become of infinite size and also
+grows exponentially with the number of parents. To compactly define infinite
+cases we can exploit the **canonical distributiion** in three ways
+
+- **Deterministic nodes**: let $f$ be a function, the variable $X$ is defined as
+  $$X = f(\text{Parents} (X))$$
+- **Context specific independence**: $X$ can be conditionally independent of
+  some of its parents given certain values of other parents.
+- **Noisy-OR** models multiple, non-interacting causes (binary variables),
+  reducing the CPTs size from $\mathcal{O} (2^\text{\# parents})$ to
+  $\mathcal{O} (\text{\# parents})$
+
 ### Noisy OR
 
-### Hybrid Bayesian Networks
+## Hybrid Bayesian Networks
 
 ## Inference
 
