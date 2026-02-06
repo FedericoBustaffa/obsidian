@@ -8,6 +8,8 @@ tags:
 
 # Probabilistic Reasoning over Time
 
+Many real world applications are not static, they
+
 ## Hidden Markov Model
 
 ### Inference
