@@ -8,7 +8,17 @@ tags:
 
 # Probabilistic Reasoning over Time
 
-Many real world applications are not static, they
+Many real world applications are not static, they need a **continual learning**
+approach. Under this vision of the modelled world we can have two type of
+changes:
+
+- **Virtual drift**: the world keeps expanding but everything is happened before
+  remains valid.
+- **Real drift**: the concepts change and the concepts happened before are not
+  valid anymore.
+
+In this sense we need a more powerful model capable of handling **changes over
+time**.
 
 ## Hidden Markov Model
 
