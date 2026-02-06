@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
+                "file": "notes/ai_fundamentals/probabilistic_reasoning.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "uncertainty"
+              "title": "probabilistic_reasoning"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
+                "file": "notes/ai_fundamentals/probabilistic_reasoning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of uncertainty"
+              "title": "Outline of probabilistic_reasoning"
             }
           }
         ]
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
+                "file": "notes/ai_fundamentals/probabilistic_reasoning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for uncertainty"
+              "title": "Backlinks for probabilistic_reasoning"
             }
           },
           {
@@ -181,12 +181,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
+                "file": "notes/ai_fundamentals/probabilistic_reasoning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from uncertainty"
+              "title": "Outgoing links from probabilistic_reasoning"
             }
           }
         ]
@@ -229,6 +229,7 @@
   },
   "active": "bb932e3f515ea801",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/uncertainty.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md~",
     "notes/ai_fundamentals/uncertainty.md~",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
@@ -260,7 +261,6 @@
     "notes/parallel_computing/performance_metrics.md~",
     "notes/parallel_computing/workload_balancing.md",
     "notes/parallel_computing/cache.md",
-    "notes/parallel_computing/cache.md~",
     "notes/parallel_computing/shared_memory_systems.md",
     "notes/parallel_computing/threading.md",
     "files/roofline_model_cache.png",

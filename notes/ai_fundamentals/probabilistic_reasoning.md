@@ -120,9 +120,18 @@ If there are discrete variables as parent, then, given any assignment of the
 discrete variable, the distribution over continuous ones is Gaussian
 (multivariate over all continuous variables).
 
+In case of $P(B \mid C)$ with $B$ being a boolean and $C$ continuous, is often
+employed a **soft threshold function** like a sigmoid with $c$ as a threshold
+
+$$f(c) = \frac{1}{1 + e^{-c}}$$
+
+so that the decision switches around a given threshold.
+
 ## Inference
 
 ### Variable Elimination
+
+### Approximate Inference
 
 ## References
 
