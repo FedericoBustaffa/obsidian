@@ -91,6 +91,10 @@ If $a$ and $b$ are **independent** random variables then it holds
 
 $$P(a \mid b) = P(a)$$
 
+bringing that, under the same independence assumption, it holds
+
+$$P(a \land b) = P(a \mid b) \cdot P(b) = P(a) \cdot P(b)$$
+
 Generalizing conditional probability to more events we obtain the **chain rule
 of probability**:
 
