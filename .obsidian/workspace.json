@@ -30,21 +30,8 @@
               "icon": "lucide-file",
               "title": "uncertainty"
             }
-          },
-          {
-            "id": "84934b5538d93280",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,12 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "notes/ai_fundamentals/uncertainty.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of uncertainty"
             }
           }
         ]
@@ -138,6 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notes/ai_fundamentals/uncertainty.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for uncertainty"
             }
           },
           {
@@ -192,11 +181,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "notes/ai_fundamentals/uncertainty.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from uncertainty"
             }
           }
         ]
@@ -237,7 +227,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "84934b5538d93280",
+  "active": "bb932e3f515ea801",
   "lastOpenFiles": [
     "notes/ai_fundamentals/uncertainty.md~",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
