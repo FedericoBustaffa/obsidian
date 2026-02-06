@@ -14,8 +14,8 @@ node of the graph represents a random variable, each depending on its parents:
 
 $$P(X \mid \text{parents}(X))$$
 
-For easy problems we can employ a simple **conditional probability table** that
-gives the value of $X$ for each combination of values of its parents. The
+For easy problems we can employ a simple **conditional probability table (CPT)**
+that gives the value of $X$ for each combination of values of its parents. The
 advantage of bayesian networks is that, once the structure of the network is
 defined, information about each conditional distribution is sufficient to
 specify the full joint distribution, mititgating the combinatorial explosion of
@@ -77,6 +77,28 @@ cases we can exploit the **canonical distributiion** in three ways
   $\mathcal{O} (\text{\# parents})$
 
 ### Noisy OR
+
+The **noisy-OR** is based on two assumptions
+
+1. Parents include all causes. If not is possible to add a **leak node** that
+   covers all other causes.
+2. The causal relationship between cause and effect can be **inhibited** and the
+   **inhibition probability** $q_i$ is independent of inhibition of other
+   causes.
+
+The second assumption implies that a given effect is false if and only if its
+true parents are inhibited.
+
+Then, the CPT for a given node with parents $U$ under the previous assumptions
+can be computed compactly via
+
+$$
+P(X \mid U_1, \dots U_j, \lnot U_{j+1}, \dots, \lnot U_k) =
+1 - \prod_{i=1}^j q_i
+$$
+
+The parents that are false (inhibited) do not contribute to the probability
+mass; only the inhibition probability of the true parents counts.
 
 ## Hybrid Bayesian Networks
 
