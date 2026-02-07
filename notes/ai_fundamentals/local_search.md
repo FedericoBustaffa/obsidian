@@ -60,16 +60,33 @@ basically a **tree** that represents an _if-then-else_ chain. For this tree we
 can perform the classical search algorithms, even though they are a little bit
 more complex because now we have also different types of nodes.
 
+In fact in this scenario are involved **AND-OR search trees** where
+
+- **AND nodes** are provided by the environment and represent the set of all
+  possible next states.
+- **OR nodes** are provided by the agent and represent the action to execute.
+
+Typically the structure is composed by alternate levels of AND and OR nodes;
+because given a state, the agent needs to do choose an action. That action will
+lead to a new set of possible states. Keep going this way soon or later the
+agent will reach a goal state.
+
+![AND-OR Search Tree|400](and_or_search_tree.png)
+
+This tree can be searched for example with a DFS algorithm to find a conditional
+plan.
+
 ### Conformant Problems
 
 In the previous scenario we don't have in advance the knowledge of the next
 state, but after a move we can use the agent _sensors_ to get a feedback of the
 current state.
 
-There are cases were the agent can't have feedbacks and so has to **estimate**
-the state (still a belief state), but this time we don't have a conditional plan
-as solution because, as said before we cannot have feedbacks. So the solution is
-now a sequence of actions that we believe can bring to a certain state.
+There are cases were the agent can't have feedbacks and so it has to
+**estimate** the state (still a belief state), but this time we don't have a
+conditional plan as solution because, as said before we cannot have feedbacks.
+So the solution is now a sequence of actions that we believe can bring to a
+certain state.
 
 To search in these kind of problems is possible to use classical search
 algorithms but this time the search is done in the belief space, not in the
