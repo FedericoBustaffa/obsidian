@@ -34,10 +34,9 @@ Let's also define some type of assignment or solution
 
 Of course the aim is to find a _complete_ and _consistent_ solution.
 
-## Constraints Types
+---
 
-There are different types of constraints, and based on this strategies and
-problem complexity can change:
+There are different types of constraints:
 
 - **Unary**: only one variable is involved.
 - **Binary**: two variables are involved.
