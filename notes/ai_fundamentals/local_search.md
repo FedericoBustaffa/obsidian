@@ -38,7 +38,7 @@ There are many methods for local search, for example
       $$T_t = k \cdot T_{t-1} \quad \text{with } 0 < k < 1$$
     - $\Delta E$: how worse is the new solution with respect to the current one.
 
-    The probability of accepting a new worse solution is $e^{- \Delta E / T}$.
+    The probability of accepting a new worse solution is $e^{\Delta E / T}$.
 
 - **Local Beam Search**: instead of keeping only one solution we keep $k$,
   expanding all of them, but in the end of one step we only keep the

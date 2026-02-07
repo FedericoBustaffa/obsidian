@@ -229,6 +229,7 @@
   },
   "active": "bb932e3f515ea801",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/local_search.md~",
     "notes/ai_fundamentals/a_star_search.md",
     "notes/ai_fundamentals/a_star_search.md~",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
@@ -264,7 +265,6 @@
     "notes/parallel_computing/workload_balancing.md",
     "notes/parallel_computing/cache.md",
     "notes/parallel_computing/shared_memory_systems.md",
-    "notes/parallel_computing/threading.md",
     "files/roofline_model_cache.png",
     "files/roofline_model2.png",
     "files/roofline_model.png",
