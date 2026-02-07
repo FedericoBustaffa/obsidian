@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/ai_fundamentals/uninformed_search.md",
+                "file": "notes/ai_fundamentals/a_star_search.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "uninformed_search"
+              "title": "a_star_search"
             }
           }
         ]
@@ -43,6 +43,7 @@
       {
         "id": "a280853600888874",
         "type": "tabs",
+        "dimension": 59.35162094763092,
         "children": [
           {
             "id": "516ff4dd0ec74e9f",
@@ -89,6 +90,7 @@
       {
         "id": "84bff7acc96ef410",
         "type": "tabs",
+        "dimension": 40.64837905236908,
         "children": [
           {
             "id": "12d2104af7034172",
@@ -96,13 +98,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/uninformed_search.md",
+                "file": "notes/ai_fundamentals/a_star_search.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of uninformed_search"
+              "title": "Outline of a_star_search"
             }
           }
         ]
@@ -126,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/uninformed_search.md",
+                "file": "notes/ai_fundamentals/a_star_search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from uninformed_search"
+              "title": "Outgoing links from a_star_search"
             }
           },
           {
@@ -176,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/uninformed_search.md",
+                "file": "notes/ai_fundamentals/a_star_search.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +188,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for uninformed_search"
+              "title": "Backlinks for a_star_search"
             }
           }
         ]
@@ -229,7 +231,10 @@
   },
   "active": "c1ad028d4cc1a226",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/informed_search.md",
+    "notes/ai_fundamentals/greedy_search.md",
     "notes/ai_fundamentals/search_problems.md",
+    "notes/ai_fundamentals/uninformed_search.md",
     "indices/artificial_intelligence_fundamentals.md",
     "notes/ai_fundamentals/probabilistic_reasoning_time.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
@@ -266,9 +271,6 @@
     "indices/parallel_computing.md",
     "notes/parallel_computing/models_of_computation.md",
     "notes/parallel_computing/metrics.md",
-    "notes/parallel_computing/performance_metrics.md",
-    "notes/parallel_computing/lock_free.md",
-    "notes/parallel_computing/structured_parallel_programming.md",
     "files/prefix1.png",
     "files/bulk_model.png",
     "files/pram_model.png",
