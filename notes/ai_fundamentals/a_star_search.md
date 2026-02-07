@@ -51,7 +51,7 @@ distance must be $0$.
 > stricter conditions than admissibility; it must hold the **triangular
 > inequality**:
 > $$h(n) \leq c(n, a, n') + h(n')$$
-> for all $n'$. This property tells us that paths costs monotonically increasing
+> for all $n'$. This property tells us that paths costs monotonically increase
 > and so, once you reach a state, it is on its optimal path already.
 
 To proof the optimality of A\* we can suppose that some suboptimal goal $G_2$ has

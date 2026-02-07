@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "5324373015726ba8",
+    "id": "b164380c8cf40fd7",
     "type": "split",
     "children": [
       {
-        "id": "9e51b6196a28573c",
+        "id": "f8d5260d299213a9",
         "type": "tabs",
         "children": [
           {
-            "id": "c1ad028d4cc1a226",
+            "id": "bb932e3f515ea801",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -37,16 +37,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "926ebf15a124b3b5",
+    "id": "a35a43c32f51594d",
     "type": "split",
     "children": [
       {
-        "id": "a280853600888874",
+        "id": "8c3e118c81940b39",
         "type": "tabs",
-        "dimension": 59.35162094763092,
         "children": [
           {
-            "id": "516ff4dd0ec74e9f",
+            "id": "3b3b2d870ae56e97",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -59,7 +58,7 @@
             }
           },
           {
-            "id": "f56b1bfaab1a784c",
+            "id": "01c3895ca4f465cd",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -76,7 +75,7 @@
             }
           },
           {
-            "id": "96da3040d3514d1b",
+            "id": "fc96d2618413a7a4",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -88,12 +87,11 @@
         ]
       },
       {
-        "id": "84bff7acc96ef410",
+        "id": "44cfe7c464934497",
         "type": "tabs",
-        "dimension": 40.64837905236908,
         "children": [
           {
-            "id": "12d2104af7034172",
+            "id": "b28bb64b1c74a27a",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -111,69 +109,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 243.5
   },
   "right": {
-    "id": "6c190e498aa2bcdd",
+    "id": "7b4f685f917d2d3f",
     "type": "split",
     "children": [
       {
-        "id": "1728b1c62e4f1f4f",
+        "id": "fc2d7fe85f21aaf4",
         "type": "tabs",
-        "dimension": 37.85259326660601,
+        "dimension": 33.33333333333333,
         "children": [
           {
-            "id": "6a6787f071b2b91c",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "notes/ai_fundamentals/a_star_search.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links from a_star_search"
-            }
-          },
-          {
-            "id": "66c4ab49b767b1da",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "86cb75db8669561d",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          }
-        ]
-      },
-      {
-        "id": "e6f8bb84f6edd43b",
-        "type": "tabs",
-        "dimension": 32.21110100090992,
-        "children": [
-          {
-            "id": "4513753b4f6f78cb",
+            "id": "3ee2800b70e30458",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -190,16 +138,66 @@
               "icon": "links-coming-in",
               "title": "Backlinks for a_star_search"
             }
+          },
+          {
+            "id": "1e050eaf1f1177ee",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "62e9e84859562abc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
           }
         ]
       },
       {
-        "id": "8110b6d3c574d84a",
+        "id": "23820440ca464f75",
         "type": "tabs",
-        "dimension": 29.936305732484076,
+        "dimension": 38.25136612021858,
         "children": [
           {
-            "id": "12d36dfdb69f9bc4",
+            "id": "5e543faca727b175",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "notes/ai_fundamentals/a_star_search.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from a_star_search"
+            }
+          }
+        ]
+      },
+      {
+        "id": "a810f6f1d82e6636",
+        "type": "tabs",
+        "dimension": 28.415300546448087,
+        "children": [
+          {
+            "id": "e54e14b4d76cf135",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -212,12 +210,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "omnisearch:Omnisearch": false,
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -226,57 +222,52 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "c1ad028d4cc1a226",
+  "active": "bb932e3f515ea801",
   "lastOpenFiles": [
-    "notes/ai_fundamentals/informed_search.md",
-    "notes/ai_fundamentals/greedy_search.md",
-    "notes/ai_fundamentals/search_problems.md",
-    "notes/ai_fundamentals/uninformed_search.md",
-    "indices/artificial_intelligence_fundamentals.md",
-    "notes/ai_fundamentals/probabilistic_reasoning_time.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
-    "notes/ai_fundamentals/uncertainty.md",
-    "notes/prob.md",
-    "notes/ai_fundamentals/probabilistic_reasoning_time.md~",
+    "notes/ai_fundamentals/probabilistic_reasoning_time.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md~",
+    "notes/ai_fundamentals/uncertainty.md",
     "notes/ai_fundamentals/uncertainty.md~",
+    "notes/parallel_computing/map.md",
+    "notes/parallel_computing/pipeline.md~",
+    "notes/parallel_computing/bsp_model.md",
+    "notes/parallel_computing/pram_model.md",
+    "notes/parallel_computing/work_span_model.md",
     "notes/parallel_computing/gustafson_law.md",
-    "notes/parallel_computing/amdahl_law.md",
-    "notes/parallel_computing/reduce.md",
-    "notes/parallel_computing/interconnection_networks.md",
-    "notes/parallel_computing/pipeline.md",
     "notes/parallel_computing/distributed_memory_systems.md",
-    "indices/parallel_computing.md~",
-    "notes/parallel_computing/pcam.md",
-    "notes/parallel_computing/distributed_memory_systems.md~",
-    "notes/parallel_computing/message_passing.md",
-    "notes/parallel_computing/message_passing.md~",
-    "notes/parallel_computing/pcam.md~",
-    "notes/parallel_computing/interconnection_networks.md~",
-    "notes/parallel_computing/shared_memory_systems.md",
     "notes/parallel_computing/network_topologies.md",
+    "notes/parallel_computing/interconnection_networks.md",
+    "notes/parallel_computing/divide_and_conquer.md~",
+    "notes/parallel_computing/divide_and_conquer.md",
+    "notes/parallel_computing/stencil.md",
+    "notes/parallel_computing/stencil.md~",
+    "notes/parallel_computing/map_reduce.md",
+    "notes/parallel_computing/reduce.md",
+    "notes/parallel_computing/map.md~",
+    "notes/parallel_computing/farm.md",
+    "notes/parallel_computing/farm.md~",
+    "notes/parallel_computing/structured_parallel_programming.md~",
+    "notes/parallel_computing/4913",
+    "notes/parallel_computing/performance_metrics.md",
+    "indices/parallel_computing.md",
+    "notes/parallel_computing/structured_parallel_programming.md",
+    "notes/parallel_computing/pipeline_farm.md",
+    "notes/parallel_computing/pipeline.md",
+    "notes/parallel_computing/performance_metrics.md~",
+    "notes/parallel_computing/workload_balancing.md",
+    "notes/parallel_computing/cache.md",
+    "notes/parallel_computing/shared_memory_systems.md",
+    "notes/parallel_computing/threading.md",
     "files/roofline_model_cache.png",
     "files/roofline_model2.png",
     "files/roofline_model.png",
-    "notes/parallel_computing/shared_memory_systems.md~",
-    "notes/parallel_computing/cache.md~",
-    "notes/parallel_computing/threading.md",
-    "notes/parallel_computing/cache.md",
-    "files/von_neumann.png",
-    "notes/parallel_computing/parallel_architectures.md",
-    "notes/parallel_computing/parallelization_laws.md",
-    "indices/parallel_computing.md",
-    "notes/parallel_computing/models_of_computation.md",
-    "notes/parallel_computing/metrics.md",
-    "files/prefix1.png",
-    "files/bulk_model.png",
-    "files/pram_model.png",
-    "files/svm_regression.jpg",
-    "files/cascade_correlation.png",
-    "files/two_moons.png",
-    "maps/validation_pipeline.canvas"
+    "notes/parallel_computing/amdahl_law.md",
+    "files/von_neumann.png"
   ]
 }
