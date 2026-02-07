@@ -15,14 +15,6 @@
       "wrap": false
     }
   },
-  "notes/ai_fundamentals/games.md": {
-    "9227117e04f9a9ef34b19abca63cdd08": {
-      "position": "center",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
   "notes/ai_fundamentals/genetic_algorithms.md": {
     "0c5088c349ce4e45ee9d393bc548e6b9": {
       "position": "center",
@@ -87,22 +79,44 @@
       "wrap": false
     }
   },
-  "notes/parallel_computing/shared_memory_systems.md": {
-    "ac0c3a97e8ebb48888b1f227d9362510": {
-      "position": "center",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "notes/parallel_computing/stencil.md": {
-    "33b32e08b6bc44f03caf1d3120a01975": {
+  "notes/parallel_computing/interconnection_networks.md": {
+    "0ea1ea0cb686f51dfac57ff2866b2efc": {
       "position": "center",
       "width": "",
       "height": "",
       "wrap": false
     },
-    "78c90a8fe8c1b3b9de0bca4062e7cbda": {
+    "4b3a9ccefccf7ec9b9cfec19b201bb05": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "d7e232174571ebbf93b674c49cfa9521": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "6bab100fd9b9d2a0705579eee51cba17": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "bd8f5999a91f4985e15be64d4d6de0b2": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "a8ed21498d4125053bc647c8927f8ace": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    },
+    "2e240a0eea24f2eb634b18b6f062335c": {
       "position": "center",
       "width": "",
       "height": "",
