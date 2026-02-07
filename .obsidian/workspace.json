@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/ai_fundamentals/constraint_satisfaction.md",
+                "file": "notes/ai_fundamentals/games.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "constraint_satisfaction"
+              "title": "games"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/constraint_satisfaction.md",
+                "file": "notes/ai_fundamentals/games.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of constraint_satisfaction"
+              "title": "Outline of games"
             }
           }
         ]
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/constraint_satisfaction.md",
+                "file": "notes/ai_fundamentals/games.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for constraint_satisfaction"
+              "title": "Backlinks for games"
             }
           },
           {
@@ -181,12 +181,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/constraint_satisfaction.md",
+                "file": "notes/ai_fundamentals/games.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from constraint_satisfaction"
+              "title": "Outgoing links from games"
             }
           }
         ]
@@ -229,6 +229,7 @@
   },
   "active": "bb932e3f515ea801",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/constraint_satisfaction.md",
     "notes/ai_fundamentals/a_star_search.md~",
     "notes/ai_fundamentals/local_search.md",
     "notes/ai_fundamentals/local_search.md~",
