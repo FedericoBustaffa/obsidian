@@ -33,7 +33,7 @@ perform.
 ## Tree Search
 
 The most common approach for search problem is **tree-search** algorithms; in
-general the algorithm start from already visited states and **expand** them,
+general the algorithm starts from already visited states and **expands** them,
 generating **successor states**. For this kind of algorithm we need
 
 - **Frontier**: set of unexpanded nodes separating expanded nodes from unreached
@@ -65,7 +65,7 @@ The last piece we need is the **expand function**, that, applied to a node:
 >
 > This is clear if we remember that a state is different from a node; but we can
 > say that a node is a _concrete_ representation of a state in the tree. The
-> main difference is that, in the state space, every stati is unique, while in a
+> main difference is that, in the state space, every state is unique, while in a
 > search tree we can have multiple nodes representing the same state.
 
 This is because, depending on the problem and the _search strategy_ we can have
