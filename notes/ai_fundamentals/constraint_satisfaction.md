@@ -127,7 +127,7 @@ There are cases where we need to reason on the problem structure in order to be
 able to optimize.
 
 For example in a **graph-structure** CSPs, we can compute the **connected
-components** in order to be able to solve subproblems, whose union will bring
+components** in order to be able to solve sub-problems, whose union will bring
 the main problem solution.
 
 For **tree-structured** CSPs the cost is $O(nd^2)$ if we use the following
@@ -145,14 +145,9 @@ CSP in a tree structure** by
 2. Make arcs consistence.
 3. Remove that variable.
 
-If the resulting graph can be made a tree, it's possible to check quicky if the
+If the resulting graph can be made a tree, it's possible to check quickly if the
 CSP is solvable, otherwise is possible to try out another variable assignment or
 node selection.
-
-## Questions
-
-- Whats is an _AllDiff_?
-- Graphs and hyper-graphs.
 
 ## References
 
