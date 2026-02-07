@@ -25,7 +25,7 @@ like
 - `ACTIONS(s)`: legal moves from the current state.
 - `RESULT(s, a)`: transition model, resulting in a new state.
 - `IS-TERMINAL(s)`: is the game over or not.
-- `UTILITY(s; p)`: **utility** function gained on a **terminal** state $s$ by
+- `UTILITY(s, p)`: **utility** function gained on a **terminal** state $s$ by
   player $p$.
 
 The _utility_ value is one of the most important thing listed because is like a
@@ -47,7 +47,7 @@ normal search tree and usually for reasonable sized games is not possible to
 build a complete game tree.
 
 Usually for finite trees, the **leaves** represent the **terminal states**, to
-which a utility valye is associated.
+which a utility value is associated.
 
 ## Minimax
 
