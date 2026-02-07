@@ -210,11 +210,11 @@ exploration value and this is because
 
 - $N(\text{Parent}(n)) \geq N(n)$ as every time $n$ is visited
   $\text{Parent}(n)$ is visited as well.
-- $\log{(N(\text{Parent}(n)))} \leq N(n)$ from a certain number of playouts on.
+- $\log{(N(\text{Parent}(n)))} \leq N(n)$ from a certain number of rollouts on.
 
-![mcts exploration](/files/mcts_exploration.png)
+![Exploration Functions|500](mcts_exploration.png)
 
-So, exploration term will go to zero as the number of playouts increases, in
+So, exploration term will go to zero as the number of rollouts increases, in
 order to progressively limit exploration.
 
 ## References
