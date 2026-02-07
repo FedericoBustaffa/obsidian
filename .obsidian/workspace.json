@@ -8,60 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b67c0ca09f9d951b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/ai_fundamentals/probabilistic_reasoning_time.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "probabilistic_reasoning_time"
-            }
-          },
-          {
-            "id": "5ef959c7b9f3fa29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "uncertainty"
-            }
-          },
-          {
             "id": "c1ad028d4cc1a226",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/ai_fundamentals/probabilistic_reasoning.md",
+                "file": "notes/ai_fundamentals/search_problems.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -76,11 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "probabilistic_reasoning"
+              "title": "search_problems"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -145,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/probabilistic_reasoning.md",
+                "file": "notes/ai_fundamentals/search_problems.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of probabilistic_reasoning"
+              "title": "Outline of search_problems"
             }
           }
         ]
@@ -175,12 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/probabilistic_reasoning.md",
+                "file": "notes/ai_fundamentals/search_problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from probabilistic_reasoning"
+              "title": "Outgoing links from search_problems"
             }
           },
           {
@@ -225,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/probabilistic_reasoning.md",
+                "file": "notes/ai_fundamentals/search_problems.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +186,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for probabilistic_reasoning"
+              "title": "Backlinks for search_problems"
             }
           }
         ]
@@ -278,9 +229,11 @@
   },
   "active": "c1ad028d4cc1a226",
   "lastOpenFiles": [
-    "notes/ai_fundamentals/uncertainty.md",
+    "indices/artificial_intelligence_fundamentals.md",
+    "notes/ai_fundamentals/search_problems.md",
     "notes/ai_fundamentals/probabilistic_reasoning_time.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
+    "notes/ai_fundamentals/uncertainty.md",
     "notes/prob.md",
     "notes/ai_fundamentals/probabilistic_reasoning_time.md~",
     "notes/ai_fundamentals/probabilistic_reasoning.md~",
@@ -316,11 +269,9 @@
     "notes/parallel_computing/performance_metrics.md",
     "notes/parallel_computing/lock_free.md",
     "notes/parallel_computing/structured_parallel_programming.md",
-    "notes/parallel_computing/pram_model.md",
     "files/prefix1.png",
     "files/bulk_model.png",
     "files/pram_model.png",
-    "conflict-files-obsidian-git.md",
     "files/svm_regression.jpg",
     "files/cascade_correlation.png",
     "files/two_moons.png",
