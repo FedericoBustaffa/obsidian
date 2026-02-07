@@ -69,8 +69,9 @@ $$
 
 ### Weighted A\*
 
-To be complete A\* can expands several nodes, but if it is not required to have
-an optimal solution we can use a **weighted** version of the evaluation function
+To be _complete_ A\* can expands several nodes, but if it is not required to
+have an optimal solution we can use a **weighted** version of the evaluation
+function
 
 $$f(n) = g(n) + W h(n)$$
 

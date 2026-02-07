@@ -83,10 +83,12 @@ state, but after a move we can use the agent _sensors_ to get a feedback of the
 current state.
 
 There are cases were the agent can't have feedbacks and so it has to
-**estimate** the state (still a belief state), but this time we don't have a
-conditional plan as solution because, as said before we cannot have feedbacks.
-So the solution is now a sequence of actions that we believe can bring to a
-certain state.
+**estimate** the state (still a belief state); this are called **conformant
+problems**.
+
+This time we don't have a conditional plan as solution because, as said before
+we cannot have feedbacks. So the solution is now a sequence of actions that we
+believe can bring to a certain state.
 
 To search in these kind of problems is possible to use classical search
 algorithms but this time the search is done in the belief space, not in the
