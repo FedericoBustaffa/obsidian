@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/ai_fundamentals/a_star_search.md",
+                "file": "notes/ai_fundamentals/local_search.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "a_star_search"
+              "title": "local_search"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/a_star_search.md",
+                "file": "notes/ai_fundamentals/local_search.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of a_star_search"
+              "title": "Outline of local_search"
             }
           }
         ]
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/a_star_search.md",
+                "file": "notes/ai_fundamentals/local_search.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for a_star_search"
+              "title": "Backlinks for local_search"
             }
           },
           {
@@ -181,12 +181,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/a_star_search.md",
+                "file": "notes/ai_fundamentals/local_search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from a_star_search"
+              "title": "Outgoing links from local_search"
             }
           }
         ]
@@ -229,6 +229,7 @@
   },
   "active": "bb932e3f515ea801",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/a_star_search.md",
     "notes/ai_fundamentals/a_star_search.md~",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
     "notes/ai_fundamentals/probabilistic_reasoning_time.md",
@@ -260,7 +261,6 @@
     "notes/parallel_computing/structured_parallel_programming.md",
     "notes/parallel_computing/pipeline_farm.md",
     "notes/parallel_computing/pipeline.md",
-    "notes/parallel_computing/performance_metrics.md~",
     "notes/parallel_computing/workload_balancing.md",
     "notes/parallel_computing/cache.md",
     "notes/parallel_computing/shared_memory_systems.md",
