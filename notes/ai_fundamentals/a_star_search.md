@@ -54,10 +54,10 @@ distance must be $0$.
 > for all $n'$. This property tells us that paths costs monotonically increase
 > and so, once you reach a state, it is on its optimal path already.
 
-To proof the optimality of A\* we can suppose that some suboptimal goal $G_2$ has
-been generated and is in the queue. Let $n$ be an unexpanded node on a shortest
-path to an optimal $G_1$. If $f(G_2) > f(n)$, A\* will never select $G_2$ for
-expansion.
+To prove the optimality of A\* we can suppose that some suboptimal goal $G_2$
+has been generated and is in the queue. Let $n$ be an unexpanded node on a
+shortest path to an optimal $G_1$. If $f(G_2) > f(n)$, A\* will never select
+$G_2$ for expansion.
 
 $$
 \begin{align*}
