@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/ai_fundamentals/games.md",
+                "file": "notes/ai_fundamentals/evolutionary_strategies.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "games"
+              "title": "evolutionary_strategies"
             }
           }
         ]
@@ -98,13 +98,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/games.md",
+                "file": "notes/ai_fundamentals/evolutionary_strategies.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of games"
+              "title": "Outline of evolutionary_strategies"
             }
           }
         ]
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/games.md",
+                "file": "notes/ai_fundamentals/evolutionary_strategies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from games"
+              "title": "Outgoing links from evolutionary_strategies"
             }
           },
           {
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/games.md",
+                "file": "notes/ai_fundamentals/evolutionary_strategies.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for games"
+              "title": "Backlinks for evolutionary_strategies"
             }
           }
         ]
@@ -231,6 +231,9 @@
   },
   "active": "c1ad028d4cc1a226",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/evolutionary_optimization.md",
+    "indices/artificial_intelligence_fundamentals.md",
+    "notes/ai_fundamentals/games.md",
     "notes/ai_fundamentals/games.md~",
     "notes/ai_fundamentals/a_star_search.md",
     "files/and_or_search_tree.png",
@@ -238,7 +241,6 @@
     "notes/ai_fundamentals/greedy_search.md",
     "notes/ai_fundamentals/search_problems.md",
     "notes/ai_fundamentals/uninformed_search.md",
-    "indices/artificial_intelligence_fundamentals.md",
     "notes/ai_fundamentals/probabilistic_reasoning_time.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
     "notes/ai_fundamentals/uncertainty.md",
@@ -265,13 +267,11 @@
     "files/roofline_model2.png",
     "files/roofline_model.png",
     "notes/parallel_computing/shared_memory_systems.md~",
-    "notes/parallel_computing/cache.md~",
     "notes/parallel_computing/threading.md",
     "notes/parallel_computing/cache.md",
     "files/von_neumann.png",
     "notes/parallel_computing/parallel_architectures.md",
     "notes/parallel_computing/parallelization_laws.md",
-    "indices/parallel_computing.md",
     "files/prefix1.png",
     "files/bulk_model.png",
     "files/pram_model.png",
