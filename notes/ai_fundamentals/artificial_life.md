@@ -164,7 +164,7 @@ extending the neighborhood, and move to a continuous space time automata.
 
 ### Lenia
 
-One of the most famouse extensions of the game of life CA is **Lenia**, that now
+One of the most famous extensions of the game of life CA is **Lenia**, that now
 add multiple states for every cell, and extends the neighborhood with a sort of
 radial function, all with continuous time, space and state.
 
