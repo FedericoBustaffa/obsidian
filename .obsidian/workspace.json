@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/ai_fundamentals/genetic_algorithms.md",
+                "file": "notes/ai_fundamentals/novelty.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "genetic_algorithms"
+              "title": "novelty"
             }
           }
         ]
@@ -43,7 +43,7 @@
       {
         "id": "a280853600888874",
         "type": "tabs",
-        "dimension": 59.35162094763092,
+        "dimension": 48.87780548628429,
         "children": [
           {
             "id": "516ff4dd0ec74e9f",
@@ -90,7 +90,7 @@
       {
         "id": "84bff7acc96ef410",
         "type": "tabs",
-        "dimension": 40.64837905236908,
+        "dimension": 51.12219451371571,
         "children": [
           {
             "id": "12d2104af7034172",
@@ -98,13 +98,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/genetic_algorithms.md",
+                "file": "notes/ai_fundamentals/novelty.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of genetic_algorithms"
+              "title": "Outline of novelty"
             }
           }
         ]
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/genetic_algorithms.md",
+                "file": "notes/ai_fundamentals/novelty.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from genetic_algorithms"
+              "title": "Outgoing links from novelty"
             }
           },
           {
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/genetic_algorithms.md",
+                "file": "notes/ai_fundamentals/novelty.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for genetic_algorithms"
+              "title": "Backlinks for novelty"
             }
           }
         ]
@@ -231,8 +231,9 @@
   },
   "active": "c1ad028d4cc1a226",
   "lastOpenFiles": [
-    "notes/ai_fundamentals/evolutionary_strategies.md",
     "notes/ai_fundamentals/evolutionary_optimization.md",
+    "notes/ai_fundamentals/genetic_algorithms.md",
+    "notes/ai_fundamentals/evolutionary_strategies.md",
     "indices/artificial_intelligence_fundamentals.md",
     "notes/ai_fundamentals/games.md",
     "notes/ai_fundamentals/games.md~",
@@ -271,7 +272,6 @@
     "notes/parallel_computing/threading.md",
     "notes/parallel_computing/cache.md",
     "files/von_neumann.png",
-    "notes/parallel_computing/parallel_architectures.md",
     "files/prefix1.png",
     "files/bulk_model.png",
     "files/pram_model.png",
