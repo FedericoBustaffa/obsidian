@@ -229,6 +229,7 @@
   },
   "active": "bb932e3f515ea801",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/artificial_life.md~",
     "notes/ai_fundamentals/games.md",
     "conflict-files-obsidian-git.md",
     "notes/ai_fundamentals/constraint_satisfaction.md~",
@@ -265,7 +266,6 @@
     "indices/parallel_computing.md",
     "notes/parallel_computing/structured_parallel_programming.md",
     "notes/parallel_computing/pipeline_farm.md",
-    "notes/parallel_computing/pipeline.md",
     "files/roofline_model_cache.png",
     "files/roofline_model2.png",
     "files/roofline_model.png",

@@ -63,10 +63,10 @@ together, creating a circular structure.
 
 ![Toroidal Grid|300](toroidal_grid.png)
 
-The simplest grid we can think about is a $1$-dimensional grid that, is
-basically a circular array. Each cell can have $0$ or $1$ value and we define an
-update rule of a certain cell, based on its value and the values of the previous
-and next cells.
+The simplest grid we can think about is a $1$-dimensional grid that is basically
+a circular array. Each cell can have $0$ or $1$ value and we define an update
+rule of a certain cell, based on its value and the values of the previous and
+next cells.
 
 $$s_{t+1}^j = f \left( s_t^{j-1}, s_t^t, s_t^{j+1} \right)$$
 
@@ -93,12 +93,12 @@ direction.
 If the rule is too basic we will obtain only replication and reproduction of the
 initial pattern
 
-![Simple Cellular Automata Rule|400](simple_ca.png)
+![Simple Rule|400](simple_ca.png)
 
 But for some more complex rule we can gain complexity and observe structures
 like **fractals** and self similarity at different scales
 
-![Complex Cellular Automata Rule|400](complex_ca.png)
+![Complex Rule|400](complex_ca.png)
 
 We can even start from an initial noisy state and observe how the system evolve
 into an ordered system with self organization properties.
