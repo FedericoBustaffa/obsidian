@@ -229,6 +229,7 @@
   },
   "active": "bb932e3f515ea801",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/first_order_logical_agents.md~",
     "notes/ai_fundamentals/logical_agents.md",
     "notes/ai_fundamentals/logical_agents.md~",
     "notes/ai_fundamentals/artificial_life.md",
@@ -265,7 +266,6 @@
     "notes/parallel_computing/farm.md",
     "notes/parallel_computing/performance_metrics.md",
     "indices/parallel_computing.md",
-    "notes/parallel_computing/structured_parallel_programming.md",
     "files/roofline_model_cache.png",
     "files/roofline_model2.png",
     "files/roofline_model.png",

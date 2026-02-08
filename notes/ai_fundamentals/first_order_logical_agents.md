@@ -29,7 +29,7 @@ In FOL the syntax is composed by
 Typically in the FOL we have **sentences**, formed by
 
 - **Terms**: logical expressions referring to an object, like functions,
-	constants o variables.
+  constants o variables.
 - **Atomic sentence**: defined by a predicate $p$ or a term equality.
 - **Complex sentences**: atomic sentences linked by connectives.
 
@@ -48,7 +48,7 @@ A model with an interpretation is a model in the propositional logic.
 A common assumption for FOL agents is the _closed world assumption_: atomic
 sentences that are not known to be true or false are assumed false. This allows
 to get rid of boilerplate stuff that handles incomplete information. In this
-kinf of agents we assume one unique referent of each constant, predicate or
+kind of agents we assume one unique referent of each constant, predicate or
 function.
 
 However with the introduction of quantifiers, entailment via model checking is
@@ -71,7 +71,7 @@ is true in a model if and only if the sentnces $P$ is true for at least one
 object associated with $x$ in the model. In propositional logic is a possibly
 infinite disjunction of instances of $x$.
 
-## First Order Logic Knowledge Base
+## Knowledge Base
 
 In order to build a FOL agent we need to build a **FOL knowledge base** and this
 is typically done by
