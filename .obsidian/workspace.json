@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/ai_fundamentals/novelty.md",
+                "file": "notes/ai_fundamentals/artificial_life.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "novelty"
+              "title": "artificial_life"
             }
           }
         ]
@@ -98,13 +98,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/novelty.md",
+                "file": "notes/ai_fundamentals/artificial_life.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of novelty"
+              "title": "Outline of artificial_life"
             }
           }
         ]
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/novelty.md",
+                "file": "notes/ai_fundamentals/artificial_life.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from novelty"
+              "title": "Outgoing links from artificial_life"
             }
           },
           {
@@ -178,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/novelty.md",
+                "file": "notes/ai_fundamentals/artificial_life.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for novelty"
+              "title": "Backlinks for artificial_life"
             }
           }
         ]
@@ -231,6 +231,8 @@
   },
   "active": "c1ad028d4cc1a226",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/novelty.md",
+    "notes/ai_fundamentals/genetic_algorithms.md~",
     "notes/ai_fundamentals/evolutionary_optimization.md",
     "notes/ai_fundamentals/genetic_algorithms.md",
     "notes/ai_fundamentals/evolutionary_strategies.md",
@@ -268,9 +270,7 @@
     "files/roofline_model_cache.png",
     "files/roofline_model2.png",
     "files/roofline_model.png",
-    "notes/parallel_computing/shared_memory_systems.md~",
     "notes/parallel_computing/threading.md",
-    "notes/parallel_computing/cache.md",
     "files/von_neumann.png",
     "files/prefix1.png",
     "files/bulk_model.png",

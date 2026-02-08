@@ -25,7 +25,7 @@ $$x_{t+1} = r \cdot x_t \cdot (1 - x_t)$$
 that as we can see is pretty simple, but for increasing values of $r$ we observe
 very chaotic behaviors and oscillations:
 
-![Logistic Map|400](/files/logistic_map.png)
+![Logistic Map|400](logistic_map.png)
 
 As we can see, from values between $2.4$ and $3.0$ we have a straight line,
 meaning that the system converges into an equilibrium state. For $3.0$ to $3.4$
@@ -61,7 +61,7 @@ grid boundary don't have the same number of neighbors as central cells. So often
 a _toroidal_ structure is used for the grid that wraps cells at boundary
 together, creating a circular structure.
 
-![Toroidal Grid|300](/files/toroidal_grid.png)
+![Toroidal Grid|300](toroidal_grid.png)
 
 The simplest grid we can think about is a $1$-dimensional grid that, is
 basically a circular array. Each cell can have $0$ or $1$ value and we define an
@@ -93,12 +93,12 @@ direction.
 If the rule is too basic we will obtain only replication and reproduction of the
 initial pattern
 
-![Simple Cellular Automata Rule|400](/files/simple_ca.png)
+![Simple Cellular Automata Rule|400](simple_ca.png)
 
 But for some more complex rule we can gain complexity and observe structures
 like **fractals** and self similarity at different scales
 
-![Complex Cellular Automata Rule|400](/files/complex_ca.png)
+![Complex Cellular Automata Rule|400](complex_ca.png)
 
 We can even start from an initial noisy state and observe how the system evolve
 into an ordered system with self organization properties.
@@ -229,10 +229,7 @@ chosen by agreement on the class.
 
 ## References
 
-- Artificial Intelligence Fundamentals
-  - [[artificial_intelligence_fundamentals]]
-  - [[genetic_algorithms]]
-  - [[novelty]]
-
-- Complex Systems
-  - [[complex_systems]]
+- [[artificial_intelligence_fundamentals]]
+- [[genetic_algorithms]]
+- [[novelty]]
+- [[complex_systems]]

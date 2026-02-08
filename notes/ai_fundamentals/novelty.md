@@ -109,7 +109,7 @@ population performs in a new environment without further adaptation.
 ### Evolvability Evolution Strategy
 
 An attempt to scaling evolvability search to large problems is given by
-**evolvability evolution strategy**, that uses novelty search for to drive
+**evolvability evolution strategy**, that uses novelty search to drive
 individual to novel behaviors and evolvability search to drive offsprings to
 novel behaviors.
 
