@@ -148,7 +148,7 @@ The trick is to find a way to make different logical expression identical, such
 that we reduce the number of possible instances. For this purpose,
 **unification** can be use to _unify_ two different expressions:
 
-$$\text{unify} (\alpha, \beta) = \theta)$$
+$$\text{unify} (\alpha, \beta) = \theta$$
 
 if $\alpha \theta = \beta \theta$, with $\alpha$ and $\beta$ sentences and
 $\theta$ substitution.
@@ -158,7 +158,7 @@ If for example we have
 $$
 \begin{align*}
 \alpha &= \text{Knows} (\text{John}, x) \\
-\alpha &= \text{Knows} (\text{John}, \text{Jane})
+\beta &= \text{Knows} (\text{John}, \text{Jane})
 \end{align*}
 $$
 
@@ -175,7 +175,7 @@ The unification let us define the **generalized Modus Ponens (GMP)** as follows
 
 $$\frac{p_1', \dots, p_2', \; (p_1 \land \cdots p_n \to q)}{q \theta}$$
 
-where $\forall i p_i' \theta = p_i \theta$ and $p_i'$ and $p_i$ are _atomic_.
+where for all $i$ $p_i' \theta = p_i \theta$ and $p_i'$ and $p_i$ are _atomic_.
 
 The GMP lifts the Modus Ponens, adding the minimal amount of complexity needed
 to make it work in FOL, obtaining a _sound_ algorithm.
@@ -183,7 +183,7 @@ to make it work in FOL, obtaining a _sound_ algorithm.
 ## Chaining
 
 Since we are dealing with definite clauses we are not covering the entire FOL,
-but this is often suffcient to most of the real world cases.
+but this is often sufficient to most of the real world cases.
 
 The **forward chaining**, starting from the known facts, triggers all the
 possible applicable rules and add the conclusions to the facts. When the query
