@@ -110,7 +110,7 @@ like an image. The process makes the network evolve in order to produce images
 with some shape or pattern, or for example images that approximates other
 images.
 
-![CPPN|300](/files/cppn.png)
+![CPPN|300](cppn.png)
 
 For example the genotype encodes the network topology, and the function of each
 node. If for example we are trying to produce images we can now just feed the
