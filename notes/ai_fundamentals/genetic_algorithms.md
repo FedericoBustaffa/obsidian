@@ -74,7 +74,7 @@ $$O_1 = 0101 \to 0111$$
 
 here we flipped the third bit.
 
-## Enconding
+## Encoding
 
 The **input encoding** is crucial in order to have an efficient search; wrong
 encodings could also make it impossible to find a solution.
