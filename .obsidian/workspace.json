@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/ai_fundamentals/artificial_life.md",
+                "file": "notes/ai_fundamentals/logical_agents.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "artificial_life"
+              "title": "logical_agents"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/artificial_life.md",
+                "file": "notes/ai_fundamentals/logical_agents.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of artificial_life"
+              "title": "Outline of logical_agents"
             }
           }
         ]
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/artificial_life.md",
+                "file": "notes/ai_fundamentals/logical_agents.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for artificial_life"
+              "title": "Backlinks for logical_agents"
             }
           },
           {
@@ -181,12 +181,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/artificial_life.md",
+                "file": "notes/ai_fundamentals/logical_agents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from artificial_life"
+              "title": "Outgoing links from logical_agents"
             }
           }
         ]
@@ -229,6 +229,8 @@
   },
   "active": "bb932e3f515ea801",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/logical_agents.md~",
+    "notes/ai_fundamentals/artificial_life.md",
     "notes/ai_fundamentals/artificial_life.md~",
     "notes/ai_fundamentals/games.md",
     "conflict-files-obsidian-git.md",
@@ -261,11 +263,9 @@
     "notes/parallel_computing/reduce.md",
     "notes/parallel_computing/map.md~",
     "notes/parallel_computing/farm.md",
-    "notes/parallel_computing/farm.md~",
     "notes/parallel_computing/performance_metrics.md",
     "indices/parallel_computing.md",
     "notes/parallel_computing/structured_parallel_programming.md",
-    "notes/parallel_computing/pipeline_farm.md",
     "files/roofline_model_cache.png",
     "files/roofline_model2.png",
     "files/roofline_model.png",

@@ -9,7 +9,7 @@ tags:
 # Logical Agents
 
 A popular type of agents are **logical agents**, also called **knowledge-based**
-agents, which, as the name suggest, maintain a _knowledge base_ ($KB$) on the
+agents, which, as the name suggest, maintain a _knowledge base_ (KB) on the
 environment in the form of **logic sentences**.
 
 Typically they start with a general knowledge of the rules of the environment,
@@ -40,7 +40,7 @@ that is equivalent to say that for every model where $\alpha$ is true then also
 $\beta$ is true. In this sense $\alpha$ is a stronger assertion than $\beta$ as
 it rules out more possible models.
 
-![Entailment](/files/entailment.png)
+![Entailment](entailment.png)
 
 Entailment itself is defined semantically over all possible models, but in
 practice agents use inference rules to derive conclusions without enumerating
@@ -59,8 +59,8 @@ definitions
 - **Satisfiability**: a sentence is **satisfiable** if is true in some model. It
   is unsatisfiable if it is never true.
 
-If a sentence $\alpha$ is _derived_ from $KB$ by the the inference algorithm
-$i$, then we can say that $KB$ _infers_ $\alpha$:
+If a sentence $\alpha$ is _derived_ from KB by the the inference algorithm
+$i$, then we can say that KB _infers_ $\alpha$:
 
 $$KB \vdash_i \alpha$$
 
@@ -77,39 +77,39 @@ everything that is semantically true can also be derived syntactically.
 
 The simplest way to verify entailment is via **model checking**, which consists
 in enumerating all the possible models and check whether $\alpha$ is true in all
-models in which $KB$ is true.
+models in which KB is true.
 
-We enumerate all the possible models where $KB$ is true, and all the possible
+We enumerate all the possible models where KB is true, and all the possible
 models where $\alpha$ is true, considering also what we already know about the
 environment.
 
-![Entailment on Wumpus World|400](/files/wumpus_entailment1.png)
+![Entailment on Wumpus World|400](wumpus_entailment1.png)
 
 If the knowledge base rules out the sentence $\alpha$, then we obtain the
 possible models where the sentence is true and where all the knowledge is still
 true. In other words the intersection between the two represents all the
 possible realizations of sentences in the actual environment (based on the
-$KB$); what is outside the intersection cannot be true with respect to the $KB$.
+KB); what is outside the intersection cannot be true with respect to the KB.
 
-Let's notice that the $KB$ models where $\alpha$ is true must be a subset of
-$\alpha$ in order to conclude that the sentence is true also for $KB$.
+Let's notice that the KB models where $\alpha$ is true must be a subset of
+$\alpha$ in order to conclude that the sentence is true also for KB.
 
-![Entailment on Wumpus World|400](/files/wumpus_entailment2.png)
+![Entailment on Wumpus World|400](wumpus_entailment2.png)
 
-If the models of $KB$ are not contained in the models of $\alpha$, the
+If the models of KB are not contained in the models of $\alpha$, the
 entailment does not hold. This is like saying that there are possible models
-where the sentence is true but, based on the $KB$ and the perceptions, there are
+where the sentence is true but, based on the KB and the perceptions, there are
 no guarantees that they will realize concretely.
 
 The simplest form for model checking is via **truth tables**, that tries to
 check if $KB \models \alpha$ by
 
-1. Generating, for all the symbols in both $KB$ and $\alpha$, all the possible
+1. Generating, for all the symbols in both KB and $\alpha$, all the possible
    assignments.
-2. Search for assignments that let $KB$ be true and check if $\alpha$ is also
+2. Search for assignments that let KB be true and check if $\alpha$ is also
    true.
 
-![Truth Table|600](/files/truth_table_model_checking.png)
+![Truth Table|600](truth_table_model_checking.png)
 
 Doing inference by enumeration is sound and complete but it costs $O(2^n)$ in
 time and space.
@@ -117,7 +117,7 @@ time and space.
 ### Resolution Inference
 
 Another way to proving a fact is via **inference rules**, that can be applied
-starting from the $KB$ to derive the goal.
+starting from the KB to derive the goal.
 
 Before seeing the algorithm a useful thing to do is convert any propositional
 logic statement in **conjunctive normal form** (**CNF**). In the CNF a
@@ -150,11 +150,11 @@ So we can now apply inference rules in order to be able to say if $KB \models
    - Apply resolution clauses to generate new clauses
    - If the _empty clause_ is generated then $KB \models \alpha$ since we have
      generated a contradiction.
-1. If no new clauses are generated we can conclude that $KB \not\models \alpha$.
+3. If no new clauses are generated we can conclude that $KB \not\models \alpha$.
 
 Resolution is sound and complete for propositional logic.
 
-![Resolution Inference|700](/files/resolution_inference.png)
+![Resolution Inference|700](resolution_inference.png)
 
 ### Horn Clause Inference
 
@@ -165,7 +165,7 @@ $$(A \lor \lnot B) \land (\lnot A \lor \lnot C \lor D)$$
 
 Unfortunately is not always possible to convert in Horn form. The algorithm
 proceeds by creating a chain of implications by using _Modus Ponens_. This
-algorithms has linear complexity in time with respect to the size of the $KB$.
+algorithms has linear complexity in time with respect to the size of the KB.
 
 There are two possible ways to run this algorithm: **forward chaining** and
 **backward chaining**:
