@@ -92,7 +92,7 @@ When we want to generate **modular phenotypes**, indirect encoding is generally
 better in every possible way, while with direct encoding we can solve problems
 with a more fixed structure.
 
-One of the main advantages of indirect encoding is the reduction the search
+One of the main advantages of indirect encoding is the reduction of the search
 space dimensionality, because one feature of the genotype can now produce
 multiple features of the phenotype.
 
