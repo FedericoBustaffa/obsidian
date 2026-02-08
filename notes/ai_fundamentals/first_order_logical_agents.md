@@ -26,19 +26,12 @@ In FOL the syntax is composed by
 - **Equality**: $=$
 - **Quantifiers**: $\exists$, $\forall$
 
-Typically in the FOL we have **sentences**, formed by **terms**, that are
-logical expressions referring to an object:
+Typically in the FOL we have **sentences**, formed by
 
-- $f(t_1, \dots, t_n)$ with $f$ that is a function.
-- Constants
-- Variables
-
-An **atomic sentence** is defined by a predicate $p$ or a term equality:
-
-- $p$, $p(t_1, \dots, t_n)$
-- $t_1 = t_2$
-
-Atomic sentences linked by connectives are called **complex sentences**.
+- **Terms**: logical expressions referring to an object, like functions,
+	constants o variables.
+- **Atomic sentence**: defined by a predicate $p$ or a term equality.
+- **Complex sentences**: atomic sentences linked by connectives.
 
 A sentence is true with respect to a given **model** and **interpretation**,
 where

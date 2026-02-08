@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/ai_fundamentals/logical_agents.md",
+                "file": "notes/ai_fundamentals/first_order_logical_agents.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "logical_agents"
+              "title": "first_order_logical_agents"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/logical_agents.md",
+                "file": "notes/ai_fundamentals/first_order_logical_agents.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of logical_agents"
+              "title": "Outline of first_order_logical_agents"
             }
           }
         ]
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/logical_agents.md",
+                "file": "notes/ai_fundamentals/first_order_logical_agents.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for logical_agents"
+              "title": "Backlinks for first_order_logical_agents"
             }
           },
           {
@@ -181,12 +181,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/logical_agents.md",
+                "file": "notes/ai_fundamentals/first_order_logical_agents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from logical_agents"
+              "title": "Outgoing links from first_order_logical_agents"
             }
           }
         ]
@@ -229,6 +229,7 @@
   },
   "active": "bb932e3f515ea801",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/logical_agents.md",
     "notes/ai_fundamentals/logical_agents.md~",
     "notes/ai_fundamentals/artificial_life.md",
     "notes/ai_fundamentals/artificial_life.md~",
@@ -261,7 +262,6 @@
     "notes/parallel_computing/stencil.md~",
     "notes/parallel_computing/map_reduce.md",
     "notes/parallel_computing/reduce.md",
-    "notes/parallel_computing/map.md~",
     "notes/parallel_computing/farm.md",
     "notes/parallel_computing/performance_metrics.md",
     "indices/parallel_computing.md",
