@@ -52,13 +52,13 @@ In general the BC should be _aligned_ with the current task in order to succeed.
 ### Map Elites
 
 The **map elites** is an example of this QD algorithm where we have a
-multidimensional arhive of phenotypic elites, where there are stored the best
+multidimensional archive of phenotypic elites, where there are stored the best
 individuals of a specific _niche_.
 
 The niche is like a partition of the space that contains a portion of possible
 individuals with some behavioral characterization.
 
-![Map Elites|400](/files/map_elites.png)
+![Map Elites|400](map_elites.png)
 
 The method divides the behavioral space in a discrete grid where in each bin the
 best individual of the niche is stored. Each dimension of the space is a BC, for
@@ -109,7 +109,7 @@ population performs in a new environment without further adaptation.
 ### Evolvability Evolution Strategy
 
 An attempt to scaling evolvability search to large problems is given by
-**evolvability evolution strategy**, that uses novelty search for to drive
+**evolvability evolution strategy**, that uses novelty search to drive
 individual to novel behaviors and evolvability search to drive offsprings to
 novel behaviors.
 

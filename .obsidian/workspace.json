@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "games"
             }
+          },
+          {
+            "id": "e7640645f3b2896f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,13 +121,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/games.md",
+                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of games"
+              "title": "Outline of conflict-files-obsidian-git"
             }
           }
         ]
@@ -126,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/games.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for games"
+              "title": "Backlinks for conflict-files-obsidian-git"
             }
           },
           {
@@ -181,12 +206,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/games.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from games"
+              "title": "Outgoing links from conflict-files-obsidian-git"
             }
           }
         ]
@@ -227,8 +252,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bb932e3f515ea801",
+  "active": "e7640645f3b2896f",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/games.md",
+    "conflict-files-obsidian-git.md",
     "notes/ai_fundamentals/constraint_satisfaction.md~",
     "notes/ai_fundamentals/constraint_satisfaction.md",
     "notes/ai_fundamentals/a_star_search.md~",
@@ -259,13 +286,11 @@
     "notes/parallel_computing/map.md~",
     "notes/parallel_computing/farm.md",
     "notes/parallel_computing/farm.md~",
-    "notes/parallel_computing/structured_parallel_programming.md~",
     "notes/parallel_computing/performance_metrics.md",
     "indices/parallel_computing.md",
     "notes/parallel_computing/structured_parallel_programming.md",
     "notes/parallel_computing/pipeline_farm.md",
     "notes/parallel_computing/pipeline.md",
-    "notes/parallel_computing/workload_balancing.md",
     "files/roofline_model_cache.png",
     "files/roofline_model2.png",
     "files/roofline_model.png",

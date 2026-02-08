@@ -14,9 +14,9 @@ protocols, initially designed to work on binary representation of data, but that
 now can work basically on many more.
 
 They are very useful for problems with several local optima, high-dimensional
-and combinatorial problems. They are also used to find solutions for NP-complete
-problems. They also are very useful in multi-objective optimization because a
-population basically creates a _Parento front_ that can be explored.
+and combinatorial problems, NP-complete problems and multi-objective
+optimization because a population basically creates a _Pareto front_ that can be
+explored.
 
 The classical setup of a genetic algorithm is a population of individuals
 representing candidate solutions. Each of them is represented by a vector of
@@ -74,7 +74,7 @@ $$O_1 = 0101 \to 0111$$
 
 here we flipped the third bit.
 
-## Enconding
+## Encoding
 
 The **input encoding** is crucial in order to have an efficient search; wrong
 encodings could also make it impossible to find a solution.
@@ -92,7 +92,7 @@ When we want to generate **modular phenotypes**, indirect encoding is generally
 better in every possible way, while with direct encoding we can solve problems
 with a more fixed structure.
 
-One of the main advantages of indirect encoding is the reduction the search
+One of the main advantages of indirect encoding is the reduction of the search
 space dimensionality, because one feature of the genotype can now produce
 multiple features of the phenotype.
 
@@ -110,7 +110,7 @@ like an image. The process makes the network evolve in order to produce images
 with some shape or pattern, or for example images that approximates other
 images.
 
-![CPPN|300](/files/cppn.png)
+![CPPN|300](cppn.png)
 
 For example the genotype encodes the network topology, and the function of each
 node. If for example we are trying to produce images we can now just feed the

@@ -25,7 +25,7 @@ like
 - `ACTIONS(s)`: legal moves from the current state.
 - `RESULT(s, a)`: transition model, resulting in a new state.
 - `IS-TERMINAL(s)`: is the game over or not.
-- `UTILITY(s; p)`: **utility** function gained on a **terminal** state $s$ by
+- `UTILITY(s, p)`: **utility** function gained on a **terminal** state $s$ by
   player $p$.
 
 The _utility_ value is one of the most important thing listed because is like a
@@ -47,7 +47,7 @@ normal search tree and usually for reasonable sized games is not possible to
 build a complete game tree.
 
 Usually for finite trees, the **leaves** represent the **terminal states**, to
-which a utility valye is associated.
+which a utility value is associated.
 
 ## Minimax
 
@@ -79,7 +79,7 @@ Now from the root it's possible to perform a complete depth-first search to
    - Take the minimum value among the children if the parent is a MIN node,
      take the maximum if it is a MAX node.
 
-The Mimimax algorithm is complete on finite trees and is optimal if MIN actually
+The Minimax algorithm is complete on finite trees and is optimal if MIN actually
 plays optimally. Anyway it has $O(b^m)$ time complexity and $O(bm)$ space
 complexity due to DFS.
 
@@ -93,7 +93,7 @@ The trick some algorithm does is to play suboptimal moves, in order to narrow
 the path to the victory, _hiding_ it from an optimal opponent's perspective.
 
 In other words we can say that the assumption of minimax make the algorithm lose
-some moves derived from an opponent's error, giving a easier win.
+some moves derived from an opponent's error, giving an easier win.
 
 ### $\alpha$-$\beta$ pruning
 
@@ -210,11 +210,11 @@ exploration value and this is because
 
 - $N(\text{Parent}(n)) \geq N(n)$ as every time $n$ is visited
   $\text{Parent}(n)$ is visited as well.
-- $\log{(N(\text{Parent}(n)))} \leq N(n)$ from a certain number of playouts on.
+- $\log{(N(\text{Parent}(n)))} \leq N(n)$ from a certain number of rollouts on.
 
-![mcts exploration](/files/mcts_exploration.png)
+![Exploration Functions|500](mcts_exploration.png)
 
-So, exploration term will go to zero as the number of playouts increases, in
+So, exploration term will go to zero as the number of rollouts increases, in
 order to progressively limit exploration.
 
 ## References

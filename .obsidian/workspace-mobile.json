@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/ai_fundamentals/uncertainty.md",
+                "file": "notes/ai_fundamentals/genetic_algorithms.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "uncertainty"
+              "title": "genetic_algorithms"
             }
           }
         ]
@@ -181,6 +181,7 @@
   },
   "active": "5e8d481f89992dad",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/uncertainty.md",
     "notes/parallel_computing/workload_balancing.md",
     "indices/parallel_computing.md",
     "notes/machine_learning/bias_variance.md",
