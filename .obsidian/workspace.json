@@ -229,6 +229,7 @@
   },
   "active": "c34ee5d19e909853",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/probabilistic_reasoning.md~",
     "notes/ai_fundamentals/first_order_logical_agents.md~",
     "notes/ai_fundamentals/uninformed_search.md",
     "notes/ai_fundamentals/search_problems.md",
@@ -249,7 +250,6 @@
     "notes/ai_fundamentals/a_star_search.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
     "notes/ai_fundamentals/probabilistic_reasoning_time.md",
-    "notes/ai_fundamentals/probabilistic_reasoning.md~",
     "notes/ai_fundamentals/uncertainty.md",
     "notes/ai_fundamentals/uncertainty.md~",
     "notes/parallel_computing/map.md",
