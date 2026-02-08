@@ -120,9 +120,9 @@ $$\frac{\forall v \; a}{\sigma(\{ v / g \}, \, a)}$$
 
 that applies for every variable $v$, sentence $a$ and ground term $g$.
 
-The **existential instantiation (EI)** tells us that a sentence that confirms
-the existance of something we can infer a sentence we a new constant $k$, called
-**Skolem constant**.
+The **existential instantiation (EI)** tells us that from a sentence that
+confirms the existance of something we can infer a sentence with a new constant
+$k$, called **Skolem constant**.
 
 $$\frac{\exists v \; a}{\sigma (\{ v / k \}, \, a)}$$
 
