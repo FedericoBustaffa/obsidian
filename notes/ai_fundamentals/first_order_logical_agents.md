@@ -102,15 +102,15 @@ and a substitution
 
 $$\sigma = \{ x / \text{Mario}, y / \text{Luigi} \}$$
 
-the resulint sentence is
+the resulting sentence is
 
 $$S \sigma = \text{Smarter} (\text{Mario}, \text{Luigi})$$
 
-This is used when the agent query the $KB$, for example _Ask($KB$, $S$)_; the
+This is used when the agent query the KB, for example _Ask(KB, $S$)_; the
 answer will be some or all substitutions $\sigma$ such that $KB \models S
 \sigma$.
 
-## Universal and Existential Instantiations
+## Quantifiers Instantiations
 
 The **universal instantiation (UI)** tells us that any sentence obtained by
 replacing a _universally quantified_ variable with a **ground term** can be
@@ -129,13 +129,13 @@ $$\frac{\exists v \; a}{\sigma (\{ v / k \}, \, a)}$$
 that applies for every variable $v$, sentence $a$ and constant symbol $k$ that
 does not belong to any other object.
 
-Applying UI repeatedly means **adding** new sentences to the $KB$, but the
-resulting $KB$ is logically equivalent to the initial $KB$. If we apply the UI
-for every possible sentence in order to remove every $\forall$, we
-_propositionalize_ the $KB$.
+Applying UI repeatedly means **adding** new sentences to the KB, but the
+resulting KB is logically equivalent to the initial KB. If we apply the UI for
+every possible sentence in order to remove every $\forall$, we
+_propositionalize_ the KB.
 
 Applying EI repeatedly means **replacing** the existential quantification with a
-new sentence. In this case the resulting $KB$ is not logically equivalent to the
+new sentence. In this case the resulting KB is not logically equivalent to the
 initial and it is satisfiable if and only if the initial was.
 
 ## Unification
