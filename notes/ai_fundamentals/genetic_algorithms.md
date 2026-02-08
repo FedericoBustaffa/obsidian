@@ -14,9 +14,9 @@ protocols, initially designed to work on binary representation of data, but that
 now can work basically on many more.
 
 They are very useful for problems with several local optima, high-dimensional
-and combinatorial problems. They are also used to find solutions for NP-complete
-problems. They also are very useful in multi-objective optimization because a
-population basically creates a _Parento front_ that can be explored.
+and combinatorial problems, NP-complete problems and multi-objective
+optimization because a population basically creates a _Pareto front_ that can be
+explored.
 
 The classical setup of a genetic algorithm is a population of individuals
 representing candidate solutions. Each of them is represented by a vector of
