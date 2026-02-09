@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/ai_fundamentals/probabilistic_reasoning.md",
+                "file": "notes/machine_learning/backpropagation.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "probabilistic_reasoning"
+              "title": "backpropagation"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/ai_fundamentals/probabilistic_reasoning.md",
+                "file": "notes/machine_learning/backpropagation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of probabilistic_reasoning"
+              "title": "Outline of backpropagation"
             }
           }
         ]
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/ai_fundamentals/probabilistic_reasoning.md",
+                "file": "notes/machine_learning/backpropagation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for probabilistic_reasoning"
+              "title": "Backlinks for backpropagation"
             }
           },
           {
@@ -181,12 +181,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/ai_fundamentals/probabilistic_reasoning.md",
+                "file": "notes/machine_learning/backpropagation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from probabilistic_reasoning"
+              "title": "Outgoing links from backpropagation"
             }
           }
         ]
@@ -229,6 +229,7 @@
   },
   "active": "c34ee5d19e909853",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/probabilistic_reasoning.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md~",
     "notes/ai_fundamentals/first_order_logical_agents.md~",
     "notes/ai_fundamentals/uninformed_search.md",
@@ -248,7 +249,6 @@
     "notes/ai_fundamentals/local_search.md~",
     "files/and_or_search_tree.png",
     "notes/ai_fundamentals/a_star_search.md",
-    "notes/ai_fundamentals/probabilistic_reasoning.md",
     "notes/ai_fundamentals/probabilistic_reasoning_time.md",
     "notes/ai_fundamentals/uncertainty.md",
     "notes/ai_fundamentals/uncertainty.md~",
