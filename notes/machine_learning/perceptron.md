@@ -43,7 +43,7 @@ practice) the number of misclassified patterns with a line found through a
 
 1. Initialize the weights.
 2. Pick a learning rate $0 < \eta < 1$.
-3. For each training pattern $(\mathbf{x}, y)$:
+3. For each training pattern $(x, y)$:
    - Compute the output activation
      $$out = \text{sign} (w^\top x)$$
    - If $out = y$, don't change weights.
