@@ -92,7 +92,7 @@ $$(w^*)^\top w(q) = (w^*)^\top \sum_{j=1}^q x_{(i_j)} \geq q \alpha$$
 that can be written by exploiting the definition of linearly separable problem.
 Now we can use the Cauchy-Swartz theorem:
 
-$$\| w^* \|^2 \| w(q) \|^2 \geq ((w^*)^\top w(q))^2 \geq (q \alpha)^\top$$
+$$\| w^* \|^2 \| w(q) \|^2 \geq ((w^*)^\top w(q))^2 \geq (q \alpha)^2$$
 
 from which we derive
 
