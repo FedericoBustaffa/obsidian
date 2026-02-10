@@ -11,10 +11,24 @@
             "id": "5f2b2e61dbf7942f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "notes/machine_learning/perceptron.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "perceptron"
             }
           }
         ]
@@ -82,12 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "notes/machine_learning/perceptron.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of perceptron"
             }
           }
         ]
@@ -111,6 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notes/machine_learning/perceptron.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for perceptron"
             }
           },
           {
@@ -165,11 +181,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "notes/machine_learning/perceptron.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from perceptron"
             }
           }
         ]
@@ -212,6 +229,7 @@
   },
   "active": "5f2b2e61dbf7942f",
   "lastOpenFiles": [
+    "notes/parallel_computing/performance_metrics.md",
     "notes/machine_learning/perceptron.md",
     "notes/machine_learning/backpropagation.md",
     "files/image.png",
@@ -249,7 +267,6 @@
     "notes/parallel_computing/interconnection_networks.md",
     "notes/parallel_computing/divide_and_conquer.md~",
     "notes/parallel_computing/divide_and_conquer.md",
-    "notes/parallel_computing/stencil.md",
     "files/roofline_model_cache.png",
     "files/roofline_model2.png",
     "files/roofline_model.png",
