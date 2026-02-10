@@ -189,4 +189,3 @@ This is the foundational unit for neural networks called multi-layer perceptron.
 - [[supervised_learning]]
 - [[activation_functions]]
 - [[neural_networks]]
-
