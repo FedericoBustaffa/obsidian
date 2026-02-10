@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c01979c630aaa7e2",
+        "id": "dfceefd1274987bf",
         "type": "tabs",
         "children": [
           {
-            "id": "c34ee5d19e909853",
+            "id": "5f2b2e61dbf7942f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/machine_learning/perceptron.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "perceptron"
+              "title": "New tab"
             }
           }
         ]
@@ -96,13 +82,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/perceptron.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of perceptron"
+              "title": "Outline"
             }
           }
         ]
@@ -126,7 +111,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/perceptron.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for perceptron"
+              "title": "Backlinks"
             }
           },
           {
@@ -181,12 +165,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/perceptron.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from perceptron"
+              "title": "Outgoing links"
             }
           }
         ]
@@ -227,8 +210,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c34ee5d19e909853",
+  "active": "5f2b2e61dbf7942f",
   "lastOpenFiles": [
+    "notes/machine_learning/perceptron.md",
     "notes/machine_learning/backpropagation.md",
     "files/image.png",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
@@ -266,7 +250,6 @@
     "notes/parallel_computing/divide_and_conquer.md~",
     "notes/parallel_computing/divide_and_conquer.md",
     "notes/parallel_computing/stencil.md",
-    "notes/parallel_computing/map_reduce.md",
     "files/roofline_model_cache.png",
     "files/roofline_model2.png",
     "files/roofline_model.png",
