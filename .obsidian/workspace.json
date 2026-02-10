@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dfceefd1274987bf",
+        "id": "c01979c630aaa7e2",
         "type": "tabs",
         "children": [
           {
-            "id": "5f2b2e61dbf7942f",
+            "id": "c34ee5d19e909853",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/perceptron.md",
+                "file": "notes/machine_learning/backpropagation.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "perceptron"
+              "title": "backpropagation"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/perceptron.md",
+                "file": "notes/machine_learning/backpropagation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of perceptron"
+              "title": "Outline of backpropagation"
             }
           }
         ]
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/perceptron.md",
+                "file": "notes/machine_learning/backpropagation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for perceptron"
+              "title": "Backlinks for backpropagation"
             }
           },
           {
@@ -181,12 +181,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/perceptron.md",
+                "file": "notes/machine_learning/backpropagation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from perceptron"
+              "title": "Outgoing links from backpropagation"
             }
           }
         ]
@@ -227,11 +227,8 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5f2b2e61dbf7942f",
+  "active": "c34ee5d19e909853",
   "lastOpenFiles": [
-    "notes/parallel_computing/performance_metrics.md",
-    "notes/machine_learning/perceptron.md",
-    "notes/machine_learning/backpropagation.md",
     "files/image.png",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md~",
@@ -267,6 +264,8 @@
     "notes/parallel_computing/interconnection_networks.md",
     "notes/parallel_computing/divide_and_conquer.md~",
     "notes/parallel_computing/divide_and_conquer.md",
+    "notes/parallel_computing/stencil.md",
+    "notes/parallel_computing/map_reduce.md",
     "files/roofline_model_cache.png",
     "files/roofline_model2.png",
     "files/roofline_model.png",
