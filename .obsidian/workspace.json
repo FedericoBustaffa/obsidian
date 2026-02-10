@@ -30,6 +30,30 @@
               "icon": "lucide-file",
               "title": "perceptron"
             }
+          },
+          {
+            "id": "35333e3986349a2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/machine_learning/statistical_learning_theory.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "statistical_learning_theory"
+            }
           }
         ]
       }
@@ -229,8 +253,8 @@
   },
   "active": "5f2b2e61dbf7942f",
   "lastOpenFiles": [
-    "notes/machine_learning/statistical_learning_theory.md",
     "notes/machine_learning/perceptron.md~",
+    "notes/machine_learning/statistical_learning_theory.md",
     "notes/machine_learning/perceptron.md",
     "notes/parallel_computing/performance_metrics.md",
     "notes/machine_learning/knn.md",
@@ -266,7 +290,6 @@
     "notes/parallel_computing/pram_model.md",
     "notes/parallel_computing/work_span_model.md",
     "notes/parallel_computing/gustafson_law.md",
-    "notes/parallel_computing/distributed_memory_systems.md",
     "files/roofline_model_cache.png",
     "files/roofline_model2.png",
     "files/roofline_model.png",

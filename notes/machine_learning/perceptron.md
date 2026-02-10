@@ -85,7 +85,7 @@ this way is possible to find $q$ such that the algorithm converges.
 ---
 
 Let's find the **lower bound** first by recalling that $w^*$ is the solution and
-$\alpha$ is the ideal separation hyperplane. Then
+$\alpha$ is the minimal separation hyperplane. Then
 
 $$(w^*)^\top w(q) = (w^*)^\top \sum_{j=1}^q x_{(i_j)} \geq q \alpha$$
 
