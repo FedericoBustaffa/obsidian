@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/backpropagation.md",
+                "file": "notes/machine_learning/perceptron.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "backpropagation"
+              "title": "perceptron"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/backpropagation.md",
+                "file": "notes/machine_learning/perceptron.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of backpropagation"
+              "title": "Outline of perceptron"
             }
           }
         ]
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/backpropagation.md",
+                "file": "notes/machine_learning/perceptron.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for backpropagation"
+              "title": "Backlinks for perceptron"
             }
           },
           {
@@ -181,12 +181,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/backpropagation.md",
+                "file": "notes/machine_learning/perceptron.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from backpropagation"
+              "title": "Outgoing links from perceptron"
             }
           }
         ]
@@ -229,6 +229,7 @@
   },
   "active": "c34ee5d19e909853",
   "lastOpenFiles": [
+    "notes/machine_learning/backpropagation.md",
     "files/image.png",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md~",
