@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/backpropagation.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "backpropagation"
+              "title": "support_vector_machine"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/backpropagation.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of backpropagation"
+              "title": "Outline of support_vector_machine"
             }
           }
         ]
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/backpropagation.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for backpropagation"
+              "title": "Backlinks for support_vector_machine"
             }
           },
           {
@@ -181,12 +181,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/backpropagation.md",
+                "file": "notes/machine_learning/support_vector_machine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from backpropagation"
+              "title": "Outgoing links from support_vector_machine"
             }
           }
         ]
@@ -229,6 +229,16 @@
   },
   "active": "c34ee5d19e909853",
   "lastOpenFiles": [
+    "files/svm_margin.png",
+    "notes/machine_learning/support_vector_machine.md",
+    "notes/machine_learning/cascade_correlation.md",
+    "notes/machine_learning/k_means.md",
+    "notes/machine_learning/unsupervised_learning.md",
+    "notes/machine_learning/self_organizing_maps.md",
+    "notes/machine_learning/bias_variance.md",
+    "notes/machine_learning/perceptron.md",
+    "notes/machine_learning/neural_networks_training.md",
+    "notes/machine_learning/backpropagation.md",
     "files/image.png",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
     "notes/ai_fundamentals/probabilistic_reasoning.md~",
@@ -256,16 +266,7 @@
     "notes/parallel_computing/map.md",
     "notes/parallel_computing/pipeline.md~",
     "notes/parallel_computing/bsp_model.md",
-    "notes/parallel_computing/pram_model.md",
-    "notes/parallel_computing/work_span_model.md",
-    "notes/parallel_computing/gustafson_law.md",
-    "notes/parallel_computing/distributed_memory_systems.md",
-    "notes/parallel_computing/network_topologies.md",
-    "notes/parallel_computing/interconnection_networks.md",
     "notes/parallel_computing/divide_and_conquer.md~",
-    "notes/parallel_computing/divide_and_conquer.md",
-    "notes/parallel_computing/stencil.md",
-    "notes/parallel_computing/map_reduce.md",
     "files/roofline_model_cache.png",
     "files/roofline_model2.png",
     "files/roofline_model.png",
