@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dfceefd1274987bf",
+        "id": "c01979c630aaa7e2",
         "type": "tabs",
         "children": [
           {
-            "id": "35333e3986349a2b",
+            "id": "c34ee5d19e909853",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -227,14 +227,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "35333e3986349a2b",
+  "active": "c34ee5d19e909853",
   "lastOpenFiles": [
-    "notes/machine_learning/statistical_learning_theory.md",
+    "files/svm_margin.png",
+    "notes/machine_learning/support_vector_machine.md",
+    "notes/machine_learning/cascade_correlation.md",
+    "notes/machine_learning/k_means.md",
+    "notes/machine_learning/unsupervised_learning.md",
+    "notes/machine_learning/self_organizing_maps.md",
+    "notes/machine_learning/bias_variance.md",
     "notes/machine_learning/perceptron.md",
-    "notes/machine_learning/perceptron.md~",
-    "notes/parallel_computing/performance_metrics.md",
-    "notes/machine_learning/knn.md",
-    "notes/machine_learning/supervised_learning.md",
+    "notes/machine_learning/neural_networks_training.md",
     "notes/machine_learning/backpropagation.md",
     "files/image.png",
     "notes/ai_fundamentals/probabilistic_reasoning.md",
@@ -263,9 +266,7 @@
     "notes/parallel_computing/map.md",
     "notes/parallel_computing/pipeline.md~",
     "notes/parallel_computing/bsp_model.md",
-    "notes/parallel_computing/pram_model.md",
-    "notes/parallel_computing/work_span_model.md",
-    "notes/parallel_computing/gustafson_law.md",
+    "notes/parallel_computing/divide_and_conquer.md~",
     "files/roofline_model_cache.png",
     "files/roofline_model2.png",
     "files/roofline_model.png",

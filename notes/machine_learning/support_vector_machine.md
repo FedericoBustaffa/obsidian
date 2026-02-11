@@ -38,7 +38,7 @@ the actual hypothesis function is the sign of the discriminant.
 What an SVM does is try to find a **margin** $\rho$ that tries to maximize the
 distance between the linear hyper-plane and the closest data points.
 
-![SVM Margin|300](/files/svm_margin.png)
+![SVM Margin|300](svm_margin.png)
 
 Of course we can move the hyper-plane and the margin will change as well; anyway
 the SVM aims to find the hyper-plane that maximizes the margin $\rho$ in order
@@ -219,7 +219,7 @@ will not provide a solution.
 The **soft margin** SVM relaxes the constraints and let at least one point to be
 inside the margin (with or without classification error).
 
-![SVM Soft Margin|350](/files/soft_margin.png)
+![SVM Soft Margin|350](soft_margin.png)
 
 So now we want to allow some points into the margin in order to have a larger
 margin. This is done by the introduction of **slack variables**
@@ -281,7 +281,7 @@ good enough.
 Usually, mapping the data points to an higher dimensional feature space, can
 make them linearly separable in the new space.
 
-![Higher Dimension Mapping|500](/files/svm_kernel.png)
+![Higher Dimension Mapping|500](svm_kernel.png)
 
 So now we can find a function $\phi$ the maps features in an higher dimension
 space. But know we have the problem is choosing the best $\phi$, unless a prior
@@ -424,7 +424,7 @@ $$
 
 where $\epsilon$ defines the tube's _width_.
 
-![SVR|400](/files/svm_regression.jpg)
+![SVR|400](svm_regression.jpg)
 
 The problem formulation is very similar to the classification one: as before
 also here there are **slack variables** $\xi_i$ and $\xi_i'$ that hold the
