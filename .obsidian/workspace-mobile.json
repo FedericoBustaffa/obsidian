@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/ai_fundamentals/genetic_algorithms.md",
+                "file": "notes/machine_learning/self_organizing_maps.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "genetic_algorithms"
+              "title": "self_organizing_maps"
             }
           }
         ]
@@ -122,7 +122,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "notes/ai_fundamentals/uncertainty.md",
+            "file": "notes/machine_learning/self_organizing_maps.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -179,8 +179,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "5e8d481f89992dad",
+  "active": "3a13fae71a8094e0",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/genetic_algorithms.md",
     "notes/ai_fundamentals/uncertainty.md",
     "notes/parallel_computing/workload_balancing.md",
     "indices/parallel_computing.md",
