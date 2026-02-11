@@ -200,7 +200,7 @@ $$
 The structural risk minimization find a trade-off between empirical error and
 VC-confidence in order to reduce the VC-bound on the true risk.
 
-![VC-Bound|500](/files/vc-bound.png)
+![VC-Bound|500](vc-bound.png)
 
 In other words, when we perform a model selection we choose the model with the
 best bound on the true risk. However this is in practice very difficult to use
