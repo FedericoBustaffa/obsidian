@@ -1,4 +1,12 @@
 {
+  "notes/machine_learning/perceptron.md": {
+    "b6e8c77691aa72ecdd725b6089a02eb1": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
   "notes/ai_fundamentals/novelty.md": {
     "25af2674b917a2068906d37e139f2d05": {
       "position": "center",
@@ -37,6 +45,14 @@
       "wrap": false
     },
     "931db095d5e583ce0f389ead7e79e379": {
+      "position": "center",
+      "width": "",
+      "height": "",
+      "wrap": false
+    }
+  },
+  "notes/machine_learning/statistical_learning_theory.md": {
+    "61b54bbe01de71ee591aaea8bb9dc58e": {
       "position": "center",
       "width": "",
       "height": "",
@@ -99,20 +115,6 @@
       "wrap": false
     },
     "aacddfd6d0b011b801dfe6a971e70017": {
-      "position": "center",
-      "width": "",
-      "height": "",
-      "wrap": false
-    }
-  },
-  "notes/machine_learning/support_vector_machine.md": {
-    "c4dbcf57d49ab2d771d10a0ed01b4cb0": {
-      "position": "center",
-      "width": "",
-      "height": "",
-      "wrap": false
-    },
-    "722cffbde2fa373f4f99581678cb264a": {
       "position": "center",
       "width": "",
       "height": "",
