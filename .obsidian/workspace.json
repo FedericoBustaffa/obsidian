@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/self_organizing_maps.md",
+                "file": "notes/machine_learning/cascade_correlation.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "self_organizing_maps"
+              "title": "cascade_correlation"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/self_organizing_maps.md",
+                "file": "notes/machine_learning/cascade_correlation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of self_organizing_maps"
+              "title": "Outline of cascade_correlation"
             }
           }
         ]
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/self_organizing_maps.md",
+                "file": "notes/machine_learning/cascade_correlation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for self_organizing_maps"
+              "title": "Backlinks for cascade_correlation"
             }
           },
           {
@@ -181,12 +181,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/self_organizing_maps.md",
+                "file": "notes/machine_learning/cascade_correlation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from self_organizing_maps"
+              "title": "Outgoing links from cascade_correlation"
             }
           }
         ]
@@ -229,17 +229,18 @@
   },
   "active": "c34ee5d19e909853",
   "lastOpenFiles": [
+    "notes/machine_learning/self_organizing_maps.md",
+    "notes/machine_learning/supervised_learning.md",
+    "notes/machine_learning/support_vector_machine.md",
+    "notes/machine_learning/perceptron.md",
     "notes/machine_learning/statistical_learning_theory.md",
     "notes/machine_learning/bias_variance.md~",
     "notes/machine_learning/cascade_correlation.md",
     "notes/machine_learning/bias_variance.md",
     "notes/machine_learning/support_vector_machine.md~",
-    "notes/machine_learning/support_vector_machine.md",
     "files/svm_margin.png",
     "notes/machine_learning/k_means.md",
     "notes/machine_learning/unsupervised_learning.md",
-    "notes/machine_learning/self_organizing_maps.md",
-    "notes/machine_learning/perceptron.md",
     "notes/machine_learning/neural_networks_training.md",
     "notes/machine_learning/backpropagation.md",
     "files/image.png",
@@ -267,7 +268,6 @@
     "notes/ai_fundamentals/uncertainty.md",
     "notes/ai_fundamentals/uncertainty.md~",
     "notes/parallel_computing/map.md",
-    "notes/parallel_computing/bsp_model.md",
     "files/roofline_model_cache.png",
     "files/roofline_model2.png",
     "files/roofline_model.png",
