@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/cascade_correlation.md",
+                "file": "notes/machine_learning/perceptron.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "cascade_correlation"
+              "title": "perceptron"
             }
           }
         ]
@@ -96,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/machine_learning/cascade_correlation.md",
+                "file": "notes/machine_learning/perceptron.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of cascade_correlation"
+              "title": "Outline of perceptron"
             }
           }
         ]
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/cascade_correlation.md",
+                "file": "notes/machine_learning/perceptron.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for cascade_correlation"
+              "title": "Backlinks for perceptron"
             }
           },
           {
@@ -181,12 +181,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/machine_learning/cascade_correlation.md",
+                "file": "notes/machine_learning/perceptron.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from cascade_correlation"
+              "title": "Outgoing links from perceptron"
             }
           }
         ]
@@ -229,6 +229,7 @@
   },
   "active": "c34ee5d19e909853",
   "lastOpenFiles": [
+    "notes/machine_learning/cascade_correlation.md",
     "notes/ai_fundamentals/uninformed_search.typ",
     "notes/ai_fundamentals/uncertainty.typ",
     "notes/ai_fundamentals/search_problems.typ",
@@ -239,13 +240,11 @@
     "notes/ai_fundamentals/logical_agents.typ",
     "notes/ai_fundamentals/local_search.typ",
     "notes/ai_fundamentals/intelligent_agents.typ",
-    "notes/ai_fundamentals/informed_search.typ",
     "notes/machine_learning/self_organizing_maps.md",
     "notes/machine_learning/supervised_learning.md",
     "notes/machine_learning/support_vector_machine.md",
     "notes/machine_learning/perceptron.md",
     "notes/machine_learning/statistical_learning_theory.md",
-    "notes/machine_learning/cascade_correlation.md",
     "notes/machine_learning/bias_variance.md",
     "files/svm_margin.png",
     "notes/machine_learning/k_means.md",
