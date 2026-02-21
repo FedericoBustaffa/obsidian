@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9297efd70814a18a",
+        "id": "5688e16d332ec1c1",
         "type": "tabs",
         "children": [
           {
-            "id": "089c7a5a1fc93a05",
+            "id": "94e9b449af5f780d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -180,6 +180,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "089c7a5a1fc93a05",
-  "lastOpenFiles": []
+  "active": "94e9b449af5f780d",
+  "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "files/01_mechanics_kinematics.pdf"
+  ]
 }
