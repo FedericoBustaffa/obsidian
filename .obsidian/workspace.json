@@ -1,34 +1,20 @@
 {
   "main": {
-    "id": "b164380c8cf40fd7",
+    "id": "765ed412f2420da7",
     "type": "split",
     "children": [
       {
-        "id": "c01979c630aaa7e2",
+        "id": "9297efd70814a18a",
         "type": "tabs",
         "children": [
           {
-            "id": "c34ee5d19e909853",
+            "id": "089c7a5a1fc93a05",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/machine_learning/perceptron.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "perceptron"
+              "title": "New tab"
             }
           }
         ]
@@ -37,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a35a43c32f51594d",
+    "id": "2532890328c100bb",
     "type": "split",
     "children": [
       {
-        "id": "8c3e118c81940b39",
+        "id": "02dbf010b14625c2",
         "type": "tabs",
         "children": [
           {
-            "id": "3b3b2d870ae56e97",
+            "id": "5b718db18263982a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -58,7 +44,7 @@
             }
           },
           {
-            "id": "01c3895ca4f465cd",
+            "id": "9c17346a4f6abe29",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -75,7 +61,7 @@
             }
           },
           {
-            "id": "fc96d2618413a7a4",
+            "id": "f4e35e44b7ca5a90",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -85,49 +71,26 @@
             }
           }
         ]
-      },
-      {
-        "id": "44cfe7c464934497",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b28bb64b1c74a27a",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "notes/machine_learning/perceptron.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of perceptron"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "7b4f685f917d2d3f",
+    "id": "24ab30ed13daffde",
     "type": "split",
     "children": [
       {
-        "id": "fc2d7fe85f21aaf4",
+        "id": "5370ce72f2a88f2c",
         "type": "tabs",
-        "dimension": 33.33333333333333,
         "children": [
           {
-            "id": "3ee2800b70e30458",
+            "id": "a8248eb4d6606eea",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/machine_learning/perceptron.md",
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -136,11 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for perceptron"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "1e050eaf1f1177ee",
+            "id": "be2492a3c695fb9f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "f2a57ebd6f368cf4",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -155,7 +131,7 @@
             }
           },
           {
-            "id": "62e9e84859562abc",
+            "id": "eca507f81c868534",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -167,50 +143,27 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
-          }
-        ]
-      },
-      {
-        "id": "23820440ca464f75",
-        "type": "tabs",
-        "dimension": 38.25136612021858,
-        "children": [
+          },
           {
-            "id": "5e543faca727b175",
+            "id": "f1da1bcdecb3b2b2",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
+              "type": "outline",
               "state": {
-                "file": "notes/machine_learning/perceptron.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
-              "icon": "links-going-out",
-              "title": "Outgoing links from perceptron"
-            }
-          }
-        ]
-      },
-      {
-        "id": "a810f6f1d82e6636",
-        "type": "tabs",
-        "dimension": 28.415300546448087,
-        "children": [
-          {
-            "id": "e54e14b4d76cf135",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,49 +180,6 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c34ee5d19e909853",
-  "lastOpenFiles": [
-    "notes/machine_learning/cascade_correlation.md",
-    "notes/ai_fundamentals/uninformed_search.typ",
-    "notes/ai_fundamentals/uncertainty.typ",
-    "notes/ai_fundamentals/search_problems.typ",
-    "notes/ai_fundamentals/probabilistic_reasoning_time.typ",
-    "notes/ai_fundamentals/probabilistic_reasoning.typ",
-    "notes/ai_fundamentals/planning.typ",
-    "notes/ai_fundamentals/novelty.typ",
-    "notes/ai_fundamentals/logical_agents.typ",
-    "notes/ai_fundamentals/local_search.typ",
-    "notes/ai_fundamentals/intelligent_agents.typ",
-    "notes/machine_learning/self_organizing_maps.md",
-    "notes/machine_learning/supervised_learning.md",
-    "notes/machine_learning/support_vector_machine.md",
-    "notes/machine_learning/perceptron.md",
-    "notes/machine_learning/statistical_learning_theory.md",
-    "notes/machine_learning/bias_variance.md",
-    "files/svm_margin.png",
-    "notes/machine_learning/k_means.md",
-    "notes/machine_learning/unsupervised_learning.md",
-    "notes/machine_learning/neural_networks_training.md",
-    "notes/machine_learning/backpropagation.md",
-    "files/image.png",
-    "notes/ai_fundamentals/probabilistic_reasoning.md",
-    "notes/ai_fundamentals/uninformed_search.md",
-    "notes/ai_fundamentals/search_problems.md",
-    "notes/ai_fundamentals/planning.md",
-    "notes/ai_fundamentals/first_order_logical_agents.md",
-    "notes/ai_fundamentals/logical_agents.md",
-    "notes/ai_fundamentals/artificial_life.md",
-    "notes/ai_fundamentals/games.md",
-    "conflict-files-obsidian-git.md",
-    "notes/ai_fundamentals/constraint_satisfaction.md",
-    "notes/ai_fundamentals/local_search.md",
-    "files/and_or_search_tree.png",
-    "notes/ai_fundamentals/a_star_search.md",
-    "notes/ai_fundamentals/probabilistic_reasoning_time.md",
-    "notes/ai_fundamentals/uncertainty.md",
-    "files/roofline_model_cache.png",
-    "files/roofline_model2.png",
-    "files/roofline_model.png",
-    "files/von_neumann.png"
-  ]
+  "active": "089c7a5a1fc93a05",
+  "lastOpenFiles": []
 }
