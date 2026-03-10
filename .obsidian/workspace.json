@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/machine_learning/perceptron.md",
+                "file": "notes/ai_fundamentals/logical_agents.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,23 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "perceptron"
-            }
-          },
-          {
-            "id": "c683908862133da3",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Note di rilascio 1.12.4"
+              "title": "logical_agents"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,8 +194,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c683908862133da3",
+  "active": "94e9b449af5f780d",
   "lastOpenFiles": [
+    "notes/machine_learning/perceptron.md",
     "conflict-files-obsidian-git.md",
     "files/01_mechanics_kinematics.pdf"
   ]
