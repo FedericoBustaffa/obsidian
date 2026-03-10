@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/ai_fundamentals/logical_agents.md",
+                "file": "notes/ai_fundamentals/first_order_logical_agents.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "logical_agents"
+              "title": "first_order_logical_agents"
             }
           }
         ]
@@ -196,6 +196,7 @@
   },
   "active": "94e9b449af5f780d",
   "lastOpenFiles": [
+    "notes/ai_fundamentals/logical_agents.md",
     "notes/machine_learning/perceptron.md",
     "conflict-files-obsidian-git.md",
     "files/01_mechanics_kinematics.pdf"
